@@ -12,6 +12,7 @@ Section section1() {
   return Section(id: 0, colors: 0xFF088886, page: [
     // Page de garde de la section 1 (Les chutes)
     page1(),
+    
   ], menu: [
     Menu(
       id: 1,

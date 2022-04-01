@@ -131,7 +131,7 @@ class ImageDescription1 extends StatefulWidget {
   // Méthode pour gérer le cas où il y a seulement du texte
   Widget _buildTextOnly(String text) {
     return Padding(
-      padding: const EdgeInsets.all(6.0),
+      padding: EdgeInsets.only(left:6,right:6),
       child: Text(
         text,
         style: TextStyle(fontSize: 14, color: Colors.black),
@@ -151,7 +151,7 @@ class ImageDescription1 extends StatefulWidget {
         ),
         if (description != null && description.isNotEmpty)
           Padding(
-            padding: const EdgeInsets.all(6.0),
+            padding:EdgeInsets.only(left:6,right:6),
             child: Text(description),
           ),
       ],
@@ -171,7 +171,7 @@ class ImageDescription1 extends StatefulWidget {
         if (description != null && description.isNotEmpty)
           Flexible(
             child: Padding(
-              padding: const EdgeInsets.all(6.0),
+              padding: EdgeInsets.only(left:6,right:6),
               child: Text(description),
             ),
           ),
@@ -186,7 +186,7 @@ class ImageDescription1 extends StatefulWidget {
         if (description != null && description.isNotEmpty)
           Flexible(
             child: Padding(
-              padding: const EdgeInsets.all(6.0),
+              padding:  EdgeInsets.only(left:6,right:6),
               child: Text(description),
             ),
           ),
@@ -206,7 +206,7 @@ class ImageDescription1 extends StatefulWidget {
       children: [
         if (description != null && description.isNotEmpty)
           Padding(
-            padding: const EdgeInsets.all(6.0),
+            padding: EdgeInsets.only(left:6,right:6),
             child: Text(description),
           ),
         Expanded(
