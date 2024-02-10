@@ -1,4 +1,9 @@
 // ignore_for_file: file_names
+import 'dart:async';
+
+import 'package:bebegrandi/View/parametre/apropos.dart';
+import 'package:bebegrandi/View/parametre/paramettre.dart';
+import 'package:bebegrandi/View/parametre/presentation.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../shared/custom_text.dart';
@@ -19,6 +24,13 @@ class _NavDrawerState extends State<NavDrawer> {
     super.initState();
   }
 
+  late Color _color;
+  void changeColor() {
+    setState(() {
+      _color = Colors.blue; // Changement de couleur en bleu
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -32,23 +44,17 @@ class _NavDrawerState extends State<NavDrawer> {
             child: DrawerHeader(
               child: Center(
                 child: Column(
-                  mainAxisSize: MainAxisSize.min,
+                  mainAxisSize: MainAxisSize.max,
                   children: [
-                    Icon(
+                    /* Icon(
                       CupertinoIcons.person_circle_fill,
                       size: MediaQuery.of(context).size.height * 0.1,
                       color: noir().withOpacity(0.5),
-                    ),
-                    CustomText(
-                      "OUOBA Dambo",
-                      tex: TailleText(context).titre,
-                      fontWeight: FontWeight.w700,
-                    ),
-                    CustomText(
-                      "ouobaf96@gmail.com",
-                      tex: TailleText(context).contenu * 0.8,
-                      fontWeight: FontWeight.normal,
-                      color: noir().withOpacity(0.5),
+                    ),*/
+                    Image.asset(
+                      'images/logo.jpg',
+                      fit: BoxFit.contain,
+                      height: MediaQuery.of(context).size.height * 0.18,
                     )
                   ],
                 ),
@@ -67,6 +73,7 @@ class _NavDrawerState extends State<NavDrawer> {
             ),
             leading: const Icon(Icons.home),
             onTap: () {
+              changeColor();
               Navigator.pop(context);
             },
           ),
@@ -82,7 +89,15 @@ class _NavDrawerState extends State<NavDrawer> {
               Icons.menu_book,
               color: noir(),
             ),
-            onTap: () {},
+            onTap: () {
+              changeColor();
+              Timer(const Duration(microseconds: 100), () {
+                setState(() {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Apropos()));
+                });
+              });
+            },
           ),
           Container(
             height: 15,
@@ -98,12 +113,16 @@ class _NavDrawerState extends State<NavDrawer> {
               color: noir(),
             ),
             leading: const Icon(Icons.settings),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const Parametres()));
+            },
           ),
           Container(
             height: 15,
           ),
           ListTile(
+            selectedColor: red(),
             title: CustomText(
               "Présentation",
               tex: TailleText(context).titre,
@@ -111,7 +130,12 @@ class _NavDrawerState extends State<NavDrawer> {
               color: noir(),
             ),
             leading: const Icon(Icons.question_mark),
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const Presentation()));
+            },
           ),
           Container(
             height: 15,
