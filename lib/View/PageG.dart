@@ -257,8 +257,6 @@ import 'package:flutter/material.dart';
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/tour.dart';
 
-
-
 class HomePage extends StatefulWidget {
   final Pages page;
   int sectionIndex;
@@ -342,7 +340,7 @@ class _HomePageState extends State<HomePage>
               onPressed: () => Scaffold.of(context).openDrawer(),
               icon: const Icon(
                 Icons.dehaze,
-                color: Colors.black,
+                color: Colors.white,
               ),
             );
           },
@@ -356,6 +354,8 @@ class _HomePageState extends State<HomePage>
           widget.section.section[widget.sectionIndex].page![widget.pageIndex]
               .titre,
         ),
+
+        foregroundColor: Colors.white,
         actions: [
           IconButton(
               onPressed: () {
@@ -364,7 +364,10 @@ class _HomePageState extends State<HomePage>
                   MaterialPageRoute(builder: (context) => const HomPageWcon()),
                 );
               },
-              icon: const Icon(Icons.home))
+              icon: const Icon(
+                Icons.home,
+                color: Colors.white,
+              ))
         ],
       ),
       drawer: const NavDrawer(),

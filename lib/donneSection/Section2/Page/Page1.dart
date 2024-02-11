@@ -14,6 +14,7 @@ Pages page1() {
 ''',
         image: "images/paludisme/image4.png",
       ),
+      
     ],
   );
 }

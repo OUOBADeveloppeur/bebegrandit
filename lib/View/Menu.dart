@@ -96,7 +96,7 @@ class _MenusState extends State<Menus>
               onPressed: () => Scaffold.of(context).openDrawer(),
               icon: const Icon(
                 Icons.dehaze,
-                color: Colors.black,
+                color: Colors.white,
               ),
             );
           },
@@ -108,7 +108,9 @@ class _MenusState extends State<Menus>
         title: Text(
           widget
               .menu.section![widget.sectionIndex].page![widget.pageIndex].titre,
+          selectionColor: Colors.white,
         ),
+        foregroundColor: Colors.white,
         actions: [
           IconButton(
               onPressed: () {
@@ -117,7 +119,10 @@ class _MenusState extends State<Menus>
                   MaterialPageRoute(builder: (context) => const HomPageWcon()),
                 );
               },
-              icon: const Icon(Icons.home))
+              icon: const Icon(
+                Icons.home,
+                color: Colors.white,
+              ))
         ],
       ),
       drawer: const NavDrawer(),
