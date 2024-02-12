@@ -33,7 +33,7 @@ class _HomPageWconState extends State<HomPageWcon> {
           barrierDismissible: false,
           builder: (context) {
             return AlertDialog(
-              //   title: Image.asset('logo.jpg'),
+              title: const RowAppBar(),
               backgroundColor: blanc(),
               shape: const RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))),
