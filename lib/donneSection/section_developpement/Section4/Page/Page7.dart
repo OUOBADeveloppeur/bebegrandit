@@ -4,57 +4,52 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page7() {
   return Pages(
     id: 7,
-    titre: "Le toucher",
+    titre: "Le langage",
     imageDescription: [
       ImageDescription(
         id: 1,
-        description: "Le toucher"
-            "Dès 1 ans, mon enfant est très curieux et aime découvrir de nouvelles choses en les touchant avec ses mains.",
-        image: "images/Session1/image61.png",
+        description: "Langage 2/2",
+        image: "images/developpement/image43.png",
       ),
       ImageDescription(
         id: 2,
         description:
-            "Mon enfant répond aux caresses et autres marques d’affections en faisant des câlins.",
-        image: "images/Session1/image49.png",
+            '''De 1 à 2 ans, je répète les mots que mon enfant tente de dire et je corrige
+             s’il les prononce mal.J’utilise les mots justes quand je lui parle.
+
+''',
+        image: "",
       ),
       ImageDescription(
         id: 3,
         description:
-            "Ce que je fais",
+            '''Je nomme tout ce que je vois autour de mon enfant et dans la maison.
+            J’écoute attentivement mon enfant lorqu’il me parle.
+
+''',
         image: "",
       ),
       ImageDescription(
         id: 4,
         description:
-            "Je mets des objets que mon enfant connait dans un sac."
-                "Je lui demande de mettre sa main dedans et essayer"
-                " de reconnaitre les objets qui sont dans le sac."
-                "Je lui fais toucher les différentes parties du corps et des objets chauds et froids.",
-        image: "images/Session1/image62.png",
+            "Si je ne comprends pas ce que mon enfant dit, je lui pose des questions simples.",
+        image: "images/developpement/image45.png",
       ),
       ImageDescription(
         id: 5,
-        description: "Attention",
-        image: "images/Session1/image6.png",
+        description:
+            '''Attention Lorsque mon enfant :
+- n’essaie pas de faire des petites phrases,
+-  ne comprend pas un grand nombre de mots, 
+''',
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 6,
-        description: "Lorsque  mon enfant : "
-            "-  ne réagit pas aux caresses ou autres gestes d’affection,"
-            "- ne cherche pas à toucher les objets autour de lui,",
-        image: "",
+        description:
+            '''je l’emmène au centre de santé.''',
+        image: "images/developpement/pag9/ic-05-01.png",
       ),
-      ImageDescription(
-        id: 7,
-        description: "je l’emmène au centre de santé.",
-        image: "images/Session1/image20.png",
-      ),
-      /*ImageDescription(
-        id: 7,
-        description: "je l’emmène au centre de santé.",
-        image: "url_de_l_image_3.jpg",
-      )*/
     ],
   );
 }

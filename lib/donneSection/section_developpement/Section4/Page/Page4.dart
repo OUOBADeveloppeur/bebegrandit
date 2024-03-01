@@ -11,7 +11,7 @@ de 1 à 3 ans
       ImageDescription(
         id: 1,
         description: "La vue",
-        image: "",
+        image: "images/developpement/image39.png",
       ),
       ImageDescription(
         id: 2,
@@ -23,12 +23,12 @@ de 1 à 3 ans
         id: 3,
         description: "Mon enfant s’intéresse aux petits objets et aux images, "
             "sur les boîtes, les livres.",
-        image: "images/Session1/image68.png",
+        image: "images/developpement/image37.png",
       ),
       ImageDescription(
         id: 4,
         description: "",
-        image: "images/Session1/image69.png",
+        image: "images/developpement/image38.png",
       ),
       ImageDescription(
         id: 5,
@@ -44,21 +44,17 @@ de 1 à 3 ans
       ),
       ImageDescription(
         id: 7,
-        description: "Attention",
-        image: "images/Session1/image6.png",
+        description: '''Attention Lorsque mon enfant :
+            - se cogne partout et s’oriente mal,"
+            - est sensible à la lumière,"
+            - a une tache blanchâtre à l’œil ou louche,''',
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
-      ImageDescription(
-        id: 8,
-        description: "Lorsque mon enfant :"
-            "- se cogne partout et s’oriente mal,"
-            "- est sensible à la lumière,"
-            "- a une tache blanchâtre à l’œil ou louche,",
-        image: "",
-      ),
+     
       ImageDescription(
         id: 9,
         description: " je l’emmène au centre de santé",
-        image: "images/Session1/image20.png",
+        image: "images/developpement/pag9/ic-05-01.png",
       ),
     ],
   );

@@ -17,7 +17,7 @@ Pages page6() {
         description:
             "Jusqu’à 3 mois, mon enfant réagit aux bruits en étendant les bras et jambes vers l’extérieur,"
             " clignant les yeux, pleurant.",
-        image: "mages/developpement/pag12/ic-02.png",
+        image: "images/developpement/pag12/ic-02.png",
       ),
       ImageDescription(
         id: 2,

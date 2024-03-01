@@ -10,7 +10,7 @@ Pages page2() {
         id: 1,
         description: "Le sommeil"
            ,
-        image: "images/Session1/image13.png",
+        image: "images/developpement/image30.png",
       ),
       ImageDescription(
         id: 2,
@@ -38,21 +38,14 @@ Pages page2() {
             "Lorsque mon enfant : "
             "- a des difficultés à dormir sur une longue période la nuit,"
             " - n’est pas actif pendant la journée et est somnolent, ",
-        image: "images/Session1/image46.png",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
+      
       ImageDescription(
         id: 6,
-        description: 
-            "Lorsque mon enfant : "
-            "- a des difficultés à dormir sur une longue période la nuit,"
-            " - n’est pas actif pendant la journée et est somnolent, ",
-        image: "",
-      ),
-      ImageDescription(
-        id: 7,
         description:
             "je l’emmène au centre de santé.",
-        image: "images/Session1/image20.png",
+        image: "images/developpement/pag9/ic-05-01.png",
       ),
     ],
   );

@@ -9,7 +9,7 @@ Pages page10() {
       ImageDescription(
         id: 1,
         description: "Les émotions et sentiments",
-        image: "images/Session1/image38.png",
+        image: "images/developpement/image51.png",
       ),
 
       ImageDescription(
@@ -17,7 +17,7 @@ Pages page10() {
         description: "Au fur et à mesure que mon enfant grandit,"
             " il exprime mieux ses sentiments à travers la parole, "
             "des gestes.",
-        image: "images/Session1/image63.png",
+        image: "images/developpement/image62.png",
       ),
       ImageDescription(
         id: 3,
@@ -30,23 +30,23 @@ Pages page10() {
             "Je suis attentive aux émotions de mon enfant."
                 "J’encourage mon enfant à mieux exprimer ses sentiments."
                 "Lorqu’il est est fâché, je discute avec lui pour l’aider à se sentir mieux.",
-        image: "images/Session1/image64.png",
+        image: "images/developpement/image63.png",
       ),
 
       ImageDescription(
         id: 5,
         description: "Attention",
-        image: "images/Session1/image6.png",
+        image: "",
       ),
       ImageDescription(
         id: 6,
         description: "Lorsque mon enfant ne montre pas ses émotions et ses sentiments,",
-        image: "url_de_l_image_3.jpg",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 7,
         description: "je l’emmène au centre de santé.",
-        image: "images/Session1/image20.png",
+        image: "images/developpement/pag9/ic-05-01.png",
       )
     ],
   );

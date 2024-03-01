@@ -97,6 +97,23 @@ flutter:
      - images/danger/
      - images/paludisme/
      - images/developpement/
+     - images/developpement/pag3/
+     - images/developpement/pag6/
+     - images/developpement/pag8/
+     - images/developpement/pag9/
+     - images/developpement/pag10/
+     - images/developpement/pag12/
+     - images/developpement/pag13/
+     - images/developpement/pag14/
+     - images/developpement/pag15/
+     - images/developpement/pag16/
+     - images/developpement/pag18/
+     - images/developpement/pag19/
+     - images/developpement/pag20/
+     - images/developpement/pag21/
+     - images/developpement/pag22/
+     - images/developpement/pag23/
+     - images/developpement/pag24/
      - images/Session2/
 
   # An image asset can refer to one or more resolution-specific "variants", see

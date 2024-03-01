@@ -9,24 +9,24 @@ Pages page3() {
       ImageDescription(
         id: 1,
         description: "Les mouvements et gestes",
-        image: "",
+        image: "images/developpement/image33.png",
       ),
       ImageDescription(
         id: 2,
         description:
             "Entre 12 et 14 mois, mon enfant  marche avec appui, puis seul.",
-        image: "images/Session1/image18.png",
+        image: "",
       ),
       ImageDescription(
         id: 3,
         description: "à 18 mois, mon bébé marche vite et monte sur les chaises."
             "à 21 mois, il  court sur un terrain plat, saute et tape sur un ballon.",
-        image: "images/Session1/image48.png",
+        image: "images/developpement/image34.png",
       ),
       ImageDescription(
         id: 4,
         description: "Ce que je fais",
-        image: "images/Session1/image48.png",
+        image: "",
       ),
       ImageDescription(
         id: 5,
@@ -41,24 +41,24 @@ Pages page3() {
             "Je lui fais faire des activités stimulantes pendant la journée "
             "comme l’exercice physique"
             "(courir derrière un ballon, jouer avec les autres enfants...).",
-        image: "images/Session1/image67.png",
+        image: "images/developpement/image36.png",
       ),
       ImageDescription(
         id: 7,
         description: "Je laisse mon enfant essayer de se déshabiller seul.",
-        image: "images/Session1/image66.png",
+        image: "images/developpement/image35.png",
       ),
       ImageDescription(
         id: 8,
-        description: "Attention",
-        image: "images/Session1/image6.png",
+        description: "Attention Si mon enfant n’arrive pas à marcher seul autour de 18 mois,",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 9,
         description:
-            "Si mon enfant n’arrive pas à marcher seul autour de 18 mois,"
+           
             "je l’emmène au centre de santé.",
-        image: "images/Session1/image20.png",
+        image: "images/developpement/pag9/ic-05-01.png",
       ),
     ],
   );

@@ -9,7 +9,6 @@ import 'package:bebegrandi/donneSection/section_developpement/Section2/Section.d
 import 'package:bebegrandi/donneSection/section_developpement/Section3/Section.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section4/Section.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Section.dart';
-import 'package:bebegrandi/donneSection/section_developpement/Section6/Section.dart';
 
 Section section1() {
   return Section(id: 0, colors: 0xFF088886, page: [
@@ -27,7 +26,6 @@ Section section1() {
         section3(),
         section4(),
         section5(),
-       // section6()
       ],
     )
   ]);

@@ -4,48 +4,50 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page8() {
   return Pages(
     id: 8,
-    titre: "L’odorat",
+    titre: "Le toucher",
     imageDescription: [
       ImageDescription(
         id: 1,
-        description: "L’odorat"
-            "En grandissant, mon enfant apprend à distinguer les odeurs."
-            "Vers 3 ans, il est capable de dire son avis sur les odeurs qu’il aime ou qu’il n’aime pas.",
-        image: "images/Session1/image38.png",
+        description: "Le toucher",
+        image: "images/developpement/image46.png",
       ),
       ImageDescription(
         id: 2,
-        description:
-            " Il s’habitue aux odeurs autour de lui."
-                "Mon enfant peut être sensible aux fortes odeurs comme les épices ou certains produits ménagers.",
-        image: "",
+        description: 
+            '''Dès 1 ans, mon enfant est très curieux et aime découvrir de nouvelles choses en 
+            les touchant avec ses mains.''',
+        image: "images/developpement/image47.png",
       ),
+     
       ImageDescription(
         id: 3,
-        description: "Ce que je fais",
-        image: "images/Session1/image63.png",
+        description:
+            "Ce que je fais",
+        image: "",
       ),
       ImageDescription(
         id: 4,
         description:
-            "Je fais sentir à mon enfant différentes odeurs.",
-        image: "images/Session1/image64.png",
+            "Je mets des objets que mon enfant connait dans un sac."
+                "Je lui demande de mettre sa main dedans et essayer"
+                " de reconnaitre les objets qui sont dans le sac."
+                "Je lui fais toucher les différentes parties du corps et des objets chauds et froids.",
+        image: "",
       ),
+     
       ImageDescription(
         id: 5,
-        description: "Attention",
-        image: "images/Session1/image6.png",
+        description: '''Attention Lorsque  mon enfant : 
+            -  ne réagit pas aux caresses ou autres gestes d’affection,
+            - ne cherche pas à toucher les objets autour de lui,''',
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 6,
-        description: "Lorsque mon enfant ne sent pas les fortes odeurs,",
-        image: "",
-      ),
-      ImageDescription(
-        id: 7,
         description: "je l’emmène au centre de santé.",
-        image: "images/Session1/image20.png",
-      )
+        image: "images/developpement/pag9/ic-05-01.png",
+      ),
+      
     ],
   );
 }

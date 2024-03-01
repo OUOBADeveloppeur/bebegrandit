@@ -9,7 +9,7 @@ Pages page1() {
       ImageDescription(
         id: 1,
         description: "Le développement de l’enfant de  3 à 5 ans",
-        image: "images/Session1/image44.png",
+        image: "images/developpement/image55.png",
       ),
     ],
   );

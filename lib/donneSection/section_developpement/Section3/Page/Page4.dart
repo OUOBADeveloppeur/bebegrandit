@@ -9,7 +9,7 @@ Pages page4() {
       ImageDescription(
         id: 1,
         description: "La vue",
-        image: "",
+        image: "images/developpement/pag20/ic-01-01.png",
       ),
       ImageDescription(
         id: 2,
@@ -30,29 +30,26 @@ Pages page4() {
       ),
       ImageDescription(
         id: 5,
-        description: "Ce que je fais"
-            "Entre 7 et 9 mois, je joue à cache-cache pour que mon enfant comprenne qu’un objet"
-            " ou une personne continue d’exister même cachée.",
-        image: "images/Session1/image53.png",
+        description: '''Ce que je fais
+            Entre 7 et 9 mois, je joue à cache-cache pour que mon enfant comprenne qu’un objet
+             ou une personne continue d’exister même cachée. 
+             j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette)''',
+        image: "images/developpement/pag19/ic-03-01.png",
       ),
       ImageDescription(
         id: 6,
-        description: "Attention",
-        image: "images/Session1/image6.png",
-      ),
-      ImageDescription(
-        id: 7,
-        description: "Lorsque mon enfant :"
+        description: "Attention""Lorsque mon enfant :"
             "- a les yeux qui coulent en permanence ou sont sensibles à la lumière, "
             "- a une tâche banche au niveau des yeux, "
             "- se cogne partout, "
-            "- ne fixe pas mon visage ou louche, ",
-        image: "",
+            "- ne fixe pas mon visage ou louche",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
+     
       ImageDescription(
-        id: 8,
+        id: 7,
         description: " je l’emmène au centre de santé",
-        image: "images/Session1/image20.png",
+        image: "images/developpement/pag9/ic-05-01.png",
       ),
     ],
   );

@@ -9,7 +9,7 @@ Pages page1() {
       ImageDescription(
         id: 1,
         description: "Le développement de l’enfant de 6 à 12 mois",
-        image: "images/Session1/image44.png",
+        image: "images/developpement/ic-01-01.png",
       ),
     ],
   );

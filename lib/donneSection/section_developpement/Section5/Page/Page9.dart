@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page8() {
+Pages page9() {
   return Pages(
     id: 9,
     titre: "Le goût",
@@ -11,7 +11,7 @@ Pages page8() {
         description: "Le goût"
             "à 3 ans, le sens du goût de mon enfant est très développé. "
             "Il découvre d’autres goûts en grandissant.",
-        image: "images/Session1/image38.png",
+        image: "images/developpement/image61.png",
       ),
       ImageDescription(
         id: 2,
@@ -22,18 +22,18 @@ Pages page8() {
       ImageDescription(
         id: 3,
         description: "Attention",
-        image: "images/Session1/image6.png",
+        image: "",
       ),
       ImageDescription(
         id: 4,
         description:
             "Lorsque mon enfant ne fait pas la différence entre les goûts,",
-        image: "",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 5,
         description: "je l’emmène au centre de santé.",
-        image: "images/Session1/image20.png",
+        image: "images/developpement/pag9/ic-05-01.png",
       )
     ],
   );

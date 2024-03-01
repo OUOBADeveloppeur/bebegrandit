@@ -10,9 +10,7 @@ Pages page1() {
         id: 1,
         description:
             '''Ce sont des signes devant lesquels l’enfant doit être emmené immédiatement au 
-            centre de santé, car il peut perdre la vie.
-
-''',
+            centre de santé, car il peut perdre la vie.''',
         image: "images/danger/image4.png",
       ),
     ],
