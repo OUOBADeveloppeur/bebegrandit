@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:json_annotation/json_annotation.dart';
@@ -14,23 +15,28 @@ class ImageDescription {
   @HiveField(5)
   @JsonKey(name: "image")
   String image;
+  String? position;
+  Color? color;
 
-  ImageDescription({
-    required this.id,
-    required this.description,
-    required this.image,
-  });
+  ImageDescription(
+      {required this.id,
+      required this.description,
+      required this.image,
+      this.color,
+      this.position});
 
-  ImageDescription copyWith({
-    int? id,
-    String? description,
-    String? image,
-  }) =>
+  ImageDescription copyWith(
+          {int? id,
+          String? description,
+          String? image,
+          String? position,
+          Color? color}) =>
       ImageDescription(
-        id: id ?? this.id,
-        description: description ?? this.description,
-        image: image ?? this.image,
-      );
+          id: id ?? this.id,
+          description: description ?? this.description,
+          image: image ?? this.image,
+          position: position ?? this.position,
+          color: color ?? this.color);
 
   factory ImageDescription.fromJson(Map<String, dynamic> json) {
     return ImageDescription(
@@ -38,41 +44,10 @@ class ImageDescription {
       description: json['description'] as String? ??
           '', // Correction de la clé 'label' à 'description'
       image: json['image'] as String? ?? '',
+      position: json['position'] as String? ?? '',
+      color: json['color'] as Color,
     );
   }
 }
 //------------------------------------TEXTT-----------------------
 
-@HiveType(typeId: 5)
-@JsonSerializable()
-class Description {
-  @HiveField(1)
-  @JsonKey(name: "id")
-  int id;
-  @HiveField(3)
-  @JsonKey(name: "description")
-  String description;
-
-  Description({
-    required this.id,
-    required this.description,
-  });
-
-  Description copyWith({
-    int? id,
-    String? description,
-    String? image,
-  }) =>
-      Description(
-        id: id ?? this.id,
-        description: description ?? this.description,
-      );
-
-  factory Description.fromJson(Map<String, dynamic> json) {
-    return Description(
-      id: json['id'] as int,
-      description: json['description'] as String? ??
-          '', // Correction de la clé 'label' à 'description'
-    );
-  }
-}

@@ -7,17 +7,20 @@ Pages page3() {
     titre: "Les mouvements et gestes",
     imageDescription: [
       ImageDescription(
+        position: '3',
         id: 1,
         description: "Les mouvements et gestes"
             "Après la naissance, mon enfant reste allongé et bouge ses bras et ses jambes.",
         image: "images/developpement/pag9/ic-01.png",
       ),
       ImageDescription(
+        position: '3',
         id: 2,
         description: "À 3 mois, mon enfant tient sa tête droite.",
         image: "images/developpement/pag9/ic-02-01.png",
       ),
       ImageDescription(
+        position: '3',
         id: 3,
         description:
             "Dès 6 mois, mon enfant peut s’assoir à l’aide de ses mains, "
@@ -26,15 +29,15 @@ Pages page3() {
         image: "images/developpement/pag9/ic-03-01.png",
       ),
       ImageDescription(
+        position: '3',
         id: 4,
         description: "Ce que je fais"
             "J’aide mon enfant à renforcer ses muscles, à contrôler sa tête et son éveil."
             "Je place devant mon enfant des objets colorés pour qu’il cherche à les saisir.",
         image: "images/developpement/pag9/ic-04-01.png",
       ),
-      
-      
       ImageDescription(
+        position: '2',
         id: 5,
         description:
             "Attention:Si mon enfant parait mou, ne réagit pas aux stimulations, aux jeux "
@@ -42,7 +45,8 @@ Pages page3() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 8,
+        position: '4',
+        id: 6,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

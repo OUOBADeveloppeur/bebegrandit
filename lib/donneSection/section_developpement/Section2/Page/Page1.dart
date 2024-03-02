@@ -8,6 +8,7 @@ Pages page1() {
     imageDescription: [
       ImageDescription(
         id: 1,
+        position: '1',
         description: "Développement de l’enfant de  0 à 6 mois",
         image: "images/developpement/pag6/ic-01.png",
       ),

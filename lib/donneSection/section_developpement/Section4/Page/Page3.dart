@@ -9,7 +9,7 @@ Pages page3() {
       ImageDescription(
         id: 1,
         description: "Les mouvements et gestes",
-        image: "images/developpement/image33.png",
+        image: "images/developpement/image23.png",
       ),
       ImageDescription(
         id: 2,

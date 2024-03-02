@@ -8,6 +8,7 @@ Pages page3() {
     imageDescription: [
       ImageDescription(
         id: 1,
+        position: '1',
         description: "",
         image: "images/developpement/image7.png",
       ),

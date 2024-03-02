@@ -1,124 +1,5 @@
-import 'package:bebegrandi/Model/page.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
-//class ImageDescription1 extends StatefulWidget {
-// final Pages page1;
-
-// ImageDescription1({required this.page1});
-
-// @override
-// State<ImageDescription1> createState() => _ImageDescriptionState();
-//}
-
-/*
-
-
-//----------------------code2---------------------------
-class _ImageDescriptionState extends State<ImageDescription1> {
-  Widget _buildImageDescriptionWidget({
-    required String imagePath,
-    required String description,
-    bool isImageFirst = true,
-    bool isImageOnTop = true,
-  }) {
-    bool shouldDisplayImage = imagePath != null && imagePath.isNotEmpty;
-
-    return Column(
-      children: [
-        if (shouldDisplayImage)
-          SizedBox(
-            height: MediaQuery.of(context).size.height * 0.3,
-            child: isImageFirst
-                ? Column(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Expanded(
-                        child: Image.asset(
-                          imagePath,
-                          fit: BoxFit.contain,
-                        ),
-                      ),
-                      if (description != null)
-                        Flexible(
-                          child: Padding(
-                            padding: const EdgeInsets.all(6.0),
-                            child: Text(description),
-                          ),
-                        ),
-                    ],
-                  )
-                : Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Expanded(
-                        child: Column(
-                          children: [
-                            SizedBox(
-                              height: MediaQuery.of(context).size.height * 0.25,
-                              child: Image.asset(
-                                imagePath,
-                                fit: BoxFit.contain,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      if (description != null && description.isNotEmpty)
-                        Flexible(
-                          child: Padding(
-                            padding: const EdgeInsets.all(6.0),
-                            child: Text(
-                              description,
-                              style:
-                                  TextStyle(fontSize: 14, color: Colors.black),
-                            ),
-                          ),
-                        ),
-                    ],
-                  ),
-          ),
-        if (!shouldDisplayImage &&
-            description != null &&
-            description.isNotEmpty)
-          Padding(
-            padding: const EdgeInsets.all(6.0),
-            child: Text(
-              description,
-              style: TextStyle(fontSize: 14, color: Colors.black),
-            ),
-          ),
-      ],
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.only(top: 10, left: 20, right: 20),
-      color: Colors.white,
-      child: Expanded(
-        child: Scrollbar(
-          thumbVisibility: true,
-          child: ListView.builder(
-            dragStartBehavior: DragStartBehavior.start,
-            itemCount: widget.page1.imageDescription.length,
-            itemBuilder: (context, index) {
-              return _buildImageDescriptionWidget(
-                imagePath: widget.page1.imageDescription[index].image,
-                description: widget.page1.imageDescription[index].description,
-                isImageFirst: index % 2 == 0,
-                isImageOnTop: index % 3 == 0,
-              );
-            },
-          ),
-        ),
-      ),
-    );
-  }
-}*/
-//-------------------------fin code2------------------------------------------------
+import 'package:bebegrandi/Model/page.dart'; // Assurez-vous que ce chemin est correct
 
 class ImageDescription1 extends StatefulWidget {
   final Pages page1;
@@ -128,50 +9,64 @@ class ImageDescription1 extends StatefulWidget {
   @override
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
-  // Méthode pour gérer le cas où il y a seulement du texte
-  Widget _buildTextOnly(String text) {
+  Widget _buildTextOnly(String text, {Color? color, String? position}) {
     return Padding(
-      padding: EdgeInsets.only(left:6,right:6),
-      child: Text(
-        text,
-        style: TextStyle(fontSize: 14, color: Colors.black),
+      padding: EdgeInsets.only(left: 6, right: 6, top: 20),
+      child: Column(
+        children: [
+          Text(
+            text,
+            style: TextStyle(fontSize: 14, color: Colors.black),
+          ),
+        ],
       ),
     );
   }
 
-  // Méthode pour gérer le cas où l'image est en haut et le texte en bas
-  Widget _buildImageTopTextBottom(String imagePath, String description) {
+  Widget _buildImageTopTextBottom(String imagePath, String description,
+      {Color? color, String? position}) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Expanded(
           child: Image.asset(
             imagePath,
             fit: BoxFit.contain,
+            width: imagePath.length.toDouble() * 7,
+            height: imagePath.length.toDouble() * 2,
           ),
         ),
         if (description != null && description.isNotEmpty)
           Padding(
-            padding:EdgeInsets.only(left:6,right:6),
-            child: Text(description),
+            padding: EdgeInsets.only(left: 6, right: 6),
+            child: Column(
+              children: [
+                Text(description),
+              ],
+            ),
           ),
       ],
     );
   }
 
-  // Méthode pour gérer le cas où l'image est à gauche et le texte à droite
-  Widget _buildImageLeftTextRight(String imagePath, String description) {
+  Widget _buildImageLeftTextRight(String imagePath, String description,
+      {Color? color, String? position}) {
     return Row(
       children: [
         Expanded(
+          flex: 1,
           child: Image.asset(
             imagePath,
             fit: BoxFit.contain,
+            width: imagePath.length.toDouble() * 7,
+            height: imagePath.length.toDouble() * 2,
           ),
         ),
         if (description != null && description.isNotEmpty)
-          Flexible(
+          Expanded(
+            flex: 2,
             child: Padding(
-              padding: EdgeInsets.only(left:6,right:6),
+              padding: EdgeInsets.only(left: 6, right: 6),
               child: Text(description),
             ),
           ),
@@ -179,35 +74,20 @@ class ImageDescription1 extends StatefulWidget {
     );
   }
 
-  // Méthode pour gérer le cas où l'image est à droite et le texte à gauche
-  Widget _buildImageRightTextLeft(String imagePath, String description) {
+  Widget _buildImagetRighttTexLeft(String imagePath, String description,
+      {Color? color, String? position}) {
     return Row(
       children: [
         if (description != null && description.isNotEmpty)
           Flexible(
             child: Padding(
-              padding:  EdgeInsets.only(left:6,right:6),
-              child: Text(description),
+              padding: EdgeInsets.only(left: 6, right: 6),
+              child: Column(
+                children: [
+                  Text(description),
+                ],
+              ),
             ),
-          ),
-        Expanded(
-          child: Image.asset(
-            imagePath,
-            fit: BoxFit.contain,
-          ),
-        ),
-      ],
-    );
-  }
-
-  // Méthode pour gérer le cas où l'image est en bas et le texte en haut
-  Widget _buildImageBottomTextTop(String imagePath, String description) {
-    return Column(
-      children: [
-        if (description != null && description.isNotEmpty)
-          Padding(
-            padding: EdgeInsets.only(left:6,right:6),
-            child: Text(description),
           ),
         Expanded(
           child: Image.asset(
@@ -224,10 +104,58 @@ class _ImageDescriptionState extends State<ImageDescription1> {
   Widget _buildImageDescriptionWidget({
     required String imagePath,
     required String description,
+    Color? color,
+    String? position,
     bool isImageFirst = true,
     bool isImageOnTop = true,
   }) {
     bool shouldDisplayImage = imagePath != null && imagePath.isNotEmpty;
+
+    Color defaultColor =
+        const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
+
+    Widget imageWidget;
+
+    switch (position) {
+      case '1':
+        imageWidget = widget._buildImageTopTextBottom(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+        );
+        break;
+      case '2':
+        imageWidget = widget._buildImageLeftTextRight(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+        );
+        break;
+      case '3':
+        imageWidget = widget._buildImagetRighttTexLeft(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+        );
+        break;
+      case '4':
+        imageWidget = widget._buildImageTopTextBottom(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+        );
+        break;
+      default:
+        // Gérer d'autres valeurs de position au besoin
+        imageWidget = Container(
+          color: Colors.red,
+        ); // Par défaut, ne rien afficher
+        break;
+    }
 
     return Column(
       children: [
@@ -237,28 +165,19 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             child: isImageFirst
                 ? Column(
                     mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Expanded(
-                        child: widget._buildImageTopTextBottom(
-                            imagePath, description),
-                      ),
-                    ],
+                    children: [Expanded(child: imageWidget)],
                   )
                 : Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Expanded(
-                        child: widget._buildImageLeftTextRight(
-                            imagePath, description),
-                      ),
-                    ],
+                    children: [Expanded(child: imageWidget)],
                   ),
           ),
         if (!shouldDisplayImage &&
             description != null &&
             description.isNotEmpty)
-          widget._buildTextOnly(description),
+          widget._buildTextOnly(description,
+              color: color ?? defaultColor, position: position),
       ],
     );
   }
@@ -272,12 +191,15 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         child: Scrollbar(
           thumbVisibility: true,
           child: ListView.builder(
-            dragStartBehavior: DragStartBehavior.start,
+            // dragStartBehavior: DragStartBehavior.start,
             itemCount: widget.page1.imageDescription.length,
             itemBuilder: (context, index) {
+              final imageDescription = widget.page1.imageDescription[index];
               return _buildImageDescriptionWidget(
-                imagePath: widget.page1.imageDescription[index].image,
-                description: widget.page1.imageDescription[index].description,
+                imagePath: imageDescription.image,
+                description: imageDescription.description,
+                color: imageDescription.color,
+                position: imageDescription.position,
                 isImageFirst: index % 2 == 0,
                 isImageOnTop: index % 3 == 0,
               );

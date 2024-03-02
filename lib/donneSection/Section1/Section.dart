@@ -1,6 +1,5 @@
 import 'package:bebegrandi/Model/menu.dart';
 import 'package:bebegrandi/Model/section.dart';
-import 'package:bebegrandi/donneSection/Section2/Page/Page1.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section1/Section.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section2/Section.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section3/Section.dart';
