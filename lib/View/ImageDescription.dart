@@ -77,22 +77,31 @@ class ImageDescription1 extends StatefulWidget {
   Widget _buildImagetRighttTexLeft(String imagePath, String description,
       {Color? color, String? position}) {
     return Row(
+      crossAxisAlignment: CrossAxisAlignment
+          .start, // Alignement au sommet pour aligner le texte et l'image
       children: [
-        if (description != null && description.isNotEmpty)
-          Flexible(
-            child: Padding(
-              padding: EdgeInsets.only(left: 6, right: 6),
-              child: Column(
-                children: [
+        Expanded(
+          flex: 3,
+          child: Padding(
+            padding: EdgeInsets.only(left: 6, right: 6),
+            child: Column(
+              crossAxisAlignment:
+                  CrossAxisAlignment.start, // Alignement du texte à gauche
+              children: [
+                if (description != null && description.isNotEmpty)
                   Text(description),
-                ],
-              ),
+              ],
             ),
           ),
+        ),
         Expanded(
-          child: Image.asset(
-            imagePath,
-            fit: BoxFit.contain,
+          flex: 2,
+          child: Padding(
+            padding: EdgeInsets.only(left: 6, right: 6),
+            child: Image.asset(
+              imagePath,
+              fit: BoxFit.contain,
+            ),
           ),
         ),
       ],
@@ -141,17 +150,18 @@ class _ImageDescriptionState extends State<ImageDescription1> {
           position: position,
         );
         break;
-      case '4':
+      /* case '4':
         imageWidget = widget._buildImageTopTextBottom(
           imagePath,
           description,
           color: color ?? defaultColor,
           position: position,
         );
-        break;
+        break;*/
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
+          height: 20,
           color: Colors.red,
         ); // Par défaut, ne rien afficher
         break;
@@ -187,24 +197,23 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     return Container(
       padding: EdgeInsets.only(top: 10, left: 20, right: 20),
       color: Colors.white,
-      child: Expanded(
-        child: Scrollbar(
-          thumbVisibility: true,
-          child: ListView.builder(
-            // dragStartBehavior: DragStartBehavior.start,
-            itemCount: widget.page1.imageDescription.length,
-            itemBuilder: (context, index) {
-              final imageDescription = widget.page1.imageDescription[index];
-              return _buildImageDescriptionWidget(
-                imagePath: imageDescription.image,
-                description: imageDescription.description,
-                color: imageDescription.color,
-                position: imageDescription.position,
-                isImageFirst: index % 2 == 0,
-                isImageOnTop: index % 3 == 0,
-              );
-            },
-          ),
+      child: Scrollbar(
+        thumbVisibility: true,
+        child: ListView.separated(
+          separatorBuilder: (context, index) =>
+              SizedBox(height: 1), // Ajout d'un espace entre les éléments
+          itemCount: widget.page1.imageDescription.length,
+          itemBuilder: (context, index) {
+            final imageDescription = widget.page1.imageDescription[index];
+            return _buildImageDescriptionWidget(
+              imagePath: imageDescription.image,
+              description: imageDescription.description,
+              color: imageDescription.color,
+              position: imageDescription.position,
+              isImageFirst: index % 2 == 0,
+              isImageOnTop: index % 3 == 0,
+            );
+          },
         ),
       ),
     );
