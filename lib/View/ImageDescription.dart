@@ -29,7 +29,6 @@ class ImageDescription1 extends StatefulWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Flexible(
-          // Utiliser Flexible ici
           child: Image.asset(
             imagePath,
             fit: BoxFit.contain,
@@ -53,7 +52,6 @@ class ImageDescription1 extends StatefulWidget {
     return Row(
       children: [
         Flexible(
-          // Utiliser Flexible ici
           child: Image.asset(
             imagePath,
             fit: BoxFit.contain,
@@ -74,16 +72,14 @@ class ImageDescription1 extends StatefulWidget {
   Widget _buildImagetRighttTexLeft(String imagePath, String description,
       {Color? color, String? position}) {
     return Row(
-      crossAxisAlignment: CrossAxisAlignment
-          .start, // Alignement au sommet pour aligner le texte et l'image
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(
           flex: 3,
           child: Padding(
             padding: EdgeInsets.only(left: 6, right: 6),
             child: Column(
-              crossAxisAlignment:
-                  CrossAxisAlignment.start, // Alignement du texte à gauche
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 if (description != null && description.isNotEmpty)
                   Text(description),
@@ -120,7 +116,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     Color defaultColor =
         const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
 
-    Widget imageWidget;
+    Widget imageWidget = Container(); // Widget par défaut
 
     switch (position) {
       case '1':
@@ -147,14 +143,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
           position: position,
         );
         break;
-      /* case '4':
-        imageWidget = widget._buildImageTopTextBottom(
-          imagePath,
-          description,
-          color: color ?? defaultColor,
-          position: position,
-        );
-        break;*/
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
@@ -166,30 +154,25 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     return Column(
       children: [
         if (shouldDisplayImage)
-          Container(
-            // Taille fixe pour les images
-            child: isImageFirst
-                ? SizedBox(
-                    // mainAxisAlignment: MainAxisAlignment.end,
-                    //children: [
-                    //   Flexible(child: imageWidget), // Utiliser Flexible ici
-                    // ],
-                    child: imageWidget)
-                : Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Flexible(
-                        flex: 1,
-                        child: Container(
-                          // height: 15,
-                          alignment: Alignment.bottomCenter,
-                          child: imageWidget,
-                        ),
-                      ), // Utiliser Flexible ici
-                    ],
-                  ),
-          ),
+          if (isImageFirst)
+            SizedBox(
+              // Taille fixe pour les images
+              height: 300, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Flexible(
+                  flex: 1,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: imageWidget,
+                  //  ),
+                ),
+              ],
+            ),
         if (!shouldDisplayImage &&
             description != null &&
             description.isNotEmpty)
