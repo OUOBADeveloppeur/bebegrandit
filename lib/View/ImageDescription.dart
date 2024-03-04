@@ -28,12 +28,11 @@ class ImageDescription1 extends StatefulWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Expanded(
+        Flexible(
+          // Utiliser Flexible ici
           child: Image.asset(
             imagePath,
             fit: BoxFit.contain,
-            width: imagePath.length.toDouble() * 7,
-            height: imagePath.length.toDouble() * 2,
           ),
         ),
         if (description != null && description.isNotEmpty)
@@ -53,13 +52,11 @@ class ImageDescription1 extends StatefulWidget {
       {Color? color, String? position}) {
     return Row(
       children: [
-        Expanded(
-          flex: 1,
+        Flexible(
+          // Utiliser Flexible ici
           child: Image.asset(
             imagePath,
             fit: BoxFit.contain,
-            width: imagePath.length.toDouble() * 7,
-            height: imagePath.length.toDouble() * 2,
           ),
         ),
         if (description != null && description.isNotEmpty)
@@ -118,7 +115,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     bool isImageFirst = true,
     bool isImageOnTop = true,
   }) {
-    bool shouldDisplayImage = imagePath != null && imagePath.isNotEmpty;
+    bool shouldDisplayImage = imagePath.isNotEmpty;
 
     Color defaultColor =
         const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
@@ -161,7 +158,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
-          height: 20,
           color: Colors.red,
         ); // Par défaut, ne rien afficher
         break;
@@ -171,16 +167,27 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       children: [
         if (shouldDisplayImage)
           SizedBox(
-            height: MediaQuery.of(context).size.height * 0.3,
+            height: 200, // Taille fixe pour les images
             child: isImageFirst
                 ? Column(
                     mainAxisAlignment: MainAxisAlignment.end,
-                    children: [Expanded(child: imageWidget)],
+                    children: [
+                      Flexible(child: imageWidget), // Utiliser Flexible ici
+                    ],
                   )
                 : Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [Expanded(child: imageWidget)],
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Flexible(
+                        flex: 1,
+                        child: Container(
+                          // height: 15,
+                          alignment: Alignment.bottomCenter,
+                          child: imageWidget,
+                        ),
+                      ), // Utiliser Flexible ici
+                    ],
                   ),
           ),
         if (!shouldDisplayImage &&
@@ -188,6 +195,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             description.isNotEmpty)
           widget._buildTextOnly(description,
               color: color ?? defaultColor, position: position),
+        SizedBox(height: 0), // Ajout d'un SizedBox avec une hauteur nulle
       ],
     );
   }
@@ -199,9 +207,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       color: Colors.white,
       child: Scrollbar(
         thumbVisibility: true,
-        child: ListView.separated(
-          separatorBuilder: (context, index) =>
-              SizedBox(height: 1), // Ajout d'un espace entre les éléments
+        child: ListView.builder(
           itemCount: widget.page1.imageDescription.length,
           itemBuilder: (context, index) {
             final imageDescription = widget.page1.imageDescription[index];
