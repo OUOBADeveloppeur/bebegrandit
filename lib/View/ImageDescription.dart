@@ -166,15 +166,15 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     return Column(
       children: [
         if (shouldDisplayImage)
-          SizedBox(
-            height: 200, // Taille fixe pour les images
+          Container(
+            // Taille fixe pour les images
             child: isImageFirst
-                ? Column(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Flexible(child: imageWidget), // Utiliser Flexible ici
-                    ],
-                  )
+                ? SizedBox(
+                    // mainAxisAlignment: MainAxisAlignment.end,
+                    //children: [
+                    //   Flexible(child: imageWidget), // Utiliser Flexible ici
+                    // ],
+                    child: imageWidget)
                 : Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.end,
