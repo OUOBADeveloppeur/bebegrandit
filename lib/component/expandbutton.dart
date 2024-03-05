@@ -67,8 +67,37 @@ class _ExpandedButtonState extends State<ExpandedButton> {
       ),
     );
   }
+<<<<<<< HEAD
 }
 
 
 
 
+=======
+  
+}
+
+class RowAppBar extends StatelessWidget {
+  const RowAppBar({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Container(
+          width: 50,
+          height: 50,
+          decoration: BoxDecoration(
+             // borderRadius: BorderRadius.circular(50.0),
+              image: const DecorationImage(
+                image: AssetImage('images/alimentation/image14.png'),
+                fit: BoxFit.contain,
+              )),
+        ),
+      ],
+    );
+  }
+}
+
+
+>>>>>>> f705559cb70060f909e10fa24c0fef93ec94af1e

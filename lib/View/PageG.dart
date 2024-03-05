@@ -1,4 +1,4 @@
-// ignore_for_file: sort_child_properties_last, camel_case_types, must_be_immutable
+// ignore_for_file: sort_child_properties_last, camel_case_types, must_be_immutable, unused_local_variable
 /*
 import 'package:bebegrandi/Model/menu.dart';
 import 'package:bebegrandi/View/HomPageWcon.dart';
@@ -252,12 +252,10 @@ import 'package:bebegrandi/View/HomPageWcon.dart';
 import 'package:bebegrandi/View/ImageDescription.dart';
 import 'package:bebegrandi/View/Menu.dart';
 import 'package:bebegrandi/View/navDrawer.dart';
-import 'package:bebegrandi/donneSection/Section3/section12/Section.dart';
+//import 'package:bebegrandi/donneSection/Section3/section12/Section.dart';
 import 'package:flutter/material.dart';
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/tour.dart';
-
-
 
 class HomePage extends StatefulWidget {
   final Pages page;
@@ -342,7 +340,7 @@ class _HomePageState extends State<HomePage>
               onPressed: () => Scaffold.of(context).openDrawer(),
               icon: const Icon(
                 Icons.dehaze,
-                color: Colors.black,
+                color: Colors.white,
               ),
             );
           },
@@ -353,9 +351,11 @@ class _HomePageState extends State<HomePage>
         backgroundColor:
             Color(widget.section.section[widget.sectionIndex].colors),
         title: Text(
-          widget.section.section[widget.sectionIndex].page![widget.pageIndex]
-              .titre,
-        ),
+            widget.section.section[widget.sectionIndex].page![widget.pageIndex]
+                .titre,
+            style: TextStyle(fontSize: 9)),
+
+        foregroundColor: Colors.white,
         actions: [
           IconButton(
               onPressed: () {
@@ -364,7 +364,10 @@ class _HomePageState extends State<HomePage>
                   MaterialPageRoute(builder: (context) => const HomPageWcon()),
                 );
               },
-              icon: const Icon(Icons.home))
+              icon: const Icon(
+                Icons.home,
+                color: Colors.white,
+              ))
         ],
       ),
       drawer: const NavDrawer(),
@@ -439,55 +442,58 @@ class _HomePageState extends State<HomePage>
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        return SimpleDialog(
-          title: Text('Sections du Menu'),
-          children: [
-            if (currentSection.menu != null)
-              for (Menu menu in currentSection.menu!)
-                if (menu.section != null)
-                  for (Section section in menu.section!)
+        return Center(
+          child: Card(
+            child: SimpleDialog(
+              title: widget.section.section[widget.sectionIndex].menu == null
+                  ? Text('Page de la Sections ', style: TextStyle(fontSize: 12))
+                  : Text('Sections du Menu'),
+              children: [
+                if (currentSection.menu != null)
+                  for (Menu menu in currentSection.menu!)
+                    if (menu.section != null)
+                      for (Section section in menu.section!)
+                        ListTile(
+                          title: TextButton(
+                            onPressed: () {
+                              Navigator.pop(context); // Fermer le SimpleDialog
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Menus(
+                                          sectionIndex:
+                                              menu.section![section.id].id,
+                                          pageIndex: 0,
+                                          menu: menu,
+                                          page: section.page![0],
+                                          section: widget.section,
+                                        )),
+                              );
+                            },
+                            child: Text(
+                              section.page![0].titre,
+                              style: TextStyle(fontSize: 12),
+                            ),
+                          ),
+                        ),
+                if (currentSection.menu == null && currentSection.page != null)
+                  for (Pages page in currentSection.page!)
                     ListTile(
                       title: TextButton(
                         onPressed: () {
                           Navigator.pop(context); // Fermer le SimpleDialog
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Menus(
-                                      sectionIndex:
-                                          menu.section![section.id].id,
-                                      pageIndex: 0,
-                                      menu: menu,
-                                      page: section.page![0],
-                                      section: widget.section,
-                                    )),
-                          );
+                          _pageController.jumpToPage(page.id - 1);
+                          _handlePageChange();
                         },
                         child: Text(
-                          section.page![0].titre,
+                          page.titre,
                           style: TextStyle(fontSize: 12),
                         ),
                       ),
                     ),
-            if (currentSection.menu == null && currentSection.page != null)
-              for (Pages page in currentSection.page!)
-                Padding(
-                  padding: const EdgeInsets.only(left: 10, right: 0),
-                  child: ListTile(
-                    title: TextButton(
-                      onPressed: () {
-                        Navigator.pop(context); // Fermer le SimpleDialog
-                        _pageController.jumpToPage(page.id - 1);
-                        _handlePageChange();
-                      },
-                      child: Text(
-                        page.titre,
-                        style: TextStyle(fontSize: 12),
-                      ),
-                    ),
-                  ),
-                ),
-          ],
+              ],
+            ),
+          ),
         );
       },
     );
@@ -516,10 +522,7 @@ class _HomePageState extends State<HomePage>
       for (Section section in menu.section!) {
         // Lire toutes les pages de la section actuelle
         if (section.page != null) {
-          for (Pages page in section.page!) {
-            // Faites quelque chose avec les données de la page
-            print(page.titre);
-          }
+          for (Pages page in section.page!) {}
         }
       }
     }

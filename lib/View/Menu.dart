@@ -45,8 +45,7 @@ class _MenusState extends State<Menus>
         0; // Initialiser ici plutôt que de déclarer en tant que variable de classe
     _pageController = PageController(initialPage: widget.pageIndex);
     _pageController.addListener(_handlePageChange);
-    print(
-        'Création d e la page d\'accueil avec l\'indice de section : ${widget.sectionIndex} et l\'indice de page : $widget.pageIndex');
+   
   }
 
   @override
@@ -96,7 +95,7 @@ class _MenusState extends State<Menus>
               onPressed: () => Scaffold.of(context).openDrawer(),
               icon: const Icon(
                 Icons.dehaze,
-                color: Colors.black,
+                color: Colors.white,
               ),
             );
           },
@@ -108,7 +107,9 @@ class _MenusState extends State<Menus>
         title: Text(
           widget
               .menu.section![widget.sectionIndex].page![widget.pageIndex].titre,
+          selectionColor: Colors.white,
         ),
+        foregroundColor: Colors.white,
         actions: [
           IconButton(
               onPressed: () {
@@ -117,7 +118,10 @@ class _MenusState extends State<Menus>
                   MaterialPageRoute(builder: (context) => const HomPageWcon()),
                 );
               },
-              icon: const Icon(Icons.home))
+              icon: const Icon(
+                Icons.home,
+                color: Colors.white,
+              ))
         ],
       ),
       drawer: const NavDrawer(),
@@ -191,7 +195,7 @@ class _MenusState extends State<Menus>
       context: context,
       builder: (BuildContext context) {
         return SimpleDialog(
-          title: Text('Liens des Pages de la Section'),
+          title: Text('Pages du chapitre'),
           children: widget.menu.section![widget.sectionIndex].page!.map((page) {
             return ListTile(
               title: TextButton(
@@ -283,13 +287,11 @@ class _MenusState extends State<Menus>
   }
 
   void _goToNextSection() {
-    print(
-        'Avant changement : Section Index: ${widget.sectionIndex}, Page Index: $widget.pageIndex');
+   
     setState(() {
       _incrementSection();
     });
-    print(
-        'Après changement : Section Index: ${widget.sectionIndex}, Page Index: $widget.pageIndex');
+    
   }
 
   void _incrementSection() {
