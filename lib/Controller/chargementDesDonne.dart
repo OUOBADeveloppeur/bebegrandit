@@ -2,7 +2,7 @@
 
 import 'package:bebegrandi/Model/tour.dart';
 
-import 'package:bebegrandi/donneSection/Section2/Section.dart';
+import 'package:bebegrandi/donneSection/section_paludisme/Section.dart';
 import 'package:bebegrandi/donneSection/Section3/Section.dart';
 import 'package:bebegrandi/donneSection/Section4/Section.dart';
 
@@ -14,7 +14,7 @@ Future<Welcome> fetchData() async {
     fund: true,
     section: [
       section1(),
-      //sectionPa(),
+      sectionPa(),
       // sectionQ(),
       // sectionP(),
 

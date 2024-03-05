@@ -22,7 +22,7 @@ class ImageDescription1 extends StatefulWidget {
       ),
     );
   }
-
+//-----------------image TOP     Text BOTTOM----------------------------
   Widget _buildImageTopTextBottom(String imagePath, String description,
       {Color? color, String? position}) {
     return Column(
@@ -46,7 +46,33 @@ class ImageDescription1 extends StatefulWidget {
       ],
     );
   }
+//-----------------textTOP image Bottom---------------------------
+ Widget _buildTextTopImageBottom(String imagePath, String description,
+      {Color? color, String? position}) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        if (description != null && description.isNotEmpty)
+          Padding(
+            padding: EdgeInsets.only(left: 6, right: 6),
+            child: Column(
+              children: [
+                Text(description),
+              ],
+            ),
+          ),
+        Flexible(
+          child: Image.asset(
+            imagePath,
+            fit: BoxFit.contain,
+          ),
+        ),
+      ],
+    );
+}
 
+     
+  //----------------------------Image left text right--------------------------
   Widget _buildImageLeftTextRight(String imagePath, String description,
       {Color? color, String? position}) {
     return Row(
@@ -68,6 +94,7 @@ class ImageDescription1 extends StatefulWidget {
       ],
     );
   }
+  //----------------------------Image right text left--------------------------
 
   Widget _buildImagetRighttTexLeft(String imagePath, String description,
       {Color? color, String? position}) {
@@ -137,6 +164,15 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         break;
       case '3':
         imageWidget = widget._buildImagetRighttTexLeft(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+        );
+
+        break;
+        case '4':
+        imageWidget = widget._buildTextTopImageBottom(
           imagePath,
           description,
           color: color ?? defaultColor,

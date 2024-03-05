@@ -8,7 +8,7 @@ Pages page1() {
         "de 1 à 3 ans",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '1',
         description: "Le développement de l’enfant de 1 à 3 ans",
         image: "images/developpement/image29.png",
       ),
