@@ -67,13 +67,6 @@ class _ExpandedButtonState extends State<ExpandedButton> {
       ),
     );
   }
-<<<<<<< HEAD
-}
-
-
-
-
-=======
   
 }
 
@@ -100,4 +93,3 @@ class RowAppBar extends StatelessWidget {
 }
 
 
->>>>>>> f705559cb70060f909e10fa24c0fef93ec94af1e
