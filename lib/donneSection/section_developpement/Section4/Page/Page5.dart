@@ -7,34 +7,34 @@ Pages page5() {
     titre: "L’audition",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "L’audition"
             "Entre 1 et 3 ans, mon enfant comprend des phrases simples.",
         image: "images/developpement/image41.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description:
             "Dès 2 ans, il écoute attentivement tous les mots lorsque je lui parle,"
                 " ce qui lui permet de développer son vocabulaire.",
         image: "images/developpement/image37.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description: "Ce que je fais"
             "Je dis à mon enfant les noms des objets et je lui demande de répéter.",
         image: "images/developpement/image42.png",
       ),
      
       ImageDescription(
-        id: 4,
+        id: 4, position: '2',
         description: '''Attention Lorsque mon enfant : 
             - ne comprend pas ce que je lui dis, même avec des mots simples,
             - n’est pas attentif aux histoires que je lui raconte''',
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

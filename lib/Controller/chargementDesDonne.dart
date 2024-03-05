@@ -14,9 +14,9 @@ Future<Welcome> fetchData() async {
     fund: true,
     section: [
       section1(),
-      sectionPa(),
-      sectionQ(),
-      sectionP(),
+      //sectionPa(),
+      // sectionQ(),
+      // sectionP(),
 
       // Ajoute d'autres sections si nécessaire
     ],

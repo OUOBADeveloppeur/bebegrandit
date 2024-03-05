@@ -7,12 +7,12 @@ Pages page6() {
     titre: "Développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "Langage",
         image: "images/developpement/image43.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description:
             '''De 3 à 4 ans, mon enfant comprend même les longues phrases Mon enfant fait des phrases complètes.
             Sa prononciation est de plus en plus claire et les adultes arrivent à comprendre ses phrases.
@@ -22,7 +22,7 @@ Mon enfant peut poser et répondre à des questions.
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description: '''Ce que je fais
         De 3 à 5 ans, j’utilise des mots différents pour parler à mon enfant et lui explique s’il ne les comprend pas.  
 Je lui raconte des histoires drôles et j’observe sa réaction. Si mon enfant rigole, c’est qu’il a  compris.
@@ -32,7 +32,7 @@ Je lui raconte des histoires drôles et j’observe sa réaction. Si mon enfant 
       ),
       
       ImageDescription(
-        id: 4,
+        id: 4, position: '2',
         description: '''Attention Lorsque mon enfant :
 - comprend difficilement,
 - oublie vite,
@@ -42,7 +42,7 @@ Je lui raconte des histoires drôles et j’observe sa réaction. Si mon enfant 
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

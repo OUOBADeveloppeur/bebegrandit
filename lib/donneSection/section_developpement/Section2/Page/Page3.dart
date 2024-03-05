@@ -45,7 +45,7 @@ Pages page3() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        position: '4',
+        position: '3',
         id: 6,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

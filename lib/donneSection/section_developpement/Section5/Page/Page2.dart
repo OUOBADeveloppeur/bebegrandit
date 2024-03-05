@@ -7,24 +7,24 @@ Pages page2() {
     titre: "Le sommeil",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "Le sommeil",
         image: "images/developpement/image30.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description: "Mon enfant doit dormir entre 10 et 13 heures par jour."
             " L’heure du coucher ou de la sieste n’est pas la même pour tous les enfants."
             "Mon enfant peut faire des cauchemars la nuit et se réveiller.",
         image: "images/developpement/image56.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, position: '3',
         description:
             "Je rassure mon enfant lorsqu’il crie, pleure suite à des cauchemars."
             "Je veille à ce que mon enfant se couche à des heures régulières."
@@ -32,7 +32,7 @@ Pages page2() {
         image: "images/developpement/image53.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, position: '2',
         description: "Attention Lorsque mon enfant : "
             "- ronfle souvent fort, "
             "- se réveille pendant la nuit, marche en dormant,"
@@ -40,7 +40,7 @@ Pages page2() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6,
+        id: 6, position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

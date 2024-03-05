@@ -7,12 +7,12 @@ Pages page4() {
     titre: "La vue",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "La vue",
         image: "images/developpement/image39.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description:
             "Dès 3 ans, mon enfant observe un objet en regardant tous les détails."
             "Mon enfant aime qu’on lui lise ou raconte des histoires"
@@ -20,18 +20,18 @@ Pages page4() {
         image: "images/developpement/image58.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description: "Ce que je fais"
             "Je place des objets autour de mon enfant pour qu’il puisse les découvrir.",
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, position: '2',
         description: "Attention",
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, position: '3',
         description: '''Lorsque mon enfant : 
             - cligne des yeux souvent,
             - se plaint lorsqu’on lui cache un œil,
@@ -45,7 +45,7 @@ Pages page4() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6,
+        id: 6, position: '3',
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

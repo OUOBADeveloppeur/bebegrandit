@@ -7,19 +7,19 @@ Pages page3() {
     titre: "Les mouvements et gestes",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "Les mouvements et gestes",
         image: "images/developpement/image33.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description: "Dès 3 ans, mon enfant marche, court, saute et aime danser."
             "Il s’intéresse aux jeux : ballon, balançoire, vélo."
             "Il arrive à marcher à reculons, sur la pointe des pieds, sauter sur un pied  en hauteur et en longueur.",
         image: "images/developpement/image36.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description:
             "Dès 4 ans, mon enfant peut marcher sur des chemins étroits,"
                 " se tenir en équilibre sur un pied, faire le vélo à 2 roues."
@@ -27,7 +27,7 @@ Pages page3() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, position: '3',
         description: "Ce que je fais"
             "Je donne à mon enfant de l’espace pour jouer, courir, sauter."
             "Je veille à ce qu’il n’y ait pas d’objets dangereux autour de lui qui pourraient le blesser.",
@@ -35,7 +35,7 @@ Pages page3() {
       ),
       
       ImageDescription(
-        id: 5,
+        id: 5, position: '2',
         description:'''Attention Lorsque mon enfant n’arrive pas à : 
             - sauter sur une jambe, 
             - marcher suivant une ligne,
@@ -43,7 +43,7 @@ Pages page3() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6,
+        id: 6, position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

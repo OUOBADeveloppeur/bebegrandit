@@ -7,25 +7,25 @@ Pages page10() {
     titre: "Les émotions et sentiments",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "Les émotions et sentiments",
         image: "images/developpement/image51.png",
       ),
 
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description: "Au fur et à mesure que mon enfant grandit,"
             " il exprime mieux ses sentiments à travers la parole, "
             "des gestes.",
         image: "images/developpement/image62.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, position: '3',
         description:
             "Je suis attentive aux émotions de mon enfant."
                 "J’encourage mon enfant à mieux exprimer ses sentiments."
@@ -34,17 +34,17 @@ Pages page10() {
       ),
 
       ImageDescription(
-        id: 5,
+        id: 5, position: '2',
         description: "Attention",
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 6, position: '3',
         description: "Lorsque mon enfant ne montre pas ses émotions et ses sentiments,",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 7,
+        id: 7, position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

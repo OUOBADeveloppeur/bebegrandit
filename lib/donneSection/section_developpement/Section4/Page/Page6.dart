@@ -7,12 +7,12 @@ Pages page6() {
     titre: "Le langage",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, position: '3',
         description: "Langage 1/2",
         image: "images/developpement/image43.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, position: '3',
         description:
             "Entre 1 et 2 ans, mon enfant continue à prononcer certains mots."
             "Ces mots désignent des objets et des personnes qu’il connaît."
@@ -20,7 +20,7 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, position: '3',
         description:
             "Dès 2 ans, mon enfant commence à nommer des actions comme «manger, boire». "
             "Certains mots restent difficiles à prononcer."
@@ -28,13 +28,13 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, position: '3',
         description:
             "Le nombre de mots que mon enfant comprend  augmente rapidement durant cette période.",
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, position: '3',
         description:
             "Mon enfant montre du doigt des objets et essaie de prononcer leur nom.",
         image: "images/developpement/image44.png",
