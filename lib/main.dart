@@ -8,4 +8,3 @@ void main() {
   runApp(MyApp());
   FlutterNativeSplash.remove();
 }
- 
