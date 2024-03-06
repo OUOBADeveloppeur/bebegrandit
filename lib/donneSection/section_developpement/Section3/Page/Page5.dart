@@ -25,30 +25,41 @@ Pages page5() {
       ImageDescription(
           id: 3,
           position: '3',
-          description: '''Ce que je fais
-            Je chuchote des mots familiers pour le faire réagir.
-             Je répète les sons à mon enfant pour qu’il répète après moi.,
-         
-               Je montre à mon enfant des parties du corps et des objets en les nommant et en les touchant.''',
+          description: "Ce que je fais"
+              "Je chuchote des mots familiers pour le faire réagir. "
+              " Je répète les sons à mon enfant pour"
+              " qu il répète après moi.",
           image: "images/developpement/pag21/ic-03-01.png"),
       ImageDescription(
-        id: 4,
+          id: 4,
+          position: '3',
+          description: "  Je montre à mon enfant des parties du corps"
+              "et des objets en les nommant et en les touchant.",
+          image: ""),
+      ImageDescription(
+        id: 5,
         position: '3',
         description:
             "j'evite de souffler ou d'introduire des objets dans l'oreil de mon enfant",
         image: "images/developpement/pag21/ic-04-01.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 6,
         position: '2',
-        description: '''Attention 
-        Lorsque mon enfant :
-            - ne réagit pas aux bruits, 
-            - n’imite pas les sons,''',
+        description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6,
+        id: 7,
+        position: '2',
+        description: '''
+        Lorsque mon enfant :
+            - ne réagit pas aux bruits, 
+            - n’imite pas les sons,''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 7,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

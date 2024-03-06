@@ -353,7 +353,7 @@ class _HomePageState extends State<HomePage>
         title: Text(
             widget.section.section[widget.sectionIndex].page![widget.pageIndex]
                 .titre,
-            style: TextStyle(fontSize: 9)),
+            style: TextStyle(fontSize: 12)),
 
         foregroundColor: Colors.white,
         actions: [
@@ -442,58 +442,65 @@ class _HomePageState extends State<HomePage>
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        return Center(
-          child: Card(
-            child: SimpleDialog(
-              title: widget.section.section[widget.sectionIndex].menu == null
-                  ? Text('Page de la Sections ', style: TextStyle(fontSize: 12))
-                  : Text('Sections du Menu'),
-              children: [
-                if (currentSection.menu != null)
-                  for (Menu menu in currentSection.menu!)
-                    if (menu.section != null)
-                      for (Section section in menu.section!)
-                        ListTile(
-                          title: TextButton(
-                            onPressed: () {
-                              Navigator.pop(context); // Fermer le SimpleDialog
-                              Navigator.pushReplacement(
-                                context,
-                                MaterialPageRoute(
+        return SimpleDialog(
+          title: widget.section.section[widget.sectionIndex].menu == null
+              ? Text('Page de la Sections ', style: TextStyle(fontSize: 12))
+              : Text('Sections du Menu'),
+          children: [
+            SingleChildScrollView(
+              // Ajout du SingleChildScrollView
+              child: Column(
+                // Wrapping the content with Column
+                children: [
+                  if (currentSection.menu != null)
+                    for (Menu menu in currentSection.menu!)
+                      if (menu.section != null)
+                        for (Section section in menu.section!)
+                          ListTile(
+                            title: TextButton(
+                              onPressed: () {
+                                Navigator.pop(
+                                    context); // Fermer le SimpleDialog
+                                Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
                                     builder: (context) => Menus(
-                                          sectionIndex:
-                                              menu.section![section.id].id,
-                                          pageIndex: 0,
-                                          menu: menu,
-                                          page: section.page![0],
-                                          section: widget.section,
-                                        )),
-                              );
-                            },
-                            child: Text(
-                              section.page![0].titre,
-                              style: TextStyle(fontSize: 12),
+                                      sectionIndex:
+                                          menu.section![section.id].id,
+                                      pageIndex: 0,
+                                      menu: menu,
+                                      page: section.page![0],
+                                      section: widget.section,
+                                    ),
+                                  ),
+                                );
+                              },
+                              child: Text(
+                                section.page![0].titre,
+                                style: TextStyle(fontSize: 10),
+                              ),
                             ),
                           ),
-                        ),
-                if (currentSection.menu == null && currentSection.page != null)
-                  for (Pages page in currentSection.page!)
-                    ListTile(
-                      title: TextButton(
-                        onPressed: () {
-                          Navigator.pop(context); // Fermer le SimpleDialog
-                          _pageController.jumpToPage(page.id - 1);
-                          _handlePageChange();
-                        },
-                        child: Text(
-                          page.titre,
-                          style: TextStyle(fontSize: 12),
+                  if (currentSection.menu == null &&
+                      currentSection.page != null)
+                    for (Pages page in currentSection.page!)
+                      ListTile(
+                        title: TextButton(
+                          onPressed: () {
+                            Navigator.pop(context); // Fermer le SimpleDialog
+                            _pageController.jumpToPage(page.id - 1);
+                            _handlePageChange();
+                          },
+                          child: Text(
+                            page.titre,
+                            style: TextStyle(fontSize: 12),
+                          ),
                         ),
                       ),
-                    ),
-              ],
+                ],
+              ),
             ),
-          ),
+          ],
         );
       },
     );
