@@ -12,10 +12,17 @@ Pages page2() {
         id: 1,
         color: red(),
         position: '1',
+        description: "",
+        image: "images/developpement/pag5.png",
+      ),
+      ImageDescription(
+        id: 1,
+        color: red(),
+        position: '1',
         description: "Après la naissance, l’enfant commence à grandir."
             " Dans les premiers mois, il garde la position qu'il avait dans le ventre de sa mère. "
             "Puis au fil des mois, il commence à tenir sa tête, son tronc puis à se déplacer.",
-        image: "images/developpement/pag5.png",
+        image: "",
       ),
       ImageDescription(
         id: 2,

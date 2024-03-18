@@ -35,25 +35,36 @@ Pages page4() {
       ImageDescription(
         id: 5,
         position: '3',
-        description: '''Ce que je fais
-            Entre 7 et 9 mois, je joue à cache-cache pour que mon enfant comprenne qu’un objet
-             ou une personne continue d’exister même cachée. 
-             j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette)''',
+        description: "Ce que je fais"
+            "Entre 7 et 9 mois, je joue à cache-cache pour que mon enfant comprenne qu’un objet"
+            "  ou une personne continue d’exister même cachée. ",
         image: "images/developpement/pag20/ic-03-01.png",
       ),
       ImageDescription(
         id: 6,
-        position: '2',
-        description: "Attention"
-            "Lorsque mon enfant :"
-            "- a les yeux qui coulent en permanence ou sont sensibles à la lumière, "
-            "- a une tâche banche au niveau des yeux, "
-            "- se cogne partout, "
-            "- ne fixe pas mon visage ou louche",
-        image: "images/developpement/pag9/ic-06-01.png",
+        position: '3',
+        description: ''' 
+      j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette    )''',
+        image: "",
       ),
       ImageDescription(
         id: 7,
+        position: '2',
+        description: "Attention",
+        image: "images/developpement/pag9/ic-06-01.png",
+      ),
+      ImageDescription(
+        id: 8,
+        position: '2',
+        description: '''Lorsque mon enfant 
+             a les yeux qui coulent en permanence ou sont sensibles à la lumière, 
+             a une tâche banche au niveau des yeux, 
+            se cogne partout, 
+            ne fixe pas mon visage ou louche''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 9,
         position: '2',
         description: "Lorsque mon enfant :"
             "- a les yeux qui coulent en permanence ou sont sensibles à la lumière, "
@@ -63,7 +74,7 @@ Pages page4() {
         image: "",
       ),
       ImageDescription(
-        id: 8,
+        id: 10,
         position: '3',
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",

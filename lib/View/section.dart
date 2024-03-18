@@ -25,7 +25,7 @@ class _SectionGState extends State<SectionG> {
         // Empêche le défilement vertical du GridView
         shrinkWrap: false,
         itemBuilder: (context, index) {
-          if (index >= 0 && index < widget.section.section.length) {
+          if (index >= 0 && index <= widget.section.section.length) {
             var currentSection = widget.section.section[index];
             if (currentSection.page!.isNotEmpty &&
                 currentSection.page != null) {
@@ -58,7 +58,7 @@ class _SectionGState extends State<SectionG> {
                       Text(
                         '${currentSection.id + 1}.${firstPage.titre}',
                         style: TextStyle(
-                            fontSize: 9, color: Color.fromARGB(239, 0, 0, 0)),
+                            fontSize: 12, color: Color.fromARGB(239, 0, 0, 0)),
                       ),
                     ],
                   ),

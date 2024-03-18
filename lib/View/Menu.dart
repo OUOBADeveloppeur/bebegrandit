@@ -45,7 +45,6 @@ class _MenusState extends State<Menus>
         0; // Initialiser ici plutôt que de déclarer en tant que variable de classe
     _pageController = PageController(initialPage: widget.pageIndex);
     _pageController.addListener(_handlePageChange);
-   
   }
 
   @override
@@ -107,6 +106,7 @@ class _MenusState extends State<Menus>
         title: Text(
           widget
               .menu.section![widget.sectionIndex].page![widget.pageIndex].titre,
+          style: TextStyle(fontSize: 12),
           selectionColor: Colors.white,
         ),
         foregroundColor: Colors.white,
@@ -194,20 +194,45 @@ class _MenusState extends State<Menus>
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        return SimpleDialog(
+        return AlertDialog(
           title: Text('Pages du chapitre'),
-          children: widget.menu.section![widget.sectionIndex].page!.map((page) {
-            return ListTile(
-              title: TextButton(
-                onPressed: () {
-                  Navigator.pop(context); // Fermer le SimpleDialog
-                  _navigateToMenusPage(widget.menu,
-                      widget.menu.section![widget.sectionIndex], page);
+          content: SizedBox(
+            width: MediaQuery.of(context).size.width *
+                0.6, // Ajustez la largeur selon vos besoins
+            height: MediaQuery.of(context).size.height *
+                0.6, // Ajustez la hauteur selon vos besoins
+            child: Scrollbar(
+              thumbVisibility: true,
+              child: ListView.builder(
+                itemCount:
+                    widget.menu.section![widget.sectionIndex].page!.length,
+                itemBuilder: (context, index) {
+                  final page =
+                      widget.menu.section![widget.sectionIndex].page![index];
+                  return Padding(
+                    padding: const EdgeInsets.only(left: 0),
+                    child: Container(
+                      child: ListTile(
+                        title: TextButton(
+                          onPressed: () {
+                            Navigator.pop(context); // Fermer le AlertDialog
+                            _navigateToMenusPage(
+                                widget.menu,
+                                widget.menu.section![widget.sectionIndex],
+                                page);
+                          },
+                          child: Text(
+                            page.titre,
+                            style: TextStyle(fontSize: 12),
+                          ),
+                        ),
+                      ),
+                    ),
+                  );
                 },
-                child: Text(page.titre),
               ),
-            );
-          }).toList(),
+            ),
+          ),
         );
       },
     );
@@ -287,11 +312,9 @@ class _MenusState extends State<Menus>
   }
 
   void _goToNextSection() {
-   
     setState(() {
       _incrementSection();
     });
-    
   }
 
   void _incrementSection() {

@@ -23,12 +23,8 @@ Pages page7() {
         id: 3,
         position: '3',
         description:
-            '''- je dors avec mon enfant sous une moustiquaire imprégnée d'insecticide
-         à longue durée d’action (MILDA) toutes les nuits et toute l’année ;
-
-
-
-''',
+            "- je dors avec mon enfant sous une moustiquaire imprégnée d'insecticide"
+            " à longue durée d’action (MILDA) toutes les nuits et toute l’année ;",
         image: "images/paludisme/image21.png",
       ),
       ImageDescription(
@@ -36,7 +32,6 @@ Pages page7() {
         position: '3',
         description:
             '''- j'installe des grillages anti- moustiques aux fenêtres et portes de ma maison ;
- 
 ''',
         image: "images/paludisme/image20.png",
       ),
@@ -44,9 +39,7 @@ Pages page7() {
         id: 5,
         description:
             '''- je fais porter à mon enfant des vêtements à manches longues dès le coucher 
-        du soleil ;
-
-''',
+        du soleil ;''',
         image: "",
       ),
       ImageDescription(
@@ -54,8 +47,6 @@ Pages page7() {
         description:
             '''- j’applique des produits contre les moustiques (pommades, crèmes, spray) sur la 
         peau de mon enfant de plus de 30 mois au coucher du soleil ;
-
- 
 ''',
         image: "",
       ),
@@ -63,16 +54,14 @@ Pages page7() {
         id: 7,
         description:
             '''- lorsque j’utilise des insecticides en spray, je dois aérer la chambre pour faire partir
-             les odeurs avant de dormir ;
-''',
+             les odeurs avant de dormir ;''',
         image: "",
       ),
       ImageDescription(
         id: 8,
         position: '3',
         description: ''' - j’utilise les spirales anti-moustiques à l’extérieur.
-        - j’utilise autres répulsifs (plantes, pommades…)
-''',
+        - j’utilise autres répulsifs (plantes, pommades…)''',
         image: "images/paludisme/image22.png",
       ),
     ],
