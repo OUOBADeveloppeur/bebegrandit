@@ -5,7 +5,7 @@ import 'package:bebegrandi/Model/tour.dart';
 import 'package:bebegrandi/donneSection/section_paludisme/Section.dart';
 import 'package:bebegrandi/donneSection/section_danger/Section.dart';
 import 'package:bebegrandi/donneSection/Section_alimentation/Section.dart';
-
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Section.dart';
 import '../donneSection/section_developpement/Section.dart';
 
 Future<Welcome> fetchData() async {
@@ -17,7 +17,7 @@ Future<Welcome> fetchData() async {
       sectionPa(),
       sectionQ(),
       sectionP(),
-
+      sectionsuivi()
       // Ajoute d'autres sections si nécessaire
     ],
   );
