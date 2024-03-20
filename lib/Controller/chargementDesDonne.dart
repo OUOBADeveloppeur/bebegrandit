@@ -16,12 +16,11 @@ Future<Welcome> fetchData() async {
     fund: true,
     section: [
       section1(),
+      sectionAccident(),
       sectionPa(),
       sectionQ(),
       sectionP(),
-      sectionAccident()
-
-    
+      sectionsuivi()
     ],
   );
 }

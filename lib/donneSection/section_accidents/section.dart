@@ -14,7 +14,7 @@ import 'package:bebegrandi/donneSection/section_accidents/Section8/section.dart'
 import 'package:bebegrandi/donneSection/section_accidents/Section9/section.dart';
 
 Section sectionAccident() {
-  return Section(id: 4, colors: 0xFF088886, page: [
+  return Section(id: 1, colors: 0xFF088886, page: [
     // Page de garde de la section 1 (Les chutes)
     page1(),
   ], menu: [
