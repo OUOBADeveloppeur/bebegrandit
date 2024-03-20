@@ -1,0 +1,17 @@
+import '../../../../Model/imageDescription.dart';
+import '../../../../Model/page.dart';
+
+Pages page1() {
+  return Pages(
+    id: 1,
+    titre: "Les chutes",
+    imageDescription: [
+      ImageDescription(
+        id: 1,
+        position: '1',
+        description: '''Les chutes''',
+        image: "images/accidents/image5.png",
+      ),
+    ],
+  );
+}
