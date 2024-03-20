@@ -13,15 +13,20 @@ Pages page2() {
         image: "",
       ),
       ImageDescription(
-        id: 2,  position: '4',
+        id: 2,
         description:
-            '''Lorsque mon enfant mange suffisamment en quantité et en qualité, il :
-- grandit normalement ; 
-- apprend mieux ;
-- se protège contre les maladies.
-''',
-        image: "images/alimentation/image9.png",
+            "Lorsque mon enfant mange suffisamment en quantité et en qualité, il :"
+            "- grandit normalement ;"
+            "- apprend mieux ;"
+            "- se protège contre les maladies.",
+        image: "",
       ),
+      ImageDescription(
+        id: 3,
+        position: '1',
+        description: "",
+        image: "images/alimentation/image9.png",
+      )
     ],
   );
 }

@@ -19,17 +19,17 @@ Pages page3() {
       ),
       ImageDescription(
         id: 3,
-        position: '1',
+        position: '5',
         description: "Corps chaud ",
         image: "images/paludisme/image7.png",
       ),
       ImageDescription(
-        id: 4,position: '1',
+        id: 4,position: '5',
         description: "Mal de tête",
         image: "images/paludisme/image6.png",
       ),
       ImageDescription(
-        id: 5,position: '1',
+        id: 5,position: '5',
         description: "Frissons, sensation de froid",
         image: "images/paludisme/image8.png",
       ),
