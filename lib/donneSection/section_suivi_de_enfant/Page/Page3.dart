@@ -28,7 +28,7 @@ Pages page3() {
       ),
       ImageDescription(
         id: 4,
-        position: '2',
+        position: '3',
         description:
             "J’emporte un jouet pour que mon enfant puisse s’amuser en attendant la visite. ",
         image: "images/suivi-croissance/image5.png",

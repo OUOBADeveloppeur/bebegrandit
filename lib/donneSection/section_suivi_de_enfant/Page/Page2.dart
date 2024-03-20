@@ -22,19 +22,22 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-        
-        description: "Pendant la 1ère année de vie, après les visites du suivi postnatal,"
-        "j’emmène mon enfant chaque mois au centre de santé à partir de son 2ème mois. ",
+        description:
+            "Pendant la 1ère année de vie, après les visites du suivi postnatal,"
+            "j’emmène mon enfant chaque mois au centre de santé à partir de son 2ème mois. ",
         image: "",
-      ),ImageDescription(
+      ),
+      ImageDescription(
         id: 4,
-       
-        description: "Pendant sa 2ème année, j’emmène mon enfant au centre de santé 1 fois tous les deux mois. ",
+        description:
+            "Pendant sa 2ème année, j’emmène mon enfant au centre de santé 1 fois tous les deux mois. ",
         image: "",
-      ),ImageDescription(
+      ),
+      ImageDescription(
         id: 5,
-        position: '4',
-        description: "Entre 3 et 5 ans, j’emmène mon enfant  au centre de santé 1 fois tous les 6 mois ",
+        position: '3',
+        description:
+            "Entre 3 et 5 ans, j’emmène mon enfant  au centre de santé 1 fois tous les 6 mois ",
         image: "images/suivi-croissance/image3.png",
       ),
     ],

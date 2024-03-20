@@ -57,7 +57,7 @@ class ImageDescription1 extends StatefulWidget {
       double? imageWidth,
       double? imageHeight}) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         if (description != null && description.isNotEmpty)
           Padding(
@@ -105,6 +105,7 @@ class ImageDescription1 extends StatefulWidget {
     );
   }
 
+//--------------------------imag à droite----------------------
   Widget _buildImagetRighttTexLeft(String imagePath, String description,
       {Color? color,
       String? position,
@@ -159,7 +160,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
 
     Widget imageWidget = Container(); // Widget par défaut
-    double maxHeight = 300;
+    double maxHeight = 200;
     switch (position) {
       case '1':
         imageWidget = widget._buildImageTopTextBottom(imagePath, description,
@@ -195,6 +196,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         );
         print(imagePath.length);
         break;
+
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
@@ -210,7 +212,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             SizedBox(
               // Taille fixe pour les images
               height: 360, // Hauteur fixe pour l'image
-              child: imageWidget,
+              child: SizedBox(height: 200, child: imageWidget),
             ) /*,
           if (position=='1')
             SizedBox(
@@ -231,8 +233,66 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 ),
               ],
             ),
+        if (shouldDisplayImage && position == '4')
+          if (isImageFirst)
+            SizedBox(
+              // Taille fixe pour les images
+              height: 71, // Hauteur fixe pour l'image
+              child: imageWidget,
+            ) /*,
+          if (position=='1')
+            SizedBox(
+              // Taille fixe pour les images
+              height: 356, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Flexible(
+                  flex: 10,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: SizedBox(height: 305, child: imageWidget),
+                  //  ),
+                ),
+              ],
+            ),
 
-        if (shouldDisplayImage && position != '1')
+        if (shouldDisplayImage && position == '2'
+            // &&
+            // position != '1' &&
+            // position != '3' &&
+            // position != '4'
+            )
+          if (isImageFirst)
+            SizedBox(
+              // Taille fixe pour les images
+              height: 200, // Hauteur fixe pour l'image
+              child: imageWidget,
+            ) /*,
+          if (position=='1')
+            SizedBox(
+              // Taille fixe pour les images
+              height: 356, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Flexible(
+                  flex: 10,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: SizedBox(height: 200, child: imageWidget),
+                  //  ),
+                ),
+              ],
+            ),
+
+        if (shouldDisplayImage && position == '3')
           if (isImageFirst)
             SizedBox(
               // Taille fixe pour les images

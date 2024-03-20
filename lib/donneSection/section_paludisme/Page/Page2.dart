@@ -13,7 +13,7 @@ Pages page2() {
       ),
       ImageDescription(
         id: 2,
-        position: '3',
+        position: '1',
         description:
             "Le paludisme est une maladie causée par la piqûre d’un moustique.",
         image: "images/paludisme/image4.png",
