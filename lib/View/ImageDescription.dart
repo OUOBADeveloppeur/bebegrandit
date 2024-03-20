@@ -231,8 +231,65 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 ),
               ],
             ),
+        if (shouldDisplayImage && position == '4')
+          if (isImageFirst)
+            SizedBox(
+              // Taille fixe pour les images
+              height: 471, // Hauteur fixe pour l'image
+              child: imageWidget,
+            ) /*,
+          if (position=='1')
+            SizedBox(
+              // Taille fixe pour les images
+              height: 356, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Flexible(
+                  flex: 5,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: imageWidget,
+                  //  ),
+                ),
+              ],
+            ),
 
-        if (shouldDisplayImage && position != '1')
+        if (shouldDisplayImage &&
+            position == '2' &&
+            position != '1' &&
+            position != '3' &&
+            position != '4')
+          if (isImageFirst)
+            SizedBox(
+              // Taille fixe pour les images
+              height: 200, // Hauteur fixe pour l'image
+              child: imageWidget,
+            ) /*,
+          if (position=='1')
+            SizedBox(
+              // Taille fixe pour les images
+              height: 356, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Flexible(
+                  flex: 10,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: imageWidget,
+                  //  ),
+                ),
+              ],
+            ),
+
+        if (shouldDisplayImage && position != '1' && position != '2')
           if (isImageFirst)
             SizedBox(
               // Taille fixe pour les images
