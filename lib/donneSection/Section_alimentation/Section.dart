@@ -10,7 +10,7 @@ import 'package:bebegrandi/donneSection/Section_alimentation/Section22/Section.d
 import 'package:bebegrandi/donneSection/Section_alimentation/Section23/Section.dart';
 
 Section sectionP() {
-  return Section(id: 3, colors: 0xFF088886, page: [
+  return Section(id: 4, colors: 0xFF088886, page: [
     // Page de garde de la section 1 (Les chutes)
     page1(),
   ], menu: [

@@ -286,7 +286,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                   flex: 10,
                   //child: Container(
                   //  alignment: Alignment.bottomCenter,
-                  child: SizedBox(height: 200, child: imageWidget),
+                  child: imageWidget,
                   //  ),
                 ),
               ],
