@@ -45,7 +45,7 @@ class _NavDrawerState extends State<NavDrawer> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Image.asset(
-                    'images/logo.jpg',
+                    'images/Mon_enfant.png',
                     fit: BoxFit
                         .cover, // Ajustez l'image pour couvrir toute la zone
                     height: MediaQuery.of(context).size.height * 0.18,
