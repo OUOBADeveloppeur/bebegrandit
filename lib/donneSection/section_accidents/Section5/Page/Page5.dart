@@ -1,0 +1,41 @@
+import 'package:bebegrandi/Model/page.dart';
+import 'package:bebegrandi/Model/imageDescription.dart';
+
+Pages page5() {
+  return Pages(
+    id: 5,
+    titre: "Comment éviter les morsures, piqûres ou griffures ? 2/3",
+    imageDescription: [
+      ImageDescription(
+        id: 1,
+        description:
+            '''- je couche mon enfant sur un endroit surélevé et je fixe les moustiquaires sur sa couchette ;'''
+            '''- j’explique à mon enfant que les serpents et les scorpions  sont dangereux ;
+''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 2,
+        description:
+            "- je ne laisse pas d’habits par terre, je ferme les sacs d’habits ou de voyage car un scorpion ou un serpent pourrait se cacher dedans ;",
+        image: "",
+      ),
+      ImageDescription(
+        id: 3,
+        // position: '3',
+        description:
+            "- je ferme les trous et les fissures des murs de ma maison là où les serpents pourraient rentrer ;"
+            "- j’explique à mon enfant qu’il ne doit pas mettre la main dans un trou"
+            "- j’explique à mon enfant  qu’il est dangereux de s’amuser avec un nid d’abeille ou de guêpe",
+        image: "",
+      ),
+      ImageDescription(
+        id: 4,
+        description:
+            '''- j‘explique à mon enfant de ne pas se mettre à courir et à crier lorsqu'il voit un chien qui n’est pas  notre chien. 
+''',
+        image: "",
+      )
+    ],
+  );
+}
