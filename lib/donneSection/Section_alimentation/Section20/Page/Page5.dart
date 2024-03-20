@@ -8,11 +8,13 @@ Pages page5() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        description: "Diversification adéquate de l’alimentation quotidienne de l’enfant 2/3",
+        description:
+            "Diversification adéquate de l’alimentation quotidienne de l’enfant 2/3",
         image: "",
       ),
       ImageDescription(
-        id: 2,position: '4',
+        id: 2,
+        position: '4',
         description:
             '''Pour diversifier les repas de mon enfant, je lui donne  des bouillies enrichies en plus des plats familiaux et des fruits locaux.
 - De 6 à 9 mois : j’allaite mon enfant et lui donne des bouillies enrichies en plus.
@@ -21,9 +23,14 @@ Pages page5() {
 J’écrase les aliments avant de les donner à mon enfant
 La bouillie de mon enfant ne doit pas être trop liquide, elle doit avoir une consistance adaptée à son âge.
 ''',
-        image: "images/alimentation/image25.png",
+        image: "",
       ),
-     
+      ImageDescription(
+        id: 2,
+        position: '1',
+        description: "",
+        image: "images/alimentation/image25.png",
+      )
     ],
   );
 }

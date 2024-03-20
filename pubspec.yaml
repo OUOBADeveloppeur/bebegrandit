@@ -44,7 +44,7 @@ dependencies:
   hexcolor: ^3.0.1
   
 flutter_native_splash:
-   color: "#ffffff"
+   #color: "#ffffff"
    image: "images/logo.png"
    android: true
    ios: true

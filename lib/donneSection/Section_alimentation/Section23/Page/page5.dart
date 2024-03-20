@@ -23,14 +23,27 @@ Pages page5() {
         position: '4',
         description:
             '''- Avant d’allaiter ou donner à manger à mon enfant ;   ''',
+        image: "",
+      ),
+       ImageDescription(
+        id: 4,
+        position: '1',
+        description:
+           "",
         image: "images/alimentation/image33.jpeg",
       ),
       ImageDescription(
-        id: 4,
+        id: 5,
         position: '4',
-        description: '''- Avant et Après le repas. 
+        description: "- Avant et Après le repas.",
+        image: "",
+      ),
+       ImageDescription(
+        id: 6,
+        position: '1',
+        description:""
 
- ''',
+ ,
         image: "images/alimentation/image32.png",
       ),
       ImageDescription(

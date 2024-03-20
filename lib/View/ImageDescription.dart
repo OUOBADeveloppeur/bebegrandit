@@ -69,11 +69,14 @@ class ImageDescription1 extends StatefulWidget {
             ),
           ),
         if (imagePath.isNotEmpty)
-          Image.asset(
-            imagePath,
-            width: imageWidth,
-            height: imageHeight,
-            fit: BoxFit.contain,
+          Expanded(
+            flex: 2,
+            child: Image.asset(
+              imagePath,
+              width: imageWidth,
+              height: imageHeight,
+              fit: BoxFit.contain,
+            ),
           ),
       ],
     );
@@ -87,15 +90,18 @@ class ImageDescription1 extends StatefulWidget {
     return Row(
       children: [
         if (imagePath.isNotEmpty)
-          Image.asset(
-            imagePath,
-            width: imageWidth,
-            height: imageHeight,
-            fit: BoxFit.contain,
+          Expanded(
+            flex: 2,
+            child: Image.asset(
+              imagePath,
+              width: imageWidth,
+              height: imageHeight,
+              fit: BoxFit.contain,
+            ),
           ),
         if (description != null && description.isNotEmpty)
           Expanded(
-            flex: 2,
+            flex: 3,
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
               child: Text(description),

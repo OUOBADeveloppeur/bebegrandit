@@ -8,11 +8,18 @@ Pages page4() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        description: "Diversification adéquate de l’alimentation quotidienne de l’enfant 1/3 ",
+        description:
+            "Diversification adéquate de l’alimentation quotidienne de l’enfant 1/3 ",
         image: "",
       ),
       ImageDescription(
-        id: 2,position: '4',
+        id: 2,
+        position: '1',
+        description: "",
+        image: "images/alimentation/image24.png",
+      ),
+      ImageDescription(
+        id: 3,
         description:
             '''En plus d’avoir une bonne fréquence des repas, je m’assure que mon enfant a une alimentation diversifiée. 
 En termes de diversité alimentaire, la ration journalière de l’enfant doit être composée d’aliments provenant d’au moins 5 des 8 groupes d’aliments suivants : 
@@ -25,7 +32,7 @@ En termes de diversité alimentaire, la ration journalière de l’enfant doit �
 7. autres fruits et légumes (karité, liane goïne, raisin sauvage, banane, orange, fraise, citron, mandarine, pamplemousse…) ;
 8. Lait maternel. 
 ''',
-        image: "images/alimentation/image24.png",
+        image: "",
       ),
     ],
   );

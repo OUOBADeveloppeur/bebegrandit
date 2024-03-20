@@ -51,7 +51,7 @@ Pages page1() {
       ),
       ImageDescription(
         id: 8,
-        position: '2',
+        position: '3',
         description:
             '''Je lui donne beaucoup d’eau potable et d’autres liquides à boire si mon enfant a plus de 6 mois 
         ou si l’agent de santé me le recommande. ; ''',
@@ -59,7 +59,7 @@ Pages page1() {
       ),
       ImageDescription(
         id: 9,
-        position: '4',
+        position: '3',
         description: '''j’emmène mon enfant au centre de santé ''',
         image: "images/danger/image21.png",
       ),

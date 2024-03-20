@@ -41,7 +41,7 @@ Pages page7() {
         image: "",
       ),
       ImageDescription(
-        id: 6,position: '2',
+        id: 6,position: '3',
         description:
           "Attention : Je ne consomme pas d’alcool, "
           "les boissons gazeuses, le café, le tabac, la cola, le thé.",
