@@ -9,7 +9,7 @@ class ImageDescription1 extends StatefulWidget {
   @override
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
-  Widget _buildTextOnly(String text, {Color? color, String? position}) {
+  Widget _buildTextOnly(String text, {int? color, String? position}) {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
       child: Column(
@@ -23,8 +23,30 @@ class ImageDescription1 extends StatefulWidget {
     );
   }
 
+  //--------------texte gras---------------------------------
+  Widget _buildTextOnlygras(String text,
+      {int? color, String? position, int? texte}) {
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
+      child: Column(
+        children: [
+          Text(
+            text,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.black,
+              fontWeight: FontWeight.bold, // Ajout du style en gras
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  //-----------------fin texte gras--------------------------
+
   Widget _buildImageTopTextBottom(String imagePath, String description,
-      {Color? color,
+      {int? color,
       String? position,
       double? imageWidth,
       double? imageHeight}) {
@@ -52,7 +74,7 @@ class ImageDescription1 extends StatefulWidget {
   }
 
   Widget _buildTextTopImageBottom(String imagePath, String description,
-      {Color? color,
+      {int? color,
       String? position,
       double? imageWidth,
       double? imageHeight}) {
@@ -83,7 +105,7 @@ class ImageDescription1 extends StatefulWidget {
   }
 
   Widget _buildImageLeftTextRight(String imagePath, String description,
-      {Color? color,
+      {int? color,
       String? position,
       double? imageWidth,
       double? imageHeight}) {
@@ -113,7 +135,7 @@ class ImageDescription1 extends StatefulWidget {
 
 //--------------------------imag à droite----------------------
   Widget _buildImagetRighttTexLeft(String imagePath, String description,
-      {Color? color,
+      {int? color,
       String? position,
       double? imageWidth,
       double? imageHeight}) {
@@ -155,15 +177,16 @@ class _ImageDescriptionState extends State<ImageDescription1> {
   Widget _buildImageDescriptionWidget({
     required String imagePath,
     required String description,
-    Color? color,
+    int? color,
     String? position,
+    int? texte,
     bool isImageFirst = true,
     bool isImageOnTop = true,
   }) {
     bool shouldDisplayImage = imagePath.isNotEmpty;
 
-    Color defaultColor =
-        const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
+    int defaultColor = 0xFF088886;
+    //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
 
     Widget imageWidget = Container(); // Widget par défaut
     double maxHeight = 200;
@@ -202,7 +225,11 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         );
         print(imagePath.length);
         break;
-
+      case '5':
+        imageWidget = widget._buildTextOnlygras(imagePath,
+            color: color ?? defaultColor, position: position, texte: texte);
+        print(imagePath.length);
+        break;
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
@@ -212,7 +239,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     }
 
     return Column(
-      children: [
+      children: <Widget>[
         if (shouldDisplayImage && position == '1')
           if (isImageFirst)
             SizedBox(
@@ -327,8 +354,20 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (!shouldDisplayImage &&
             description != null &&
             description.isNotEmpty)
-          widget._buildTextOnly(description,
-              color: color ?? defaultColor, position: position),
+          if (position == '5')
+            widget._buildTextOnlygras(
+              description,
+              texte: texte,
+              color: color ?? defaultColor,
+              position: position,
+            )
+          else
+            widget._buildTextOnly(
+              description,
+              color: color ?? defaultColor,
+              position: position,
+            ),
+
         SizedBox(height: 0), // Ajout d'un SizedBox avec une hauteur nulle
       ],
     );

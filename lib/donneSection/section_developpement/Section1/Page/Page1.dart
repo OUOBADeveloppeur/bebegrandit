@@ -10,7 +10,7 @@ Pages page1() {
     imageDescription: [
       ImageDescription(
         position: '1',
-        color: red(),
+        
         id: 1,
         description:
             "La période de 0 à 5 ans est importante dans le développement de l’enfant",
