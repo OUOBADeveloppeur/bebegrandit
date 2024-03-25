@@ -17,8 +17,9 @@ class ImageDescription {
   String image;
   String? position;
   int? texte;
-  int? color;
-
+   @HiveField(4)
+  @JsonKey(name: "color")
+  int ?color;
   ImageDescription(
       {required this.id,
       required this.description,
