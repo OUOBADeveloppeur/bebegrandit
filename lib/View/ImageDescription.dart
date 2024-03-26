@@ -206,7 +206,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
 
     int defaultColor = 0xFF000000;
     //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
-
     Widget imageWidget = Container(); // Widget par défaut
     double maxHeight = 200;
     switch (position) {

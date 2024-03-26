@@ -16,7 +16,7 @@ Pages page2() {
       ),
       ImageDescription(
         id: 1,
-        texte: 1,
+        texte: 900,
         position: '1',
         description: "Après la naissance, l’enfant commence à grandir."
             " Dans les premiers mois, il garde la position qu'il avait dans le ventre de sa mère. "
