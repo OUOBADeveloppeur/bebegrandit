@@ -8,11 +8,13 @@ Pages page3() {
     imageDescription: [
       ImageDescription(
         id: 1,
+        color: 0xFFFF0000,
         description: "Quels sont les signes du paludisme ?",
         image: "",
       ),
       ImageDescription(
         id: 2,
+        color: 0xFFFF0000,
         description:
             "Je pense au paludisme quand mon enfant a les signes suivants : ",
         image: "",

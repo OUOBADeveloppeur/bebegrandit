@@ -10,14 +10,13 @@ Pages page2() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        
         position: '1',
         description: "",
         image: "images/developpement/pag5.png",
       ),
       ImageDescription(
         id: 1,
-       
+        texte: 1,
         position: '1',
         description: "Après la naissance, l’enfant commence à grandir."
             " Dans les premiers mois, il garde la position qu'il avait dans le ventre de sa mère. "
@@ -26,7 +25,7 @@ Pages page2() {
       ),
       ImageDescription(
         id: 2,
-       
+        texte: 600,
         position: '1',
         description: "Avec les changements de son corps, "
             "l’enfant change aussi sa manière de communiquer avec son entourage, de manger, de dormir, etc."
@@ -35,14 +34,12 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-      
         position: '2',
-        description: "Attention  ",
+        description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 4,
-        
         position: '1',
         description: " Les enfants ne grandissent pas tous à la même vitesse. ",
         image: "",

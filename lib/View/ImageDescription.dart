@@ -9,14 +9,21 @@ class ImageDescription1 extends StatefulWidget {
   @override
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
-  Widget _buildTextOnly(String text, {int? color, String? position}) {
+  Widget _buildTextOnly(String text,
+      {int? color, String? position, int? texte}) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 10),
       child: Column(
         children: [
           Text(
             text,
-            style: TextStyle(fontSize: 14, color: Colors.black),
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: texte != null
+                  ? FontWeight.bold
+                  : FontWeight.normal, // Texte gras si "texte" est défini
+              color: color != null ? Color(color) : Colors.black,
+            ),
           ),
         ],
       ),
@@ -27,14 +34,14 @@ class ImageDescription1 extends StatefulWidget {
   Widget _buildTextOnlygras(String text,
       {int? color, String? position, int? texte}) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 10),
       child: Column(
         children: [
           Text(
             text,
             style: TextStyle(
               fontSize: 20,
-              color: Colors.black,
+              color: color != null ? Color(color) : Colors.black,
               fontWeight: FontWeight.bold, // Ajout du style en gras
             ),
           ),
@@ -46,10 +53,7 @@ class ImageDescription1 extends StatefulWidget {
   //-----------------fin texte gras--------------------------
 
   Widget _buildImageTopTextBottom(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight}) {
+      {int? color, String? position, double? imageWidth, double? imageHeight}) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -65,7 +69,13 @@ class ImageDescription1 extends StatefulWidget {
             padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
             child: Column(
               children: [
-                Text(description),
+                Text(
+                  description,
+                  style: TextStyle(
+                    // Texte gras si "texte" est défini
+                    color: color != null ? Color(color) : Colors.black,
+                  ),
+                ),
               ],
             ),
           ),
@@ -74,10 +84,7 @@ class ImageDescription1 extends StatefulWidget {
   }
 
   Widget _buildTextTopImageBottom(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight}) {
+      {int? color, String? position, double? imageWidth, double? imageHeight}) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -86,7 +93,13 @@ class ImageDescription1 extends StatefulWidget {
             padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
             child: Column(
               children: [
-                Text(description),
+                Text(
+                  description,
+                  style: TextStyle(
+                    // Texte gras si "texte" est défini
+                    color: color != null ? Color(color) : Colors.black,
+                  ),
+                ),
               ],
             ),
           ),
@@ -105,10 +118,7 @@ class ImageDescription1 extends StatefulWidget {
   }
 
   Widget _buildImageLeftTextRight(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight}) {
+      {int? color, String? position, double? imageWidth, double? imageHeight}) {
     return Row(
       children: [
         if (imagePath.isNotEmpty)
@@ -126,7 +136,13 @@ class ImageDescription1 extends StatefulWidget {
             flex: 3,
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
-              child: Text(description),
+              child: Text(
+                description,
+                style: TextStyle(
+                  // Texte gras si "texte" est défini
+                  color: color != null ? Color(color) : Colors.black,
+                ),
+              ),
             ),
           ),
       ],
@@ -135,10 +151,7 @@ class ImageDescription1 extends StatefulWidget {
 
 //--------------------------imag à droite----------------------
   Widget _buildImagetRighttTexLeft(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight}) {
+      {int? color, String? position, double? imageWidth, double? imageHeight}) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -150,7 +163,13 @@ class ImageDescription1 extends StatefulWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(description),
+                  Text(
+                    description,
+                    style: TextStyle(
+                      // Texte gras si "texte" est défini
+                      color: color != null ? Color(color) : Colors.black,
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -185,7 +204,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
   }) {
     bool shouldDisplayImage = imagePath.isNotEmpty;
 
-    int defaultColor = 0xFF088886;
+    int defaultColor = 0xFF000000;
     //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
 
     Widget imageWidget = Container(); // Widget par défaut
@@ -362,11 +381,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               position: position,
             )
           else
-            widget._buildTextOnly(
-              description,
-              color: color ?? defaultColor,
-              position: position,
-            ),
+            widget._buildTextOnly(description,
+                color: color ?? defaultColor, position: position, texte: texte),
 
         SizedBox(height: 0), // Ajout d'un SizedBox avec une hauteur nulle
       ],
@@ -391,7 +407,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                   children: [
                     if (imageDescription.position == '1')
                       Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           if (imageDescription.image.isNotEmpty)
                             Image.asset(

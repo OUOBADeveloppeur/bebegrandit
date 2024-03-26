@@ -22,13 +22,18 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-        position: '3',
-        description: "Ce que je fais"
-            "Je réveille parfois mon enfant pour lui donner à téter",
-        image: "images/developpement/pag8/ic-03.png",
+        position: '5',
+        description: "Ce que je fais",
+        image: "",
       ),
       ImageDescription(
         id: 4,
+        position: '3',
+        description: "Je réveille parfois mon enfant pour lui donner à téter",
+        image: "images/developpement/pag8/ic-03.png",
+      ),
+      ImageDescription(
+        id: 5,
         position: '3',
         description: "Pour coucher mon enfant, je le mets sur son dos. "
             "Lorsqu’il vomit, je le couche sur le côté gauche.",

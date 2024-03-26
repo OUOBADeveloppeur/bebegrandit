@@ -7,13 +7,15 @@ Pages page6() {
     titre: "L’audition",
     imageDescription: [
       ImageDescription(
-        id: 0, position: '3',
+        id: 0,
+        position: '3',
         description: "L’audition"
             "À la naissance, mon enfant entend les bruits et reconnait la voix de sa mère. ",
         image: "images/developpement/pag12/ic-01.png",
       ),
       ImageDescription(
-        id: 1, position: '3',
+        id: 1,
+        position: '3',
         description:
             "Jusqu’à 3 mois, mon enfant réagit aux bruits en étendant les bras et jambes vers l’extérieur,"
             " clignant les yeux, pleurant.",
@@ -27,28 +29,38 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 3, position: '3',
+        id: 3,
+        position: '3',
         description: "Ce que je fais"
             "Je secoue un jouet qui fait du bruit devant mon enfant ",
         image: "images/developpement/pag12/ic-03.png",
       ),
       ImageDescription(
-        id: 4, position: '3',
+        id: 4,
+        position: '3',
         description:
             "J‘appelle mon enfant par son nom. Il doit se retourner pour me regarder. "
             "Je répète son nom plus fort s’il ne se retourne pas.",
         image: "images/developpement/pag12/ic-04.png",
       ),
       ImageDescription(
-        id: 5, position: '2',
-        description: "Attention:""Si mon enfant ne se retourne pas en direction de ma voix ou du bruit,",
+        id: 5,
+        position: '2',
+        description: "Attention:"
+            "Si mon enfant ne se retourne pas en direction de ma voix ou du bruit,",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
-    
-     
       ImageDescription(
-        id: 6, position: '3',
-        description: "Si mon enfant ne réagit pas ou ne se réveille pas lorsqu’il y a un bruit très fort,je l’emmène au centre de santé.",
+        id: 6,
+        description:
+            "Si mon enfant ne réagit pas ou ne se réveille pas lorsqu’il y a un bruit très fort,",
+        image: "",
+      ),
+      ImageDescription(
+        color: 0xFFFF0000,
+        id: 7,
+        position: '3',
+        description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),
     ],
