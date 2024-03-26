@@ -45,8 +45,7 @@ dependencies:
   
 flutter_native_splash:
    color: "#ffffff"
-   image: "images/logo.png"
-   fill: true
+   image: "images/Mon_enfant.png"
    android: true
    ios: true
 dev_dependencies:
