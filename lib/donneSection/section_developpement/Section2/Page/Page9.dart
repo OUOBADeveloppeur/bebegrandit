@@ -7,7 +7,7 @@ Pages page9() {
     titre: "Les émotions et sentiments",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '3',texte: 900,
         description: "Les émotions et sentiments",
         image: "images/developpement/pag15/ic-01-01.png",
       ),

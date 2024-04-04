@@ -4,6 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
+    texte: 900,
     titre: "Le sommeil",
     imageDescription: [
       ImageDescription(
@@ -22,7 +23,7 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-        position: '5',
+        texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
