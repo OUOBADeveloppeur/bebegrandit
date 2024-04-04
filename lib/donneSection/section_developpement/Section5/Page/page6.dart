@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Développement de l’enfant de 3 à 5 ans",
+    titre: "Le développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
         id: 1, position: '3',

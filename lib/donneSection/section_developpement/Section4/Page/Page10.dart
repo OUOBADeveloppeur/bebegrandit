@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page10() {
   return Pages(
     id: 10,
-    titre: "Les émotions et sentiments",
+    titre: "Le développement de l’enfant de 1 à 3 ans",
     imageDescription: [
       ImageDescription(
         id: 1, position: '3',texte: 900,

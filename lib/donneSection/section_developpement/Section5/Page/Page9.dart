@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page9() {
   return Pages(
     id: 9,
-    titre: "Le goût",
+    titre: "Le développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
         id: 1,

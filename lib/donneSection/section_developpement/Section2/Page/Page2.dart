@@ -5,8 +5,15 @@ Pages page2() {
   return Pages(
     id: 2,
     texte: 900,
-    titre: "Le sommeil",
+    titre: "Développement de l’enfant de  0 à 6 mois",
     imageDescription: [
+      ImageDescription(
+        id: 0,
+        texte: 900,
+        position: '3',
+        description: "Le sommeil",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '3',

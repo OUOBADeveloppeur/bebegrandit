@@ -4,18 +4,18 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Les mouvements et gestes",
+    titre: "Développement de l’enfant de  0 à 6 mois",
     imageDescription: [
       ImageDescription(
         position: '3',
-        id: 1,texte: 300,
+        id: 1,
+        texte: 300,
         description: "Les mouvements et gestes",
         image: "images/developpement/pag9/ic-01.png",
       ),
-        ImageDescription(
-        
+      ImageDescription(
         id: 2,
-        description: 
+        description:
             "Après la naissance, mon enfant reste allongé et bouge ses bras et ses jambes.",
         image: "",
       ),
@@ -35,37 +35,40 @@ Pages page3() {
         image: "images/developpement/pag9/ic-03-01.png",
       ),
       ImageDescription(
-      
-        id: 5,texte: 900,
+        id: 5,
+        texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
         position: '3',
         id: 6,
-        description: 
+        description:
             "J’aide mon enfant à renforcer ses muscles, à contrôler sa tête et son éveil."
             "Je place devant mon enfant des objets colorés pour qu’il cherche à les saisir.",
         image: "images/developpement/pag9/ic-04-01.png",
       ),
       ImageDescription(
         position: '2',
-        id: 7,texte: 40,
-        description:
-            "Attention:",
+        id: 7,
+        texte: 40,
+        description: "Attention:",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         position: '2',
-        id: 6,texte: 900,
+        id: 6,
+        texte: 900,
         description:
             "Si mon enfant parait mou, ne réagit pas aux stimulations, aux jeux "
             "ou n’arrive pas à tenir sa tête,",
         image: "",
       ),
       ImageDescription(
-        position: '3',texte: 300,
-        id: 7,color: 0xFFFF0000,
+        position: '3',
+        texte: 300,
+        id: 7,
+        color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

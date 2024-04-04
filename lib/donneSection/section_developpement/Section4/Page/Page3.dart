@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Les mouvements et gestes",
+    titre: "Le développement de l’enfant de 1 à 3 ans",
     imageDescription: [
       ImageDescription(
         id: 1,

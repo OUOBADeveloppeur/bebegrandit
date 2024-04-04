@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Le langage",
+    titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
         id: 1, position: '3',texte: 900,

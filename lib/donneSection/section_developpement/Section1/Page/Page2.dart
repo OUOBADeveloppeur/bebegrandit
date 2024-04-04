@@ -1,4 +1,3 @@
-import 'package:bebegrandi/shared/colors.dart';
 
 import '../../../../Model/imageDescription.dart';
 import '../../../../Model/page.dart';
@@ -6,8 +5,14 @@ import '../../../../Model/page.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Introduction",
+    titre: "Developpement normal",
     imageDescription: [
+       ImageDescription(
+        id: 0,
+      texte: 900,
+        description: "Introduction",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '1',

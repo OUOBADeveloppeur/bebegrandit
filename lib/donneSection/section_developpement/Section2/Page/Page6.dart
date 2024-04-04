@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "L’audition",
+    titre: "Développement de l’enfant de  0 à 6 mois",
     imageDescription: [
       ImageDescription(
         id: 0,texte: 900,

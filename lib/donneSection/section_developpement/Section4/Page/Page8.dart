@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page8() {
   return Pages(
     id: 8,
-    titre: "Le toucher",
+    titre: "Le développement de l’enfant de 1 à 3 ans",
     imageDescription: [
       ImageDescription(
         id: 1, position: '3',texte: 900,

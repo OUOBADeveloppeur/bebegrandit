@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page7() {
   return Pages(
     id: 7,
-    titre: "Les mouvements des mains",
+    titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
         id: 1,

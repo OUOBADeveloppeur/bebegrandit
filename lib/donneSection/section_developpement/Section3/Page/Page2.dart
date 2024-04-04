@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Le sommeil",
+    titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
         id: 1,
@@ -40,27 +40,33 @@ Pages page2() {
         position: '3',
         description:
             "Je fais un câlin ou je chante pour que mon enfant se sente en sécurité."
-            "Si mon enfant se réveille la nuit,"
+            "Si mon enfant se réveille la nuit,",
+        image: "",
+      ),
+         ImageDescription(
+        id: 6,
+        position: '3',
+        description:
             "je le berce pour qu’il se rendorme."
             "Je m’assure que l’endroit est à l’abri de bruit et de moustiques.",
         image: "images/developpement/pag18/ic-03-01.png",
       ),
       ImageDescription(
-        id: 6,
+        id: 7,
         position: '2',
         texte: 900,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 7,
+        id: 8,
         position: '3',
         description:
             "Lorsque mon enfant ne dort pas assez et pleure sans cesse,",
         image: "",
       ),
       ImageDescription(
-        id: 8,
+        id: 9,
         position: '3',
         texte: 900,
         color: 0xFFFF0000,

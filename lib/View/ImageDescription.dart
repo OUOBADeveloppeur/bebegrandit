@@ -182,7 +182,7 @@ class ImageDescription1 extends StatefulWidget {
           Expanded(
             flex: 3,
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+              padding: EdgeInsets.symmetric(horizontal: 2, vertical: 5),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -233,7 +233,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     int defaultColor = 0xFF000000;
     //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
     Widget imageWidget = Container(); // Widget par défaut
-    double maxHeight = 200;
+    double maxHeight = MediaQuery.of(context).size.height * 0.3;
     switch (position) {
       case '1':
         imageWidget = widget._buildImageTopTextBottom(imagePath, description,
@@ -244,13 +244,25 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         print(imagePath.length);
         break;
       case '2':
-        imageWidget = widget._buildImageLeftTextRight(imagePath, description,
-            color: color ?? defaultColor, position: position, texte: texte);
+        imageWidget = widget._buildImageLeftTextRight(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+          texte: texte,
+          imageHeight: 50,
+          imageWidth: 50
+        );
         print(imagePath.length);
         break;
       case '3':
-        imageWidget = widget._buildImagetRighttTexLeft(imagePath, description,
-            color: color ?? defaultColor, position: position, texte: texte);
+        imageWidget = widget._buildImagetRighttTexLeft(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+          texte: texte,
+        );
         print(imagePath.length);
         break;
       case '4':
@@ -398,7 +410,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
           widget._buildTextOnly(description,
               color: color ?? defaultColor, position: position, texte: texte),
 
-        SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
+       // SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
       ],
     );
   }
@@ -406,7 +418,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 10, left: 20, right: 20),
+      padding: EdgeInsets.only(top: 2, left: 20, right: 20),
       color: Colors.white,
       child: Scrollbar(
         thumbVisibility: true,
