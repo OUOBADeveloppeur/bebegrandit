@@ -69,7 +69,7 @@ class ImageDescription1 extends StatefulWidget {
           ),
         if (description != null && description.isNotEmpty)
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
             child: Column(
               children: [
                 Text(
@@ -151,7 +151,7 @@ class ImageDescription1 extends StatefulWidget {
           Expanded(
             flex: 3,
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
+              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
               child: Text(
                 description,
                 style: TextStyle(
@@ -244,15 +244,12 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         print(imagePath.length);
         break;
       case '2':
-        imageWidget = widget._buildImageLeftTextRight(
-          imagePath,
-          description,
-          color: color ?? defaultColor,
-          position: position,
-          texte: texte,
-          imageHeight: 50,
-          imageWidth: 50
-        );
+        imageWidget = widget._buildImageLeftTextRight(imagePath, description,
+            color: color ?? defaultColor,
+            position: position,
+            texte: texte,
+            imageHeight: 50,
+            imageWidth: 50);
         print(imagePath.length);
         break;
       case '3':
@@ -303,7 +300,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Flexible(
-                  flex: 10,
+                  flex: 2,
                   //child: Container(
                   //  alignment: Alignment.bottomCenter,
                   child: imageWidget,
@@ -329,7 +326,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Flexible(
-                  flex: 10,
+                  flex: 2,
                   //child: Container(
                   //  alignment: Alignment.bottomCenter,
                   child: SizedBox(height: 305, child: imageWidget),
@@ -361,7 +358,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Flexible(
-                  flex: 10,
+                  flex: 5,
                   //child: Container(
                   //  alignment: Alignment.bottomCenter,
                   child: imageWidget,
@@ -410,7 +407,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
           widget._buildTextOnly(description,
               color: color ?? defaultColor, position: position, texte: texte),
 
-       // SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
+        // SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
       ],
     );
   }
@@ -433,7 +430,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                   children: [
                     if (imageDescription.position == '1')
                       Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           if (imageDescription.image.isNotEmpty)
                             Image.asset(
@@ -461,7 +458,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                               imageDescription.description.isNotEmpty)
                             Padding(
                               padding: EdgeInsets.symmetric(
-                                  horizontal: 6, vertical: 5),
+                                  horizontal: 2, vertical: 2),
                               child: Column(
                                 children: [
                                   Text(imageDescription.description),

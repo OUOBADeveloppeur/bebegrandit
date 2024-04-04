@@ -21,7 +21,7 @@ Pages page2() {
       ),
       ImageDescription(
         id: 1,
-        position: '1',
+       
         description: "Après la naissance, l’enfant commence à grandir."
             " Dans les premiers mois, il garde la position qu'il avait dans le ventre de sa mère. "
             "Puis au fil des mois, il commence à tenir sa tête, son tronc puis à se déplacer.",
@@ -37,14 +37,13 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-        texte: 90,
+        texte: 900,
         position: '2',
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 4,
-      
         description: " Les enfants ne grandissent pas tous à la même vitesse. ",
         image: "",
       ),

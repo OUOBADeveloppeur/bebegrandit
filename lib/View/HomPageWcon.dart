@@ -102,6 +102,7 @@ class _HomPageWconState extends State<HomPageWcon> {
 
             //----------------------fin scop------------------------
             appBar: AppBar(
+             backgroundColor: Colors.white,
               leading: Builder(
                 builder: (context) {
                   return IconButton(

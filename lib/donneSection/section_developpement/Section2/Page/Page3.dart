@@ -58,7 +58,6 @@ Pages page3() {
       ImageDescription(
         position: '2',
         id: 6,
-        texte: 900,
         description:
             "Si mon enfant parait mou, ne réagit pas aux stimulations, aux jeux "
             "ou n’arrive pas à tenir sa tête,",
