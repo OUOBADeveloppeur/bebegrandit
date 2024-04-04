@@ -7,8 +7,8 @@ Pages page3() {
     titre: "Quels sont les signes du paludisme ?",
     imageDescription: [
       ImageDescription(
-        id: 1,texte: 900,
-        color: 0xFFFF0000,
+        id: 1,
+        //color: 0xFFFF0000,
         description: "Quels sont les signes du paludisme ?",
         image: "",
       ),

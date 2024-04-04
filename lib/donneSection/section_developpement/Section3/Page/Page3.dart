@@ -7,36 +7,46 @@ Pages page3() {
     titre: "Les mouvements et gestes",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
-        description: "Les mouvements et gestes"
-            "Dès 6 mois, mon enfant se retourne sur le ventre quand il est couché sur le dos."
-            "Entre 6 et 7 mois, mon enfant essaie de s’asseoir seul.",
+        id: 1, texte: 900,
+        description: "Les mouvements et gestes",
         image: "images/developpement/pag19/ic-01.png",
       ),
+       ImageDescription(
+        id: 2, texte: 900,
+        description: 
+            "Dès 6 mois, mon enfant se retourne sur le ventre quand il est couché sur le dos."
+            "Entre 6 et 7 mois, mon enfant essaie de s’asseoir seul.",
+        image: "",
+      ),
       ImageDescription(
-        id: 2, position: '3',
+        id: 3, position: '3',
         description: "Entre 8 -9 mois, mon enfant fait 4 pattes.",
         image: "images/developpement/pag19/ic-02-01.png",
       ),
       ImageDescription(
-        id: 3, position: '3',
+        id: 4, position: '3',
         description:
             "Entre 10  et 11 mois, il arrive à se  mettre debout avec appui ensuite sans appui.",
         image: "images/developpement/pag19/ic-03-01.png",
       ),
       ImageDescription(
-        id: 4, position: '3',
-        description: "Ce que je fais"
+        id: 5,texte: 900,
+        description: "Ce que je fais",
+        image: "",
+      ),
+       ImageDescription(
+        id: 6, position: '3',
+        description: 
             "Je dépose des jouets à côté de mon enfant et l’encourage à aller les chercher.",
         image: "images/developpement/pag19/ic-04.png",
       ),
       ImageDescription(
-        id: 5, position: '2',
+        id: 7, position: '2',texte: 900,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6, position: '3',
+        id: 8, position: '3',
         description: "Lorsque mon enfant: "
             "- ne s’assoit pas seul entre 9 et 10 mois, "
             "- ne peut pas se mettre debout seul à 12 mois, "
@@ -44,7 +54,7 @@ Pages page3() {
         image: "",
       ),
       ImageDescription(
-        id: 7, position: '3',
+        id: 9, position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

@@ -3,12 +3,12 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 
 Pages page4() {
   return Pages(
-    id: 4,
+    id: 4, texte: 900,
     titre: "La vue 1/2",
     imageDescription: [
       ImageDescription(
          position: '3',
-        id: 1,
+        id: 1,texte: 900,
         description: "La vue 1/2",
         image: "images/developpement/pag10/ic-01-01.png",
       ),
@@ -33,7 +33,7 @@ Pages page4() {
         image: "images/developpement/pag10/ic-04-01.png",
       ),
       ImageDescription(
-        id: 5, position: '3',
+        id: 5, position: '3', texte: 900,
         description: "Ce que je fais",
         image: "",
       ),

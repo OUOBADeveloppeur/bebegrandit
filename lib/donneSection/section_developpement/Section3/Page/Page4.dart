@@ -9,7 +9,7 @@ Pages page4() {
       ImageDescription(
         id: 1,
         position: '3',
-        description: "La vue",
+        description: "",
         image: "images/developpement/pag10/ic-01-01.png",
       ),
       ImageDescription(

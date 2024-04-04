@@ -7,12 +7,12 @@ Pages page5() {
     titre: "La vue 2/2",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '3',texte: 900,
         description: "La vue 2/2",
         image: "images/developpement/pag10/ic-04-01.png",
       ),
       ImageDescription(
-        id: 2, position: '2',
+        id: 2, position: '2',texte: 900,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
@@ -46,7 +46,7 @@ Pages page5() {
         image: "",
       ),
       ImageDescription(
-        id: 8, position: '3',
+        id: 8, position: '3',color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),
