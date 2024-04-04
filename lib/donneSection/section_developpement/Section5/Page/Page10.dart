@@ -7,7 +7,7 @@ Pages page10() {
     titre: "Les émotions et sentiments",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '3',texte: 900,
         description: "Les émotions et sentiments",
         image: "images/developpement/image51.png",
       ),
@@ -20,7 +20,7 @@ Pages page10() {
         image: "images/developpement/image62.png",
       ),
       ImageDescription(
-        id: 3, position: '3',
+        id: 3, position: '3',texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
@@ -34,17 +34,17 @@ Pages page10() {
       ),
 
       ImageDescription(
-        id: 5, position: '2',
+        id: 5, position: '2',texte: 900,
         description: "Attention",
-        image: "",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 6, position: '3',
         description: "Lorsque mon enfant ne montre pas ses émotions et ses sentiments,",
-        image: "images/developpement/pag9/ic-06-01.png",
+        image: "",
       ),
       ImageDescription(
-        id: 7, position: '3',
+        id: 7, position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

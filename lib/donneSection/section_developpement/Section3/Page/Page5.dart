@@ -8,14 +8,21 @@ Pages page5() {
     imageDescription: [
       ImageDescription(
         id: 1,
+        texte: 900,
         position: '3',
-        description:
-            "Entre 6 et 10 mois, mon enfant réagit à la musique et à certains mots courants comme son nom, "
-            "«maman», «papa», «baba»,  «tété», «dodo».",
+        description: "L’audition",
         image: "images/developpement/pag21/ic-01.png",
       ),
       ImageDescription(
         id: 2,
+        position: '3',
+        description:
+            "Entre 6 et 10 mois, mon enfant réagit à la musique et à certains mots courants comme son nom, "
+            "«maman», «papa», «baba»,  «tété», «dodo».",
+        image: "",
+      ),
+      ImageDescription(
+        id: 3,
         position: '3',
         description:
             "Dès 10 mois, mon enfant cherche à imiter les sons qu’il entend."
@@ -23,34 +30,35 @@ Pages page5() {
         image: "images/developpement/pag21/ic-02-01.png",
       ),
       ImageDescription(
-          id: 3,
+          id: 4, texte: 900, description: "Ce que je fais", image: ""),
+      ImageDescription(
+          id: 5,
           position: '3',
-          description: "Ce que je fais"
-              "Je chuchote des mots familiers pour le faire réagir. "
+          description: "Je chuchote des mots familiers pour le faire réagir. "
               " Je répète les sons à mon enfant pour"
               " qu il répète après moi.",
           image: "images/developpement/pag21/ic-03-01.png"),
       ImageDescription(
-          id: 4,
+          id: 6,
           position: '3',
           description: "  Je montre à mon enfant des parties du corps"
               "et des objets en les nommant et en les touchant.",
           image: ""),
       ImageDescription(
-        id: 5,
+        id: 7,
         position: '3',
         description:
             "j'evite de souffler ou d'introduire des objets dans l'oreil de mon enfant",
         image: "images/developpement/pag21/ic-04-01.png",
       ),
       ImageDescription(
-        id: 6,
+        id: 8,texte: 900,
         position: '2',
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 7,
+        id: 9,
         position: '2',
         description: '''
         Lorsque mon enfant :
@@ -59,7 +67,7 @@ Pages page5() {
         image: "",
       ),
       ImageDescription(
-        id: 7,
+        id: 10,texte: 900,color: 0xFFFF0000,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

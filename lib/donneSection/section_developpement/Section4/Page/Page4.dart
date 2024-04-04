@@ -4,8 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: '''Le développement de l’enfant 
-de 1 à 3 ans
+    titre: '''Le développement de l’enfant de 1 à 3 ans
 ''',
     imageDescription: [
       ImageDescription(
@@ -31,28 +30,32 @@ de 1 à 3 ans
         image: "images/developpement/image38.png",
       ),
       ImageDescription(
-        id: 5, position: '3',
+        id: 5, texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
-        id: 6, position: '3',
+        id: 6, 
         description:
             "Je demande à mon enfant de repérer des objets qu’il connait"
             " « trouve le gobelet, trouve la cuillère ».",
         image: "",
       ),
       ImageDescription(
-        id: 7, position: '2',
-        description: '''Attention Lorsque mon enfant :
+        id: 7, position: '2',texte: 900,
+        description: "Attention ",
+        image: "images/developpement/pag9/ic-06-01.png",
+      ),
+     ImageDescription(
+        id: 8, 
+        description: ''' Lorsque mon enfant :
             - se cogne partout et s’oriente mal,"
             - est sensible à la lumière,"
             - a une tache blanchâtre à l’œil ou louche,''',
-        image: "images/developpement/pag9/ic-06-01.png",
+        image: "",
       ),
-     
       ImageDescription(
-        id: 9, position: '3',
+        id: 9, position: '3',texte: 900,color: 0xFFFF0000,
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

@@ -7,7 +7,7 @@ Pages page7() {
     titre: "Développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '3',texte: 900,
         description: "Les mouvements des mains"
             ,
         image: "images/developpement/image46.png",
@@ -27,7 +27,7 @@ Pages page7() {
         image: "images/developpement/image60.png",
       ),
       ImageDescription(
-        id: 4, position: '3',
+        id: 4, position: '3',texte: 900,
         description:
             "Ce que je  fais",
         image: "",
@@ -41,7 +41,7 @@ Pages page7() {
       ),
 
       ImageDescription(
-        id: 6, position: '2',
+        id: 6, position: '2',texte: 900,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
@@ -53,7 +53,7 @@ Pages page7() {
         image: "",
       ),
       ImageDescription(
-        id: 8, position: '3',
+        id: 8, position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

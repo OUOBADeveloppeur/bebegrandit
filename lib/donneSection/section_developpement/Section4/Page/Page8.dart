@@ -7,7 +7,7 @@ Pages page8() {
     titre: "Le toucher",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '3',texte: 900,
         description: "Le toucher",
         image: "images/developpement/image46.png",
       ),
@@ -20,7 +20,7 @@ Pages page8() {
       ),
      
       ImageDescription(
-        id: 3, position: '3',
+        id: 3, position: '3',texte: 900,
         description:
             "Ce que je fais",
         image: "",
@@ -36,14 +36,19 @@ Pages page8() {
       ),
      
       ImageDescription(
-        id: 5, position: '2',
-        description: '''Attention Lorsque  mon enfant : 
-            -  ne réagit pas aux caresses ou autres gestes d’affection,
-            - ne cherche pas à toucher les objets autour de lui,''',
+        id: 5, position: '2',texte: 900,
+        description: '''Attention''',
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6, position: '3',
+        id: 6, 
+        description: ''' Lorsque  mon enfant : 
+            -  ne réagit pas aux caresses ou autres gestes d’affection,
+            - ne cherche pas à toucher les objets autour de lui,''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 7, position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

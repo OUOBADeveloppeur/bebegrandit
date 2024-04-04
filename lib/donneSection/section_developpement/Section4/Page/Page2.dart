@@ -7,9 +7,10 @@ Pages page2() {
     titre: "Le sommeil",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
-        description: "Le sommeil"
-           ,
+        id: 1,
+        position: '3',
+        texte: 900,
+        description: "Le sommeil",
         image: "images/developpement/image30.png",
       ),
       ImageDescription(
@@ -20,39 +21,37 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-        description:
-            "Ce que je fais"
-               ,
-        image: "",
-      ),
-       ImageDescription(
-        id: 4, position: '3',
-        description:
-           
-                "Je couche mon enfant à des heures régulières.",
+        texte: 900,
+        description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
-        id: 5, position: '2',
-        description: "Attention"
-            "Lorsque mon enfant : "
-            "- a des difficultés à dormir sur une longue période la nuit,"
-            " - n’est pas actif pendant la journée et est somnolent, ",
+        id: 4,
+        position: '3',
+        description: "Je couche mon enfant à des heures régulières.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
+        position: '2',
+        texte: 900,
+        description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
-       ImageDescription(
-        id: 6, 
-        description: 
-            "Lorsque mon enfant : "
+      ImageDescription(
+        id: 6,
+        position: '2',
+        description: "Lorsque mon enfant : "
             "- a des difficultés à dormir sur une longue période la nuit,"
             " - n’est pas actif pendant la journée et est somnolent, ",
         image: "",
       ),
-      
       ImageDescription(
-        id: 7, position: '3',
-        description:
-            "je l’emmène au centre de santé.",
+        id: 7,
+        position: '3',
+        texte: 900,
+        color: 0xFFFF0000,
+        description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),
     ],
