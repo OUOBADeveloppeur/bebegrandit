@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "Que faire en cas de coupure ou piqure? 1/2",
+    titre: "Coupures ou piqûres",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+        description:
+            "Que faire en cas de coupure ou piqure? 1/2",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description: '''Lorsque mon enfant coupe ou se pique: ''',

@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Que faire en cas de brûlures ?",
+    titre: "Les brûlures",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description:
+            '''Que faire en cas de brûlures ? ''',
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '3',
@@ -30,8 +36,8 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
-        position: '4',
+        id: 4,texte: 900,color: 0xFFFF0000,
+        position: '3',
         description: '''J’emmène immédiatement mon enfant au centre de santé.
 ''',
         image: "images/accidents/image22.png",

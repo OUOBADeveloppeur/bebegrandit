@@ -4,17 +4,23 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "Brûlures par les produits chimiques et ménagers",
+    titre: "Les brûlures",
     imageDescription: [
+        ImageDescription(
+        id: 0,texte: 900,
+        description:
+            '''Brûlures par les produits chimiques et ménagers''',
+        image: "",
+      ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description:
             '''Comment éviter que mon enfant se brûle avec ces produits ?''',
         image: "",
       ),
       ImageDescription(
         id: 2,
-        position: '4',
+        position: '3',
         description:
             '''Je range ces produits là où mon enfant ne peut pas les toucher.
 ''',

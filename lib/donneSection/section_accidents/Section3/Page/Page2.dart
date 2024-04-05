@@ -7,7 +7,7 @@ Pages page2() {
     titre: "Accidents de la voie publique",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''C’est quoi un accident de la voie publique ?''',
         image: "",
       ),

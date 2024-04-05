@@ -4,7 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "Que faire face aux signes du paludisme ?",
+    titre: "Paludisme",
     imageDescription: [
       ImageDescription(
         id: 1,
@@ -13,10 +13,10 @@ Pages page4() {
       ),
       ImageDescription(
         id: 2,
-        texte: 900,
+        
         description:
-            '''Lorsque mon enfant présente un ou plusieurs signes du paludisme, je l’amène rapidement dans 
-            le centre de santé le plus proche ou chez l’agent de santé à base communautaire. ''',
+            "Lorsque mon enfant présente un ou plusieurs signes du paludisme, je l’amène rapidement dans "
+           " le centre de santé le plus proche ou chez l’agent de santé à base communautaire. ",
         image: "",
       ),
       ImageDescription(

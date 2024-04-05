@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Comment éviter que mon enfant se coupe ou se pique ?",
+    titre: "Coupures ou piqûres",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+        description:
+            "Comment éviter que mon enfant se coupe ou se pique ?",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description:

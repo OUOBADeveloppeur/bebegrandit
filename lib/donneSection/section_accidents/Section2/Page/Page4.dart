@@ -4,10 +4,10 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "Comment éviter les chutes de mon enfant ? 2/2",
+    titre: "Les chutes",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''Comment éviter les chutes de mon enfant ? 2/2''',
         image: "",
       ),

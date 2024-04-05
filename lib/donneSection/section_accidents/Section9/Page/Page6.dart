@@ -4,10 +4,16 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Que faire en cas d’intoxication ? 3/4",
+    titre: "Intoxications",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+        description:
+            "Que faire en cas d’intoxication ? 3/4",
+        image: "",
+      ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''Intoxications par les médicaments''',
         image: "",
       ),
@@ -22,12 +28,14 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,texte: 900,color: 0xFFFF0000,
+        description: '''J’emmène immédiatement mon enfant au centre de santé.''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
         position: "4",
-        description: '''J’emmène immédiatement mon enfant au centre de santé.
-
-J’apporte avec moi le reste ou l’emballage du médicament avalé pour le montrer à l’agent de santé.
-
+        description: '''J’apporte avec moi le reste ou l’emballage du médicament avalé pour le montrer à l’agent de santé.
 ''',
         image: "images/accidents/image43.png",
       )

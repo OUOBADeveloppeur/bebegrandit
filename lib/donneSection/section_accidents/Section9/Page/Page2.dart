@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "C’est quoi une intoxication ?",
+    titre: "Intoxications",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+        description:
+            "C’est quoi une intoxication ?",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: "3",
@@ -20,15 +26,16 @@ Pages page2() {
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3,texte: 900,
         description:
-            "Les intoxications chez les enfants sont fréquentes car ces derniers sont curieux et peuvent mettre dans la bouche des produits toxiques. Quelques substances toxiques"
-            "Mon enfant peut s’intoxiquer avec les substances suivantes :",
+            " Quelques substances toxiques"
+            ,
         image: "",
       ),
       ImageDescription(
         id: 4,
-        description: "- Aliments avariés et pourris "
+        description: "Mon enfant peut s’intoxiquer avec les substances suivantes :"
+        "- Aliments avariés et pourris "
             "- Pesticides/insecticides, raticides,"
             "- Produits pétroliers (pétrole, essence, gasoil)",
         image: "",

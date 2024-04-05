@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "C’est quoi une brûlure ?",
+    titre: "Les brûlures",
     imageDescription: [
+        ImageDescription(
+        id: 0,texte: 900,
+        description:
+            '''C’est quoi une brûlure ?''',
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: "3",

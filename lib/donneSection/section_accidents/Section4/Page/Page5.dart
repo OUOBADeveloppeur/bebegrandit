@@ -4,17 +4,23 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page5() {
   return Pages(
     id: 5,
-    titre: "Brûlure par l’électricité",
+    titre: "Les brûlures",
     imageDescription: [
+       ImageDescription(
+        id: 1,texte: 900,
+        description:
+            '''Brûlure par l’électricité''',
+        image: "",
+      ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description:
             '''Comment éviter que mon enfant se brûle par l’électricité ?''',
         image: "",
       ),
       ImageDescription(
         id: 2,
-        position: '4',
+        position: '3',
         description:
             "- je  surveille mon enfant pour qu’il ne touche pas aux fils électriques, rallonges, prises électriques, poteaux électriques ;",
         image: "images/accidents/image20.png",

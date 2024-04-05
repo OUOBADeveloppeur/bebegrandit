@@ -4,56 +4,43 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page8() {
   return Pages(
     id: 8,
-    titre: "Que faire en cas de morsures griffure et piqure ? 2/2",
+    titre: "Morsures, piqûres ou griffures",
     imageDescription: [
       ImageDescription(
         id: 1,
-        description:
-            '''- j'enlève les bagues, bracelets ou montres, les chaussures et tout ce qui peut serrer la zone mordue,
-             griffée ou piquée car celle-ci peut se mettre à gonfler ;
-''',
-        image: "",
+        position: '2',
+        texte: 900,
+        description: '''Attention''',
+        image: "images/accidents/image9.png",
       ),
       ImageDescription(
         id: 2,
-        description: '''- S’il s’agit d’une morsure de serpent,
-         je garde en mémoire sa couleur et sa taille ou je prends sa photo si possible pour informer le centre de santé ;
-''',
+        description:
+            "- je n’incise pas le point de la morsure ou de la piqûre, ceci peut être dangereux. ",
         image: "",
       ),
       ImageDescription(
         id: 3,
-        position: '3',
-        description: "J’emmène immédiatement mon enfant au centre de santé.",
-        image: "images/accidents/image22.png",
-      ),
-      ImageDescription(
-        id: 4,
-        position: '3',
-        description: "Attention!",
-        image: "images/accidents/image9.png",
-      ),
-      ImageDescription(
-        id: 5,
         description:
-            "- je n’incise pas le point de la morsure ou de la piqûre, ceci peut être dangereux."
             "- je ne dois pas sucer ou aspirer la zone mordue ou griffée ou piquée.",
         image: "",
       ),
       ImageDescription(
-        id: 6,
-        //position: '3',
+        id: 4,
         description:
-            " - je ne donne pas de médicament avant d’aller au centre de santé. "
-            "- je ne pose pas de garrot car ceci peut être dangereux.",
+            "- je ne donne pas de médicament avant d’aller au centre de santé. ",
+        image: "images/accidents/image30.png",
+      ),
+      ImageDescription(
+        id: 5,
+        description: "je ne pose pas de garrot car ceci peut être dangereux.",
         image: "",
       ),
       ImageDescription(
-        id: 7,
-       // position: '3',
+        id: 6,
         description:
             "- je n'utilise pas la pierre noire en cas de morsure de serpent car elle est inefficace.",
-        image: "",
+        image: "images/accidents/image31.png",
       ),
     ],
   );

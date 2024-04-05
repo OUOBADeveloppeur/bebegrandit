@@ -4,10 +4,10 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "C’est quoi une noyade ?",
+    titre: "La noyade",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''C’est quoi une noyade ?''',
         image: "",
       ),

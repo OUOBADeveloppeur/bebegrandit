@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: " C’est quoi une coûpure ou une piqûre ?",
+    titre: " Coupures ou piqûres",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+        description:
+            "C’est quoi une coûpure ou une piqûre ?",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: "3",

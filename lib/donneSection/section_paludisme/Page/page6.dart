@@ -4,41 +4,34 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Comment éviter le paludisme ? 1/3",
+    titre: "Paludisme",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Comment éviter le paludisme ? 1/3 ",
         image: "",
       ),
       ImageDescription(
         id: 2,
-        description: '''J'évite la reproduction des moustiques
- 
-''',
+        description: "J'évite la reproduction des moustiques",
         image: "",
       ),
       ImageDescription(
         id: 3,
-        description: '''Les moustiques ont besoin d’eau pour vivre et se 
-        reproduire. Les moustiques pondent leurs œufs à la surface de l'eau car les 
-        larves ont besoin d'humidité pour se développer.
+        description: "Les moustiques ont besoin d’eau pour vivre et se "
+        "reproduire. Les moustiques pondent leurs œufs à la surface de l'eau car les "
+       "larves ont besoin d'humidité pour se développer."
 
-''',
+,
         image: "",
       ),
       ImageDescription(
-        id: 4,
-        description: '''Pour éviter la multiplication des moustiques : 
-''',
+        id: 4,texte: 900,
+        description: "Pour éviter la multiplication des moustiques : "
+,
         image: "",
       ),
-      ImageDescription(
-        id: 5,
-        description: '''Pour éviter la multiplication des moustiques : 
-''',
-        image: "",
-      ),
+   
       ImageDescription(
         id: 6,position: '1',
         description: '''- Je garde ma maison et la cour propres ; 

@@ -7,7 +7,7 @@ Pages page2() {
     titre: "Morsures, piqûres ou griffures",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''C’est quoi une morsure, une piqûre ou une griffure?''',
         image: "",
       ),
