@@ -19,7 +19,6 @@ Pages page2() {
         description: '''Pour éviter les maladies :
 
 - Je dois me laver et laver mon enfant avec de l'eau propre et du savon au moins 2 fois par jour ;
-
 - Je porte et fait porter à mon enfant des vêtements propres et adaptés à la chaleur ou au froid ;
  ''',
         image: "",
@@ -28,7 +27,6 @@ Pages page2() {
         id: 3,
         description:
             '''- Je change les sous-vêtements de mon enfant chaque fois qu’il urine ou fait des selles ;
-
 - J’évite de faire porter à mon enfant des couches pendant un long temps. 
 ''',
         image: "",

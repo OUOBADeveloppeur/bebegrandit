@@ -40,19 +40,13 @@ class _NavDrawerState extends State<NavDrawer> {
               borderRadius:
                   BorderRadius.circular(20), // Bordures rectangulaires
             ),
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Image.asset(
-                    'images/logo.png',
-                    fit: BoxFit
-                        .cover, // Ajustez l'image pour couvrir toute la zone
-                    height: MediaQuery.of(context).size.height * 0.18,
-                    width: double
-                        .infinity, // Pour s'adapter à la largeur du DrawerHeader
-                  )
-                ],
+            child: Container(
+              height: MediaQuery.of(context).size.height *
+                  0.5, // Définir la hauteur de l'image
+              child: Image.asset(
+                'images/logo.png',
+                fit: BoxFit.contain,
+                width: double.infinity,
               ),
             ),
           ),

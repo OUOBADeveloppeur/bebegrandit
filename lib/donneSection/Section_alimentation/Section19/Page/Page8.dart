@@ -31,13 +31,18 @@ Pages page8() {
         image: "",
       ),
       ImageDescription(
-        id: 5,position: '4',
+        id: 5,
         description:
-            '''- je n'utilise pas de biberon car il est difficile à laver 
-        et peut être source de contamination, aussi, cela évite les refus de téter.
-''',
-        image: "images/alimentation/image21.jpeg",
+            "- je n'utilise pas de biberon car il est difficile à laver "
+        "et peut être source de contamination, aussi, cela évite les refus de téter.",
+        image: "",
       ),
+      ImageDescription(
+        id: 6,position: '1',
+        description:""
+            ,
+        image: "images/alimentation/image21.jpeg",
+      )
     ],
   );
 }

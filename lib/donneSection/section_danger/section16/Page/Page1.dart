@@ -37,10 +37,9 @@ Il est très fatigué, n’a pas envie de jouer''',
         image: "",
       ),
       ImageDescription(
-        id: 6,position: '4',
+        id: 6,position: '3',
         description: ''', 
 je l’emmène immédiatement au centre de santé immédiatement
-
 ''',
         image: "images/danger/image21.png",
       ),

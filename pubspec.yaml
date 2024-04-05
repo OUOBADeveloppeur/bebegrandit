@@ -40,12 +40,12 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   json_annotation: ^4.8.1
-  flutter_native_splash: ^2.3.7
+  flutter_native_splash: ^2.3.11
   hexcolor: ^3.0.1
   
 flutter_native_splash:
    color: "#ffffff"
-   image: "images/logo.png"
+   image: "images/Mon_enfant.png"
    android: true
    ios: true
 dev_dependencies:

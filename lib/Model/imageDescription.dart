@@ -16,13 +16,14 @@ class ImageDescription {
   @JsonKey(name: "image")
   String image;
   String? position;
-  Color? color;
-
+  int? texte;
+  int? color;
   ImageDescription(
       {required this.id,
       required this.description,
       required this.image,
       this.color,
+      this.texte,
       this.position});
 
   ImageDescription copyWith(
@@ -30,13 +31,15 @@ class ImageDescription {
           String? description,
           String? image,
           String? position,
-          Color? color}) =>
+          int? texte,
+          int? color}) =>
       ImageDescription(
           id: id ?? this.id,
           description: description ?? this.description,
           image: image ?? this.image,
           position: position ?? this.position,
-          color: color ?? this.color);
+          color: color ?? this.color,
+          texte: texte ?? this.texte);
 
   factory ImageDescription.fromJson(Map<String, dynamic> json) {
     return ImageDescription(
@@ -45,7 +48,8 @@ class ImageDescription {
           '', // Correction de la clé 'label' à 'description'
       image: json['image'] as String? ?? '',
       position: json['position'] as String? ?? '',
-      color: json['color'] as Color,
+      color: json['color'] as int,
+      texte: json['texte'] as int,
     );
   }
 }
