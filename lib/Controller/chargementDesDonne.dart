@@ -21,13 +21,6 @@ Future<Welcome> fetchData() async {
       sectionQ(),
       sectionP(),
       sectionsuivi()
-<<<<<<< HEAD
-<<<<<<< HEAD
-      // Ajoute d'autres sections si nécessaire
-=======
->>>>>>> 0a7a088609b242bc3a16320e3a2a6b789191a814
-=======
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
     ],
   );
 }
