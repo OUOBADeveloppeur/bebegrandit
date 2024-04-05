@@ -7,8 +7,4 @@ void main() {
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   runApp(MyApp());
   FlutterNativeSplash.remove();
-<<<<<<< HEAD
-}  
-=======
 }
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
