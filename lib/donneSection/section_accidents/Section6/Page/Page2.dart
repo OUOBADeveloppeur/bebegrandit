@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "C’est quoi un corps étranger dans l’oreille ?",
+    titre: "Corps étrangers dans l’oreille",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description:
+            '''C’est quoi un corps étranger dans l’oreille ?''',
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description:
@@ -18,7 +24,8 @@ Pages page2() {
         description:
             "Cela peut provoquer une blessure, une infection au niveau de l’oreille et une perforation du tympan pouvant le rendre sourd. ",
         image: "images/accidents/image33.png",
-      )
+      ),
+        
     ],
   );
 }

@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Comment éviter les intoxications ?",
+    titre: "Intoxications",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+        description:
+            "Comment éviter les intoxications ?",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '3',

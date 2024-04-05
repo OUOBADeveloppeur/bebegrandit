@@ -4,15 +4,15 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page8() {
   return Pages(
     id: 8,
-    titre: "Comment éviter le paludisme ? 3/3",
+    titre: "Paludisme",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Comment éviter le paludisme ? 3/3 ",
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,texte: 900,
         description: "Je prends les médicaments préventifs",
         image: "",
       ),
@@ -36,18 +36,17 @@ Pages page8() {
         id: 5,
         position: '2',
         description:
-            '''Il existe un vaccin contre le paludisme efficace pour les enfants,
-je me renseigne au centre de santé.
-''',
+            "Il existe un vaccin contre le paludisme efficace pour les enfants,"
+"je me renseigne au centre de santé."
+,
         image: "images/paludisme/image24.png",
       ),
       ImageDescription(
         id: 6,
         position: '4',
         description:
-            '''Je continue de suivre les conseils pour éviter le paludisme même si mon enfant prend les
-             médicaments.
-''',
+            "Je continue de suivre les conseils pour éviter le paludisme même si mon enfant prend lesmédicaments."
+,
         image: "images/paludisme/image21.png",
       ),
     ],

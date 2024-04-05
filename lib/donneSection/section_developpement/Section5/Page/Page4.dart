@@ -4,12 +4,12 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "La vue",
+    titre: "Le développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
         id: 1,
         position: '3',
-        description: "La vue",
+        description: "La vue",texte: 900,
         image: "images/developpement/image39.png",
       ),
       ImageDescription(
@@ -23,19 +23,24 @@ Pages page4() {
       ),
       ImageDescription(
         id: 3,
-        position: '3',
-        description: "Ce que je fais"
-            "Je place des objets autour de mon enfant pour qu’il puisse les découvrir.",
+        position: '3',texte: 900,
+        description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
         id: 4,
+        position: '3',
+        description: "Je place des objets autour de mon enfant pour qu’il puisse les découvrir.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,texte: 900,
         position: '2',
         description: "Attention",
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 6,
         position: '3',
         description: '''Lorsque mon enfant : 
             - cligne des yeux souvent,
@@ -50,8 +55,8 @@ Pages page4() {
         image: "",
       ),
       ImageDescription(
-        id: 6,
-        position: '3',
+        id: 7,
+        position: '3',texte: 900,color: 0xFFFF0000,
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

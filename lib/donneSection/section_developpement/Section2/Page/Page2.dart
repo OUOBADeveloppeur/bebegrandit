@@ -4,8 +4,16 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Le sommeil",
+    texte: 900,
+    titre: "Développement de l’enfant de  0 à 6 mois",
     imageDescription: [
+      ImageDescription(
+        id: 0,
+        texte: 900,
+        position: '3',
+        description: "Le sommeil",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '3',
@@ -22,7 +30,11 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
+<<<<<<< HEAD
         position: '5',
+=======
+        texte: 900,
+>>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description: "Ce que je fais",
         image: "",
       ),

@@ -4,11 +4,11 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Développement de l’enfant de 3 à 5 ans",
+    titre: "Le développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
         id: 1, position: '3',
-        description: "Langage",
+        description: "Langage",texte: 900,
         image: "images/developpement/image43.png",
       ),
       ImageDescription(
@@ -22,27 +22,35 @@ Mon enfant peut poser et répondre à des questions.
         image: "",
       ),
       ImageDescription(
-        id: 3, position: '3',
-        description: '''Ce que je fais
-        De 3 à 5 ans, j’utilise des mots différents pour parler à mon enfant et lui explique s’il ne les comprend pas.  
+        id: 3, texte: 900,
+        description: '''Ce que je fais ''',
+        image: "",
+      ),
+       ImageDescription(
+        id: 4, position: '3',
+        description: ''' De 3 à 5 ans, j’utilise des mots différents pour parler à mon enfant et lui explique s’il ne les comprend pas.  
 Je lui raconte des histoires drôles et j’observe sa réaction. Si mon enfant rigole, c’est qu’il a  compris.
-
-           ''',
+ ''',
         image: "",
       ),
       
       ImageDescription(
-        id: 4, position: '2',
-        description: '''Attention Lorsque mon enfant :
+        id: 5, position: '2',texte: 900,
+        description: "Attention ",
+        image: "images/developpement/pag9/ic-06-01.png",
+      ),
+      ImageDescription(
+        id: 6, position: '2',
+        description: '''Lorsque mon enfant :
 - comprend difficilement,
 - oublie vite,
 - a des difficultés d’apprentissage,
 - parle difficilement,
 ''',
-        image: "images/developpement/pag9/ic-06-01.png",
+        image: "",
       ),
       ImageDescription(
-        id: 5, position: '3',
+        id: 7, position: '3',color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

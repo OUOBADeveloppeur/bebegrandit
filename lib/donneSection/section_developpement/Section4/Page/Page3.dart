@@ -4,11 +4,11 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Les mouvements et gestes",
+    titre: "Le développement de l’enfant de 1 à 3 ans",
     imageDescription: [
       ImageDescription(
         id: 1,
-        position: '3',
+        position: '3',texte: 900,
         description: "Les mouvements et gestes",
         image: "images/developpement/image33.png",
       ),
@@ -27,7 +27,7 @@ Pages page3() {
         image: "images/developpement/image34.png",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
@@ -55,13 +55,20 @@ Pages page3() {
       ),
       ImageDescription(
         id: 8,
-        position: '2',
+        position: '2',texte: 900,
         description:
-            "Attention Si mon enfant n’arrive pas à marcher seul autour de 18 mois,",
+            "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
-      ImageDescription(
+         ImageDescription(
         id: 9,
+        position: '2',
+        description:
+            "Si mon enfant n’arrive pas à marcher seul autour de 18 mois,",
+        image: "",
+      ),
+      ImageDescription(
+        id: 10,texte: 900,color: 0xFFFF0000,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

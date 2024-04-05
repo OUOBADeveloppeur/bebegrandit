@@ -4,10 +4,17 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Que faire pour éviter l’étouffement et la suffocation?",
+    titre: "Etouffement et suffocation",
     imageDescription: [
       ImageDescription(
         id: 1,
+        texte: 900,
+        description: '''Que faire pour éviter l’étouffement et la suffocation?
+''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 2,
         position: "3",
         description: '''Je mets hors de portée de mon enfant de petits 
         objets qu’il pourrait avaler ou 
@@ -16,7 +23,7 @@ Pages page3() {
         image: "images/accidents/image39.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 3,
         position: '4',
         description: "",
         image: "images/accidents/image40.png",

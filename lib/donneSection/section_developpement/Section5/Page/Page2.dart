@@ -4,11 +4,11 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Le sommeil",
+    titre: "Le développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
         id: 1, position: '3',
-        description: "Le sommeil",
+        description: "Le sommeil",texte: 900,
         image: "images/developpement/image30.png",
       ),
       ImageDescription(
@@ -19,7 +19,7 @@ Pages page2() {
         image: "images/developpement/image56.png",
       ),
       ImageDescription(
-        id: 3, position: '3',
+        id: 3, position: '3',texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
@@ -32,15 +32,20 @@ Pages page2() {
         image: "images/developpement/image53.png",
       ),
       ImageDescription(
-        id: 5, position: '2',
-        description: "Attention Lorsque mon enfant : "
-            "- ronfle souvent fort, "
-            "- se réveille pendant la nuit, marche en dormant,"
-            "- dort trop ou ne dort pas assez,",
+        id: 5, position: '2',texte: 900,
+        description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6, position: '3',
+        id: 6, 
+        description: " Lorsque mon enfant : "
+            "- ronfle souvent fort, "
+            "- se réveille pendant la nuit, marche en dormant,"
+            "- dort trop ou ne dort pas assez,",
+        image: "",
+      ),
+      ImageDescription(
+        id: 7, position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

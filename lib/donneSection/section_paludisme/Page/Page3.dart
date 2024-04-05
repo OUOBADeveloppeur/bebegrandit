@@ -4,17 +4,26 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Quels sont les signes du paludisme ?",
+    titre: "Paludisme",
     imageDescription: [
       ImageDescription(
+<<<<<<< HEAD
         id: 1,texte: 900,
         color: 0xFFFF0000,
+=======
+        id: 1,
+        texte: 900,
+>>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description: "Quels sont les signes du paludisme ?",
         image: "",
       ),
       ImageDescription(
         id: 2,
+<<<<<<< HEAD
         color: 0xFFFF0000,
+=======
+        
+>>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description:
             "Je pense au paludisme quand mon enfant a les signes suivants : ",
         image: "",
@@ -72,7 +81,7 @@ Pages page3() {
         image: "",
       ),
       ImageDescription(
-        id: 12,
+        id: 12,texte: 900,color: 0xFFFF0000,
         position: '3',
         description: " je l’amène immédiatement au centre de santé. ",
         image: "images/paludisme/image9.png",

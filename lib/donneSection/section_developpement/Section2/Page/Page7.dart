@@ -4,17 +4,25 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page7() {
   return Pages(
     id: 7,
-    titre: "Le langage",
+    titre: "Développement de l’enfant de  0 à 6 mois",
     imageDescription: [
       ImageDescription(
         id: 1,
         position: '3',
-        description: "Le langage"
-            "À la naissance, mon enfant pleure pour exprimer la faim, la douleur ou l’ennui.",
+        description: "Le langage",
+            texte: 900,
         image: "images/developpement/pag13/ic-01-01.png",
       ),
-      ImageDescription(
+        ImageDescription(
         id: 2,
+       
+        description: 
+            "À la naissance, mon enfant pleure pour exprimer la faim, la douleur ou l’ennui.",
+        image: "",
+      ),
+      
+      ImageDescription(
+        id: 3,
         position: '3',
         description:
             "Dès 2-4 mois, mon enfant commence à faire de sons (gazouillis) "
@@ -22,21 +30,28 @@ Pages page7() {
         image: "images/developpement/pag13/ic-02-01.png",
       ),
       ImageDescription(
-        id: 3,
-        position: '3',
+        id: 4,
         description: "Dès 4- 6 mois, il sait dire “pa”,“ma”, “be”, “de”.",
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 5,
+        texte: 900,
+        
+        description: "Ce que je fais",
+           
+        image: "",
+      ),
+      ImageDescription(
+        id: 6,
         position: '3',
-        description: "Ce que je fais"
+        description: 
             "Je parle à mon enfant en copiant ses sons et ses gestes."
             "Il commence à m’imiter et à développer son langage.",
         image: "images/developpement/pag13/ic-03-01.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 7,
         position: '3',
         description:
             "Je mets des mots sur ce que mon enfant semble vouloir exprimer : "
@@ -44,13 +59,19 @@ Pages page7() {
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 8,texte: 900,
         position: '2',
-        description: "Attention:Si mon enfant ne peut pas faire de sons, ",
+        description: "Attention: ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 7,
+        id: 9,
+       
+        description: "Si mon enfant ne peut pas faire de sons, ",
+        image: "",
+      ),
+      ImageDescription(
+        id: 10,color: 0xFFFF0000,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

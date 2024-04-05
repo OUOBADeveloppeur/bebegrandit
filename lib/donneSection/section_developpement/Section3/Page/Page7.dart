@@ -4,24 +4,29 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page7() {
   return Pages(
     id: 7,
-    titre: "Les mouvements des mains",
+    titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
         id: 1,
-        position: '3',
+        position: '3',texte: 900,
         description: "Les mouvements des mains"
-            "Dès 6 mois, mon enfant essaie de toucher ou d’attraper des choses avec la main.",
+            ,
         image: "images/developpement/pag23/ic-01-01.png",
+      ), ImageDescription(
+        id: 2,
+        position: '3',
+        description: "Dès 6 mois, mon enfant essaie de toucher ou d’attraper des choses avec la main.",
+        image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 3,
         position: '3',
         description:
             "Dès 7-8 mois, mon enfant attrape des objets et peut les tenir dans sa main.",
         image: "images/developpement/pag23/ic-02-01.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 4,
         position: '3',
         description:
             '''Mon enfant s’intéresse aux formes et à la taille des objets.
@@ -30,7 +35,7 @@ Pages page7() {
         image: "images/developpement/pag23/ic-03-01.png",
       ),
       ImageDescription(
-        id: 4,
+        id: 5,
         position: '3',
         description: '''
             Il peut manger avec ses mains.  Dès 10 -11 mois, aime mettre ses doigts dans des trous et des ouvertures, "
@@ -38,24 +43,36 @@ Pages page7() {
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 6,texte: 900,
+      
+        description: "Ce que je fais",
+        image: "",
+      ),
+       ImageDescription(
+        id: 7,
         position: '3',
-        description: "Ce que je fais"
+        description: 
             "Je joue avec mon enfant en lui donnant des objets de différentes formes et consistance (dur, mou)."
             "Je ne laisse des objets dangereux à côté de mon enfant: piquants, tranchants, médicaments, petits objets.",
         image: "",
       ),
       ImageDescription(
-        id: 6,
-        position: '2',
-        description: '''Attention Lorsque mon enfant après 12 mois : 
-            - ne saisit pas des objets placés à proximité, "
-            - ne s’intéresse pas aux jouets''',
+        id: 8,
+        position: '2',texte: 900,
+        description: '''Attention ''',
         image: "images/developpement/pag9/ic-06-01.png",
       ),
+       ImageDescription(
+        id: 9,
+    
+        description: ''' Lorsque mon enfant après 12 mois : 
+            - ne saisit pas des objets placés à proximité, "
+            - ne s’intéresse pas aux jouets''',
+        image: "",
+      ),
       ImageDescription(
-        id: 7,
-        position: '3',
+        id: 10,
+        position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

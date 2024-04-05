@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: " Que faire en cas d’accident  de mon enfant ?",
+    titre: " Accidents de la voie publique",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description:
+            '''Que faire en cas d’accident  de mon enfant ?''',
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description:
@@ -28,9 +34,14 @@ Pages page4() {
       ImageDescription(
         id: 3,
         position: "4",
-        description: '''Pour plus d’informations cliquer sur le lien suivant. 
-            Pour plus d’informations cliquer sur le lien suivant.
+        description: '''Pour plus d’informations cliquer sur le lien suivant.
 ''',
+        image: "",
+      ),
+       ImageDescription(
+        id: 4,color: 0xFFFF0000,texte: 900,
+        position: "4",
+        description: '''Dans tous les cas les blessés doivent être conduits au centre de santé.''',
         image: "images/accidents/image11.png",
       ),
     ],

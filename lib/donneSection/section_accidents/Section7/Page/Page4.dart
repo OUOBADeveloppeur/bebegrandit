@@ -4,8 +4,15 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "Que faire pour éviter l’étouffement et la suffocation ?",
+    titre: "Etouffement et suffocation",
     imageDescription: [
+      ImageDescription(
+        id: 1,
+       texte: 900,
+        description: "Que faire pour éviter l’étouffement et la suffocation ?" 
+,
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description: '''- je surveille mon enfant quand il mange ;
@@ -18,12 +25,10 @@ Pages page4() {
       ImageDescription(
         id: 2,
         position: '3',
-        description: '''- je veille à ce que mon enfant :
-reste assis et calme pour manger ; 
-ne parle pas avec des aliments dans la bouche ;
-mâche avant d’avaler.
-
-''',
+        description: "- je veille à ce que mon enfant :"
+"reste assis et calme pour manger ; "
+"ne parle pas avec des aliments dans la bouche ;"
+"mâche avant d’avaler.",
         image: "images/accidents/image41.png",
       ),
       ImageDescription(

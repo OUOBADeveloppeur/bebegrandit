@@ -4,12 +4,17 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "C’est quoi une brûlure ?",
+    titre: "Les brûlures",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 0,texte: 900,
         description: '''Brûlures par le feu, les liquides 
 et les objets chauds''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
+        description: '''Comment éviter que mon enfant se brûle ?''',
         image: "",
       ),
       ImageDescription(

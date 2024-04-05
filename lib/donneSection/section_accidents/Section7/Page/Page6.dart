@@ -4,10 +4,10 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Que faire en cas d’étouffement ou de suffocation ? 2/2",
+    titre: "Etouffement et suffocation",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''Grand enfant
 1 - 5 ans
 ''',
@@ -55,7 +55,7 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 8,
+        id: 8,texte: 900,color: 0xFFFF0000,
         position: "3",
         description:
             '''J’appelle les secours ou je l’amène rapidement au centre de santé.

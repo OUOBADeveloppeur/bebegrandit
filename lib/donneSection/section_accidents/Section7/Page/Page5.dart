@@ -4,41 +4,59 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page5() {
   return Pages(
     id: 5,
-    titre: "Que faire en cas d’étouffement ou de suffocation ? 1/2",
+    titre: "Etouffement et suffocation",
     imageDescription: [
       ImageDescription(
         id: 1,
+       texte: 900,
+        description: "Que faire pour éviter l’étouffement et la suffocation ?" 
+,
+        image: "",
+      ),
+      ImageDescription(
+        id: 2,texte: 900,
         description: '''Enfant de 0-12 mois
 ''',
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 3,
         description:
             "Lorsque mon enfant peut crier, tousser et respirer lorsque qu'un objet est bloqué dans sa gorge, je l'encourage à tousser et je vérifie sa bouche pour enlever un objet si présent.",
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 4,
         description:
             "Si la manœuvre ne marche pas, je l’emmène au centre de santé."
             "Lorsque mon enfant n'arrive pas à respirer, à pleurer ou à tousser et garde sa bouche ouverte,",
         image: "",
       ),
       ImageDescription(
-        id: 4,
-        position: '4',
+        id: 5,
+       texte: 900,color: 0xFFFF0000,
         description:
-            '''J’appelle les secours ou je me rends rapidement au centre de santé. 
-''',
+            "J’appelle les secours ou je me rends rapidement au centre de santé. "
+,
+        image: "",
+      ),
+       ImageDescription(
+        id: 6,
+        position: '1',texte: 900,color: 0xFFFF0000,
+        description:"",
         image: "images/accidents/image43.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 7,
         description:
-            '''Pour aider mon enfant à débloquer sa respiration en attendant les secours, je pose les gestes suivants :
-Cliquer sur le lien pour suivre la démonstration (vidéo) 
-''',
+            "Pour aider mon enfant à débloquer sa respiration en attendant les secours, je pose les gestes suivants :"
+ 
+,
+        image: "",
+      ), ImageDescription(
+        id: 8,
+        description:"Cliquer sur le lien pour suivre la démonstration (vidéo) "
+,
         image: "",
       )
     ],

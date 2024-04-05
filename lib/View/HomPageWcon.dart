@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:bebegrandi/Controller/chargementDesDonne.dart';
 import 'package:bebegrandi/Model/tour.dart';
 import 'package:bebegrandi/View/navDrawer.dart';
@@ -104,6 +102,7 @@ class _HomPageWconState extends State<HomPageWcon> {
 
             //----------------------fin scop------------------------
             appBar: AppBar(
+             backgroundColor: Colors.white,
               leading: Builder(
                 builder: (context) {
                   return IconButton(

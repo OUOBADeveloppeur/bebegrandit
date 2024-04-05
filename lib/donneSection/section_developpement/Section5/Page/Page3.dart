@@ -4,10 +4,10 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Les mouvements et gestes",
+    titre: "Le développement de l’enfant de 3 à 5 ans",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '3',
+        id: 1, position: '3',texte: 900,
         description: "Les mouvements et gestes",
         image: "images/developpement/image33.png",
       ),
@@ -27,23 +27,31 @@ Pages page3() {
         image: "",
       ),
       ImageDescription(
-        id: 4, position: '3',
-        description: "Ce que je fais"
-            "Je donne à mon enfant de l’espace pour jouer, courir, sauter."
+        id: 4,texte: 900,
+        description: "Ce que je fais",
+        image: "",
+      ),
+        ImageDescription(
+        id: 5, position: '3',
+        description: "Je donne à mon enfant de l’espace pour jouer, courir, sauter."
             "Je veille à ce qu’il n’y ait pas d’objets dangereux autour de lui qui pourraient le blesser.",
         image: "",
       ),
-      
       ImageDescription(
-        id: 5, position: '2',
-        description:'''Attention Lorsque mon enfant n’arrive pas à : 
-            - sauter sur une jambe, 
-            - marcher suivant une ligne,
-            - -  se tenir en équilibre''',
+        id: 6, position: '2',
+        description:"Attention ",texte: 900,
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6, position: '3',
+        id: 7, position: '2',
+        description:''' Lorsque mon enfant n’arrive pas à : 
+            - sauter sur une jambe, 
+            - marcher suivant une ligne,
+            - se tenir en équilibre''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 8, position: '3',texte: 900,color: 0xFFFF0000,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

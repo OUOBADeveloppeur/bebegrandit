@@ -4,8 +4,15 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "C’est quoi un étouffement ou une suffocation ?",
+    titre: "Etouffement et suffocation",
     imageDescription: [
+        ImageDescription(
+        id: 0,
+        texte: 900,
+        description:
+            '''C’est quoi un étouffement ou une suffocation ?''',
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: "3",

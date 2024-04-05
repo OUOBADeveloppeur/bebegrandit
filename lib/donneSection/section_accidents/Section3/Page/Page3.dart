@@ -4,11 +4,11 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Comment éviter que mon enfant se blesse en cas d’accident ?",
+    titre: "Accidents de la voie publique",
     imageDescription: [
       ImageDescription(
         id: 1,
-
+texte: 900,
         description:
         '''Comment éviter que mon enfant se blesse en cas d’accident ?''',
         image: "",

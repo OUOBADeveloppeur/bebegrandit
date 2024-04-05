@@ -4,9 +4,16 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre:
-        "Que faire lorsqu’il y a un corps étranger dans l’oreille  de mon enfant ?",
+    titre: "Corps étrangers dans l’oreille",
     imageDescription: [
+      ImageDescription(
+        id: 0,
+        texte: 900,
+        description:
+            '''Que faire lorsqu’il y a un corps étranger dans l’oreille  de mon enfant ?
+''',
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: "3",
@@ -23,8 +30,8 @@ Pages page4() {
         image: "images/accidents/image36.png",
       ),
       ImageDescription(
-        id: 3,
-        position: '1',
+        id: 3,texte: 900,color: 0xFFFF0000,
+        position: '2',
         description: '''J’emmène mon enfant dans un centre de santé. 
 ''',
         image: "images/accidents/image37.png",
