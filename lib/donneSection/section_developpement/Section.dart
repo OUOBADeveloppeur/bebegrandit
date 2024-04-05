@@ -27,10 +27,8 @@ Section section1() {
     // Page de garde de la section 1 (Les chutes)
 
     page1(),
-<<<<<<< HEAD
     //page2(),
     // page3()
-=======
     page2(),
     page3(),
     page1(),
@@ -43,7 +41,6 @@ Section section1() {
     page8(),
     page9(),
     page10(),
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
   ], menu: [
     Menu(
       id: 1,

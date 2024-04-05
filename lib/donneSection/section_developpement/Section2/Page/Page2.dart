@@ -30,11 +30,7 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-<<<<<<< HEAD
-        position: '5',
-=======
         texte: 900,
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description: "Ce que je fais",
         image: "",
       ),

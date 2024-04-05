@@ -1,4 +1,3 @@
-
 import '../../../../Model/imageDescription.dart';
 import '../../../../Model/page.dart';
 
@@ -7,9 +6,9 @@ Pages page2() {
     id: 2,
     titre: "Developpement normal",
     imageDescription: [
-       ImageDescription(
+      ImageDescription(
         id: 0,
-      texte: 900,
+        texte: 900,
         description: "Introduction",
         image: "",
       ),
@@ -21,12 +20,6 @@ Pages page2() {
       ),
       ImageDescription(
         id: 1,
-<<<<<<< HEAD
-        texte: 900,
-        position: '1',
-=======
-       
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description: "Après la naissance, l’enfant commence à grandir."
             " Dans les premiers mois, il garde la position qu'il avait dans le ventre de sa mère. "
             "Puis au fil des mois, il commence à tenir sa tête, son tronc puis à se déplacer.",
@@ -34,12 +27,6 @@ Pages page2() {
       ),
       ImageDescription(
         id: 2,
-<<<<<<< HEAD
-        texte: 600,
-        position: '1',
-=======
-  
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description: "Avec les changements de son corps, "
             "l’enfant change aussi sa manière de communiquer avec son entourage, de manger, de dormir, etc."
             " Nous allons voir tout cela en détail selon l’âge de l’enfant.",
@@ -47,20 +34,13 @@ Pages page2() {
       ),
       ImageDescription(
         id: 3,
-<<<<<<< HEAD
-=======
         texte: 900,
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         position: '2',
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 4,
-<<<<<<< HEAD
-        position: '1',
-=======
->>>>>>> 319f0118a80cb6b53fa071b3ac94326bd320190e
         description: " Les enfants ne grandissent pas tous à la même vitesse. ",
         image: "",
       ),
