@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Les visites de suivi de la croissance de mon enfant",
+    titre: "Suivi de la santé de mon enfant",
     imageDescription: [
+      ImageDescription(
+        id: 0,
+        texte: 900,
+        description: "Les visites de suivi de la croissance de mon enfant",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '3',
@@ -15,7 +21,7 @@ Pages page2() {
         image: "images/suivi-croissance/image2.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,texte: 900,
         position: '3',
         description: "Quand commencer le suivi de la croissance ? ",
         image: "",

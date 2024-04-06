@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Vaccinations de mon enfant ",
+    titre: "Suivi de la santé de mon enfant ",
     imageDescription: [
+       ImageDescription(
+        id: 0,
+        texte: 900,
+        description: "Vaccinations de mon enfant",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '3',

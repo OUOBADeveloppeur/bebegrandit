@@ -4,15 +4,22 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page4() {
   return Pages(
     id: 4,
-    titre: "Hygiène corporelle 3/4",
+    titre: "Hygiène corporelle, alimentaire et du cadre de vie ",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        description: " Le lavage des mains 1/2",
+        id: 0,
+        texte: 900,
+        description: "Hygiène corporelle 3/4",
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 1,texte: 900,
+        description: " Le lavage des mains 1/2",
+        image: "",
+
+      ),
+      ImageDescription(
+        id: 2,texte: 900,
         description: "Je lave mes mains et celles de mon enfant à l’eau et au savon à des moments précis  :",
         image: "",
       ),

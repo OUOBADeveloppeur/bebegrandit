@@ -7,7 +7,7 @@ Pages page2() {
     titre: "Alimentation de l’enfant de 2 à 5 ans ",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Repas en famille avec mon enfant ",
         image: "",
       ),
@@ -32,7 +32,7 @@ Pages page2() {
         image: "",
       ),
        ImageDescription(
-        id: 5,
+        id: 5,texte: 900,
         description: " Fréquences des repas de mon enfant de 2 à 5 ans ",
         image: "",
       ),

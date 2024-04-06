@@ -7,7 +7,7 @@ Pages page7() {
     titre: "Allaitement exclusif de 0 à 6 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Expression et conservation du lait maternel ",
         image: "",
       ),

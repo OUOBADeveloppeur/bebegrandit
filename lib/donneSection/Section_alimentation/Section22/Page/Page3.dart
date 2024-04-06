@@ -7,7 +7,7 @@ Pages page3() {
     titre: " Alimentation de l'enfant malade",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Si mon enfant  est âgé de 6 à 59 mois : ",
         image: "",
       ),
@@ -52,7 +52,7 @@ Pages page3() {
         image: "images/alimentation/image6.png",
       ),
       ImageDescription(
-        id: 8,position: '3',
+        id: 8,position: '3',texte: 900,color: 0xFFFF0000,
         description: '''J’emmène mon enfant au centre de santé le plus proche.
 ''',
         image: "images/alimentation/image17.png",

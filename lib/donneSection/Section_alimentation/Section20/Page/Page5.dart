@@ -7,7 +7,7 @@ Pages page5() {
     titre: "Alimentation de l’enfant de 6 à 23 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description:
             "Diversification adéquate de l’alimentation quotidienne de l’enfant 2/3",
         image: "",

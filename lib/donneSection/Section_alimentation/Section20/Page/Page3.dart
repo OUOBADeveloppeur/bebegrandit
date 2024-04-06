@@ -7,7 +7,7 @@ Pages page3() {
     titre: "Alimentation de l’enfant de 6 à 23 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Fréquence de l’alimentation de complément",
         image: "",
       ),
@@ -37,9 +37,15 @@ au moins 3 fois chez l’enfant âgé de 9 à 23 mois.
         image: "",
       ),
       ImageDescription(
+        id: 5,position: '2',texte: 900,
+        description:
+            "Attention : ",
+        image: "images/alimentation/image14.png",
+      ),
+      ImageDescription(
         id: 5,position: '2',
         description:
-            "Attention : je dois surveiller mon enfant pour qu’il mange suffisamment.",
+            " je dois surveiller mon enfant pour qu’il mange suffisamment.",
         image: "images/alimentation/image14.png",
       ),
     ],

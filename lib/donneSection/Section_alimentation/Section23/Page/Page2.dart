@@ -4,8 +4,15 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Hygiène corporelle 1/4",
+    titre: "Hygiène corporelle, alimentaire et du cadre de vie ",
     imageDescription: [
+       ImageDescription(
+        id: 0,texte: 900,
+      
+        description:
+            "Hygiène corporelle 1/4",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description:

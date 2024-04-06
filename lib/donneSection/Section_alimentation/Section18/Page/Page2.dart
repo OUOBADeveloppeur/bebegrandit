@@ -4,8 +4,13 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "Importance de l’alimentation pour l’enfant",
+    titre: " Ce que mon enfant doit manger pour être en bonne santé",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description: "Importance de l’alimentation pour l’enfant",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description:

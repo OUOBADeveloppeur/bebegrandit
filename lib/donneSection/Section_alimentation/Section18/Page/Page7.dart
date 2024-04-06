@@ -4,8 +4,13 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page7() {
   return Pages(
     id: 7,
-    titre: " Conseils alimentaires (2/2)",
+    titre: " Ce que mon enfant doit manger pour être en bonne santé",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description: "Conseils alimentaires (2/2)",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description: "Pour une bonne croissance et pour réduire le risque d’être malade:"
@@ -41,9 +46,15 @@ Pages page7() {
         image: "",
       ),
       ImageDescription(
+        id: 6,position: '2',texte: 900,
+        description:
+          "Attention : ",
+        image: "images/alimentation/image14.png",
+      ),
+       ImageDescription(
         id: 6,position: '3',
         description:
-          "Attention : Je ne consomme pas d’alcool, "
+          " Je ne consomme pas d’alcool, "
           "les boissons gazeuses, le café, le tabac, la cola, le thé.",
         image: "images/alimentation/image14.png",
       ),

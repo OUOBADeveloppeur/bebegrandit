@@ -4,10 +4,17 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page8() {
   return Pages(
     id: 8,
-    titre: "Vaccinations de mon enfant",
+     titre: "Suivi de la santé de mon enfant ",
     imageDescription: [
+       ImageDescription(
+        id: 0,
+        texte: 900,
+        description: "Vaccinations de mon enfant",
+        image: "",
+      ),
+  
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Réactions possibles après la vaccination ",
         image: "",
       ),
@@ -57,7 +64,7 @@ Pages page8() {
         image: "",
       ),
       ImageDescription(
-        id: 9,
+        id: 9,texte: 900,color: 0xFFFF0000,
         position: '4',
         description: '''il faut l’emmener immédiatement au centre de santé. ''',
         image: "images/suivi-croissance/image3.png",

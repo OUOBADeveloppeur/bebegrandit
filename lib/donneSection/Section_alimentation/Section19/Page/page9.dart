@@ -7,7 +7,7 @@ Pages page9() {
     titre: "Allaitement exclusif de 0 à 6 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Difficultés pendant l'allaitement (1/2) ",
         image: "",
       ),
@@ -22,7 +22,7 @@ Pages page9() {
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3,texte: 900,
         description: '''Pour éviter certaines  difficultés liées à l'allaitement :''',
         image: "",
       ),

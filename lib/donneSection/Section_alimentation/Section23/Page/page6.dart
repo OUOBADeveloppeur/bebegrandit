@@ -4,8 +4,14 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Hygiène alimentaire 1/2 ",
+    titre: "Hygiène corporelle, alimentaire et du cadre de vie  ",
     imageDescription: [
+      ImageDescription(
+        id: 0,
+        texte: 900,
+        description: "Hygiène alimentaire 1/2",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description: '''  La manipulation et la conservation des aliments de mon

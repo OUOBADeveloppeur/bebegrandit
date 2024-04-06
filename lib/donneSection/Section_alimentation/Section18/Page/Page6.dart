@@ -4,8 +4,13 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page6() {
   return Pages(
     id: 6,
-    titre: "Conseils alimentaires (1/2)",
+    titre: "Ce que mon enfant doit manger pour être en bonne santé",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description: "Conseils alimentaires (1/2)",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         position: '4',

@@ -4,8 +4,13 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page5() {
   return Pages(
     id: 5,
-    titre: "Eléments essentiels de l’alimentation de mon enfant (3/3)",
+    titre: "Ce que mon enfant doit manger pour être en bonne santé",
     imageDescription: [
+      ImageDescription(
+        id: 0,texte: 900,
+        description: "Eléments essentiels de l’alimentation de mon enfant (3/3)",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description:

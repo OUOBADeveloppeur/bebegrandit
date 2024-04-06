@@ -7,7 +7,7 @@ Pages page2() {
     titre: "Alimentation de l’enfant de 6 à 23 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "C’est quoi l’alimentation de complément ?",
         image: "",
       ),
@@ -28,7 +28,7 @@ Pages page2() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,texte: 900,
         description: "Aliments à éviter",
         image: "",
       ),

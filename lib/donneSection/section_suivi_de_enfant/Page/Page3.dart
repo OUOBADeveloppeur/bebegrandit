@@ -4,10 +4,16 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page3() {
   return Pages(
     id: 3,
-    titre: "Les visites de suivi de la croissance de mon enfant",
+    titre: "Suivi de la santé de mon enfant",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 0,
+        texte: 900,
+        description: "Les visites de suivi de la croissance de mon enfant",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
         description: "Ce que je prépare pour la visite de mon enfant",
         image: "",
       ),
@@ -34,7 +40,7 @@ Pages page3() {
         image: "images/suivi-croissance/image5.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5,texte: 900,
         position: '3',
         description:
             "J’apporte le carnet de santé de mon enfant à chaque visite. ",
