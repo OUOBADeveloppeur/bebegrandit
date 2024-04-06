@@ -1,13 +1,18 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page3() {
+Pages page5() {
   return Pages(
-    id: 1,
-    titre: "Corps chaud 3/3",
+    id: 5,
+    titre: "Les signes de danger",
     imageDescription: [
+       ImageDescription(
+        id: 0,
+        description: "Corps chaud 3/3",
+        image: "",
+      ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''Ce que je fais''',
         image: "",
       ),
@@ -35,9 +40,16 @@ si mon enfant a plus de 6 mois.
       ),
       ImageDescription(
         id: 5,
-        position: '3',
+
         description:
             "Je rassure mon enfant et je l’emmène au centre de santé le plus proche. ",
+        image: "",
+      ),
+      ImageDescription(
+        id: 6,
+        position: '1',texte: 900,color: 0xFFFF0000,
+        description:
+            " ",
         image: "images/danger/image21.png",
       ),
     ],

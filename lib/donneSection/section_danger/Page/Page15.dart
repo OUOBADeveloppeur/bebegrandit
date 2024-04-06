@@ -1,14 +1,19 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page15() {
   return Pages(
-    id: 1,
-    titre: "Vomissement",
+    id: 15,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        description: '''C'est quoi ?''',
+        id: 0,
+        description: "Vomissement",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
+        description: "C'est quoi un vomissement ?",
         image: "",
       ),
       ImageDescription(
@@ -20,7 +25,7 @@ Pages page1() {
         image: "images/danger/image8.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3,texte: 900,
         description: '''Pourquoi mon enfant vomit ?''',
         image: "",
       ),
@@ -39,7 +44,7 @@ Pages page1() {
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 6,texte: 900,
         description: '''Ce que je fais ''',
         image: "",
       ),
@@ -58,7 +63,7 @@ Pages page1() {
         image: "images/danger/image36.png",
       ),
       ImageDescription(
-        id: 9,
+        id: 9,texte: 900,color: 0xFFFF0000,
         position: '3',
         description: '''j’emmène mon enfant au centre de santé ''',
         image: "images/danger/image21.png",

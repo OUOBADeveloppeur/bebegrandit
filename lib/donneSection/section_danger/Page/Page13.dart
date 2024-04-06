@@ -1,22 +1,25 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page13() {
   return Pages(
-    id: 1,
-    titre: "Diarrhée 1/2",
+    id: 13,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        description: '''C'est quoi ?''',
+        id: 0,
+        description: "Diarrhée 1/2",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
+        description: "C'est quoi une diarrhée ?",
         image: "",
       ),
       ImageDescription(
         id: 2,position: '3',
         description:
-            '''C’est lorsque mon enfant fait plus de trois selles liquides par jour sauf chez 
-  les nouveaux nés.
- ''',
+            "C’est lorsque mon enfant fait plus de trois selles liquides par jour sauf chez les nouveaux nés.",
         image: "images/danger/image9.png",
       ),
       ImageDescription(
@@ -26,7 +29,7 @@ Pages page1() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,texte: 900,
         description: '''Pourquoi mon enfant a la diarrhée ?''',
         image: "",
       ),

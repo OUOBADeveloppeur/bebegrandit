@@ -1,13 +1,18 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page2() {
+Pages page10() {
   return Pages(
-    id: 2,
-    titre: "Difficultés à respirer 2/3",
+    id: 10,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 0,
+        description: "CDifficultés à respirer 2/3",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
         description: "Pourquoi mon enfant à des problèmes pour respirer ?",
         image: "",
       ),

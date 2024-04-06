@@ -1,14 +1,19 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page16() {
   return Pages(
-    id: 1,
-    titre: "Refus de téter ou de manger 1/2",
+    id: 16,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        description: '''C'est quoi ?''',
+        id: 0,
+        description: "Refus de téter ou de manger 1/2",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
+        description: "C'est quoi un refus de téter ou de manger ?",
         image: "",
       ),
       ImageDescription(
@@ -24,11 +29,11 @@ Pages page1() {
       ),
       ImageDescription(
         id: 4,  position: '4',
-        description: '''''',
+        description:"",
         image: "images/danger/image41.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5,texte: 900,
         description: '''Pourquoi mon enfant refuse de manger ou de boire ?''',
         image: "",
       ),

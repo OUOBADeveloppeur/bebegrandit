@@ -1,13 +1,18 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page2() {
+Pages page14() {
   return Pages(
-    id: 2,
-    titre: "Diarrhée 2/2",
+    id: 14,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 0,
+        description: "Diarrhée 2/2",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
         description: "Ce que je fais ",
         image: "",
       ),
@@ -26,7 +31,7 @@ Pages page2() {
         image: "images/danger/image23.png",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,texte: 900,color: 0xFFFF0000,
         position: '3',
         description: "Je l’emmène au centre de santé.",
         image: "images/danger/image21.png",

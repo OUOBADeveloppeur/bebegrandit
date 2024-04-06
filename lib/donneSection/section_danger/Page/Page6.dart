@@ -1,13 +1,18 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page6() {
   return Pages(
-    id: 1,
-    titre: "Corps froid 1/3 ",
+    id: 6,
+    titre: "Les signes de danger",
     imageDescription: [
+       ImageDescription(
+        id: 0,
+        description: "Corps froid 1/3",
+        image: "",
+      ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''C'est quoi ? 
 ''',
         image: "",

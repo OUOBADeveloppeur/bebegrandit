@@ -1,14 +1,19 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page9() {
   return Pages(
-    id: 1,
-    titre: "Difficultés à respirer 1/3 ",
+    id: 9,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        description: '''C'est quoi ?''',
+        id: 0,
+        description: "Difficultés à respirer 1/3",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
+        description: "C'est quoi une difficulté à respirer ?",
         image: "",
       ),
       ImageDescription(

@@ -28,11 +28,11 @@ Section sectionsuivi() {
       page6(),
       page7(),
       page8(),
-  //    page9(),
-    //  page10(),
-     // page11(),
-     // page12(),
-    //  page13()
+      //page9(),
+      //page10(),
+      //page11(),
+      //page12(),
+      //page13()
     ],
     menu: null,
   );

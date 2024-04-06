@@ -12,7 +12,7 @@ Pages page2() {
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,texte: 900,color: 0xFFFF0000,
         description:
             "J’emmène immédiatement mon enfant au centre de santé s'il présente les signes suivants :",
         image: "",

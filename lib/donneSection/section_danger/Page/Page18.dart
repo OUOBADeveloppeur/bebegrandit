@@ -1,11 +1,16 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page18() {
   return Pages(
-    id: 1,
-    titre: "Enfant très faible",
+    id: 18,
+    titre: "Les signes de danger",
     imageDescription: [
+      ImageDescription(
+        id: 0,
+        description: "Enfant très faible",
+        image: "",
+      ),
       ImageDescription(
         id: 1,
         description: '''C'est quoi ?''',

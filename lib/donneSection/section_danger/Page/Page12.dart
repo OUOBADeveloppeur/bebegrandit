@@ -1,14 +1,19 @@
 import 'package:bebegrandi/Model/imageDescription.dart';
 import 'package:bebegrandi/Model/page.dart';
 
-Pages page1() {
+Pages page12() {
   return Pages(
-    id: 1,
-    titre: "Convulsions ",
+    id: 12,
+    titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        description: '''C'est quoi ?''',
+        id: 0,
+        description: "Convulsions",
+        image: "",
+      ),
+      ImageDescription(
+        id: 1,texte: 900,
+        description: "C'est quoi une convulsion ?",
         image: "",
       ),
       ImageDescription(
@@ -37,7 +42,7 @@ Pages page1() {
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 6,texte: 900, color: 0xFFFF0000,
         position: '3',
         description:
             '''J’emmène immédiatement mon enfant au centre de santé. ''',
