@@ -1,5 +1,5 @@
 // ignore_for_file: must_be_immutable
-/*
+
 import 'package:bebegrandi/Model/menu.dart';
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/section.dart';
@@ -346,4 +346,3 @@ class _MenusState extends State<Menus>
     });
   }
 }
-*/
