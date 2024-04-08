@@ -1,5 +1,5 @@
 // ignore_for_file: must_be_immutable
-
+/*
 import 'package:bebegrandi/Model/menu.dart';
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/section.dart';
@@ -98,6 +98,7 @@ class _MenusState extends State<Menus>
               ),
             );
           },
+          
         ),
         automaticallyImplyLeading: false, // Désactiver le bouton de retour
 
@@ -123,6 +124,7 @@ class _MenusState extends State<Menus>
                 color: Colors.white,
               ))
         ],
+      
       ),
       drawer: const NavDrawer(),
       body: Column(
@@ -190,53 +192,57 @@ class _MenusState extends State<Menus>
     );
   }
 
-  void _showSectionLinks() {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Pages du chapitre'),
-          content: SizedBox(
-            width: MediaQuery.of(context).size.width *
-                0.6, // Ajustez la largeur selon vos besoins
-            height: MediaQuery.of(context).size.height *
-                0.6, // Ajustez la hauteur selon vos besoins
-            child: Scrollbar(
-              thumbVisibility: true,
-              child: ListView.builder(
-                itemCount:
-                    widget.menu.section![widget.sectionIndex].page!.length,
-                itemBuilder: (context, index) {
-                  final page =
-                      widget.menu.section![widget.sectionIndex].page![index];
-                  return Padding(
-                    padding: const EdgeInsets.only(left: 0),
-                    child: Container(
-                      child: ListTile(
-                        title: TextButton(
-                          onPressed: () {
-                            Navigator.pop(context); // Fermer le AlertDialog
-                            _navigateToMenusPage(
-                                widget.menu,
-                                widget.menu.section![widget.sectionIndex],
-                                page);
-                          },
-                          child: Text(
-                            page.titre,
-                            style: TextStyle(fontSize: 12),
+ void _showSectionLinks() {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      final itemCount = widget.menu.section![widget.sectionIndex].page!.length;
+      final isSmallList = itemCount == 3; // Vérifiez si la taille de la liste est égale à 3
+
+      return AlertDialog(
+        title: Text('Pages du chapitre'),
+        content: SizedBox(
+          width: MediaQuery.of(context).size.width * 0.6,
+          height: MediaQuery.of(context).size.height * (isSmallList ? 0.2 : 0.4), // Réduisez la hauteur si la liste est petite
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                ListView.builder(
+                  shrinkWrap: true,
+                  physics: NeverScrollableScrollPhysics(), // Empêcher le ListView de défilement pour qu'il soit utilisé dans SingleChildScrollView
+                  itemCount: itemCount,
+                  itemBuilder: (context, index) {
+                    final page = widget.menu.section![widget.sectionIndex].page![index];
+                    return Padding(
+                      padding: const EdgeInsets.only(left: 0),
+                      child: Container(
+                        child: ListTile(
+                          title: Card(
+                            color: Color(getCurrentSectionColor()),
+                            child: TextButton(
+                              onPressed: () {
+                                Navigator.pop(context); // Fermer le AlertDialog
+                                _navigateToMenusPage(widget.menu, widget.menu.section![widget.sectionIndex], page);
+                              },
+                              child: Text(
+                                page.titre,
+                                style: TextStyle(fontSize: 12),
+                              ),
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  );
-                },
-              ),
+                    );
+                  },
+                ),
+              ],
             ),
           ),
-        );
-      },
-    );
-  }
+        ),
+      );
+    },
+  );
+}
 
   void _navigateToMenusPage(Menu menu, Section section, Pages page) {
     if (section.menu != null) {
@@ -340,3 +346,4 @@ class _MenusState extends State<Menus>
     });
   }
 }
+*/
