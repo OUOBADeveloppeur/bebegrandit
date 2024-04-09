@@ -116,14 +116,11 @@ class ImageDescription1 extends StatefulWidget {
             ),
           ),
         if (imagePath.isNotEmpty)
-          Expanded(
-            flex: 2,
-            child: Image.asset(
-              imagePath,
-              width: imageWidth,
-              height: imageHeight,
-              fit: BoxFit.contain,
-            ),
+          Image.asset(
+            imagePath,
+            width: imageWidth,
+            height: imageHeight,
+            fit: BoxFit.contain,
           ),
       ],
     );
@@ -216,6 +213,58 @@ class ImageDescription1 extends StatefulWidget {
       ],
     );
   }
+
+  //-----------------titre image----------------------
+  Widget _buildImagetTitreTexte(String imagePath, String description,
+      {int? color,
+      String? position,
+      double? imageWidth,
+      double? imageHeight,
+      int? texte}) {
+    return Container(
+      // color: Colors.red,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (description != null && description.isNotEmpty)
+            Expanded(
+              flex: 3,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 2, vertical: 5),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      description,
+                      style: TextStyle(
+                        // Texte gras si "texte" est défini
+
+                        fontWeight:
+                            texte != null ? FontWeight.bold : FontWeight.normal,
+                        color: color != null ? Color(color) : Colors.black,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          if (imagePath.isNotEmpty)
+            Expanded(
+              flex: 2,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+                child: Image.asset(
+                  imagePath,
+                  width: imageWidth,
+                  height: imageHeight,
+                  fit: BoxFit.contain,
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
 }
 
 class _ImageDescriptionState extends State<ImageDescription1> {
@@ -243,6 +292,18 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             imageHeight: maxHeight);
         print(imagePath.length);
         break;
+      case '0':
+        imageWidget = widget._buildImagetTitreTexte(
+          imagePath,
+          description,
+          color: color ?? defaultColor,
+          position: position,
+          texte: texte,
+          imageWidth: MediaQuery.of(context).size.width * 0.08,
+          imageHeight: MediaQuery.of(context).size.height * 0.08,
+        );
+        print(imagePath.length);
+        break;
       case '2':
         imageWidget = widget._buildImageLeftTextRight(imagePath, description,
             color: color ?? defaultColor,
@@ -264,7 +325,11 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         break;
       case '4':
         imageWidget = widget._buildTextTopImageBottom(imagePath, description,
-            color: color ?? defaultColor, position: position, texte: texte);
+            //  imageHeight: 50,
+            //  imageWidth: 50,
+            color: color ?? defaultColor,
+            position: position,
+            texte: texte);
         print(imagePath.length);
         break;
       // case '5':
@@ -284,11 +349,44 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       children: <Widget>[
         if (shouldDisplayImage && position == '1')
           if (isImageFirst)
+            Container(
+              //  color: Colors.red,
+              //child: SizedBox(
+              // Taille fixe pour les images
+              // height: 360, // Hauteur fixe pour l'image
+              child: imageWidget,
+              // ),
+            ) /*,
+          if (position=='1')
             SizedBox(
               // Taille fixe pour les images
-              height: 360, // Hauteur fixe pour l'image
-              child: SizedBox(height: 200, child: imageWidget),
-            ) /*,
+              height: 356, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Flexible(
+                  flex: 2,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: SizedBox(height: 300, child: imageWidget),
+                  //  ),
+                ),
+              ],
+            ),
+        if (shouldDisplayImage && position == '4')
+          if (isImageFirst)
+            //  Container(
+            // color: Colors.blue,
+            SizedBox(
+              // Taille fixe pour les images
+              height: 121, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )
+          //  )
+          /*,
           if (position=='1')
             SizedBox(
               // Taille fixe pour les images
@@ -308,32 +406,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 ),
               ],
             ),
-        if (shouldDisplayImage && position == '4')
-          if (isImageFirst)
-            SizedBox(
-              // Taille fixe pour les images
-              height: 71, // Hauteur fixe pour l'image
-              child: imageWidget,
-            ) /*,
-          if (position=='1')
-            SizedBox(
-              // Taille fixe pour les images
-              height: 356, // Hauteur fixe pour l'image
-              child: imageWidget,
-            )*/
-          else
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Flexible(
-                  flex: 2,
-                  //child: Container(
-                  //  alignment: Alignment.bottomCenter,
-                  child: SizedBox(height: 305, child: imageWidget),
-                  //  ),
-                ),
-              ],
-            ),
 
         if (shouldDisplayImage && position == '2'
             // &&
@@ -342,10 +414,13 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             // position != '4'
             )
           if (isImageFirst)
-            SizedBox(
+            Container(
+              //  color: Colors.green,
+              // child: SizedBox(
               // Taille fixe pour les images
-              height: 200, // Hauteur fixe pour l'image
+              // height: 200, // Hauteur fixe pour l'image
               child: imageWidget,
+              // ),
             ) /*,
           if (position=='1')
             SizedBox(
@@ -366,13 +441,47 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 ),
               ],
             ),
-
-        if (shouldDisplayImage && position == '3')
+//--------------------------------image o-------------
+        if (shouldDisplayImage && position == '0')
           if (isImageFirst)
+            Container(
+              // child: SizedBox(
+              // Taille fixe pour les images
+              //  height: MediaQuery.of(context).size.height *
+              //    0.08, // Hauteur fixe pour l'image
+              child: imageWidget,
+              //   ),
+            )
+          /*,
+          if (position=='1')
             SizedBox(
               // Taille fixe pour les images
-              height: 172, // Hauteur fixe pour l'image
+              height: 356, // Hauteur fixe pour l'image
               child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Flexible(
+                  flex: 1,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: imageWidget,
+                  //  ),
+                ),
+              ],
+            ),
+//----------------fin image---------------------
+        if (shouldDisplayImage && position == '3')
+          if (isImageFirst)
+            Container(
+              //color: Colors.yellow,
+
+              // Taille fixe pour les images
+              // height: 172, // Hauteur fixe pour l'image
+              child: imageWidget,
+              //  ),
             ) /*,
           if (position=='1')
             SizedBox(

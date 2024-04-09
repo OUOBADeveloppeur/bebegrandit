@@ -13,12 +13,14 @@ Pages page5() {
         image: "",
       ),
       ImageDescription(
-        id: 1,texte: 900,
+        id: 1,
+        texte: 900,
         description: "  Le lavage des mains 2/2",
         image: "",
       ),
       ImageDescription(
-        id: 2,texte: 900,
+        id: 2,
+        texte: 900,
         description:
             '''Je lave mes mains et celles de mon enfant à l’eau et au savon à des moments précis  : 
 ''',
@@ -29,29 +31,16 @@ Pages page5() {
         position: '4',
         description:
             '''- Avant d’allaiter ou donner à manger à mon enfant ;   ''',
-        image: "",
-      ),
-       ImageDescription(
-        id: 4,
-        position: '1',
-        description:
-           "",
         image: "images/alimentation/image33.jpeg",
       ),
+     
       ImageDescription(
-        id: 5,
+        id: 4,
         position: '4',
         description: "- Avant et Après le repas.",
-        image: "",
-      ),
-       ImageDescription(
-        id: 6,
-        position: '1',
-        description:""
-
- ,
         image: "images/alimentation/image32.png",
       ),
+  
       ImageDescription(
         id: 5,
         description:

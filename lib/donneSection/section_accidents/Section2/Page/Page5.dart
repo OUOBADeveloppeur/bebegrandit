@@ -7,22 +7,30 @@ Pages page5() {
     titre: "Les chutes",
     imageDescription: [
       ImageDescription(
-        id: 1,texte: 900,
+        id: 1,
+        texte: 900,
         description: '''Que faire en cas de chute ?''',
         image: "",
       ),
       ImageDescription(
         id: 2,
-       
         description:
             "Lorsque mon enfant se blesse ou se cogne fort sa tête ou s’évanouit  suite à une chute, ",
         image: "",
       ),
-         ImageDescription(
-        id: 3,texte: 900,color: 0xFFFF0000,
-        position: '4',
-        description:
-            " je l’emmène au centre de santé.",
+      ImageDescription(
+        id: 3,
+        texte: 900,
+        color: 0xFFFF0000,
+        description: " je l’emmène au centre de santé.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 3,
+        texte: 900,
+        color: 0xFFFF0000,
+        position: '1',
+        description: "",
         image: "images/accidents/image11.png",
       ),
       ImageDescription(
@@ -33,9 +41,11 @@ Pages page5() {
         image: "images/accidents/image10.png",
       ),
       ImageDescription(
-        id: 5,texte: 900,
+        id: 5,
+        texte: 900,
         position: '2',
-        description: '''Attention : Je ne dois pas masser les gonflements car ils  peuvent cacher une fracture.''',
+        description:
+            '''Attention : Je ne dois pas masser les gonflements car ils  peuvent cacher une fracture.''',
         image: "images/accidents/image9.png",
       )
     ],

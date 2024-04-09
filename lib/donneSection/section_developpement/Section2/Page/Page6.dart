@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page6() {
+Pages page9() {
   return Pages(
     id: 6,
     titre: "Développement de l’enfant de  0 à 6 mois",
@@ -9,7 +9,7 @@ Pages page6() {
       ImageDescription(
         id: 0,
         texte: 900,
-        position: '3',
+        position: '0',
         description: "L’audition"
             "",
         image: "images/developpement/pag12/ic-01.png",

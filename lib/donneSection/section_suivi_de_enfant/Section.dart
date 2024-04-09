@@ -16,25 +16,24 @@ import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page12.dart
 import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page13.dart';
 
 Section sectionsuivi() {
-  return Section(id: 5, colors: 0xFF0D38E4, page: [
-    // Page de garde de la section 1 (Les chutes)
-    page1(),
-    page2(),
-    page3(),
-    page4(),
-    page5(),
-    page6(),
-    page7(),
-    page8(),
-    page9(),
-    page10(),
-    page11(),
-    page12(),
-    page13()
-  ], menu: [
-    Menu(
-      id: 0,
-      section: [],
-    )
-  ]);
+  return Section(
+      id: 5,
+      colors: 0xFF0D38E4,
+      page: [
+        // Page de garde de la section 1 (Les chutes)
+        page1(),
+        page2(),
+        page3(),
+        page4(),
+        page5(),
+        page6(),
+        page7(),
+        page8(),
+        page9(),
+        page10(),
+        page11(),
+        page12(),
+        page13()
+      ],
+      menu: null);
 }

@@ -19,7 +19,7 @@ Pages page6() {
         image: "",
       ),
       ImageDescription(
-        id: 2,position: '4',
+        id: 2,position: '1',
         description: '''Pour cela : 
 
 - je conserve les aliments dans des récipients propres et fermés et dans un endroit

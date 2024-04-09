@@ -5,7 +5,7 @@ import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page3.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page4.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page5.dart';
-import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page6.dart';
+import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/page6.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page7.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page8.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page9.dart';
@@ -16,16 +16,16 @@ Section section5() {
     id: 4,
     colors: 0xFFE8EF1F,
     page: <Pages>[
-      page1(),
-      page2(),
-      page3(),
-      page4(),
-      page5(),
-      page6(),
-      page7(),
-      page8(),
-      page9(),
-       page10(),
+      page33(),
+      page34(),
+      page35(),
+      page36(),
+      page37(),
+      page38(),
+      page39(),
+      page40(),
+      page41(),
+       page42(),
     ],
     menu: null,
   );

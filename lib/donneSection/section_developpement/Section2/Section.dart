@@ -8,17 +8,15 @@ import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page
 import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page7.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page8.dart';
 import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page9.dart';
-import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page10.dart';
 
+import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page10.dart';
+import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page11.dart';
 
 Section section2() {
   return Section(
     id: 1,
     colors: 0xFFee5733,
     page: [
-      page1(),
-      page2(),
-      page3(),
       page4(),
       page5(),
       page6(),
@@ -26,6 +24,10 @@ Section section2() {
       page8(),
       page9(),
       page10(),
+      page11(),
+      page12(),
+      page13(),
+      page14(),
     ],
     menu: null,
   );

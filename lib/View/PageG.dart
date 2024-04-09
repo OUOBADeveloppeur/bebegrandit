@@ -353,7 +353,7 @@ class _HomePageState extends State<HomePage>
         title: Text(
             widget.section.section[widget.sectionIndex].page![widget.pageIndex]
                 .titre,
-            style: TextStyle(fontSize: 12)),
+            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
 
         foregroundColor: Colors.white,
         actions: [
@@ -375,6 +375,7 @@ class _HomePageState extends State<HomePage>
         children: [
           Expanded(
             child: PageView.builder(
+            
               key: UniqueKey(),
               controller: _pageController,
               itemCount: widget.section.section.length > widget.sectionIndex
@@ -477,7 +478,9 @@ class _HomePageState extends State<HomePage>
                               },
                               child: Text(
                                 section.page![0].titre,
-                                style: TextStyle(fontSize: 10),
+                                style: TextStyle(
+                                  fontSize: 10,
+                                ),
                               ),
                             ),
                           ),

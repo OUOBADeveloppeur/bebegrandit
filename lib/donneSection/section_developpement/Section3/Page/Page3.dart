@@ -1,13 +1,13 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page3() {
+Pages page17() {
   return Pages(
     id: 3,
     titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
-        id: 1, texte: 900,
+        id: 1, texte: 900,position: '0',
         description: "Les mouvements et gestes",
         image: "images/developpement/pag19/ic-01.png",
       ),
