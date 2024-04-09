@@ -43,12 +43,7 @@ Section sectionQ() {
     page17(),
     page18(),
    // page19(),
-  ], menu: [
-    Menu(
-      id: 0,
-      section: [
-        // Page de garde de la section 1 (Les chutes)
-      ],
-    )
-  ]);
+  ], menu: null
+    
+  );
 }
