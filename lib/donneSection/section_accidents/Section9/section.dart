@@ -13,13 +13,13 @@ Section section9() {
     colors: 0xFF0D38E4,
     page: [
       // Page de garde de la section 1 (Les chutes)
-      page1(),
-      page2(),
-      page3(),
-      page4(),
-      page5(),
-      page6(),
-      page7(),
+      page40(),
+      page41(),
+      page42(),
+      page43(),
+      page44(),
+      page45(),
+      page46(),
     ],
     menu: null,
   );

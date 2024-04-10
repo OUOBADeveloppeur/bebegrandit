@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page6() {
+Pages page34() {
   return Pages(
     id: 6,
     titre: "Etouffement et suffocation",

@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page7() {
+Pages page23() {
   return Pages(
     id: 7,
     titre: "Morsures, piqûres ou griffures",

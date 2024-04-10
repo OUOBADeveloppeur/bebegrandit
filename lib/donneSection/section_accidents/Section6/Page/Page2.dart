@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page2() {
+Pages page26() {
   return Pages(
     id: 2,
     titre: "Corps étrangers dans l’oreille",

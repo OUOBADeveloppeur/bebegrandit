@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page3() {
+Pages page49() {
   return Pages(
     id: 3,
     titre: "Coupures ou piqûres",

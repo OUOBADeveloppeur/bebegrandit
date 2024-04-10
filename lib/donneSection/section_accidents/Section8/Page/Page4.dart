@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page4() {
+Pages page38() {
   return Pages(
     id: 4,
     titre: "La noyade",

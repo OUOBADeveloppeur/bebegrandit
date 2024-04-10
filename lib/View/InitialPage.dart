@@ -39,14 +39,11 @@ class _MyWidgetState extends State<Inaitiale> {
                 ),
                 SizedBox(height: 20), 
                 Text(
-                  '''
-      <Mon enfant grandit> est une application
-      conçue par le ministère de la santé et de
-      l'hygiène publication du Burkina Faso et ses
-      partenaires techniques. Elle donne des
-      informations précises et concises sur la
-      santé de l'enfant de 0 à 5 ans.
-                  ''', style: TextStyle(
+                  
+      "<Mon enfant grandit> est une application conçue par le ministère de la santé et de"
+      "l'hygiène publication du Burkina Faso et ses partenaires techniques. Elle donne des"
+      "informations précises et concises sur la santé de l'enfant de 0 à 5 ans."
+                  , style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
                       fontSize: 15,
                       fontWeight: FontWeight.bold, // Texte en gras
@@ -65,12 +62,9 @@ class _MyWidgetState extends State<Inaitiale> {
                 ),
                      SizedBox(height: 20), 
                 Text(
-                  '''
-      Cette application ne remplace pas les
-      conseils donnés au centre de santé ou à
-      l'hôpital. Consultez le centre de santé en
-      cas de doutes.
-                  ''',
+                  
+      "Cette application ne remplace pas les conseils donnés au centre de santé ou à"
+     " l'hôpital. Consultez le centre de santé en cas de doutes." ,
                    style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
                       fontSize: 15,

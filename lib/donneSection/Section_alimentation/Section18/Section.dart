@@ -12,13 +12,13 @@ Section section18() {
     id: 1,
     colors: 0xFFee5733,
     page: [
-      page1(),
-      page2(),
       page3(),
       page4(),
       page5(),
       page6(),
       page7(),
+      page8(),
+      page9(),
     ],
     menu: null,
   );

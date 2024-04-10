@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page5() {
+Pages page24() {
   return Pages(
     id: 5,
     titre: "Alimentation de l’enfant de 6 à 23 mois",

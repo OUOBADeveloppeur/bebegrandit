@@ -14,9 +14,16 @@ Pages page22() {
       ImageDescription(
         id: 2, position: '3',
         description:
-            '''Dès 6 mois, mon enfant réagit aux situations désagréables 
-            en se détournant de quelque chose qui le dérange.""Mon enfant est sensible aux émotions de ses parents."
-             Il découvre ses goûts et s’exprime quand quelque chose lui plaît ou non.''',
+            "Dès 6 mois, mon enfant réagit aux situations désagréables "
+           "en se détournant de quelque chose qui le dérange.""Mon enfant est sensible aux émotions de ses parents."
+            ,
+        image: "",
+      ),
+      ImageDescription(
+        id: 2, position: '3',
+        description:
+          
+            "Il découvre ses goûts et s’exprime quand quelque chose lui plaît ou non.",
         image: "images/developpement/pag24/ic-02-01.png",
       ),
       ImageDescription(
@@ -34,7 +41,7 @@ Pages page22() {
       ),
       ImageDescription(
         id: 5, position: '3',
-        description: "Ce que je fais"
+        description: 
             "Je manifeste les différentes émotions comme la joie,"
             " la colère ou la peur selon les situations qui se présentent.",
         image: "",
@@ -46,9 +53,9 @@ Pages page22() {
       ),
          ImageDescription(
         id: 7,
-        description: ''' Lorsque mon enfant : 
-            - ne réagit pas quand il me retrouve ou qu’il est séparé de moi, 
-            - ne réagit pas à mes émotions''',
+        description: " Lorsque mon enfant : "
+            "- ne réagit pas quand il me retrouve ou qu’il est séparé de moi, "
+            "- ne réagit pas à mes émotions",
         image: "",
       ),
       ImageDescription(

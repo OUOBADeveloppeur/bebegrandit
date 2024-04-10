@@ -8,9 +8,9 @@ Section section22() {
     id: 5,
     colors: 0xFF5ee733,
     page: [
-      page1(),
-      page2(),
-      page3(),
+      page28(),
+      page29(),
+      page30(),
     ],
     menu: null,
   );

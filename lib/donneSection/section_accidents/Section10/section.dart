@@ -11,11 +11,11 @@ Section section10() {
     colors: 0xFF0D38E4,
     page: [
       // Page de garde de la section 1 (Les chutes)
-      page1(),
-      page2(),
-      page3(),
-      page4(),
-      page5(),
+      page47(),
+      page48(),
+      page49(),
+      page50(),
+      page51(),
     ],
     menu: null,
   );

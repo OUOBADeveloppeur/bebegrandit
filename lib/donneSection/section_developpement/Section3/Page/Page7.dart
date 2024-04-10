@@ -29,17 +29,17 @@ Pages page21() {
         id: 4,
         position: '3',
         description:
-            '''Mon enfant s’intéresse aux formes et à la taille des objets.
-            Dès 9-10 mois, mon enfant attrape des objets avec ses doigts. 
-          ''',
+            "Mon enfant s’intéresse aux formes et à la taille des objets."
+            "Dès 9-10 mois, mon enfant attrape des objets avec ses doigts." 
+        ,
         image: "images/developpement/pag23/ic-03-01.png",
       ),
       ImageDescription(
         id: 5,
         position: '3',
-        description: '''
-            Il peut manger avec ses mains.  Dès 10 -11 mois, aime mettre ses doigts dans des trous et des ouvertures, "
-            il retourne et secoue les objets pour vérifier s’il y a quelque chose.''',
+        description:
+           " Il peut manger avec ses mains.  Dès 10 -11 mois, aime mettre ses doigts dans des trous et des ouvertures, "
+            "il retourne et secoue les objets pour vérifier s’il y a quelque chose.",
         image: "",
       ),
       ImageDescription(
@@ -65,9 +65,9 @@ Pages page21() {
        ImageDescription(
         id: 9,
     
-        description: ''' Lorsque mon enfant après 12 mois : 
-            - ne saisit pas des objets placés à proximité, "
-            - ne s’intéresse pas aux jouets''',
+        description: "Lorsque mon enfant après 12 mois : "
+           " - ne saisit pas des objets placés à proximité, "
+            "- ne s’intéresse pas aux jouets",
         image: "",
       ),
       ImageDescription(

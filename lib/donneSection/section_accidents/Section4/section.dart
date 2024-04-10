@@ -12,12 +12,12 @@ Section section4() {
     colors: 0xFF0D38E4,
     page: [
       // Page de garde de la section 1 (Les chutes)
-      page1(),
-      page2(),
-      page3(),
-      page4(),
-      page5(),
-      page6(),
+      page11(),
+      page12(),
+      page13(),
+      page14(),
+      page15(),
+      page16(),
     ],
     menu: null,
   );

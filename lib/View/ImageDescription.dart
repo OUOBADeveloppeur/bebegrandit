@@ -553,7 +553,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                                   horizontal: 6, vertical: 5),
                               child: Column(
                                 children: [
-                                  Text(imageDescription.description),
+                                  Text(imageDescription.description,style: TextStyle(fontWeight: FontWeight.bold),),
                                 ],
                               ),
                             ),

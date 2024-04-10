@@ -60,10 +60,11 @@ Pages page19() {
       ImageDescription(
         id: 9,
         position: '2',
-        description: '''
-        Lorsque mon enfant :
-            - ne réagit pas aux bruits, 
-            - n’imite pas les sons,''',
+        description: 
+       " Lorsque mon enfant :"
+
+      '''- ne réagit pas aux bruits, 
+       - n’imite pas les sons''',
         image: "",
       ),
       ImageDescription(

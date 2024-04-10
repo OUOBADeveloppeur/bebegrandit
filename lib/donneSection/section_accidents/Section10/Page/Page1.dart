@@ -1,7 +1,7 @@
 import '../../../../Model/imageDescription.dart';
 import '../../../../Model/page.dart';
 
-Pages page1() {
+Pages page47() {
   return Pages(
     id: 1,
     titre: "Coupures ou piqûres",

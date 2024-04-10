@@ -30,13 +30,13 @@ Pages page32() {
       ),
        ImageDescription(
         id: 5, position: '3',
-        description:  "Je prends au sérieux les émotions de mon enfant en lui disant que "
+        description:  "- Je prends au sérieux les émotions de mon enfant en lui disant que "
             "je comprends qu’il puisse être triste, en colère, etc.",
         image: "images/developpement/image53.png",
       ),
       ImageDescription(
         id: 6, position: '3',
-        description: "J’aide mon enfant à reconnaître les émotions.",
+        description: "- J’aide mon enfant à reconnaître les émotions.",
         image: "images/developpement/image54.png",
       ),
       ImageDescription(

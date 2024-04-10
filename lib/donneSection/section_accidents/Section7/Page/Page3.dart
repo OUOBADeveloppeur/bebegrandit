@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page3() {
+Pages page31() {
   return Pages(
     id: 3,
     titre: "Etouffement et suffocation",
@@ -16,15 +16,14 @@ Pages page3() {
       ImageDescription(
         id: 2,
         position: "3",
-        description: '''Je mets hors de portée de mon enfant de petits 
-        objets qu’il pourrait avaler ou 
-        mettre dans son nez : perles, graines d’arachides, billes, etc. 
-''',
+        description: "Je mets hors de portée de mon enfant de petits "
+        "objets qu’il pourrait avaler ou mettre dans son nez : perles, graines d’arachides, billes, etc." 
+,
         image: "images/accidents/image39.png",
       ),
       ImageDescription(
         id: 3,
-        position: '4',
+        position: '1',
         description: "",
         image: "images/accidents/image40.png",
       ),

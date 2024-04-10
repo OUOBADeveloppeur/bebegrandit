@@ -7,9 +7,9 @@ Pages page18() {
     titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,
-        position: '3',
-        description: "",
+        id: 1,texte: 900,
+        position: '0',
+        description: "La vue",
         image: "images/developpement/pag10/ic-01-01.png",
       ),
       ImageDescription(
@@ -42,15 +42,15 @@ Pages page18() {
         id: 6,
         position: '3',
         description:
-            "Entre 7 et 9 mois, je joue à cache-cache pour que mon enfant comprenne qu’un objet"
+            "- Entre 7 et 9 mois, je joue à cache-cache pour que mon enfant comprenne qu’un objet"
             "  ou une personne continue d’exister même cachée. ",
         image: "images/developpement/pag20/ic-03-01.png",
       ),
       ImageDescription(
         id: 7,
         position: '3',
-        description: ''' 
-      j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette    )''',
+        description: "- j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette)" 
+      ,
         image: "",
       ),
       ImageDescription(
@@ -62,12 +62,10 @@ Pages page18() {
       ),
       ImageDescription(
         id: 9,
-        position: '2',
-        description: '''Lorsque mon enfant 
-             a les yeux qui coulent en permanence ou sont sensibles à la lumière, 
-             a une tâche banche au niveau des yeux, 
-            se cogne partout, 
-            ne fixe pas mon visage ou louche''',
+       
+        description: "Lorsque mon enfant a les yeux qui coulent en permanence ou sont sensibles à la lumière," 
+             "a une tâche banche au niveau des yeux, se cogne partout, "
+           " ne fixe pas mon visage ou louche",
         image: "",
       ),
   

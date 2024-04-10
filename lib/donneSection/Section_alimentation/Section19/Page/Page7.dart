@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page7() {
+Pages page16() {
   return Pages(
     id: 7,
     titre: "Allaitement exclusif de 0 à 6 mois",

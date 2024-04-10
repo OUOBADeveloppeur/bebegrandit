@@ -12,12 +12,12 @@ Section section20() {
     id: 3,
     colors: 0xFF5ee733,
     page: [
-      page1(),
-      page2(),
-      page3(),
-      page4(),
-      page5(),
-      page6(),
+      page20(),
+      page21(),
+      page22(),
+      page23(),
+      page24(),
+      page25(),
     ],
     menu: null,
   );

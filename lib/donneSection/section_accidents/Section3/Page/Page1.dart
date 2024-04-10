@@ -1,7 +1,7 @@
 import '../../../../Model/imageDescription.dart';
 import '../../../../Model/page.dart';
 
-Pages page1() {
+Pages page7() {
   return Pages(
     id: 1,
     titre: "Accidents de la voie publique",

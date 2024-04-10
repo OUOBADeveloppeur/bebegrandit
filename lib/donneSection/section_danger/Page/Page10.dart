@@ -8,7 +8,7 @@ Pages page10() {
     imageDescription: [
       ImageDescription(
         id: 0,
-        description: "CDifficultés à respirer 2/3",
+        description: "Difficultés à respirer 2/3",
         image: "",
       ),
       ImageDescription(

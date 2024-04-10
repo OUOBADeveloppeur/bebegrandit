@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page2() {
+Pages page4() {
   return Pages(
     id: 2,
     titre: " Ce que mon enfant doit manger pour être en bonne santé",

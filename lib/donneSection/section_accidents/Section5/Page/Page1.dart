@@ -1,7 +1,7 @@
 import '../../../../Model/imageDescription.dart';
 import '../../../../Model/page.dart';
 
-Pages page1() {
+Pages page17() {
   return Pages(
     id: 1,
     titre: "Morsures, piqûres ou griffures",

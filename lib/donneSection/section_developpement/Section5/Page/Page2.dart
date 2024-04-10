@@ -38,10 +38,10 @@ Pages page34() {
       ),
       ImageDescription(
         id: 6, 
-        description: " Lorsque mon enfant : "
-            "- ronfle souvent fort, "
-            "- se réveille pendant la nuit, marche en dormant,"
-            "- dort trop ou ne dort pas assez,",
+        description: '''Lorsque mon enfant : 
+          - ronfle souvent fort, 
+         - se réveille pendant la nuit, marche en dormant,
+          - dort trop ou ne dort pas assez,''',
         image: "",
       ),
       ImageDescription(

@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page5() {
+Pages page35() {
   return Pages(
     id: 5,
     titre: "Hygiène corporelle, alimentaire et du cadre de vie ",

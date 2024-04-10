@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page7() {
+Pages page46() {
   return Pages(
     id: 7,
     titre: "Intoxications",

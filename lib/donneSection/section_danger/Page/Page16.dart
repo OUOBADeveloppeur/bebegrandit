@@ -18,8 +18,7 @@ Pages page16() {
       ),
       ImageDescription(
         id: 2,  position: '1',
-        description: '''Mon enfant refuse de téter, de manger tout ce que je 
-        lui donne, de boire l’eau ou autres boissons.''',
+        description: "Mon enfant refuse de téter, de manger tout ce que je lui donne, de boire l’eau ou autres boissons.",
         image: "",
       ),
        ImageDescription(
@@ -27,24 +26,20 @@ Pages page16() {
         description: "",
         image: "images/danger/image42.png",
       ),
+     
       ImageDescription(
-        id: 4,  position: '4',
-        description:"",
+        id: 4,texte: 900,position: '1',
+        description: "Pourquoi mon enfant refuse de manger ou de boire ?",
         image: "images/danger/image41.png",
       ),
       ImageDescription(
-        id: 5,texte: 900,
-        description: '''Pourquoi mon enfant refuse de manger ou de boire ?''',
-        image: "",
-      ),
-      ImageDescription(
-        id: 6,
+        id: 5,
         description:
             '''Mon enfant refuse de manger ou de boire parce qu’il est malade. Il peut avoir :''',
         image: "",
       ),
       ImageDescription(
-        id: 7,
+        id: 6,
         description: 
 '''- Corps chaud,
 - Mal à la tête,
@@ -55,7 +50,7 @@ Pages page16() {
         image: "",
       ),
        ImageDescription(
-        id: 8,position: '3',
+        id: 7,position: '3',
         description: 
  '''
 - Difficultés à avaler,

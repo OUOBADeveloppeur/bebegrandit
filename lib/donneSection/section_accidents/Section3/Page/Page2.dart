@@ -1,7 +1,7 @@
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/imageDescription.dart';
 
-Pages page2() {
+Pages page8() {
   return Pages(
     id: 2,
     titre: "Accidents de la voie publique",
