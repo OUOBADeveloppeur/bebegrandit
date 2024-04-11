@@ -49,14 +49,14 @@ Pages page6() {
         image: "images/developpement/pag9/ic-04-01.png",
       ),
       ImageDescription(
-        position: '2',
+        position: '5',
         id: 7,
         texte: 40,
         description: "Attention:",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        position: '2',
+        position: '6',
         id: 6,
         description:
             "Si mon enfant parait mou, ne réagit pas aux stimulations, aux jeux "

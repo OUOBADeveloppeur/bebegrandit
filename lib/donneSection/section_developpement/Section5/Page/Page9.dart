@@ -35,13 +35,13 @@ Pages page41() {
       ),
       ImageDescription(
         id: 5,texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention",
         image: "",
       ),
       ImageDescription(
         id: 4,
-        position: '3',
+       position: '6',
         description:
             "Lorsque mon enfant ne fait pas la différence entre les goûts,",
         image: "images/developpement/pag9/ic-06-01.png",

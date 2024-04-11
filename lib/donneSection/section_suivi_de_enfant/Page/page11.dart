@@ -21,8 +21,7 @@ Pages page11() {
       ImageDescription(
         id: 2, position: '3',
         description:
-            "Les vers intestinaux peuvent :"
-
+  "Les vers intestinaux peuvent :"
 "- rendre malade mon enfant,"
 "- entrainer le manque de sang dans le corps de mon enfant, "
 "- entrainer un retard de croissance chez mon enfant ",
@@ -38,8 +37,7 @@ Pages page11() {
         id: 4,position: '2',
         description: '''Lorsque mon enfant est âgé de 12 à 59 mois, je veille à ce qu’il
          reçoive les médicaments contre les
-         vers intestinaux pendant les campagnes tous les 6 mois
-''',
+         vers intestinaux pendant les campagnes tous les 6 mois''',
         image: "images/suivi-croissance/image26.jpeg",
       ),
     ],

@@ -14,8 +14,7 @@ Pages page19() {
       ImageDescription(
         id: 2,
         description:
-            '''Je peux me soulager en mettant en pratique les conseils suivants 
-''',
+            '''Je peux me soulager en mettant en pratique les conseils suivants ''',
         image: "",
       ),ImageDescription(
         id: 3,texte: 900,
@@ -28,8 +27,7 @@ Pages page19() {
         description: '''En cas de douleur :
 - je n'arrête pas l’allaitement ; 
 - j’applique la bonne prise du sein ;
-- je commence à allaiter du coté qui fait le moins mal.
-''',
+- je commence à allaiter du coté qui fait le moins mal.''',
         image: "",
       ),
          ImageDescription(
@@ -43,30 +41,23 @@ Pages page19() {
         description:
             '''En cas de plaie :
 - j’applique du beurre de karité sur les plaies ; 
-- ou j'applique les gouttes de lait de fin de tétée sur les parties blessées. 
-
-''',
+- ou j'applique les gouttes de lait de fin de tétée sur les parties blessées. ''',
         image: "",
       ),
       ImageDescription(
         id: 7,texte: 900,
         description:
-            '''En cas d’engorgement ou de mastite 
-(inflammation du sein) :
-''',
+            '''En cas d’engorgement ou de mastite (inflammation du sein) :''',
         image: "",
       ),
       ImageDescription(
         id: 8,
-        description:
-            '''- je peux appliquer une serviette chaude et humide ;
+        description: '''- je peux appliquer une serviette chaude et humide ;
 - j’applique la bonne prise de sein ;
 - je donne fréquemment à téter à mon enfant ;
 - j’exprime le lait pour assurer la vidange du sein ; 
 - je prends du paracétamol 500 mg (2 comprimés 3 fois par jour);
-- je soutiens mes seins.
-
-''',
+- je soutiens mes seins.''',
         image: "",
       ),
       ImageDescription(

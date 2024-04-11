@@ -35,12 +35,13 @@ Pages page2() {
       ImageDescription(
         id: 3,
         texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 4,
+        position: '6',
         description: " Les enfants ne grandissent pas tous à la même vitesse. ",
         image: "",
       ),

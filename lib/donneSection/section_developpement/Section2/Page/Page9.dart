@@ -37,14 +37,14 @@ Pages page12() {
       ),
       ImageDescription(
         id: 5,
-        position: '2',
+        position: '5',
         texte: 900,
         description: "Attention:",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 6,
-        position: '2',
+        position: '6',
         description: "Lorsque mon enfant: "
             "- ne réagit ou ne se calme pas quand je le prends, "
             "- pleure fréquemment quand je le touche",

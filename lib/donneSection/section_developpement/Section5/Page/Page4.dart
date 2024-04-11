@@ -35,13 +35,13 @@ Pages page36() {
       ),
       ImageDescription(
         id: 5,texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention",
         image: "",
       ),
       ImageDescription(
         id: 6,
-        position: '3',
+        position: '6',
         description: '''Lorsque mon enfant : 
             - cligne des yeux souvent,
             - se plaint lorsqu’on lui cache un œil,

@@ -34,9 +34,7 @@ Pages page6() {
    
       ImageDescription(
         id: 6,position: '1',
-        description: '''- Je garde ma maison et la cour propres ; 
- 
-''',
+        description: '''- Je garde ma maison et la cour propres ; ''',
         image: "images/paludisme/image19.png",
       ),
       ImageDescription(
@@ -44,19 +42,14 @@ Pages page6() {
         description:
             '''- J'élimine les endroits qui favorisent la multiplication des moustiques en
              coupant les herbes, en couvrant les récipients contenant de l’eau, en évitant et
-              en asséchant les eaux stagnantes, etc. ;
- 
-''',
+              en asséchant les eaux stagnantes, etc. ;''',
         image: "",
       ),
       ImageDescription(
         id: 8,
         description:
             '''- Je participe aux campagnes de prévention par la pulvérisation d’insecticides chimiques
-             à longue durée d’action et la destruction des gîtes larvaires dans les maisons.
-
- 
-''',
+             à longue durée d’action et la destruction des gîtes larvaires dans les maisons.''',
         image: "",
       ),
     ],

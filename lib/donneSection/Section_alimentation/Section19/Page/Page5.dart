@@ -24,9 +24,7 @@ Pages page14() {
       ImageDescription(
         id: 3,
         description:
-            '''Au cours d’une même tétée, je veille à ce que mon enfant  vide un sein avant de lui donner l’autre sein s’il n ’est pas rassasié.
-
-''',
+           "Au cours d’une même tétée, je veille à ce que mon enfant  vide un sein avant de lui donner l’autre sein s’il n ’est pas rassasié.",
         image: "",
       ),
       ImageDescription(

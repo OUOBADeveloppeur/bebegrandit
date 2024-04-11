@@ -27,7 +27,7 @@ Pages page18() {
       ImageDescription(
         id: 4,
         description:
-            '''Une morsure, une piqûre ou une griffure d’un animal peut être grave parce que l’animal peut transmettre à mon enfant une maladie.''',
+            "Une morsure, une piqûre ou une griffure d’un animal peut être grave parce que l’animal peut transmettre à mon enfant une maladie.",
         image: "",
       )
     ],

@@ -53,16 +53,15 @@ Pages page19() {
       ),
       ImageDescription(
         id: 8,texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 9,
-        position: '2',
+        position: '6',
         description: 
        " Lorsque mon enfant :"
-
       '''- ne réagit pas aux bruits, 
        - n’imite pas les sons''',
         image: "",

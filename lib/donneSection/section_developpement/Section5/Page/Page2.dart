@@ -32,12 +32,12 @@ Pages page34() {
         image: "images/developpement/image53.png",
       ),
       ImageDescription(
-        id: 5, position: '2',texte: 900,
+        id: 5, position: '5',texte: 900,
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6, 
+        id: 6,  position: '6',
         description: '''Lorsque mon enfant : 
           - ronfle souvent fort, 
          - se réveille pendant la nuit, marche en dormant,

@@ -23,10 +23,17 @@ Pages page5() {
       ),
       ImageDescription(
         id: 3,
-        position: '3',
+        position: '5',texte: 900,
         description:
-            '''Attention : mon enfant de moins de 10 ans ne devrait pas circuler seul à vélo sur  les routes fréquentées.''',
+            "Attention : ",
         image: "images/accidents/image9.png",
+      ),
+       ImageDescription(
+        id: 4,
+       position: '6',
+        description:
+            "mon enfant de moins de 10 ans ne devrait pas circuler seul à vélo sur  les routes fréquentées.",
+        image: "",
       ),
     ],
   );

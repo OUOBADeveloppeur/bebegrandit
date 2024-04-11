@@ -38,13 +38,13 @@ Pages page29() {
         image: "images/developpement/image45.png",
       ),
       ImageDescription(
-        id: 6, position: '2',texte: 900,
+        id: 6, position: '5',texte: 900,
         description:
            "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
        ImageDescription(
-        id: 7, position: '2',
+        id: 7, position: '6',
         description:
             ''' Lorsque mon enfant :
 - n’essaie pas de faire des petites phrases,

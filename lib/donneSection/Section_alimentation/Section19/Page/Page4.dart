@@ -14,28 +14,22 @@ Pages page13() {
       ImageDescription(
         id: 2,
         description:
-            '''Je donne seulement mon lait à mon enfant jusqu’à six mois parce que 
-            le lait maternel :
-''',
+           "Je donne seulement mon lait à mon enfant jusqu’à six mois parce que le lait maternel :",
         image: "",
       ),
       ImageDescription(
         id: 3,
-        description: '''répond parfaitement aux besoins de mon enfant (soif, repas, lien affectif) ;
-''',
+        description: "répond parfaitement aux besoins de mon enfant (soif, repas, lien affectif) ;",
         image: "",
       ),
       ImageDescription(
         id: 4,
-        description: '''est nécessaire pour le développement du corps et du cerveau de mon 
-        enfant ;
-''',
+        description: "est nécessaire pour le développement du corps et du cerveau de mon enfant ;",
         image: "",
       ),
       ImageDescription(
         id: 5,
-        description: '''protège mon enfant des maladies telles que la diarrhée ou la pneumonie ;
-''',
+        description: "protège mon enfant des maladies telles que la diarrhée ou la pneumonie ;",
         image: "",
       ),
       ImageDescription(
@@ -54,7 +48,7 @@ Pages page13() {
         image: "",
       ),
       ImageDescription(
-        id: 9,  position: '2',
+        id: 9,  position: '5',texte: 900,
         description: '''Attention : Si j’ai des difficultés pour allaiter mon enfant, je consulte dans  un centre de santé.
 .''',
         image: "images/alimentation/image14.png",

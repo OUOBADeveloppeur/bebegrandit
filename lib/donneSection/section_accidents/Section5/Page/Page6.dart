@@ -17,8 +17,7 @@ Pages page22() {
         id: 1,
         position: "3",
         description:
-            '''- Je reste à coté de mon enfant, je le calme, je l'allonge pour le garder immobile et pour éviter que le venin ne se répande dans son corps ;
-''',
+            "- Je reste à coté de mon enfant, je le calme, je l'allonge pour le garder immobile et pour éviter que le venin ne se répande dans son corps ;",
         image: "images/accidents/image27.png",
       ),
       ImageDescription(
@@ -38,15 +37,14 @@ Pages page22() {
       ImageDescription(
         id: 4,
         position: "1",
-        description: ''' 
-''',
+        description: "" 
+,
         image: "images/accidents/image29.png",
       ),
       ImageDescription(
         id: 5,
         description:
-            '''- en cas de saignement, j’appuie sur la plaie à l’aide d’un linge propre et si possible je garde surélevé le membre qui saigne. 
-''',
+            "- en cas de saignement, j’appuie sur la plaie à l’aide d’un linge propre et si possible je garde surélevé le membre qui saigne. ",
         image: "",
       )
     ],

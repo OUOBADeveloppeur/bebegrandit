@@ -53,13 +53,13 @@ Pages page20() {
         image: "images/developpement/pag22/ic-05-01.png",
       ),
       ImageDescription(
-        id: 8, position: '2',texte: 900,
+        id: 8, position: '5',texte: 900,
         description: "Attention ",
 
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 9, position: '2',
+        id: 9, position: '6',
         description: '''A 12 mois, si mon enfant n’arrive pas à émettre des sons ou  dire «ba», «pa», «ma»''',
 
         image: "",

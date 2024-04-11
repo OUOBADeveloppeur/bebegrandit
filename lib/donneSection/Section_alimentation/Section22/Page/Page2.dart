@@ -10,8 +10,7 @@ Pages page29() {
         id: 1,
         description:
             '''L'enfant malade manque d'appétit et son corps a tendance à perdre des
-         liquides, il a besoin d'une bonne alimentation pour lutter contre la maladie et éviter de tomber dans la déshydratation et la malnutrition. 
-''',
+         liquides, il a besoin d'une bonne alimentation pour lutter contre la maladie et éviter de tomber dans la déshydratation et la malnutrition. ''',
         image: "",
       ),
       ImageDescription(
@@ -30,8 +29,7 @@ Pages page29() {
         position: '3',
         description:
             '''J’augmente la fréquence de l'allaitement pour que mon bébé 
-        puisse récupérer plus vite.
-''',
+        puisse récupérer plus vite.''',
         image: "images/alimentation/image3.png",
       ),
       ImageDescription(

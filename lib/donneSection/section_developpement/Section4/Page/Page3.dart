@@ -55,14 +55,14 @@ Pages page25() {
       ),
       ImageDescription(
         id: 8,
-        position: '2',texte: 900,
+        position: '5',texte: 900,
         description:
             "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
          ImageDescription(
         id: 9,
-        position: '2',
+         position:'6',
         description:
             "Si mon enfant n’arrive pas à marcher seul autour de 18 mois,",
         image: "",

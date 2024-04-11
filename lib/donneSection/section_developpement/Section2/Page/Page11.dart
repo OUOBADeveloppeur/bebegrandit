@@ -44,16 +44,15 @@ Pages page14() {
       ),
       ImageDescription(
         id: 6,
-        position: '2',
+        position: '5',
         texte: 900,
         description: " Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 7,
-        position: '2',
-        description:
-            "  Lorsque mon enfant ne réagit pas à mes sourires ou à d’autres gestes affectifs et émotionnels,",
+        position: '6', 
+        description: "  Lorsque mon enfant ne réagit pas à mes sourires ou à d’autres gestes affectifs et émotionnels,",
         image: "",
       ),
       ImageDescription(

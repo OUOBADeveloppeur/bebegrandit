@@ -43,24 +43,23 @@ Pages page16() {
             "Si mon enfant se réveille la nuit,",
         image: "",
       ),
-         ImageDescription(
+      ImageDescription(
         id: 6,
         position: '3',
-        description:
-            "je le berce pour qu’il se rendorme."
+        description: "je le berce pour qu’il se rendorme."
             "Je m’assure que l’endroit est à l’abri de bruit et de moustiques.",
         image: "images/developpement/pag18/ic-03-01.png",
       ),
       ImageDescription(
         id: 7,
-        position: '2',
+        position: '5',
         texte: 900,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 8,
-        position: '3',
+        position: '6',
         description:
             "Lorsque mon enfant ne dort pas assez et pleure sans cesse,",
         image: "",

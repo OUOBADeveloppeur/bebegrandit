@@ -15,9 +15,9 @@ Pages page20() {
       ImageDescription(
         id: 1,
         description:
-            '''- je couche mon enfant sur un endroit surélevé et je fixe les moustiquaires sur sa couchette ;'''
-            '''- j’explique à mon enfant que les serpents et les scorpions  sont dangereux ;
-''',
+            "- je couche mon enfant sur un endroit surélevé et je fixe les moustiquaires sur sa couchette ;"
+            "- j’explique à mon enfant que les serpents et les scorpions  sont dangereux ;"
+,
         image: "",
       ),
       ImageDescription(
@@ -38,8 +38,7 @@ Pages page20() {
       ImageDescription(
         id: 4,
         description:
-            '''- j‘explique à mon enfant de ne pas se mettre à courir et à crier lorsqu'il voit un chien qui n’est pas  notre chien. 
-''',
+            "- j‘explique à mon enfant de ne pas se mettre à courir et à crier lorsqu'il voit un chien qui n’est pas  notre chien. ",
         image: "",
       )
     ],

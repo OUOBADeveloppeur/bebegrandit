@@ -46,8 +46,7 @@ Pages page8() {
       ImageDescription(
         id: 6,
         position: '3',
-        description: '''
-''',
+        description: "",
         image: "images/suivi-croissance/image17.png",
       ),
       ImageDescription(

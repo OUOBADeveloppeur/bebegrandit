@@ -9,8 +9,8 @@ Pages page31() {
       ImageDescription(
         id: 1,
         texte: 900,
-        description: '''Que faire pour éviter l’étouffement et la suffocation?
-''',
+        description: "Que faire pour éviter l’étouffement et la suffocation?"
+,
         image: "",
       ),
       ImageDescription(

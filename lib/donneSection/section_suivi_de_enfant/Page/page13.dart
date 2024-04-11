@@ -38,8 +38,7 @@ Pages page13() {
         description:
             '''Elle est une maladie comme les autres et peut avoir des conséquences sur
          la santé de l’enfant comme : affaiblir le corps et le cerveau de l’enfant, nuire à la
-          croissance ou entrainer la mort. 
-''',
+          croissance ou entrainer la mort. ''',
         image: "",
       ),
       ImageDescription(

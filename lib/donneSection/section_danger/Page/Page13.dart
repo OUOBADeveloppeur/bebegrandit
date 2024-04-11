@@ -41,13 +41,13 @@ Pages page13() {
       ),
       ImageDescription(
         id: 6,
-        description: '''- choléra
+        description:
+ '''- choléra
 - dysenterie
 - parasitoses
 -mycoses
 - Intoxications alimentaires
-- etc.
- ''',
+- etc.''',
         image: "",
       ),
     ],

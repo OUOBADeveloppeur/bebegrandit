@@ -58,14 +58,14 @@ Pages page9() {
       ),
       ImageDescription(
         id: 7,
-        position: '2',
+        position: '5',
         texte: 900,
         description: "Attention:",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 8,
-        position: '2',
+        position: '6',
         description:
             "Si mon enfant ne se retourne pas en direction de ma voix ou du bruit,",
         image: "",

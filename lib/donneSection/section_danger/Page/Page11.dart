@@ -48,7 +48,7 @@ Pages page11() {
       ),
       ImageDescription(
         id: 5,
-        position: '3',
+        position: '3',texte: 900,color: 0xFFFF0000,
         description: '''je l’emmène au centre de santé''',
         image: "images/danger/image21.png",
       ),

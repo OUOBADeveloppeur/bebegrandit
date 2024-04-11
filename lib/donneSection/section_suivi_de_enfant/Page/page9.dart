@@ -27,13 +27,12 @@ Pages page9() {
       ),
       ImageDescription(
         id: 3,
-        description: '''- Supplémentation en vitamine A ;
+        description: '''
+- Supplémentation en vitamine A ;
 - Déparasitage ;
 - Dépistage de la malnutrition aiguë ;
 - Rattrapage de la vaccination ;
-- Chimio-prévention saisonnière du paludisme.
- 
-''',
+- Chimio-prévention saisonnière du paludisme.''',
         image: "",
       ),
     ],

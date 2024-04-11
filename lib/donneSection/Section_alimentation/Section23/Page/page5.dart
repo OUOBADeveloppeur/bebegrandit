@@ -22,8 +22,7 @@ Pages page35() {
         id: 2,
         texte: 900,
         description:
-            '''Je lave mes mains et celles de mon enfant à l’eau et au savon à des moments précis  : 
-''',
+            '''Je lave mes mains et celles de mon enfant à l’eau et au savon à des moments précis  :''',
         image: "",
       ),
       ImageDescription(
@@ -46,18 +45,14 @@ Pages page35() {
         description:
             '''Lorsque je lave mes mains et celles de mon enfant, je nettoie bien les paumes,
          le dos de la main, les espaces entre les doigts, les ongles et les poignets des mains pour éliminer 
-         les microbes. 
-
-''',
+         les microbes. ''',
         image: "",
       ),
       ImageDescription(
         id: 6,
         position: '2',
         description:
-            '''Pour le lavage des mains, je verse l’eau sur les mains plutôt que de les plonger dans un récipient.
-
-''',
+            '''Pour le lavage des mains, je verse l’eau sur les mains plutôt que de les plonger dans un récipient.''',
         image: "images/alimentation/image31.jpeg",
       ),
     ],

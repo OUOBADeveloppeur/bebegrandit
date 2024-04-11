@@ -14,16 +14,15 @@ Pages page23() {
       ImageDescription(
         id: 1,
         description:
-            '''- j'enlève les bagues, bracelets ou montres, les chaussures et tout ce qui peut serrer la zone mordue,
-             griffée ou piquée car celle-ci peut se mettre à gonfler ;
-''',
+            "- j'enlève les bagues, bracelets ou montres, les chaussures et tout ce qui peut serrer la zone mordue,"
+             "griffée ou piquée car celle-ci peut se mettre à gonfler ;"
+,
         image: "",
       ),
       ImageDescription(
         id: 2,
-        description: '''- S’il s’agit d’une morsure de serpent,
-         je garde en mémoire sa couleur et sa taille ou je prends sa photo si possible pour informer le centre de santé ;
-''',
+        description: "- S’il s’agit d’une morsure de serpent,"
+         "je garde en mémoire sa couleur et sa taille ou je prends sa photo si possible pour informer le centre de santé ;",
         image: "",
       ),
       ImageDescription(
@@ -34,12 +33,12 @@ Pages page23() {
       ),
       ImageDescription(
         id: 4,texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention!",
         image: "images/accidents/image9.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5,position: '5',
         description:
             "- je n’incise pas le point de la morsure ou de la piqûre, ceci peut être dangereux."
             "- je ne dois pas sucer ou aspirer la zone mordue ou griffée ou piquée.",

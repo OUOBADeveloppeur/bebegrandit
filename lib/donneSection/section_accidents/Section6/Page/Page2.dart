@@ -15,7 +15,7 @@ Pages page26() {
       ImageDescription(
         id: 1,
         description:
-            '''C’est la présence de quelque chose (petit objet, insecte, etc.) dans l’oreille.''',
+            "C’est la présence de quelque chose (petit objet, insecte, etc.) dans l’oreille.",
         image: "",
       ),
       ImageDescription(

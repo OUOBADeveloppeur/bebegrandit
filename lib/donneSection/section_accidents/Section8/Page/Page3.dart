@@ -16,8 +16,7 @@ Pages page37() {
         id: 1,
         position: "3",
         description:
-            '''- je ne laisse jamais mon enfant seul dans la bassine d’eau ou la baignoire ou près des réserves d’eau (jarres, seau…).
-''',
+            "- je ne laisse jamais mon enfant seul dans la bassine d’eau ou la baignoire ou près des réserves d’eau (jarres, seau…).",
         image: "images/accidents/image47.png",
       ),
       ImageDescription(

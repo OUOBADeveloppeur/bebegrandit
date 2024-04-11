@@ -22,8 +22,7 @@ Pages page27() {
         id: 3,
         description:
             '''Je veille à ce que mon enfant boive fréquemment de l’eau. L'eau est 
-            la boisson idéale pour mon enfant. 
-''',
+            la boisson idéale pour mon enfant. ''',
         image: "",
       ),
       ImageDescription(
@@ -39,14 +38,12 @@ Pages page27() {
       ImageDescription(
         id: 6,
         description: '''Je donne à mon enfant au moins 5 repas tout au long de la journée : 
-        le matin, à midi, le soir et deux goûters par jour ;
- ''',
+        le matin, à midi, le soir et deux goûters par jour ;''',
         image: "",
       ),
       ImageDescription(
         id: 7,
-        description: '''Je donne à mon enfant, par exemple des fruits, des légumes, des arachides, des tourteaux d’arachides, des beignets, des galettes, du yaourt, du pain avec du lait, du jus... pour les goûters.
-''',
+        description: '''Je donne à mon enfant, par exemple des fruits, des légumes, des arachides, des tourteaux d’arachides, des beignets, des galettes, du yaourt, du pain avec du lait, du jus... pour les goûters.''',
         image: "",
       )
     ],

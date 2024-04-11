@@ -20,8 +20,7 @@ Pages page15() {
         id: 2,
         position: '3',
         description:
-            '''C’est lorsque mon enfant rejette le contenu de son estomac.
-''',
+            '''C’est lorsque mon enfant rejette le contenu de son estomac.''',
         image: "images/danger/image8.png",
       ),
       ImageDescription(

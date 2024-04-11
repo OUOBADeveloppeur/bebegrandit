@@ -22,13 +22,13 @@ Pages page6() {
       ),
       ImageDescription(
         id: 2,
-        description: '''es maladies évitables par la vaccination sont :
+        description: '''
+Les maladies évitables par la vaccination sont :
 1.Tuberculose
 2.Poliomyélite
 3.Hépatite B
 4.Diphtérie
-5.Tétanos 
-''',
+5.Tétanos ''',
         image: "",
       ),
       ImageDescription(
@@ -38,8 +38,7 @@ Pages page6() {
 7.Pneumonies
 8.Diarrhées à Rotavirus
 9.Rougeole
-10.Rubéole
-''',
+10.Rubéole''',
         image: "",
       ),
       ImageDescription(
@@ -47,8 +46,7 @@ Pages page6() {
         description: '''
 11.Fièvre jaune 
 12.Méningite
-13.Paludisme
-''',
+13.Paludisme''',
         image: "",
       ),
       ImageDescription(

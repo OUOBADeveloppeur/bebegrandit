@@ -10,8 +10,8 @@ Pages page28() {
         id: 0,
         texte: 900,
         description:
-            '''Que faire lorsqu’il y a un corps étranger dans l’oreille  de mon enfant ?
-''',
+            "Que faire lorsqu’il y a un corps étranger dans l’oreille  de mon enfant ?"
+,
         image: "",
       ),
       ImageDescription(
@@ -25,8 +25,8 @@ Pages page28() {
       ImageDescription(
         id: 2,
         position: '3',
-        description: '''- j’évite d’enlever le corps étranger à domicile ; 
-''',
+        description: "- j’évite d’enlever le corps étranger à domicile ; "
+,
         image: "images/accidents/image36.png",
       ),
       ImageDescription(

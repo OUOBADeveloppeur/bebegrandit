@@ -48,7 +48,7 @@ Pages page3() {
       ),
       ImageDescription(
         id: 6,
-        position: '2',
+        position: '2',texte: 900,color: 0xFFFF0000,
         description: "J’emmène mon enfant pour la visite au centre de santé. "
             "Je peux aussi me faire accompagner par mon mari ou un autre membre de la famille. ",
         image: "images/suivi-croissance/image7.png",

@@ -32,9 +32,8 @@ Pages page8() {
       ImageDescription(
         id: 3,
         description:
-            '''Je donne à mon enfant de l’eau à boire tout au long de la journée,
-             surtout en dehors des repas afin de remplacer les pertes (sueurs, urines). 
-''',
+           "Je donne à mon enfant de l’eau à boire tout au long de la journée,"
+             "surtout en dehors des repas afin de remplacer les pertes (sueurs, urines)." ,
         image: "",
       ),
     ],

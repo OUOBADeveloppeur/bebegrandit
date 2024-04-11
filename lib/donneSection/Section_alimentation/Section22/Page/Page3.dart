@@ -14,8 +14,7 @@ Pages page30() {
       ImageDescription(
         id: 2,
         description: '''- J'allaite mon enfant de moins de 2 ans plus que d'habitude et je
-         l'encourage à manger et à boire plus fréquemment et par petites quantités ;
-''',
+         l'encourage à manger et à boire plus fréquemment et par petites quantités ;''',
         image: "",
       ),
       ImageDescription(
@@ -32,29 +31,25 @@ Pages page30() {
       ),
       ImageDescription(
         id: 5,
-        description: '''- Je donne à mon enfant des aliments qu’il aime plus fréquemment que d’habitude.
-''',
+        description: '''- Je donne à mon enfant des aliments qu’il aime plus fréquemment que d’habitude.''',
         image: "",
       ),
       ImageDescription(
         id: 6,
         description: '''Je donne des aliments enrichis (bouillies enrichies,
-         bouillies améliorées avec de la poudre de néré, du pain de singe, des fruits, … ).
-''',
+         bouillies améliorées avec de la poudre de néré, du pain de singe, des fruits, … ).''',
         image: "",
       ),
       ImageDescription(
         id: 7,position: '2',
        
         description: '''Je donne un repas supplémentaire pendant 2 semaines après la guérison
-         pour permettre à mon enfant de récupérer plus rapidement.
-''',
+         pour permettre à mon enfant de récupérer plus rapidement.''',
         image: "images/alimentation/image6.png",
       ),
       ImageDescription(
         id: 8,position: '3',texte: 900,color: 0xFFFF0000,
-        description: '''J’emmène mon enfant au centre de santé le plus proche.
-''',
+        description: '''J’emmène mon enfant au centre de santé le plus proche.''',
         image: "images/alimentation/image17.png",
       ),
     ],

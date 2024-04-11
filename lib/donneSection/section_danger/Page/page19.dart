@@ -15,8 +15,7 @@ Sanofi Suisse
 MSD manuelle
 Guides médicaux MSF
 Fr.wikihow.com 
-IFRC – epidemics.ifrc.org 
-''',
+IFRC – epidemics.ifrc.org ''',
         image: "",
       )
     ],

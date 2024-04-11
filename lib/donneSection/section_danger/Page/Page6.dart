@@ -13,8 +13,7 @@ Pages page6() {
       ),
       ImageDescription(
         id: 1,texte: 900,
-        description: '''C'est quoi ? 
-''',
+        description: '''C'est quoi ? ''',
         image: "",
       ),
       ImageDescription(
@@ -32,8 +31,7 @@ Pages page6() {
       ),
       ImageDescription(
         id: 4,  position: '3',
-        description: '''Les frissons
-''',
+        description: '''Les frissons''',
         image: "images/danger/image11.png",
       ),
       ImageDescription(

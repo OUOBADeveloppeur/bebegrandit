@@ -45,8 +45,7 @@ Pages page16() {
 - Mal à la tête,
 - Nausées, 
 - Vomissements,
-- Douleurs au ventre, 
-''',
+- Douleurs au ventre, ''',
         image: "",
       ),
        ImageDescription(
@@ -55,8 +54,7 @@ Pages page16() {
  '''
 - Difficultés à avaler,
 - Nez bouché, 
-- Mal de gorge, plaies dans la bouche, etc.
-''',
+- Mal de gorge, plaies dans la bouche, etc.''',
         image: "images/danger/image40.png",
       ),
     ],

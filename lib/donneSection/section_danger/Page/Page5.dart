@@ -26,9 +26,7 @@ Pages page5() {
       ImageDescription(
         id: 3,
         position: '2',
-        description: ''' Je lui donne à boire de l'eau potable ou du jus, 
-si mon enfant a plus de 6 mois.
-''',
+        description: ''' Je lui donne à boire de l'eau potable ou du jus, si mon enfant a plus de 6 mois.''',
         image: "images/danger/image36.png",
       ),
       ImageDescription(

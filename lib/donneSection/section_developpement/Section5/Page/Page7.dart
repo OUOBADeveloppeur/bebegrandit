@@ -41,12 +41,12 @@ Pages page39() {
       ),
 
       ImageDescription(
-        id: 6, position: '2',texte: 900,
+        id: 6, position: '5',texte: 900,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 7, position: '3',
+        id: 7, position: '6',
         description: "Lorsque mon enfant : "
             "-  n’arrive pas à tenir un crayon pour dessiner, "
             "- n’arrive pas à s’habiller seul,",

@@ -35,8 +35,8 @@ Pages page51() {
       ImageDescription(
         id: 4,
         position: '4',
-        description: '''- la blessure gonfle et devient douloureuse ;'''
-            '''- des morceaux de verres, de bois ou de fer se trouvent dans la blessure.''',
+        description: "- la blessure gonfle et devient douloureuse ;"
+            "- des morceaux de verres, de bois ou de fer se trouvent dans la blessure.",
         image: "",
       ),  ImageDescription(
         id: 5,

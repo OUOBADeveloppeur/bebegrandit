@@ -16,8 +16,7 @@ Pages page16() {
         id: 1,
         position: '3',
         description:
-            '''- Je verse l’eau à température ambiante sur la partie brûlée  pendant 10 à 20 minutes.
-''',
+            "- Je verse l’eau à température ambiante sur la partie brûlée  pendant 10 à 20 minutes.",
         image: "images/accidents/image21.png",
       ),
       ImageDescription(
@@ -38,8 +37,7 @@ Pages page16() {
       ImageDescription(
         id: 4,texte: 900,color: 0xFFFF0000,
         position: '3',
-        description: '''J’emmène immédiatement mon enfant au centre de santé.
-''',
+        description: "J’emmène immédiatement mon enfant au centre de santé.",
         image: "images/accidents/image22.png",
       )
     ],

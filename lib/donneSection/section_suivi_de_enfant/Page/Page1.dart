@@ -8,7 +8,7 @@ Pages page1() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        position: '1',
+        position: '1',texte: 900,color: 0xFFFF0000,
         description:
             "J’amène régulièrement mon enfant au centre de santé pour faire le suivi de sa santé.",
         image: "images/suivi-croissance/image1.png",

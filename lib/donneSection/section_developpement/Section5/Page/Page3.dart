@@ -38,12 +38,12 @@ Pages page35() {
         image: "",
       ),
       ImageDescription(
-        id: 6, position: '2',
+        id: 6, position: '5',
         description:"Attention ",texte: 900,
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 7, position: '2',
+        id: 7, position: '6',
         description:''' Lorsque mon enfant n’arrive pas à : 
             - sauter sur une jambe, 
             - marcher suivant une ligne,

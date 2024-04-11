@@ -32,8 +32,7 @@ votre enfant :
 - dort bien ?
 - joue bien ? 
 - parle bien ?
-- etc.
- ''',
+- etc.''',
         image: "",
       ),
       ImageDescription(

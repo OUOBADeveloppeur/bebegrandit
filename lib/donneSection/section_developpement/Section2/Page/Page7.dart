@@ -60,13 +60,13 @@ Pages page10() {
       ),
       ImageDescription(
         id: 8,texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention: ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 9,
-       
+       position: '6',
         description: "Si mon enfant ne peut pas faire de sons, ",
         image: "",
       ),

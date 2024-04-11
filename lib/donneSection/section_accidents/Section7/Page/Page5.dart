@@ -15,8 +15,8 @@ Pages page33() {
       ),
       ImageDescription(
         id: 2,texte: 900,
-        description: '''Enfant de 0-12 mois
-''',
+        description: "Enfant de 0-12 mois"
+,
         image: "",
       ),
       ImageDescription(
@@ -49,9 +49,7 @@ Pages page33() {
       ImageDescription(
         id: 7,
         description:
-            "Pour aider mon enfant à débloquer sa respiration en attendant les secours, je pose les gestes suivants :"
- 
-,
+            "Pour aider mon enfant à débloquer sa respiration en attendant les secours, je pose les gestes suivants :",
         image: "",
       ), ImageDescription(
         id: 8,

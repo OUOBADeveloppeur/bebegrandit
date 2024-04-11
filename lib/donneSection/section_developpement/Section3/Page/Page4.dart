@@ -7,7 +7,8 @@ Pages page18() {
     titre: "Le développement de l’enfant de 6 à 12 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,texte: 900,
+        id: 1,
+        texte: 900,
         position: '0',
         description: "La vue",
         image: "images/developpement/pag10/ic-01-01.png",
@@ -49,28 +50,30 @@ Pages page18() {
       ImageDescription(
         id: 7,
         position: '3',
-        description: "- j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette)" 
-      ,
+        description:
+            "- j'evite d'exposer mon enfant à la lumière vive(écran de télévision,téléphone,ordinateur, tablette)",
         image: "",
       ),
       ImageDescription(
         id: 8,
         texte: 900,
-        position: '2',
+        position: '5',
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 9,
-       
-        description: "Lorsque mon enfant a les yeux qui coulent en permanence ou sont sensibles à la lumière," 
-             "a une tâche banche au niveau des yeux, se cogne partout, "
-           " ne fixe pas mon visage ou louche",
+        position: '6',
+        description:
+            "Lorsque mon enfant a les yeux qui coulent en permanence ou sont sensibles à la lumière,"
+            "a une tâche banche au niveau des yeux, se cogne partout, "
+            " ne fixe pas mon visage ou louche",
         image: "",
       ),
-  
       ImageDescription(
-        id: 10,texte: 900,color: 0xFFFF0000,
+        id: 10,
+        texte: 900,
+        color: 0xFFFF0000,
         position: '3',
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",

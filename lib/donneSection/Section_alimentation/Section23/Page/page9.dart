@@ -11,10 +11,7 @@ Pages page39() {
         description:
             '''  www.mpedia.fr 
 Pas à pas, votre enfant mange comme un grand, Le petit guide de la diversification alimentaire, Santé publique France 
-Protocoles de Santé de la reproduction : Santé de la femme et du nouveau-né de moins de sept (7) jours, Ministère de la Santé du Burkina Faso
-
-
-''',
+Protocoles de Santé de la reproduction : Santé de la femme et du nouveau-né de moins de sept (7) jours, Ministère de la Santé du Burkina Faso''',
         image: "",
       ),
        ImageDescription(

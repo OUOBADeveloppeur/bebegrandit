@@ -21,30 +21,21 @@ Pages page36() {
       ImageDescription(
         id: 2,position: '1',
         description: '''Pour cela : 
-
 - je conserve les aliments dans des récipients propres et fermés et dans un endroit
- frais si possible ; 
- 
-''',
+ frais si possible ; ''',
         image: "images/alimentation/image35.jpeg",
       ),
       
       ImageDescription(
         id: 3,
-        description: '''- Je ne recongèle jamais des aliments décongelés ; 
-   ''',
+        description: '''- Je ne recongèle jamais des aliments décongelés ; ''',
         image: "",
       ),
       ImageDescription(
         id: 4,position: '3',
         description: '''- Je garde la cuisine propre ;
-
 - Je lave bien les récipients avant de préparer les repas ;
-
-- Je nettoie régulièrement l'endroit où je conserve les aliments.
- 
-
- ''',
+- Je nettoie régulièrement l'endroit où je conserve les aliments.''',
         image: "images/alimentation/image34.png",
       ),
      

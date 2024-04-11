@@ -16,7 +16,7 @@ Pages page41() {
         id: 1,
         position: "3",
         description:
-            '''L'intoxication c’est lorsqu’on avale ou respire une substance toxique, ou lorsque cette substance entre en contact avec la peau, les yeux, la bouche ou le nez et provoquent des troubles.''',
+            "L'intoxication c’est lorsqu’on avale ou respire une substance toxique, ou lorsque cette substance entre en contact avec la peau, les yeux, la bouche ou le nez et provoquent des troubles.",
         image: "images/accidents/image50.png",
       ),
       ImageDescription(
@@ -48,9 +48,10 @@ Pages page41() {
       ),
       ImageDescription(
         id: 6,
-        description: "- Piles"
-            "- Médicaments"
-            "- Drogues, alcool et tabac",
+        description: 
+        "- Piles"
+        "- Médicaments"
+       "- Drogues, alcool et tabac",
         image: "",
       )
     ],

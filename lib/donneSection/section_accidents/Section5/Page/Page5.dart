@@ -30,9 +30,7 @@ Pages page21() {
       ),
       ImageDescription(
         id: 4,
-        description: '''
-- j‘explique à mon enfant qu’il doit éviter de provoquer les animaux.
-''',
+        description: "- j‘explique à mon enfant qu’il doit éviter de provoquer les animaux.",
         image: "",
       )
     ],

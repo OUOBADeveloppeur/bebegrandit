@@ -55,9 +55,7 @@ Pages page44() {
       ImageDescription(
         id: 7,
         position: "1",
-        description:
-            ""
-,
+        description: "",
         image: "images/accidents/image43.png",
       )
     ],

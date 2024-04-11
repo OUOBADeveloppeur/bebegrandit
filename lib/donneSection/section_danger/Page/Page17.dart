@@ -19,11 +19,8 @@ Pages page17() {
       ImageDescription(
         id: 2,
         description: '''J’encourage mon enfant à téter, manger, boire ;
-
 Je lui donne ce qu’il aime ;
-
-Je lui donne des fruits, du jus, de la soupe de légumes, de viande etc. ;
-''',
+Je lui donne des fruits, du jus, de la soupe de légumes, de viande etc. ;''',
         image: "",
       ),
       ImageDescription(

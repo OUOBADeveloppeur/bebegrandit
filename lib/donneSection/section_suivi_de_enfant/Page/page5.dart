@@ -19,12 +19,11 @@ Pages page5() {
       ),
       ImageDescription(
         id: 2,
-        description: '''- prend la température de mon enfant ;
+        description: '''
+- prend la température de mon enfant ;
 - examine mon enfant :
 regarde dans ses yeux, sa bouche et ses oreilles ;
-recherche des œdèmes (gonflements) sur ses pieds ;
-
-''',
+recherche des œdèmes (gonflements) sur ses pieds ;''',
         image: "",
       ),
       ImageDescription(

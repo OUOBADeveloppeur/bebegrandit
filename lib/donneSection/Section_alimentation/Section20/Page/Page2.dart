@@ -15,16 +15,14 @@ Pages page21() {
         id: 2,
         description:
             '''Après 6 mois, le lait maternel seul ne lui suffit plus. En plus du lait, 
-            je lui donne d’autres aliments complémentaires adaptés à son âge. 
-''',
+            je lui donne d’autres aliments complémentaires adaptés à son âge. ''',
         image: "",
       ),
       ImageDescription(
         id: 3,
         description:
             '''Le lait maternel reste encore très important pour mon enfant donc je continue 
-            à l'allaiter jusqu’à deux ans ou plus à sa demande de jour comme de nuit.
-''',
+            à l'allaiter jusqu’à deux ans ou plus à sa demande de jour comme de nuit.''',
         image: "",
       ),
       ImageDescription(

@@ -8,13 +8,13 @@ Pages page24() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        position: '2',
+        position: '5',
         texte: 900,
         description: '''Attention''',
         image: "images/accidents/image9.png",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,position: '5',
         description:
             "- je n’incise pas le point de la morsure ou de la piqûre, ceci peut être dangereux. ",
         image: "",

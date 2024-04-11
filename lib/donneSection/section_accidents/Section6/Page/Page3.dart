@@ -17,7 +17,7 @@ Pages page27() {
         id: 2,
         position: "3",
         description:
-            '''- je surveille mon enfant pour qu’il n’introduise pas des objets dans son oreille ;''',
+            "- je surveille mon enfant pour qu’il n’introduise pas des objets dans son oreille ;",
         image: "images/accidents/image34.png",
       ),
       ImageDescription(

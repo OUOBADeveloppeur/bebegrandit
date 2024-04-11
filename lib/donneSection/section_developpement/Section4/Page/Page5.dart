@@ -35,12 +35,12 @@ Pages page27() {
       ),
      
       ImageDescription(
-        id: 6, position: '2',texte: 900,
+        id: 6, position: '5',texte: 900,
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
         ImageDescription(
-        id: 7, 
+        id: 7,  position: '6',
         description: '''Lorsque mon enfant : 
             - ne comprend pas ce que je lui dis, même avec des mots simples,
             - n’est pas attentif aux histoires que je lui raconte''',

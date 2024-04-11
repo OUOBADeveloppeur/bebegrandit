@@ -16,9 +16,7 @@ Pages page18() {
         description:
             '''Les premiers jours de l’allaitement, je peux avoir des douleurs au sein,
              de petites plaies (crevasses ou gerçures). Parfois je peux avoir des problèmes 
-             de gonflements douloureux du sein.
-
-''',
+             de gonflements douloureux du sein.''',
         image: "",
       ),
       ImageDescription(
@@ -45,8 +43,7 @@ Pages page18() {
         id: 6,
         description:
             '''- Je n'appuie pas le sein, car cela bouche les canaux du lait et peut
-             créer des blessures au niveau du mamelon.
-''',
+             créer des blessures au niveau du mamelon.''',
         image: "",
       ),
     ],

@@ -15,11 +15,10 @@ Pages page32() {
       ),
       ImageDescription(
         id: 1,
-        description: '''- je surveille mon enfant quand il mange ;
+        description: "- je surveille mon enfant quand il mange ;"
 
-- j’écrase les graines d’arachides, de haricot, les morceaux de viandes avant de les donner à mon enfant ;
-
-''',
+"- j’écrase les graines d’arachides, de haricot, les morceaux de viandes avant de les donner à mon enfant ;"
+,
         image: "",
       ),
       ImageDescription(
@@ -34,10 +33,9 @@ Pages page32() {
       ImageDescription(
         id: 3,
         position: '3',
-        description: '''- j’explique à mon enfant que c’est dangereux 
-            de mettre les petits objets (billes, petits poids, perles, etc.)  dans la bouche.
-
-''',
+        description: "- j’explique à mon enfant que c’est dangereux "
+            "de mettre les petits objets (billes, petits poids, perles, etc.)  dans la bouche."
+,
         image: "images/accidents/image42.png",
       ),
     ],

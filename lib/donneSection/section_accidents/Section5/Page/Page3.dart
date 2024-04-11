@@ -20,39 +20,32 @@ Pages page19() {
         id: 2,
         position: '3',
         description:
-            '''- je nettoie la maison et les alentours pour éloigner les serpents et les scorpions ;
-
-''',
+            "- je nettoie la maison et les alentours pour éloigner les serpents et les scorpions ;",
         image: "images/accidents/image25.png",
       ),
       ImageDescription(
         id: 3,
         description:
-            '''- je garde les aliments à l’abri des rongeurs pour les éloigner ; 
-''',
+            "- je garde les aliments à l’abri des rongeurs pour les éloigner ; ",
         image: "",
       ),
       ImageDescription(
         id: 4,
         description:
-            '''- je fais attention lorsque mon enfant joue avec le chien et le chat ; 
-''',
+          "- je fais attention lorsque mon enfant joue avec le chien et le chat ; ",
         image: "",
       ),
       ImageDescription(
         id: 5,
         position: "3",
         description:
-            '''- j‘explique à mon enfant qu’il ne doit pas déranger un chien ou un chat qui dort, qui mange ou qui s’occupe de ses petits ; 
-''',
+           "- j‘explique à mon enfant qu’il ne doit pas déranger un chien ou un chat qui dort, qui mange ou qui s’occupe de ses petits ; ",
         image: "images/accidents/image26.png",
       ),
       ImageDescription(
         id: 6,
         description:
-            '''- j‘explique à mon enfant qu’il ne doit pas s’amuser avec un chien ou un chat qu’il ne connait pas.
- 
-''',
+            "- j‘explique à mon enfant qu’il ne doit pas s’amuser avec un chien ou un chat qu’il ne connait pas.",
         image: "",
       ),
     ],

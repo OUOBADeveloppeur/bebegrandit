@@ -44,7 +44,7 @@ si mon enfant à plus de 6 mois.''',
         image: "images/danger/image23.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5,texte: 900,color: 0xFFFF0000,
         position: '3',
         description: '''Je l’emmène au centre de santé. ''',
         image: "images/danger/image21.png",

@@ -21,17 +21,14 @@ Pages page33() {
       ImageDescription(
         id: 2,
         description:
-            '''J'aide mon enfant à se brosser au moins trois fois par jour pendant 2 minutes avec une brosse et une pâte dentifrice adaptées à son âge. 
-
-''',
+            '''J'aide mon enfant à se brosser au moins trois fois par jour pendant 2 minutes avec une brosse et une pâte dentifrice adaptées à son âge. ''',
         image: "",
       ),
       ImageDescription(
         id: 3,texte: 900,
         position: '3',
         description:
-            '''Je peux me brosser les dents en même temps pour lui montrer l’exemple.
-''',
+            '''Je peux me brosser les dents en même temps pour lui montrer l’exemple.''',
         image: "images/alimentation/image27.png",
       ),
     ],

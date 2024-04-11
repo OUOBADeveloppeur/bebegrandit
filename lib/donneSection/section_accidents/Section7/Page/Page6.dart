@@ -8,9 +8,8 @@ Pages page34() {
     imageDescription: [
       ImageDescription(
         id: 1,texte: 900,
-        description: '''Grand enfant
-1 - 5 ans
-''',
+        description: "Grand enfant 1 - 5 ans"
+,
         image: "",
       ),
       ImageDescription(
@@ -31,35 +30,32 @@ Pages page34() {
       ImageDescription(
         id: 4,
         description:
-            '''Si le problème n’est pas résolu, je pose les gestes suivants : 
-''',
+            "Si le problème n’est pas résolu, je pose les gestes suivants : "
+,
         image: "",
       ),
       ImageDescription(
         id: 5,
-        description: '''Cliquer sur le lien pour suivre la démonstration (vidéo)
-''',
+        description: "Cliquer sur le lien pour suivre la démonstration (vidéo)",
         image: "",
       ),
       ImageDescription(
         id: 6,
         description:
-            '''Si les gestes sont inefficaces et l’enfant perd connaissance, moi ou une personne qui m'aide devons faire un massage du cœur et des poumons. 
-''',
+            "Si les gestes sont inefficaces et l’enfant perd connaissance, moi ou une personne qui m'aide devons faire un massage du cœur et des poumons. ",
         image: "",
       ),
       ImageDescription(
         id: 7,
-        description: '''Cliquer sur le lien pour suivre la démonstration (vidéo)
-''',
+        description: "Cliquer sur le lien pour suivre la démonstration (vidéo)"
+,
         image: "",
       ),
       ImageDescription(
         id: 8,texte: 900,color: 0xFFFF0000,
         position: "3",
         description:
-            '''J’appelle les secours ou je l’amène rapidement au centre de santé.
-''',
+            "J’appelle les secours ou je l’amène rapidement au centre de santé.",
         image: "images/accidents/image43.png",
       )
     ],
