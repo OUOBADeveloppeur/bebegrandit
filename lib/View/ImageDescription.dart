@@ -10,27 +10,30 @@ class ImageDescription1 extends StatefulWidget {
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
   Widget _buildTextOnly(String text,
-      {int? color, String? position, int? texte}) {
+      {int? color, String? position, int? texte, int? bg}) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 10),
-      child: Column(
-        children: [
-          Text(
-            text,
-            style: TextStyle(
-              fontWeight: texte != null
-                  ? FontWeight.bold
-                  : FontWeight.normal, // Texte gras si "texte" est défini
-              color: color != null ? Color(color) : Colors.black,
+      child: Container(
+        color: color != null ? Color(bg!) : Colors.black,
+        child: Column(
+          children: [
+            Text(
+              text,
+              style: TextStyle(
+                fontWeight: texte != null
+                    ? FontWeight.bold
+                    : FontWeight.normal, // Texte gras si "texte" est défini
+                color: color != null ? Color(color) : Colors.black,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
 
   //--------texte attenton----------------------
-  Widget _buildTextOnlyAttention(String text,
+  /*Widget _buildTextOnlyAttention(String text,
       {int? color, String? position, int? texte}) {
     return Container(
       child: Padding(
@@ -50,203 +53,68 @@ class ImageDescription1 extends StatefulWidget {
         ),
       ),
     );
-  }
-
-  //--------------texte gras---------------------------------
-  /* Widget _buildTextOnlygras(String text,
-      {int? color, String? position, int? texte}) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 10),
-      child: Column(
-        children: [
-          Text(
-            text,
-            style: TextStyle(
-              fontSize: 20,
-              color: color != null ? Color(color) : Colors.black,
-              fontWeight: FontWeight.bold, // Ajout du style en gras
-            ),
-          ),
-        ],
-      ),
-    );
   }*/
 
   //-----------------fin texte gras--------------------------
 
   Widget _buildImageTopTextBottom(String imagePath, String description,
       {int? color,
+      int? bg,
       String? position,
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        if (imagePath.isNotEmpty)
-          Image.asset(
-            imagePath,
-            width: imageWidth,
-            height: imageHeight,
-            fit: BoxFit.contain,
-          ),
-        if (description != null && description.isNotEmpty)
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-            child: Column(
-              children: [
-                Text(
-                  description,
-                  style: TextStyle(
-                    fontWeight:
-                        texte != null ? FontWeight.bold : FontWeight.normal,
-                    // Texte gras si "texte" est défini
-                    color: color != null ? Color(color) : Colors.black,
-                  ),
-                ),
-              ],
+    return Container(
+      color: color != null ? Color(bg!) : Colors.black,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          if (imagePath.isNotEmpty)
+            Image.asset(
+              imagePath,
+              width: imageWidth,
+              height: imageHeight,
+              fit: BoxFit.contain,
             ),
-          ),
-      ],
+          if (description != null && description.isNotEmpty)
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+              child: Column(
+                children: [
+                  Text(
+                    description,
+                    style: TextStyle(
+                      fontWeight:
+                          texte != null ? FontWeight.bold : FontWeight.normal,
+                      // Texte gras si "texte" est défini
+                      color: color != null ? Color(color) : Colors.black,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+        ],
+      ),
     );
   }
 
 //-------------------image en bas texte en haut------------------
   Widget _buildTextTopImageBottom(String imagePath, String description,
       {int? color,
+      int? bg,
       String? position,
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        if (description != null && description.isNotEmpty)
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
-            child: Column(
-              children: [
-                Text(
-                  description,
-                  style: TextStyle(
-                    // Texte gras si "texte" est défini
-
-                    fontWeight:
-                        texte != null ? FontWeight.bold : FontWeight.normal,
-                    color: color != null ? Color(color) : Colors.black,
-                  ),
-                ),
-              ],
-            ),
-          ),
-        if (imagePath.isNotEmpty)
-          Image.asset(
-            imagePath,
-            width: imageWidth,
-            height: imageHeight,
-            fit: BoxFit.contain,
-          ),
-      ],
-    );
-  }
-
-//-------------Image à gauche------------------------------------
-  Widget _buildImageLeftTextRight(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight,
-      int? texte}) {
-    return Row(
-      children: [
-        if (imagePath.isNotEmpty)
-          Expanded(
-            flex: 2,
-            child: Image.asset(
-              imagePath,
-              width: imageWidth,
-              height: imageHeight,
-              fit: BoxFit.contain,
-            ),
-          ),
-        if (description != null && description.isNotEmpty)
-          Expanded(
-            flex: 3,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
-              child: Text(
-                description,
-                style: TextStyle(
-                  // Texte gras si "texte" est défini
-
-                  fontWeight:
-                      texte != null ? FontWeight.bold : FontWeight.normal,
-                  color: color != null ? Color(color) : Colors.black,
-                ),
-              ),
-            ),
-          ),
-      ],
-    );
-  }
-
-//----------------------Image attention--------------------------------
-  Widget _buildImageAttentionextRight(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight,
-      int? texte}) {
-    return Row(
-      children: [
-        if (imagePath.isNotEmpty)
-          Expanded(
-            flex: 2,
-            child: Image.asset(
-              imagePath,
-              width: imageWidth,
-              height: imageHeight,
-              fit: BoxFit.contain,
-            ),
-          ),
-        if (description != null && description.isNotEmpty)
-          Expanded(
-            flex: 3,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
-              child: Text(
-                description,
-                style: TextStyle(
-                  // Texte gras si "texte" est défini
-
-                  fontWeight:
-                      texte != null ? FontWeight.bold : FontWeight.normal,
-                  color: color != null ? Color(color) : Colors.black,
-                ),
-              ),
-            ),
-          ),
-      ],
-    );
-  }
-
-//--------------------------imag à droite----------------------
-  Widget _buildImagetRighttTexLeft(String imagePath, String description,
-      {int? color,
-      String? position,
-      double? imageWidth,
-      double? imageHeight,
-      int? texte}) {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        if (description != null && description.isNotEmpty)
-          Expanded(
-            flex: 3,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 2, vertical: 5),
+    return Container(
+      color: color != null ? Color(bg!) : Colors.black,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          if (description != null && description.isNotEmpty)
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     description,
@@ -261,12 +129,33 @@ class ImageDescription1 extends StatefulWidget {
                 ],
               ),
             ),
-          ),
-        if (imagePath.isNotEmpty)
-          Expanded(
-            flex: 2,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+          if (imagePath.isNotEmpty)
+            Image.asset(
+              imagePath,
+              width: imageWidth,
+              height: imageHeight,
+              fit: BoxFit.contain,
+            ),
+        ],
+      ),
+    );
+  }
+
+//-------------Image à gauche------------------------------------
+  Widget _buildImageLeftTextRight(String imagePath, String description,
+      {int? color,
+      int? bg,
+      String? position,
+      double? imageWidth,
+      double? imageHeight,
+      int? texte}) {
+    return Container(
+      color: color != null ? Color(bg!) : Colors.black,
+      child: Row(
+        children: [
+          if (imagePath.isNotEmpty)
+            Expanded(
+              flex: 2,
               child: Image.asset(
                 imagePath,
                 width: imageWidth,
@@ -274,20 +163,135 @@ class ImageDescription1 extends StatefulWidget {
                 fit: BoxFit.contain,
               ),
             ),
-          ),
-      ],
+          if (description != null && description.isNotEmpty)
+            Expanded(
+              flex: 3,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
+                child: Text(
+                  description,
+                  style: TextStyle(
+                    // Texte gras si "texte" est défini
+
+                    fontWeight:
+                        texte != null ? FontWeight.bold : FontWeight.normal,
+                    color: color != null ? Color(color) : Colors.black,
+                  ),
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+//----------------------Image attention--------------------------------
+  Widget _buildImageAttentionextRight(String imagePath, String description,
+      {int? color,
+      int? bg,
+      String? position,
+      double? imageWidth,
+      double? imageHeight,
+      int? texte}) {
+    return Container(
+      color: color != null ? Color(bg!) : Colors.black,
+      child: Row(
+        children: [
+          if (imagePath.isNotEmpty)
+            Expanded(
+              flex: 2,
+              child: Image.asset(
+                imagePath,
+                width: imageWidth,
+                height: imageHeight,
+                fit: BoxFit.contain,
+              ),
+            ),
+          if (description != null && description.isNotEmpty)
+            Expanded(
+              flex: 3,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
+                child: Text(
+                  description,
+                  style: TextStyle(
+                    // Texte gras si "texte" est défini
+
+                    fontWeight:
+                        texte != null ? FontWeight.bold : FontWeight.normal,
+                    color: color != null ? Color(color) : Colors.black,
+                  ),
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+//--------------------------imag à droite----------------------
+  Widget _buildImagetRighttTexLeft(String imagePath, String description,
+      {int? color,
+      int? bg,
+      String? position,
+      double? imageWidth,
+      double? imageHeight,
+      int? texte}) {
+    return Container(
+      color: color != null ? Color(bg!) : Colors.black,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (description != null && description.isNotEmpty)
+            Expanded(
+              flex: 3,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 2, vertical: 5),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      description,
+                      style: TextStyle(
+                        // Texte gras si "texte" est défini
+
+                        fontWeight:
+                            texte != null ? FontWeight.bold : FontWeight.normal,
+                        color: color != null ? Color(color) : Colors.black,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          if (imagePath.isNotEmpty)
+            Expanded(
+              flex: 2,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+                child: Image.asset(
+                  imagePath,
+                  width: imageWidth,
+                  height: imageHeight,
+                  fit: BoxFit.contain,
+                ),
+              ),
+            ),
+        ],
+      ),
     );
   }
 
   //-----------------titre image----------------------
   Widget _buildImagetTitreTexte(String imagePath, String description,
       {int? color,
+      int? bg,
       String? position,
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
     return Container(
-      // color: Colors.red,
+      color: color != null ? Color(bg!) : Colors.black,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -337,6 +341,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     required String imagePath,
     required String description,
     int? color,
+    int? bg,
     String? position,
     int? texte,
     bool isImageFirst = true,
@@ -345,6 +350,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     bool shouldDisplayImage = imagePath.isNotEmpty;
 
     int defaultColor = 0xFF000000;
+    int bgColor = 0xFFFFFF;
     //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
     Widget imageWidget = Container(); // Widget par défaut
     double maxHeight = MediaQuery.of(context).size.height * 0.3;
@@ -352,6 +358,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       case '1':
         imageWidget = widget._buildImageTopTextBottom(imagePath, description,
             color: color ?? defaultColor,
+            bg: bg ?? bgColor,
             position: position,
             texte: texte,
             imageHeight: maxHeight);
@@ -360,6 +367,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       case '0':
         imageWidget = widget._buildImagetTitreTexte(
           imagePath,
+          bg: bg ?? bgColor,
           description,
           color: color ?? defaultColor,
           position: position,
@@ -371,7 +379,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         break;
       case '2':
         imageWidget = widget._buildImageLeftTextRight(
-          imagePath, description,
+          imagePath, description, bg: bg ?? bgColor,
           color: color ?? defaultColor,
           position: position,
           texte: texte,
@@ -383,6 +391,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       case '3':
         imageWidget = widget._buildImagetRighttTexLeft(
           imagePath,
+          bg: bg ?? bgColor,
           description,
           color: color ?? defaultColor,
           position: position,
@@ -395,6 +404,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             //  imageHeight: 50,
             //  imageWidth: 50,
             color: color ?? defaultColor,
+            bg: bg ?? bgColor,
             position: position,
             texte: texte);
         print(imagePath.length);
@@ -402,6 +412,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       case '5':
         imageWidget = widget._buildImageAttentionextRight(
             imagePath, description,
+            bg: bg ?? bgColor,
             imageHeight: MediaQuery.of(context).size.height * 0.08,
             imageWidth: MediaQuery.of(context).size.width * 0.08,
             color: color ?? defaultColor,
@@ -409,16 +420,17 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             texte: texte);
         print(imagePath.length);
         break;
-      case '6':
+      /* case '6':
         imageWidget = widget._buildImageAttentionextRight(
             imagePath, description,
+            bg: bg ?? bgColor,
             imageHeight: MediaQuery.of(context).size.height * 0.08,
             imageWidth: MediaQuery.of(context).size.width * 0.08,
             color: color ?? defaultColor,
             position: position,
             texte: texte);
         print(imagePath.length);
-        break;
+        break;*/
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
@@ -524,12 +536,12 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               ],
             ),
         //----------------position egale à 5-------------------------
-        if (position == '5')
-          Container(
-            decoration:
-                BoxDecoration(color: Color.fromRGBO(240, 226, 226, 0.867)),
-            child: imageWidget,
-          ),
+        // if (position == '5')
+        // Container(
+        //  decoration:
+        //    BoxDecoration(color: Color.fromRGBO(240, 226, 226, 0.867)),
+        //  child: imageWidget,
+        //  ),
 //--------------------------------image o-------------
         if (shouldDisplayImage && position == '0')
           if (isImageFirst)
@@ -565,8 +577,34 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (shouldDisplayImage && position == '3')
           if (isImageFirst)
             Container(
-              //color: Colors.yellow,
-
+              // Taille fixe pour les images
+              // height: 172, // Hauteur fixe pour l'image
+              child: imageWidget,
+              //  ),
+            ) /*,
+          if (position=='1')
+            SizedBox(
+              // Taille fixe pour les images
+              height: 356, // Hauteur fixe pour l'image
+              child: imageWidget,
+            )*/
+          else
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Flexible(
+                  flex: 1,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: imageWidget,
+                  //  ),
+                ),
+              ],
+            ),
+        //-------------------------image position 6
+        if (shouldDisplayImage && position == '5')
+          if (isImageFirst)
+            Container(
               // Taille fixe pour les images
               // height: 172, // Hauteur fixe pour l'image
               child: imageWidget,
@@ -594,7 +632,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (!shouldDisplayImage &&
             description != null &&
             description.isNotEmpty)
-          if (position == '6')
+          /* if (position == '6')
             Container(
               decoration:
                   BoxDecoration(color: Color.fromRGBO(240, 226, 226, 0.867)),
@@ -605,9 +643,12 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 position: position,
               ),
             )
-          else
-            widget._buildTextOnly(description,
-                color: color ?? defaultColor, position: position, texte: texte),
+          else*/
+          widget._buildTextOnly(description,
+              color: color ?? defaultColor,
+              position: position,
+              texte: texte,
+              bg: bg ?? bgColor),
 
         // SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
       ],
@@ -658,30 +699,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                       ),
                     //---------position==2-----------------
                     if (widget.page1.imageDescription[index].position == '2')
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          if (imageDescription.description != null &&
-                              imageDescription.description.isNotEmpty)
-                            Padding(
-                              padding: EdgeInsets.symmetric(
-                                  horizontal: 2, vertical: 2),
-                              child: Column(
-                                children: [
-                                  Text(imageDescription.description),
-                                ],
-                              ),
-                            ),
-                          if (imageDescription.image.isNotEmpty)
-                            Image.asset(
-                              imageDescription.image,
-                              fit: BoxFit.contain,
-                            ),
-                        ],
-                      ),
-
-                    //-----position=5
-                    if (widget.page1.imageDescription[index].position == '5')
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
