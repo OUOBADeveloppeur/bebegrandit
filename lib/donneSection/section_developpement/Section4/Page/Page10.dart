@@ -5,11 +5,12 @@ Pages page32() {
   return Pages(
     id: 10,
     titre: "Le développement de l’enfant de 1 à 3 ans",
+    icon: "images/developpement/image51.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',texte: 900,
         description: "Les émotions et sentiments",
-        image: "images/developpement/image51.png",
+        image: "",
       ),
       ImageDescription(
         id: 2, position: '3',

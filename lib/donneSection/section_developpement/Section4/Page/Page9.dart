@@ -5,11 +5,12 @@ Pages page31() {
   return Pages(
     id: 9,
     titre: "Le développement de l’enfant de 1 à 3 ans",
+    icon: "images/developpement/image48.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',texte: 900,
         description: "L’odorat",
-        image: "images/developpement/image48.png",
+        image: "",
       ),
        ImageDescription(
         id: 2, position: '3',

@@ -5,13 +5,14 @@ Pages page14() {
   return Pages(
     id: 11,
     titre: "Développement de l’enfant de  0 à 6 mois",
+    icon: "images/developpement/pag16/ic-01-01.png",
     imageDescription: [
       ImageDescription(
         id: 1,
         position: '0',
         texte: 900,
         description: "Ce que je fais",
-        image: "images/developpement/pag16/ic-01-01.png",
+        image: "",
       ),
       ImageDescription(
         id: 2,

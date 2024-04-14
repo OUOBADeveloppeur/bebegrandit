@@ -244,8 +244,8 @@ class _homePageState extends State<homePage>
         'Après changement : Section Index: ${widget.sectionIndex}, Page Index: ${widget.pageIndex}');
   }
 }
-*/
 
+*/
 import 'package:bebegrandi/Model/menu.dart';
 import 'package:bebegrandi/Model/section.dart';
 import 'package:bebegrandi/View/HomPageWcon.dart';
@@ -269,6 +269,7 @@ class HomePage extends StatefulWidget {
     this.sectionIndex = 0,
     this.pageIndex = 0,
     required this.section,
+  
   }) : super(key: key);
 
   @override
@@ -288,8 +289,7 @@ class _HomePageState extends State<HomePage>
     super.initState();
     _pageController = PageController(initialPage: widget.pageIndex);
     _pageController.addListener(_handlePageChange);
-    print(
-        'Création de la page d\'accueil avec l\'indice de section : ${widget.sectionIndex} et l\'indice de page : ${widget.pageIndex}');
+    
   }
 
   @override
@@ -297,6 +297,8 @@ class _HomePageState extends State<HomePage>
     _pageController.dispose();
     super.dispose();
   }
+
+
 
   void _handlePageChange() {
     final newPageIndex = _pageController.page?.round() ?? 0;
@@ -357,6 +359,10 @@ class _HomePageState extends State<HomePage>
 
         foregroundColor: Colors.white,
         actions: [
+          if(widget.section.section[widget.sectionIndex].page![widget.pageIndex].icon!=null )
+
+          Image.asset(widget.section.section[widget.sectionIndex].page![widget.pageIndex].icon!)
+          else
           IconButton(
               onPressed: () {
                 Navigator.push(
@@ -592,12 +598,10 @@ class _HomePageState extends State<HomePage>
   }
 
   void _goToNextSection() {
-    print(
-        'Avant changement : Section Index: ${widget.sectionIndex}, Page Index: ${widget.pageIndex}');
+   
     setState(() {
       _incrementSection();
     });
-    print(
-        'Après changement : Section Index: ${widget.sectionIndex}, Page Index: ${widget.pageIndex}');
+  
   }
-}
+  }

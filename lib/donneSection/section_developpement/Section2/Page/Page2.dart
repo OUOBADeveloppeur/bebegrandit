@@ -6,13 +6,14 @@ Pages page5() {
     id: 2,
     texte: 900,
     titre: "Développement de l’enfant de  0 à 6 mois",
+    icon:"images/developpement/pag8/ic-01.png",
     imageDescription: [
       ImageDescription(
         id: 0,
         texte: 900,
         position: '0',
         description: "Le sommeil",
-        image: "images/developpement/pag8/ic-01.png",
+        image: "",
       ),
       ImageDescription(
         id: 1,

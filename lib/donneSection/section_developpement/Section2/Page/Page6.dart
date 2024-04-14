@@ -5,6 +5,7 @@ Pages page9() {
   return Pages(
     id: 6,
     titre: "Développement de l’enfant de  0 à 6 mois",
+    icon: "images/developpement/pag12/ic-01.png",
     imageDescription: [
       ImageDescription(
         id: 0,
@@ -12,7 +13,7 @@ Pages page9() {
         position: '0',
         description: "L’audition"
             "",
-        image: "images/developpement/pag12/ic-01.png",
+        image: "",
       ),
       ImageDescription(
         id: 1,

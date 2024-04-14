@@ -5,12 +5,13 @@ Pages page20() {
   return Pages(
     id: 6,
     titre: "Le développement de l’enfant de 6 à 12 mois",
+    icon: "images/developpement/pag22/ic-01-01.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',texte: 900,
         description: "Le langage"
             ,
-        image: "images/developpement/pag22/ic-01-01.png",
+        image: "",
       ),
       ImageDescription(
         id: 2, position: '3',
