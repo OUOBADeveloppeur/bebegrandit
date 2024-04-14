@@ -5,6 +5,7 @@ Pages page3() {
   return Pages(
     id: 3,
     titre: "Developpement normal",
+    position: 'Page',
     imageDescription: [
       ImageDescription(
         id: 1,

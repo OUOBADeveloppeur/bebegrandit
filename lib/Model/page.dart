@@ -13,6 +13,7 @@ class Pages {
   @JsonKey(name: "titre")
   String titre;
   String? position;
+   String? icon;
   int? texte;
   @HiveField(5)
   @JsonKey(name: "imageDescription")
@@ -21,6 +22,7 @@ class Pages {
   Pages({
     required this.id,
     this.position,
+    this.icon,
     required this.titre,
     this.texte,
     required this.imageDescription,
@@ -31,11 +33,13 @@ class Pages {
     String? titre,
     int? texte,
     String? position,
+     String? icon,
     List<ImageDescription>? imageDescription,
   }) =>
       Pages(
         id: id ?? this.id,
         position: position ?? this.position,
+        icon: icon?? this.icon,
         titre: titre ?? this.titre,
         texte: texte ?? this.texte,
         imageDescription: imageDescription ?? this.imageDescription,
@@ -53,6 +57,7 @@ class Pages {
       id: json['id'], // Ajout de la conversion en int pour l'ID
       titre: json['titre'],
       position: json['position'],
+      icon: json['icon'],
       texte: json['texte'],
       imageDescription: descriptions,
     );

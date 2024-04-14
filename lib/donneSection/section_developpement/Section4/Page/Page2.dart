@@ -5,13 +5,14 @@ Pages page24() {
   return Pages(
     id: 2,
     titre: "Le développement de l’enfant de 1 à 3 ans",
+    icon: "images/developpement/image30.png",
     imageDescription: [
       ImageDescription(
         id: 1,
         position: '0',
         texte: 900,
         description: "Le sommeil",
-        image: "images/developpement/image30.png",
+        image: "",
       ),
       ImageDescription(
         id: 2,
