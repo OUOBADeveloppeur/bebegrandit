@@ -5,7 +5,7 @@ Pages page6() {
   return Pages(
     id: 3,
     titre: "Développement de l’enfant de  0 à 6 mois",
-    icon: "images/developpement/pag9/ic-01.png" ,
+    icon: "images/developpement/pag9/ic-01.png",
     imageDescription: [
       ImageDescription(
         position: '0',
@@ -52,6 +52,7 @@ Pages page6() {
       ImageDescription(
         position: '5',
         id: 7,
+        bg: 0xFFFFE4E1,
         texte: 40,
         description: "Attention:",
         image: "images/developpement/pag9/ic-06-01.png",
@@ -59,6 +60,7 @@ Pages page6() {
       ImageDescription(
         position: '6',
         id: 6,
+        bg: 0xFFFFE4E1,
         description:
             "Si mon enfant parait mou, ne réagit pas aux stimulations, aux jeux "
             "ou n’arrive pas à tenir sa tête,",
@@ -68,7 +70,7 @@ Pages page6() {
         position: '3',
         texte: 300,
         id: 7,
-        color: 0xFFFF0000,
+        color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

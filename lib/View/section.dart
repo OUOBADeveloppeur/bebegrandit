@@ -21,7 +21,7 @@ class _SectionGState extends State<SectionG> {
       child: GridView.builder(
         itemCount: widget.section.section.length,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, childAspectRatio: 0.7),
+            crossAxisCount: 2, childAspectRatio: 0.9),
         // Empêche le défilement vertical du GridView
         shrinkWrap: false,
         itemBuilder: (context, index) {
@@ -34,34 +34,32 @@ class _SectionGState extends State<SectionG> {
                   ? firstPage.imageDescription[0].image
                   : '';
 
-              return ListTile(
-                title: TextButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => HomePage(
-                          page: firstPage,
-                          sectionIndex: currentSection.id,
-                          pageIndex: 0,
-                          section: widget.section,
-                        ),
+              return TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomePage(
+                        page: firstPage,
+                        sectionIndex: currentSection.id,
+                        pageIndex: 0,
+                        section: widget.section,
                       ),
-                    );
-                  },
-                  child: Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 62,
-                        backgroundImage: AssetImage(firstImage),
-                      ),
-                      Text(
-                        '${currentSection.id + 1}.${firstPage.titre}',
-                        style: TextStyle(
-                            fontSize: 12, color: Color.fromARGB(239, 0, 0, 0)),
-                      ),
-                    ],
-                  ),
+                    ),
+                  );
+                },
+                child: Column(
+                  children: [
+                    CircleAvatar(
+                      radius: 62,
+                      backgroundImage: AssetImage(firstImage),
+                    ),
+                    Text(
+                      '${currentSection.id + 1}.${firstPage.titre}',
+                      style: TextStyle(
+                          fontSize: 12, color: Color.fromARGB(239, 0, 0, 0)),
+                    ),
+                  ],
                 ),
               );
             } else {

@@ -211,7 +211,7 @@ class ImageDescription1 extends StatefulWidget {
             Expanded(
               flex: 3,
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
+                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
                 child: Text(
                   description,
                   style: TextStyle(
@@ -577,6 +577,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (shouldDisplayImage && position == '3')
           if (isImageFirst)
             Container(
+            
               // Taille fixe pour les images
               // height: 172, // Hauteur fixe pour l'image
               child: imageWidget,
@@ -605,6 +606,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (shouldDisplayImage && position == '5')
           if (isImageFirst)
             Container(
+            
+              color: Colors.red,
               // Taille fixe pour les images
               // height: 172, // Hauteur fixe pour l'image
               child: imageWidget,
@@ -728,6 +731,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 imagePath: imageDescription.image,
                 description: imageDescription.description,
                 color: imageDescription.color,
+                bg: imageDescription.bg,
                 position: imageDescription.position,
                 texte: imageDescription.texte,
                 isImageFirst: index % 2 == 0,

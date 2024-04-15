@@ -13,12 +13,12 @@ Pages page8() {
         image: "",
       ),
       ImageDescription(
-        id: 2, position:'5',texte: 900,
+        id: 2, position:'5',texte: 900, bg: 0xFFFFE4E1,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 3, position: '3',
+        id: 3, position: '3', bg: 0xFFFFE4E1,
         description:
             "Lorsque mon enfant présente un ou plusieurs des signes suivants:",
         image: "images/developpement/pag10/ic-06-01.png",

@@ -48,13 +48,17 @@ Pages page13() {
         image: "",
       ),
       ImageDescription(
-        id: 9,  position: '5',texte: 900,
-        description: '''Attention : Si j’ai des difficultés pour allaiter mon enfant, je consulte dans  un centre de santé.
-.''',
+        id: 9,  position: '5',texte: 900, bg: 0xFFFFE4E1,
+        description: '''Attention :''',
+        image: "images/alimentation/image14.png",
+      ),
+        ImageDescription(
+        id: 10,texte: 900, bg: 0xFFFFE4E1,
+        description: ''' Si j’ai des difficultés pour allaiter mon enfant, je consulte dans  un centre de santé..''',
         image: "images/alimentation/image14.png",
       ),
        ImageDescription(
-        id: 10,position: '4',
+        id: 11,position: '4',
         description: "je me rends dans un centre de santé",
         image: "images/alimentation/image17.png",
       ),

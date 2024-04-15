@@ -35,14 +35,14 @@ Pages page36() {
         image: "",
       ),
       ImageDescription(
-        id: 5,texte: 900,
+        id: 5,texte: 900, bg: 0xFFFFE4E1,
         position: '5',
         description: "Attention",
         image: "",
       ),
       ImageDescription(
         id: 6,
-        position: '6',
+         bg: 0xFFFFE4E1,
         description: '''Lorsque mon enfant : 
             - cligne des yeux souvent,
             - se plaint lorsqu’on lui cache un œil,
@@ -57,7 +57,7 @@ Pages page36() {
       ),
       ImageDescription(
         id: 7,
-        position: '3',texte: 900,color: 0xFFFF0000,
+        position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

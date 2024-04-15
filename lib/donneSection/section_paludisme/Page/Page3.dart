@@ -22,7 +22,7 @@ Pages page3() {
         id: 3,
         position: '3',
         description: "Corps chaud ",
-        image: "images/paludisme/image7.png",
+        image: "images/paludisme/image27.png",
       ),
       ImageDescription(
         id: 4,

@@ -41,18 +41,18 @@ Pages page32() {
         image: "images/developpement/image54.png",
       ),
       ImageDescription(
-        id: 7, position: '5',texte: 900,
+        id: 7, position: '5',texte: 900, bg: 0xFFFFE4E1,
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
         ImageDescription(
-        id: 8,  position: '6',
+        id: 8,  position: '6', bg: 0xFFFFE4E1,
         description: " Lorsque mon enfant ne montre pas "
             "des signes d’émotions comme la joie, la colère ou la tristesse,",
         image: "",
       ),
       ImageDescription(
-        id: 9, position: '3',texte: 900,color: 0xFFFF0000,
+        id: 9, position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

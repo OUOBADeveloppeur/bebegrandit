@@ -45,20 +45,20 @@ Pages page37() {
       ),
       ImageDescription(
         id: 6,
-        position: '5',texte: 900,
+        position: '5',texte: 900, bg: 0xFFFFE4E1,
         description:
             "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
        ImageDescription(
         id: 7,
-        position: '6',
+        position: '6', bg: 0xFFFFE4E1,
         description:
             " Lorsque mon enfant entend faiblement ou n’entend pas du tout,",
         image: "",
       ),
       ImageDescription(
-        id: 8,texte: 900,color: 0xFFFF0000,
+        id: 8,texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

@@ -48,19 +48,19 @@ Pages page22() {
         image: "",
       ),
       ImageDescription(
-        id: 6, position: '5',texte: 900,
+        id: 6, position: '5',texte: 900, bg: 0xFFFFE4E1,
         description:"Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
          ImageDescription(
-        id: 7, position: '6',
+        id: 7, position: '6', bg: 0xFFFFE4E1,
         description: " Lorsque mon enfant : "
             "- ne réagit pas quand il me retrouve ou qu’il est séparé de moi, "
             "- ne réagit pas à mes émotions",
         image: "",
       ),
       ImageDescription(
-        id: 8, position: '3',texte: 900,color: 0xFFFF0000,
+        id: 8, position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

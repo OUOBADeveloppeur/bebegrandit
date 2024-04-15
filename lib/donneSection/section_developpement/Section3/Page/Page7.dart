@@ -59,12 +59,12 @@ Pages page21() {
       ),
       ImageDescription(
         id: 8,
-        position: '5',texte: 900,
+        position: '5',texte: 900, bg: 0xFFFFE4E1,
         description: '''Attention ''',
         image: "images/developpement/pag9/ic-06-01.png",
       ),
        ImageDescription(
-        id: 9,
+        id: 9, bg: 0xFFFFE4E1,
   position: '6',
         description: "Lorsque mon enfant après 12 mois : "
            " - ne saisit pas des objets placés à proximité, "
@@ -73,7 +73,7 @@ Pages page21() {
       ),
       ImageDescription(
         id: 10,
-        position: '3',texte: 900,color: 0xFFFF0000,
+        position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),
