@@ -20,58 +20,33 @@ Pages page3() {
       ),
       ImageDescription(
         id: 3,
-        position: '3',
-        description: "Corps chaud ",
-        image: "images/paludisme/image27.png",
+        position: '1',
+        description: "",
+        image: "images/paludisme/image26.png",
       ),
+      
+    
       ImageDescription(
         id: 4,
-        position: '3',
-        description: "Mal de tête",
-        image: "images/paludisme/image6.png",
-      ),
-      ImageDescription(
-        id: 5,
-        position: '3',
-        description: "Frissons, sensation de froid",
-        image: "images/paludisme/image8.png",
-      ),
-      ImageDescription(
-        id: 6,
         description: "Mon enfant peut aussi avoir d’autres signes comme : ",
         image: "",
       ),
+     
+     
+     
       ImageDescription(
-        id: 7,
-        position: '3',
-        description: "Vomissement ",
-        image: "images/paludisme/image11.png",
+        id: 5,
+        position: '1',
+        description: "",
+        image: "images/paludisme/image27.png",
       ),
       ImageDescription(
-        id: 8,
-        position: '3',
-        description: "Fatigue",
-        image: "images/paludisme/image10.png",
-      ),
-      ImageDescription(
-        id: 9,
-        position: '3',
-        description: "Diarrhée",
-        image: "images/paludisme/image12.png",
-      ),
-      ImageDescription(
-        id: 10,
-        position: '3',
-        description: "Mal au corps",
-        image: "images/paludisme/image13.png",
-      ),
-      ImageDescription(
-        id: 11,
+        id: 6,
         description: "Si mon enfant présente un ou plusieurs de ces signes,",
         image: "",
       ),
       ImageDescription(
-        id: 12,
+        id: 7,
         texte: 900,
         color: 0xFFFF0000,
         position: '3',
