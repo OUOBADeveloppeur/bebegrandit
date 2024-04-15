@@ -30,40 +30,31 @@ Pages page8() {
         position: '3',
         description:
             "Mon enfant peut également avoir le corps chaud, un mal de tête, une fatigue, pleurer ou se plaindre",
-        image: "images/suivi-croissance/image14.png",
+        image: "images/suivi-croissance/image31.png",
       ),
+      
       ImageDescription(
-        id: 4,
-        position: '3',
-        description: "",
-        image: "images/suivi-croissance/image15.png",
+        id: 4,position: '4',
+        description: "Mon enfant peut aussi ne pas avoir envie de manger. ",
+        image: "images/suivi-croissance/image32.png",
       ),
+    
+       
       ImageDescription(
         id: 5,
-        description: "Mon enfant peut aussi ne pas avoir envie de manger. ",
+        
+        description:
+            '''Ces réactions ne durent pas plus de deux jours après la vaccination.''',
         image: "",
       ),
       ImageDescription(
         id: 6,
-        position: '3',
-        description: "",
-        image: "images/suivi-croissance/image17.png",
-      ),
-      ImageDescription(
-        id: 7,
-        position: '1',
-        description:
-            '''Ces réactions ne durent pas plus de deux jours après la vaccination.''',
-        image: "images/suivi-croissance/image16.png",
-      ),
-      ImageDescription(
-        id: 8,
         description:
             '''Si cela dure plus longtemps ou si l’enfant développe d’autres signes, comme le corps très chaud''',
         image: "",
       ),
       ImageDescription(
-        id: 9,texte: 900,color: 0xFFFF0000,
+        id: 7,texte: 900,color: 0xFFFF0000,
         position: '4',
         description: '''il faut l’emmener immédiatement au centre de santé. ''',
         image: "images/suivi-croissance/image3.png",

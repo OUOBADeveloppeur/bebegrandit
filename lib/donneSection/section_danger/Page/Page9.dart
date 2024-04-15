@@ -34,12 +34,7 @@ Pages page9() {
             '''Toux, mal à la gorge, nez bouché ou nez qui coule, mal à la poitrine.''',
         image: "images/danger/image43.png",
       ),
-      ImageDescription(
-        id: 5,
-        
-        description: "",
-        image: "",
-      ),
+      
       
       
     ],
