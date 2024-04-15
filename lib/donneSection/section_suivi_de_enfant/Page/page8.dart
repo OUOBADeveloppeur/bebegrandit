@@ -34,28 +34,32 @@ Pages page8() {
       ),
       
       ImageDescription(
-        id: 4,position: '4',
+        id: 4,
         description: "Mon enfant peut aussi ne pas avoir envie de manger. ",
+        image: "",
+      ),
+    ImageDescription(
+        id: 5,position: '1',
+        description: "",
         image: "images/suivi-croissance/image32.png",
       ),
-    
        
       ImageDescription(
-        id: 5,
+        id: 6,
         
         description:
             '''Ces réactions ne durent pas plus de deux jours après la vaccination.''',
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 7,
         description:
             '''Si cela dure plus longtemps ou si l’enfant développe d’autres signes, comme le corps très chaud''',
         image: "",
       ),
       ImageDescription(
-        id: 7,texte: 900,color: 0xFFFF0000,
-        position: '4',
+        id: 8,texte: 900,color: 0xFFFF0000,
+        position: '3',
         description: '''il faut l’emmener immédiatement au centre de santé. ''',
         image: "images/suivi-croissance/image3.png",
       ),
