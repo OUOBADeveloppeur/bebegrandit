@@ -58,7 +58,7 @@ Pages page6() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        position: '6',
+        
         id: 6,
         bg: 0xFFFFE4E1,
         description:

@@ -12,7 +12,7 @@ class ImageDescription1 extends StatefulWidget {
   Widget _buildTextOnly(String text,
       {int? color, String? position, int? texte, int? bg}) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 0),
       child: Container(
         color: color != null ? Color(bg!) : Colors.black,
         child: Column(
@@ -420,17 +420,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             texte: texte);
         print(imagePath.length);
         break;
-      /* case '6':
-        imageWidget = widget._buildImageAttentionextRight(
-            imagePath, description,
-            bg: bg ?? bgColor,
-            imageHeight: MediaQuery.of(context).size.height * 0.08,
-            imageWidth: MediaQuery.of(context).size.width * 0.08,
-            color: color ?? defaultColor,
-            position: position,
-            texte: texte);
-        print(imagePath.length);
-        break;*/
+     
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
