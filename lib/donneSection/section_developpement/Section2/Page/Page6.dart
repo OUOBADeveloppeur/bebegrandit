@@ -20,7 +20,7 @@ Pages page9() {
         position: '3',
         description:
             "À la naissance, mon enfant entend les bruits et reconnait la voix de sa mère. ",
-        image: "images/developpement/pag12/ic-01.png",
+        image: "",
       ),
       ImageDescription(
         id: 2,
@@ -60,12 +60,14 @@ Pages page9() {
       ImageDescription(
         id: 7,
         position: '5',
-        texte: 900, bg: 0xFFFFE4E1,
+        texte: 900,
+        bg: 0xFFFFE4E1,
         description: "Attention:",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 8, bg: 0xFFFFE4E1,
+        id: 8,
+        bg: 0xFFFFE4E1,
         position: '6',
         description:
             "Si mon enfant ne se retourne pas en direction de ma voix ou du bruit,",

@@ -9,28 +9,34 @@ class ImageDescription1 extends StatefulWidget {
   @override
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
-  Widget _buildTextOnly(String text,
-      {int? color, String? position, int? texte, int? bg}) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 0),
-      child: Container(
-        color: color != null ? Color(bg!) : Colors.black,
-        child: Column(
-          children: [
-            Text(
+Widget _buildTextOnly(String text,
+    {int? color, String? position, int? texte, int? bg}) {
+  return Container(
+    color: color != null ? Color(bg!) : Colors.black,
+    child: Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          Expanded(
+            child: Text(
               text,
+              softWrap: true, // Permet au texte de revenir à la ligne
               style: TextStyle(
                 fontWeight: texte != null
                     ? FontWeight.bold
-                    : FontWeight.normal, // Texte gras si "texte" est défini
+                    : FontWeight.normal,
                 color: color != null ? Color(color) : Colors.black,
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
-    );
-  }
+    ),
+  );
+}
+
+
 
   //--------texte attenton----------------------
   /*Widget _buildTextOnlyAttention(String text,
@@ -80,6 +86,7 @@ class ImageDescription1 extends StatefulWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
                     description,
@@ -109,7 +116,7 @@ class ImageDescription1 extends StatefulWidget {
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           if (description != null && description.isNotEmpty)
             Padding(
@@ -420,7 +427,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             texte: texte);
         print(imagePath.length);
         break;
-     
+
       default:
         // Gérer d'autres valeurs de position au besoin
         imageWidget = Container(
@@ -430,6 +437,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     }
 
     return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
         if (shouldDisplayImage && position == '1')
           if (isImageFirst)
@@ -567,7 +575,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (shouldDisplayImage && position == '3')
           if (isImageFirst)
             Container(
-            
               // Taille fixe pour les images
               // height: 172, // Hauteur fixe pour l'image
               child: imageWidget,
@@ -596,7 +603,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (shouldDisplayImage && position == '5')
           if (isImageFirst)
             Container(
-            
               color: Colors.red,
               // Taille fixe pour les images
               // height: 172, // Hauteur fixe pour l'image
