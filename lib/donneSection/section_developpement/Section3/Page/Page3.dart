@@ -62,7 +62,7 @@ Pages page17() {
         image: "",
       ),
         ImageDescription(
-        id: 9,
+        id: 9,bg: 0xFFFFE4E1,
         position: '3',
         description: 
        "- ne s’assoit pas seul entre 9 et 10 mois," 
@@ -71,7 +71,7 @@ Pages page17() {
         image: "",
       ),
       ImageDescription(
-        id: 10,
+        id: 10,bg: 0xFFFFE4E1,
         position: '3',
         texte: 900,
         color: 0xFFFF0000,

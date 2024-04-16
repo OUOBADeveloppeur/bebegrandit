@@ -5,7 +5,7 @@ Pages page26() {
   return Pages(
     id: 4,
     titre: "Le développement de l’enfant de 1 à 3 ans",
-    icon: "images/developpement/image39.png",
+    icon: "images/developpement/pag10/ic-01-01.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',

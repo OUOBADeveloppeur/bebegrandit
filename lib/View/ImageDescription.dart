@@ -76,11 +76,13 @@ Widget _buildTextOnly(String text,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           if (imagePath.isNotEmpty)
-            Image.asset(
-              imagePath,
-              width: imageWidth,
-              height: imageHeight,
-              fit: BoxFit.contain,
+            Center(
+              child: Image.asset(
+                imagePath,
+                width: imageWidth,
+                height: imageHeight,
+                fit: BoxFit.contain,
+              ),
             ),
           if (description != null && description.isNotEmpty)
             Padding(

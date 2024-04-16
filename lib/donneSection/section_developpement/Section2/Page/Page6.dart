@@ -74,13 +74,13 @@ Pages page9() {
         image: "",
       ),
       ImageDescription(
-        id: 9,
+        id: 9,bg: 0xFFFFE4E1,
         description:
             "Si mon enfant ne réagit pas ou ne se réveille pas lorsqu’il y a un bruit très fort,",
         image: "",
       ),
       ImageDescription(
-        color: 0xFFFF0000,
+        color: 0xFFFF0000,bg: 0xFFFFE4E1,
         id: 7,
         position: '3',
         description: "je l’emmène au centre de santé.",

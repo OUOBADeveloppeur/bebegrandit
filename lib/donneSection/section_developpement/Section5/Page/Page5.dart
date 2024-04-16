@@ -5,7 +5,7 @@ Pages page37() {
   return Pages(
     id: 5,
     titre: "Le développement de l’enfant de 3 à 5 ans",
-    icon: "images/developpement/image41.png",
+    icon: "images/developpement/pag21/ic-01.png",
     imageDescription: [
       ImageDescription(
         id: 1,
