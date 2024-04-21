@@ -110,7 +110,7 @@ Section section1() {
       id: 1,
       section: [
         // Page de garde de la section 1 (Les chutes)
-        section1B(),
+      section1B(),
         section2(),
         section3(),
         section4(),
