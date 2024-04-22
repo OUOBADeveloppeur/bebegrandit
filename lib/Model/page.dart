@@ -13,7 +13,8 @@ class Pages {
   @JsonKey(name: "titre")
   String titre;
   String? position;
-   String? icon;
+  String? icon;
+  int? taille;
   int? texte;
   @HiveField(5)
   @JsonKey(name: "imageDescription")
@@ -25,6 +26,7 @@ class Pages {
     this.icon,
     required this.titre,
     this.texte,
+    this.taille,
     required this.imageDescription,
   });
 
@@ -32,16 +34,18 @@ class Pages {
     int? id,
     String? titre,
     int? texte,
+    int?taille,
     String? position,
-     String? icon,
+    String? icon,
     List<ImageDescription>? imageDescription,
   }) =>
       Pages(
         id: id ?? this.id,
         position: position ?? this.position,
-        icon: icon?? this.icon,
+        icon: icon ?? this.icon,
         titre: titre ?? this.titre,
         texte: texte ?? this.texte,
+        taille: taille??this.taille,
         imageDescription: imageDescription ?? this.imageDescription,
       );
   factory Pages.fromJson(Map<String, dynamic> json) {
@@ -59,6 +63,7 @@ class Pages {
       position: json['position'],
       icon: json['icon'],
       texte: json['texte'],
+      taille: json['taille'],
       imageDescription: descriptions,
     );
   }

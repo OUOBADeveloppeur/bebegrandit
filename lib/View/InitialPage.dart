@@ -42,6 +42,14 @@ class _MyWidgetState extends State<Inaitiale> {
                   
       "<Mon enfant grandit> est une application conçue par le ministère de la santé et de"
       "l'hygiène publication du Burkina Faso et ses partenaires techniques. Elle donne des"
+      
+                  , style: TextStyle(
+                      color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold, // Texte en gras
+                    ),
+                ),
+                 Text(
       "informations précises et concises sur la santé de l'enfant de 0 à 5 ans."
                   , style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
