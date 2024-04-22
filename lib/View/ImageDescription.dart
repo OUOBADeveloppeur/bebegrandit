@@ -12,6 +12,7 @@ class ImageDescription1 extends StatefulWidget {
 Widget _buildTextOnly(String text,
     {int? color, String? position, int? texte, int? bg}) {
   return Container(
+    
     color: color != null ? Color(bg!) : Colors.black,
     child: Padding(
       padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
@@ -161,6 +162,7 @@ Widget _buildTextOnly(String text,
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
       child: Row(
+         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           if (imagePath.isNotEmpty)
             Expanded(
@@ -300,7 +302,7 @@ Widget _buildTextOnly(String text,
       double? imageHeight,
       int? texte}) {
     return Container(
-      color: color != null ? Color(bg!) : Colors.black,
+      color:color != null ? Color(bg!) : Colors.black,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -308,9 +310,10 @@ Widget _buildTextOnly(String text,
             Expanded(
               flex: 3,
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 2, vertical: 5),
+                padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 5),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  //crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
                       description,
@@ -326,7 +329,7 @@ Widget _buildTextOnly(String text,
                 ),
               ),
             ),
-          if (imagePath.isNotEmpty)
+          /*if (imagePath.isNotEmpty)
             Expanded(
               flex: 2,
               child: Padding(
@@ -338,7 +341,7 @@ Widget _buildTextOnly(String text,
                   fit: BoxFit.contain,
                 ),
               ),
-            ),
+            ),*/
         ],
       ),
     );
@@ -439,7 +442,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     }
 
     return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         if (shouldDisplayImage && position == '1')
           if (isImageFirst)
