@@ -200,38 +200,41 @@ class ImageDescription1 extends StatefulWidget {
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
-    return Container(
-      color: color != null ? Color(bg!) : Colors.black,
-      child: Row(
-        children: [
-          if (imagePath.isNotEmpty)
-            Expanded(
-              flex: 2,
-              child: Image.asset(
-                imagePath,
-                width: imageWidth,
-                height: imageHeight,
-                fit: BoxFit.contain,
+    return Padding(
+      padding: const EdgeInsets.only(top: 20),
+      child: Container(
+        color: color != null ? Color(bg!) : Colors.black,
+        child: Row(
+          children: [
+            if (imagePath.isNotEmpty)
+              Expanded(
+                flex: 2,
+                child: Image.asset(
+                  imagePath,
+                  width: imageWidth,
+                  height: imageHeight,
+                  fit: BoxFit.contain,
+                ),
               ),
-            ),
-          if (description != null && description.isNotEmpty)
-            Expanded(
-              flex: 3,
-              child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
-                child: Text(
-                  description,
-                  style: TextStyle(
-                    // Texte gras si "texte" est défini
-
-                    fontWeight:
-                        texte != null ? FontWeight.bold : FontWeight.normal,
-                    color: color != null ? Color(color) : Colors.black,
+            if (description != null && description.isNotEmpty)
+              Expanded(
+                flex: 3,
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
+                  child: Text(
+                    description,
+                    style: TextStyle(
+                      // Texte gras si "texte" est défini
+      
+                      fontWeight:
+                          texte != null ? FontWeight.bold : FontWeight.normal,
+                      color: color != null ? Color(color) : Colors.black,
+                    ),
                   ),
                 ),
               ),
-            ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -298,48 +301,50 @@ class ImageDescription1 extends StatefulWidget {
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
-    return Container(
-      color: color != null ? Color(bg!) : Colors.black,
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          if (description != null && description.isNotEmpty)
-            Expanded(
-              flex: 3,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 5),
-                child: Column(
-                  //crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      description,
-                      style: TextStyle(
-                        // Texte gras si "texte" est défini
-
-                        fontWeight:
-                            texte != null ? FontWeight.bold : FontWeight.normal,
-                        color: color != null ? Color(color) : Colors.black,
+    return Center(
+      child: Container(
+        color: color != null ? Color(bg!) : Colors.black,
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            if (description != null && description.isNotEmpty)
+              Expanded(
+                flex: 3,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 5),
+                  child: Column(
+                    //crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        description,
+                        style: TextStyle(
+                          // Texte gras si "texte" est défini
+      
+                          fontWeight:
+                              texte != null ? FontWeight.bold : FontWeight.normal,
+                          color: color != null ? Color(color) : Colors.black,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
-          /*if (imagePath.isNotEmpty)
-            Expanded(
-              flex: 2,
-              child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
-                child: Image.asset(
-                  imagePath,
-                  width: imageWidth,
-                  height: imageHeight,
-                  fit: BoxFit.contain,
+            /*if (imagePath.isNotEmpty)
+              Expanded(
+                flex: 2,
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+                  child: Image.asset(
+                    imagePath,
+                    width: imageWidth,
+                    height: imageHeight,
+                    fit: BoxFit.contain,
+                  ),
                 ),
-              ),
-            ),*/
-        ],
+              ),*/
+          ],
+        ),
       ),
     );
   }
@@ -545,16 +550,16 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         //  child: imageWidget,
         //  ),
 //--------------------------------image o-------------
-        if (shouldDisplayImage && position == '0')
-          if (isImageFirst)
-            Container(
+       // if ( position == '0')
+       //   if (isImageFirst)
+          //  Container(
               // child: SizedBox(
               // Taille fixe pour les images
               //  height: MediaQuery.of(context).size.height *
               //    0.08, // Hauteur fixe pour l'image
-              child: imageWidget,
+           //   child: imageWidget,
               //   ),
-            )
+          //  )
           /*,
           if (position=='1')
             SizedBox(
@@ -562,19 +567,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               height: 356, // Hauteur fixe pour l'image
               child: imageWidget,
             )*/
-          else
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Flexible(
-                  flex: 1,
-                  //child: Container(
-                  //  alignment: Alignment.bottomCenter,
-                  child: imageWidget,
-                  //  ),
-                ),
-              ],
-            ),
+         // else
+            
 //----------------fin image---------------------
         if (shouldDisplayImage && position == '3')
           if (isImageFirst)
@@ -607,7 +601,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (shouldDisplayImage && position == '5')
           if (isImageFirst)
             Container(
-              color: Colors.red,
+             
               // Taille fixe pour les images
               // height: 172, // Hauteur fixe pour l'image
               child: imageWidget,
@@ -635,18 +629,20 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         if (!shouldDisplayImage &&
             description != null &&
             description.isNotEmpty)
-          /* if (position == '6')
-            Container(
-              decoration:
-                  BoxDecoration(color: Color.fromRGBO(240, 226, 226, 0.867)),
-              child: widget._buildTextOnlyAttention(
-                description,
-                texte: texte,
-                color: color ?? defaultColor,
-                position: position,
-              ),
+           if (position == '0')
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Flexible(
+                  flex: 1,
+                  //child: Container(
+                  //  alignment: Alignment.bottomCenter,
+                  child: imageWidget,
+                  //  ),
+                ),
+              ],
             )
-          else*/
+          else
           widget._buildTextOnly(description,
               color: color ?? defaultColor,
               position: position,

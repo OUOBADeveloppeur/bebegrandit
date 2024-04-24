@@ -4,30 +4,6 @@ import 'package:bebegrandi/donneSection/section_accidents/Section1/section.dart'
 import 'package:bebegrandi/donneSection/section_accidents/Section10/section.dart';
 
 import 'package:bebegrandi/donneSection/section_accidents/Section1/Page/Page1.dart';
-
-// SECTION2
-
-
-//SECTION3
-//SECTION4
-
-//SECTION5
-
-//SECTION6
-
-//SECTION7
-
-//SECTION8
-
-//SECTION9
-
-//SECTION10
-
-
-
-
-
-
 import 'package:bebegrandi/donneSection/section_accidents/Section2/section.dart';
 import 'package:bebegrandi/donneSection/section_accidents/Section3/section.dart';
 import 'package:bebegrandi/donneSection/section_accidents/Section4/section.dart';
@@ -96,7 +72,7 @@ import 'package:bebegrandi/donneSection/section_accidents/Section10/Page/Page3.d
 import 'package:bebegrandi/donneSection/section_accidents/Section10/Page/Page4.dart';
 import 'package:bebegrandi/donneSection/section_accidents/Section10/Page/Page5.dart';
 Section sectionAccident() {
-  return Section(id: 1, colors: 0xFF088886, page: [
+  return Section(id: 1, colors:  0xFFa43f3f, page: [
     // Page de garde de la section 1 (Les chutes)
     page1(),
     //section2

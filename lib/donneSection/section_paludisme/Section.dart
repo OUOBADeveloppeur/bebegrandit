@@ -12,7 +12,7 @@ import 'package:bebegrandi/donneSection/section_paludisme/Page/Page8.dart';
 Section sectionPa() {
   return Section(
     id: 2,
-    colors: 0xFF0D38E4,
+    colors: 0xFF159397,
     page: [
       // Page de garde de la section 1 (Les chutes)
       page1(),

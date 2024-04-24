@@ -6,7 +6,7 @@ import 'package:bebegrandi/donneSection/Section_alimentation/Section22/Page/Page
 Section section22() {
   return Section(
     id: 5,
-    colors: 0xFF5ee733,
+    colors: 0xFF9cbb56,
     page: [
       page28(),
       page29(),
