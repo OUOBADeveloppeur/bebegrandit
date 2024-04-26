@@ -20,6 +20,7 @@ class ImageDescription1 extends StatefulWidget {
           children: [
             Expanded(
               child: Text(
+                textAlign: TextAlign.justify,
                 text,
                 softWrap: true, // Permet au texte de revenir à la ligne
                 style: TextStyle(
@@ -88,6 +89,7 @@ class ImageDescription1 extends StatefulWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
+                     textAlign: TextAlign.justify,
                     description,
                     style: TextStyle(
                       fontWeight:
@@ -122,7 +124,7 @@ class ImageDescription1 extends StatefulWidget {
               padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
               child: Column(
                 children: [
-                  Text(
+                  Text( textAlign: TextAlign.justify,
                     description,
                     style: TextStyle(
                       // Texte gras si "texte" est défini
@@ -176,6 +178,7 @@ class ImageDescription1 extends StatefulWidget {
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
                 child: Text(
+                   textAlign: TextAlign.justify,
                   description,
                   style: TextStyle(
                     // Texte gras si "texte" est défini
@@ -222,6 +225,7 @@ class ImageDescription1 extends StatefulWidget {
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
                   child: Text(
+                     textAlign: TextAlign.justify,
                     description,
                     style: TextStyle(
                       // Texte gras si "texte" est défini
@@ -262,6 +266,7 @@ class ImageDescription1 extends StatefulWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
+                       textAlign: TextAlign.justify,
                       description,
                       style: TextStyle(
                         // Texte gras si "texte" est défini
@@ -317,6 +322,7 @@ class ImageDescription1 extends StatefulWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
+                         textAlign: TextAlign.justify,
                         description,
                         style: TextStyle(
                           // Texte gras si "texte" est défini
@@ -689,6 +695,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                                 child: Column(
                                   children: [
                                     Text(
+                                       textAlign: TextAlign.justify,
                                       imageDescription.description,
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold),
@@ -710,7 +717,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                                     horizontal: 2, vertical: 2),
                                 child: Column(
                                   children: [
-                                    Text(imageDescription.description),
+                                    Text( textAlign: TextAlign.justify,
+                                      imageDescription.description),
                                   ],
                                 ),
                               ),
