@@ -100,7 +100,23 @@ class _HomPageWconState extends State<HomPageWcon> {
         child: Scaffold(
             //---------------------scopp------------------------------
 
-          
+            //----------------------fin scop------------------------
+            appBar: AppBar(
+             backgroundColor: Colors.white,
+              leading: Builder(
+                builder: (context) {
+                  return IconButton(
+                    tooltip:
+                        MaterialLocalizations.of(context).openAppDrawerTooltip,
+                    onPressed: () => Scaffold.of(context).openDrawer(),
+                    icon: const Icon(
+                      Icons.dehaze,
+                      color: Colors.black,
+                    ),
+                  );
+                },
+              ),
+            ),
             drawer: const NavDrawer(),
             body: FutureBuilder(
               // Remplace le Future par le chargement réel des données depuis ta source de données

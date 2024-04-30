@@ -10,6 +10,7 @@ Pages page7() {
     imageDescription: [
       ImageDescription(
         position: '0',
+         taille: 0,
         id: 1,
         texte: 900,
         description: "La vue 1/2",
@@ -17,6 +18,7 @@ Pages page7() {
       ),
       ImageDescription(
         id: 2,
+         taille: 0,
         position: '3',
         description:
             "À la naissance, mon enfant ne voit pas bien les objets et les visages.",
@@ -25,6 +27,7 @@ Pages page7() {
       ImageDescription(
         id: 3,
         position: '3',
+         taille: 0,
         description:
             "Dès 1- 2 mois, mon enfant peut voir l’apparence globale d’une chose, "
             "les couleurs vives, etc.",
@@ -32,6 +35,7 @@ Pages page7() {
       ),
       ImageDescription(
         id: 4,
+         taille: 0,
         position: '3',
         description:
             "Dès 5-6 mois, mon enfant distingue les couleurs claires de celles sombres."
@@ -40,6 +44,7 @@ Pages page7() {
       ),
       ImageDescription(
         id: 5,
+         taille: 0,
         position: '3',
         texte: 900,
         description: "Ce que je fais",
@@ -47,6 +52,7 @@ Pages page7() {
       ),
       ImageDescription(
         id: 6,
+         taille: 0,
         position: '3',
         description:
             "Je passe des objets de couleurs différentes devant ses yeux pour que mon enfant les suive.",
@@ -55,6 +61,7 @@ Pages page7() {
       ImageDescription(
         id: 7,
         position: '3',
+         taille: 0,
         description: "les couleurs vives, "
             "(écrans de télévision, téléphone, ordinateur, tablette…)..",
         image: "images/developpement/pag10/ic-05-01.png",
