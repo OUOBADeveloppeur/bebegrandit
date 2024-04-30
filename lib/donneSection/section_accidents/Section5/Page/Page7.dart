@@ -35,7 +35,7 @@ Pages page23() {
         id: 4,texte: 900, bg: 0xFFFFE4E1,
         position: '5',
         description: "Attention!",
-        image: "images/accidents/image9.png",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 5,position: '5',

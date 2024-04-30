@@ -59,7 +59,7 @@ class ImageDescription1 extends StatefulWidget {
     );
   }*/
 
-  //-----------------fin texte gras--------------------------
+  //-----------------image en haut texte en bas--------------------------
 
   Widget _buildImageTopTextBottom(String imagePath, String description,
       {int? color,
@@ -115,7 +115,9 @@ class ImageDescription1 extends StatefulWidget {
       double? imageHeight,
       int? texte}) {
     return Container(
-      color: color != null ? Color(bg!) : Colors.black,
+    //
+     color: color != null ? Color(bg!) : Colors.black,
+    
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -423,8 +425,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         break;
       case '4':
         imageWidget = widget._buildTextTopImageBottom(imagePath, description,
-            //  imageHeight: 50,
-            //  imageWidth: 50,
+             // imageHeight: MediaQuery.sizeOf(context).height*0.8,
+              imageWidth: MediaQuery.sizeOf(context).width*0.8,
             color: color ?? defaultColor,
             bg: bg ?? bgColor,
             position: position,

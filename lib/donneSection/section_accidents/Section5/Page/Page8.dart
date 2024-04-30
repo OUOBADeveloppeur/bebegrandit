@@ -11,7 +11,7 @@ Pages page24() {
         position: '5',
         texte: 900, bg: 0xFFFFE4E1,
         description: '''Attention''',
-        image: "images/accidents/image9.png",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 2,position: '5',

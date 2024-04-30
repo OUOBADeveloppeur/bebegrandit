@@ -45,7 +45,7 @@ Pages page5() {
       ),
       ImageDescription(
         id: 5, taille: 1,
-        position: '3',
+        position: '4',
         description: "Pour coucher mon enfant, je le mets sur son dos. "
             "Lorsqu’il vomit, je le couche sur le côté gauche.",
         image: "images/developpement/pag8/ic-04.png",
