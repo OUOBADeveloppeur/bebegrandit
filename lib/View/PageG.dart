@@ -357,7 +357,7 @@ class _HomePageState extends State<HomePage>
                 .titre,
             style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
 
-        foregroundColor: Colors.white,
+       foregroundColor: Colors.white,
         actions: [
           if(widget.section.section[widget.sectionIndex].page![widget.pageIndex].icon!=null )
 
@@ -381,7 +381,7 @@ class _HomePageState extends State<HomePage>
         children: [
           Expanded(
             child: PageView.builder(
-            
+             physics: const NeverScrollableScrollPhysics(),
               key: UniqueKey(),
               controller: _pageController,
               itemCount: widget.section.section.length > widget.sectionIndex

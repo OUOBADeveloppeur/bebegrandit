@@ -314,12 +314,7 @@ class _MenusState extends State<Menus>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomePage(
-              page: widget.page,
-              sectionIndex: 0,
-              pageIndex: 0,
-              section: widget.section,
-            ),
+            builder: (context) =>const HomPageWcon()
           ),
         );
       }
@@ -343,12 +338,7 @@ class _MenusState extends State<Menus>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomePage(
-              page: widget.page,
-              sectionIndex: 0,
-              pageIndex: 0,
-              section: widget.section,
-            ),
+            builder: (context) => const HomPageWcon()
           ),
         );
       }

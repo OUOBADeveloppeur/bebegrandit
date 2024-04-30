@@ -60,19 +60,19 @@ Pages page10() {
         image: "",
       ),
       ImageDescription(
-        id: 8,texte: 900,
+        id: 8,texte: 900, bg: 0xFFFFE4E1,
         position: '5',
         description: "Attention: ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 9,
+        id: 9, bg: 0xFFFFE4E1,
        position: '6',
         description: "Si mon enfant ne peut pas faire de sons, ",
         image: "",
       ),
       ImageDescription(
-        id: 10,color: 0xFFFF0000,
+        id: 10,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",

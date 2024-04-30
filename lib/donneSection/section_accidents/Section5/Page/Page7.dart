@@ -26,16 +26,16 @@ Pages page23() {
         image: "",
       ),
       ImageDescription(
-        id: 3,texte: 900,color: 0xFFFF0000,
+        id: 3,texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         position: '3',
         description: "J’emmène immédiatement mon enfant au centre de santé.",
         image: "images/accidents/image22.png",
       ),
       ImageDescription(
-        id: 4,texte: 900,
+        id: 4,texte: 900, bg: 0xFFFFE4E1,
         position: '5',
         description: "Attention!",
-        image: "images/accidents/image9.png",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 5,position: '5',

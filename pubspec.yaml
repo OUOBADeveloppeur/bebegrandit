@@ -48,6 +48,7 @@ flutter_native_splash:
    image: "images/Mon_enfant.png"
    android: true
    ios: true
+fill: contain
 dev_dependencies:
   flutter_test:
     sdk: flutter

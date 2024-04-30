@@ -5,7 +5,7 @@ Pages page34() {
   return Pages(
     id: 2,
     titre: "Le développement de l’enfant de 3 à 5 ans",
-    icon: "images/developpement/image30.png",
+    icon: "images/developpement/pag18/ic-01-01.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',
@@ -33,12 +33,12 @@ Pages page34() {
         image: "images/developpement/image53.png",
       ),
       ImageDescription(
-        id: 5, position: '5',texte: 900,
+        id: 5, position: '5',texte: 900, bg: 0xFFFFE4E1,
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 6,  position: '6',
+        id: 6,   bg: 0xFFFFE4E1,
         description: '''Lorsque mon enfant : 
           - ronfle souvent fort, 
          - se réveille pendant la nuit, marche en dormant,
@@ -46,7 +46,7 @@ Pages page34() {
         image: "",
       ),
       ImageDescription(
-        id: 7, position: '3',texte: 900,color: 0xFFFF0000,
+        id: 7, position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

@@ -43,13 +43,14 @@ Pages page6() {
       ImageDescription(
         id: 5,
         texte: 900,
+        bg: 0xFFFFE4E1,
         position: '5',
         description: "Attention : ",
-        image: "images/accidents/image9.png",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 6,
-       position: '6',
+        position: '6',
         description:
             " Je ne dois pas masser les gonflements car ils  peuvent cacher une fracture.",
         image: "",

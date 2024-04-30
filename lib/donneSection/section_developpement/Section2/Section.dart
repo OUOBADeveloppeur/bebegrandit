@@ -15,7 +15,7 @@ import 'package:bebegrandi/donneSection/section_developpement/Section2/Page/Page
 Section section2() {
   return Section(
     id: 1,
-    colors: 0xFFee5733,
+    colors: 0xFFec7632,
     page: [
       page4(),
       page5(),

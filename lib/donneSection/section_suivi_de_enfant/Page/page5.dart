@@ -50,10 +50,17 @@ recherche des œdèmes (gonflements) sur ses pieds ;''',
       ),
       ImageDescription(
         id: 4,
-        position: '4',
+       
         description:
             "L’agent de santé nous explique ce qu’il fait. Nous pouvons lui poser des questions concernant,"
             "la croissance, la santé de mon enfant",
+        image: "",
+      ),
+       ImageDescription(
+        id: 4,
+        position: '1',
+        description:"",
+          
         image: "images/suivi-croissance/image11.png",
       ),
       ImageDescription(

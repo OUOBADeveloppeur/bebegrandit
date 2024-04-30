@@ -46,17 +46,17 @@ Pages page9() {
         image: "",
       ),
       ImageDescription(
-        id: 6,position: '5',texte: 900,
+        id: 6,position: '5',texte: 900, bg: 0xFFFFE4E1,
         description:
           "Attention : ",
         image: "images/alimentation/image14.png",
       ),
        ImageDescription(
-        id: 6,position: '3',
+        id: 6, bg: 0xFFFFE4E1,
         description:
           " Je ne consomme pas d’alcool, "
           "les boissons gazeuses, le café, le tabac, la cola, le thé.",
-        image: "images/alimentation/image14.png",
+        image: "",
       ),
     ],
   );

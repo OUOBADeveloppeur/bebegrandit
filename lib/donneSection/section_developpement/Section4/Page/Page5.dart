@@ -5,7 +5,7 @@ Pages page27() {
   return Pages(
     id: 5,
     titre: "Le développement de l’enfant de 1 à 3 ans",
-    icon: "images/developpement/image41.png",
+    icon: "images/developpement/pag21/ic-01.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',texte: 900,
@@ -36,19 +36,19 @@ Pages page27() {
       ),
      
       ImageDescription(
-        id: 6, position: '5',texte: 900,
+        id: 6, position: '5',texte: 900, bg: 0xFFFFE4E1,
         description: "Attention ",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
         ImageDescription(
-        id: 7,  position: '6',
+        id: 7,  position: '6', bg: 0xFFFFE4E1,
         description: '''Lorsque mon enfant : 
             - ne comprend pas ce que je lui dis, même avec des mots simples,
             - n’est pas attentif aux histoires que je lui raconte''',
         image: "",
       ),
       ImageDescription(
-        id: 8, position: '3',texte: 900,color: 0xFFFF0000,
+        id: 8, position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       ),

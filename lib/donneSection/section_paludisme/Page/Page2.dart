@@ -8,8 +8,6 @@ Pages page2() {
     imageDescription: [
       ImageDescription(
         id: 1,
-       
-        color: 0xFF088886,
         texte: 900,
         description: "C'est quoi le paludisme ?",
         image: "",

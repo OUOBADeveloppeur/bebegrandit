@@ -65,7 +65,7 @@ Pages page19() {
         description:
             '''En cas de difficulté avec l’allaitement de mon enfant, 
 je me rends au centre de santé pour avoir des conseils.''',
-        image: "images/alimentation/image17.png",
+        image: "",
       ),
        ImageDescription(
         id: 9,position: '3',texte: 900,color: 0xFFFF0000,

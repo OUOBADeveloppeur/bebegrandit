@@ -56,7 +56,7 @@ import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page
 import 'package:bebegrandi/donneSection/section_developpement/Section5/Page/Page10.dart';
 
 Section section1() {
-  return Section(id: 0, colors: 0xFF088886, page: [
+  return Section(id: 0, colors: 0xFFec7632, page: [
     // Page de garde de la section 1 (Les chutes)
 
     page1(),

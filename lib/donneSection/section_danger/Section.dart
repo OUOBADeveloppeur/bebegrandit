@@ -22,7 +22,7 @@ import 'package:bebegrandi/donneSection/section_danger/Page/Page18.dart';
 //import 'package:bebegrandi/donneSection/section_danger/Page/page19.dart';
 
 Section sectionQ() {
-  return Section(id: 3, colors: 0xFF876308, page: [
+  return Section(id: 3, colors: 0xFFf7bb34, page: [
     // Page de garde de la section 1 (Les chutes)
     page1(),
     page2(),

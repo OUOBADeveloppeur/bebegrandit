@@ -54,12 +54,12 @@ Pages page16() {
       ImageDescription(
         id: 7,
         position: '5',
-        texte: 900,
+        texte: 900, bg: 0xFFFFE4E1,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 8,
+        id: 8, bg: 0xFFFFE4E1,
         position: '6',
         description:
             "Lorsque mon enfant ne dort pas assez et pleure sans cesse,",
@@ -69,7 +69,7 @@ Pages page16() {
         id: 9,
         position: '3',
         texte: 900,
-        color: 0xFFFF0000,
+        color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
       )

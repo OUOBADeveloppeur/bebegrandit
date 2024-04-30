@@ -10,7 +10,7 @@ import 'package:bebegrandi/donneSection/section_accidents/Section9/Page/Page7.da
 Section section9() {
   return Section(
     id: 8,
-    colors: 0xFF0D38E4,
+    colors:  0xFFa43f3f,
     page: [
       // Page de garde de la section 1 (Les chutes)
       page40(),

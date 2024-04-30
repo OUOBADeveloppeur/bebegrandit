@@ -37,7 +37,7 @@ Pages page29() {
         position: '3',texte: 900,
         description:
             "Si l’état de mon enfant ne s’améliore pas ou s’aggrave,",
-        image: "images/alimentation/image17.png",
+        image: "",
       ),
        ImageDescription(
         id: 6,

@@ -30,6 +30,7 @@ class _MyWidgetState extends State<Inaitiale> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
                 Text(
+                   textAlign: TextAlign.justify,
                   'Bienvenue aux parents',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -39,9 +40,17 @@ class _MyWidgetState extends State<Inaitiale> {
                 ),
                 SizedBox(height: 20), 
                 Text(
-                  
+                   textAlign: TextAlign.justify,
       "<Mon enfant grandit> est une application conçue par le ministère de la santé et de"
       "l'hygiène publication du Burkina Faso et ses partenaires techniques. Elle donne des"
+      
+                  , style: TextStyle(
+                      color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold, // Texte en gras
+                    ),
+                ),
+                 Text( textAlign: TextAlign.justify,
       "informations précises et concises sur la santé de l'enfant de 0 à 5 ans."
                   , style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
@@ -51,7 +60,7 @@ class _MyWidgetState extends State<Inaitiale> {
                 ),
                 SizedBox(height: 200), // Espacement entre les textes et l'image
                 Center(
-                  child: Text(
+                  child: Text( textAlign: TextAlign.justify,
                     'Atttention!',
                     style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
@@ -62,7 +71,7 @@ class _MyWidgetState extends State<Inaitiale> {
                 ),
                      SizedBox(height: 20), 
                 Text(
-                  
+                   textAlign: TextAlign.justify,
       "Cette application ne remplace pas les conseils donnés au centre de santé ou à"
      " l'hôpital. Consultez le centre de santé en cas de doutes." ,
                    style: TextStyle(

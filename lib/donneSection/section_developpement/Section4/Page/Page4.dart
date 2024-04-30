@@ -5,7 +5,7 @@ Pages page26() {
   return Pages(
     id: 4,
     titre: "Le développement de l’enfant de 1 à 3 ans",
-    icon: "images/developpement/image39.png",
+    icon: "images/developpement/pag10/ic-01-01.png",
     imageDescription: [
       ImageDescription(
         id: 1, position: '0',
@@ -43,11 +43,11 @@ Pages page26() {
       ),
       ImageDescription(
         id: 7, position: '5',texte: 900,
-        description: "Attention ",
+        description: "Attention ", bg: 0xFFFFE4E1,
         image: "images/developpement/pag9/ic-06-01.png",
       ),
      ImageDescription(
-        id: 8, position: '6',
+        id: 8, position: '6', bg: 0xFFFFE4E1,
         description: ''' Lorsque mon enfant :
             - se cogne partout et s’oriente mal,"
             - est sensible à la lumière,"
@@ -55,7 +55,7 @@ Pages page26() {
         image: "",
       ),
       ImageDescription(
-        id: 9, position: '3',texte: 900,color: 0xFFFF0000,
+        id: 9, position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         description: " je l’emmène au centre de santé",
         image: "images/developpement/pag9/ic-05-01.png",
       ),
