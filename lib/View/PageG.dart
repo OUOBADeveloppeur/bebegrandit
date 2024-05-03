@@ -353,9 +353,12 @@ class _HomePageState extends State<HomePage>
         backgroundColor:
             Color(widget.section.section[widget.sectionIndex].colors),
         title: Text(
+      
             widget.section.section[widget.sectionIndex].page![widget.pageIndex]
                 .titre,
-            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+            maxLines: 2, // Définit le nombre maximum de lignes
+  overflow: TextOverflow.ellipsis,),
 
        foregroundColor: Colors.white,
         actions: [

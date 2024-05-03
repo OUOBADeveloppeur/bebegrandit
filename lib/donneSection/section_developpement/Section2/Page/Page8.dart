@@ -13,7 +13,7 @@ Pages page11() {
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,taille: 0,
         position: '3',
         description: "Mon enfant aime le contact physique et les caresses, "
             "il découvre son corps par ces contacts."
@@ -21,7 +21,7 @@ Pages page11() {
         image: "images/developpement/pag14/ic-01-01.png",
       ),
       ImageDescription(
-        id: 3,
+        id: 3,taille: 0,
         position: '3',
         description:
             "Par la suite, mon enfant commence à reconnaitre les odeurs de son père,"
@@ -29,7 +29,7 @@ Pages page11() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,taille: 0,
         position: '3',
         description:
             " Ces odeurs sont réconfortantes et sécurisantes pour mon enfant.",
