@@ -10,7 +10,7 @@ class ImageDescription1 extends StatefulWidget {
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
   Widget _buildTextOnly(String text,
-      {int? color, String? position, int? texte, int? bg}) {
+      {int? color, String? position,int?taille,int? texte, int? bg}) {
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
       child: Padding(
@@ -24,6 +24,7 @@ class ImageDescription1 extends StatefulWidget {
                 text,
                 softWrap: true, // Permet au texte de revenir à la ligne
                 style: TextStyle(
+                  fontSize:taille==0? 14:12,
                   fontWeight:
                       texte != null ? FontWeight.bold : FontWeight.normal,
                   color: color != null ? Color(color) : Colors.black,
@@ -67,6 +68,7 @@ class ImageDescription1 extends StatefulWidget {
       String? position,
       double? imageWidth,
       double? imageHeight,
+      int? taille,
       int? texte}) {
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
@@ -75,7 +77,12 @@ class ImageDescription1 extends StatefulWidget {
         children: [
           if (imagePath.isNotEmpty)
             Center(
-              child: Image.asset(
+              child: taille==0 ?Image.asset(
+                imagePath,
+                width: 60,
+               // height: imageHeight,
+                fit: BoxFit.contain,
+              ):Image.asset(
                 imagePath,
                 width: imageWidth,
                 height: imageHeight,
@@ -92,6 +99,7 @@ class ImageDescription1 extends StatefulWidget {
                      textAlign: TextAlign.justify,
                     description,
                     style: TextStyle(
+                      fontSize:taille==0? 18:12,
                       fontWeight:
                           texte != null ? FontWeight.bold : FontWeight.normal,
                       // Texte gras si "texte" est défini
@@ -111,6 +119,7 @@ class ImageDescription1 extends StatefulWidget {
       {int? color,
       int? bg,
       String? position,
+      int?taille,
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
@@ -130,7 +139,7 @@ class ImageDescription1 extends StatefulWidget {
                     description,
                     style: TextStyle(
                       // Texte gras si "texte" est défini
-
+                         fontSize:taille==0? 18:12,
                       fontWeight:
                           texte != null ? FontWeight.bold : FontWeight.normal,
                       color: color != null ? Color(color) : Colors.black,
@@ -140,12 +149,17 @@ class ImageDescription1 extends StatefulWidget {
               ),
             ),
           if (imagePath.isNotEmpty)
-            Image.asset(
-              imagePath,
-              width: imageWidth,
-              height: imageHeight,
-              fit: BoxFit.contain,
-            ),
+           taille==0 ?Image.asset(
+                imagePath,
+                width: 60,
+               // height: imageHeight,
+                fit: BoxFit.contain,
+              ):Image.asset(
+                imagePath,
+                width: imageWidth,
+                height: imageHeight,
+                fit: BoxFit.contain,
+              ),
         ],
       ),
     );
@@ -158,6 +172,7 @@ class ImageDescription1 extends StatefulWidget {
       String? position,
       double? imageWidth,
       double? imageHeight,
+      int? taille,
       int? texte}) {
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
@@ -167,7 +182,12 @@ class ImageDescription1 extends StatefulWidget {
           if (imagePath.isNotEmpty)
             Expanded(
               flex: 2,
-              child: Image.asset(
+              child:taille==0? Image.asset(
+                imagePath,
+                width:60,
+                //height: 500,
+                fit: BoxFit.contain,
+              ):Image.asset(
                 imagePath,
                 width: imageWidth,
                 height: imageHeight,
@@ -202,6 +222,7 @@ class ImageDescription1 extends StatefulWidget {
       {int? color,
       int? bg,
       String? position,
+      int? taille,
       double? imageWidth,
       double? imageHeight,
       int? texte}) {
@@ -214,12 +235,17 @@ class ImageDescription1 extends StatefulWidget {
             if (imagePath.isNotEmpty)
               Expanded(
                 flex: 2,
-                child: Image.asset(
-                  imagePath,
-                  width: imageWidth,
-                  height: imageHeight,
-                  fit: BoxFit.contain,
-                ),
+                child:taille==0 ?Image.asset(
+                imagePath,
+                width: 60,
+               // height: imageHeight,
+                fit: BoxFit.contain,
+              ):Image.asset(
+                imagePath,
+                width: imageWidth,
+                height: imageHeight,
+                fit: BoxFit.contain,
+              ),
               ),
             if (description != null && description.isNotEmpty)
               Expanded(
@@ -230,6 +256,7 @@ class ImageDescription1 extends StatefulWidget {
                      textAlign: TextAlign.justify,
                     description,
                     style: TextStyle(
+                      fontSize:taille==0? 18:12,
                       // Texte gras si "texte" est défini
       
                       fontWeight:
@@ -272,7 +299,7 @@ class ImageDescription1 extends StatefulWidget {
                       description,
                       style: TextStyle(
                         // Texte gras si "texte" est défini
-
+                       fontSize:taille==0? 14:12,
                         fontWeight:
                             texte != null ? FontWeight.bold : FontWeight.normal,
                         color: color != null ? Color(color) : Colors.black,
@@ -287,12 +314,18 @@ class ImageDescription1 extends StatefulWidget {
               flex: 2,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
-                child: Image.asset(
-                  imagePath,
-                  width: imageWidth,
-                  height: imageHeight,
-                  fit: BoxFit.contain,
-                ),
+                 child:taille==0? Image.asset(
+                imagePath,
+                width:80,
+              
+                //height: 0,
+                fit: BoxFit.contain,
+              ):Image.asset(
+                imagePath,
+                width: imageWidth,
+                height: imageHeight,
+                fit: BoxFit.contain,
+              ),
               ),
             ),
         ],
@@ -306,6 +339,7 @@ class ImageDescription1 extends StatefulWidget {
       int? bg,
       String? position,
       double? imageWidth,
+      int? taille,
       double? imageHeight,
       int? texte}) {
     return Center(
@@ -328,7 +362,7 @@ class ImageDescription1 extends StatefulWidget {
                         description,
                         style: TextStyle(
                           // Texte gras si "texte" est défini
-      
+                          fontSize:taille==0? 18:12,
                           fontWeight:
                               texte != null ? FontWeight.bold : FontWeight.normal,
                           color: color != null ? Color(color) : Colors.black,
@@ -362,6 +396,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
   Widget _buildImageDescriptionWidget({
     required String imagePath,
     required String description,
+    int?taille,
     int? color,
     int? bg,
     String? position,
@@ -381,6 +416,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         imageWidget = widget._buildImageTopTextBottom(imagePath, description,
             color: color ?? defaultColor,
             bg: bg ?? bgColor,
+            taille:taille ?? 1,
             position: position,
             texte: texte,
             imageHeight: maxHeight);
@@ -390,6 +426,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         imageWidget = widget._buildImagetTitreTexte(
           imagePath,
           bg: bg ?? bgColor,
+          taille:taille ?? 1,
           description,
           color: color ?? defaultColor,
           position: position,
@@ -402,7 +439,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       case '2':
         imageWidget = widget._buildImageLeftTextRight(
           imagePath, description, bg: bg ?? bgColor,
-          color: color ?? defaultColor,
+          color: color ?? defaultColor, 
           position: position,
           texte: texte,
           // imageHeight: 50,
@@ -414,6 +451,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         imageWidget = widget._buildImagetRighttTexLeft(
           imagePath,
           bg: bg ?? bgColor,
+          taille:taille ?? 1,
           description,
           color: color ?? defaultColor,
           position: position,
@@ -429,6 +467,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
               imageWidth: MediaQuery.sizeOf(context).width*0.8,
             color: color ?? defaultColor,
             bg: bg ?? bgColor,
+            taille:taille ?? 1,
             position: position,
             texte: texte);
         print(imagePath.length);
@@ -437,6 +476,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         imageWidget = widget._buildImageAttentionextRight(
             imagePath, description,
             bg: bg ?? bgColor,
+            taille:taille ?? 1,
             imageHeight: MediaQuery.of(context).size.height * 0.04,
             imageWidth: MediaQuery.of(context).size.width * 0.04,
             color: color ?? defaultColor,
@@ -653,6 +693,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
           else
           widget._buildTextOnly(description,
               color: color ?? defaultColor,
+              taille: taille??1,
               position: position,
               texte: texte,
               bg: bg ?? bgColor),
@@ -676,7 +717,11 @@ class _ImageDescriptionState extends State<ImageDescription1> {
 
             if (widget.page1.imageDescription.length == 1) {
               return Padding(
+<<<<<<< HEAD
                 padding: const EdgeInsets.only(top: 30),
+=======
+                padding: const EdgeInsets.only(top: 110),
+>>>>>>> 98c591e802d973ce2626932a8f9563f953c422cb
                 child: Center(
                   child: Column(
                     children: [
@@ -741,6 +786,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 description: imageDescription.description,
                 color: imageDescription.color,
                 bg: imageDescription.bg,
+              taille:imageDescription.taille ,
                 position: imageDescription.position,
                 texte: imageDescription.texte,
                 isImageFirst: index % 2 == 0,
