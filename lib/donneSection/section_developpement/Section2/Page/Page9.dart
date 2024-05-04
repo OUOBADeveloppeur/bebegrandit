@@ -13,20 +13,20 @@ Pages page12() {
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,taille: 0,
         texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3,taille: 0,
         position: '3',
         description:
             "Je  masse et je caresse mon enfant en nommant les parties du corps que je touche.",
         image: "images/developpement/pag14/ic-03.png",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,taille: 0,
         position: '3',
         description: "Je joue à taper ses mains l’une contre l’autre."
             "Si je m’absente, je couvre mon enfant à l’aide d’un pagne que j’ai utilisé pour qu’il sente mon odeur.",
@@ -41,14 +41,14 @@ Pages page12() {
       ),
       ImageDescription(
         id: 6, bg: 0xFFFFE4E1,
-        position: '6',
+        position: '6',taille: 0,
         description: "Lorsque mon enfant: "
             "- ne réagit ou ne se calme pas quand je le prends, "
             "- pleure fréquemment quand je le touche",
         image: "",
       ),
       ImageDescription(
-        id: 7,
+        id: 7,taille: 0,
         position: '3',
         texte: 900,
         color: 0xFFFF0000, bg: 0xFFFFE4E1,

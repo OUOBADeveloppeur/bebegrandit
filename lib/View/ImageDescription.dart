@@ -717,11 +717,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
 
             if (widget.page1.imageDescription.length == 1) {
               return Padding(
-<<<<<<< HEAD
-                padding: const EdgeInsets.only(top: 30),
-=======
-                padding: const EdgeInsets.only(top: 110),
->>>>>>> 98c591e802d973ce2626932a8f9563f953c422cb
+                padding: const EdgeInsets.only(top: 50),
                 child: Center(
                   child: Column(
                     children: [

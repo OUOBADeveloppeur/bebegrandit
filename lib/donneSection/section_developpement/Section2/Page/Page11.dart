@@ -16,21 +16,21 @@ Pages page14() {
       ),
       ImageDescription(
         id: 2,
-        position: '3',
+        position: '3',taille: 0,
         description:
             "Dès sa naissance, je mets mon enfant en contact «peau à peau», je lui donne le sein.",
         image: "images/developpement/pag16/ic-02-01.png",
       ),
       ImageDescription(
         id: 3,
-        position: '3',
+        position: '3',taille: 0,
         description:
             "Je réagis quand mon enfant fait un son, sourit ou pleure.",
         image: "",
       ),
       ImageDescription(
         id: 4,
-        position: '3',
+        position: '3',taille: 0,
         description:
             "Je peux prendre mon enfant dans mes bras, ou je lui parle doucement, "
             "j’échange un regard avec lui, je lui fais des caresses, je lui donne le sein.",
@@ -38,7 +38,7 @@ Pages page14() {
       ),
       ImageDescription(
         id: 5,
-        position: '3',
+        position: '3',taille: 0,
         description:
             "Je l’encourage en lui disant des mots comme «Bravo!», «Félicitations!».",
         image: "images/developpement/pag16/ic-04-01.png",
@@ -52,12 +52,12 @@ Pages page14() {
       ),
       ImageDescription(
         id: 7, bg: 0xFFFFE4E1,
-        position: '6', 
+        position: '6', taille: 0,
         description: "  Lorsque mon enfant ne réagit pas à mes sourires ou à d’autres gestes affectifs et émotionnels,",
         image: "",
       ),
       ImageDescription(
-        id: 8,
+        id: 8,taille: 0,
         position: '3',
         color: 0xFFFF0000, bg: 0xFFFFE4E1,
         texte: 900,
