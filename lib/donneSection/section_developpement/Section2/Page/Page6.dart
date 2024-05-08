@@ -8,7 +8,7 @@ Pages page9() {
     icon: "images/developpement/pag12/ic-01.png",
     imageDescription: [
       ImageDescription(
-        id: 0,
+        id: 0, taille: 0,
         texte: 900,
         position: '0',
         description: "L’audition"

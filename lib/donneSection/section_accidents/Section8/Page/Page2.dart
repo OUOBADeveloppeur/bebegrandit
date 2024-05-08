@@ -7,7 +7,8 @@ Pages page36() {
     titre: "La noyade",
     imageDescription: [
       ImageDescription(
-        id: 1,texte: 900,
+        id: 1,
+        texte: 900,
         description: '''C’est quoi une noyade ?''',
         image: "",
       ),
@@ -16,7 +17,7 @@ Pages page36() {
         position: '3',
         description:
             "C’est lorsqu’une personne se retrouve bloquée sous l’eau. L’eau entre par sa bouche, son nez pour remplir ses poumons. Cela l’empêche de respirer.",
-        image: "images/accidents/image44.png",
+        image: "images/accidents/image45.png",
       ),
       ImageDescription(
         id: 3,

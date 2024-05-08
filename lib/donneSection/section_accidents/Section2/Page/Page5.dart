@@ -35,7 +35,7 @@ Pages page6() {
       ),
       ImageDescription(
         id: 4,
-        position: '3',
+        position: '3',taille: 0,
         description:
             "S'il s'agit d'une blessure légère, je console mon enfant jusqu’à ce qu’il arrête de pleurer.  Puis, je cherche à comprendre comment mon enfant se sent.",
         image: "images/accidents/image10.png",

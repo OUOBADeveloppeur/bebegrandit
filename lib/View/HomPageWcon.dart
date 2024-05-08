@@ -102,6 +102,8 @@ class _HomPageWconState extends State<HomPageWcon> {
 
             //----------------------fin scop------------------------
             appBar: AppBar(
+              title: const Text('Menu Principal',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 14),),
+              centerTitle: true,
              backgroundColor: Colors.white,
               leading: Builder(
                 builder: (context) {
@@ -114,7 +116,9 @@ class _HomPageWconState extends State<HomPageWcon> {
                       color: Colors.black,
                     ),
                   );
+                  
                 },
+                
               ),
             ),
             drawer: const NavDrawer(),

@@ -25,7 +25,7 @@ class _MyWidgetState extends State<Inaitiale> {
           ),
           // Contenu au-dessus de l'image
           Container(
-            padding: EdgeInsets.all(16.0),
+            padding: EdgeInsets.only(left:16,right: 16,top: 100),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
@@ -33,9 +33,10 @@ class _MyWidgetState extends State<Inaitiale> {
                    textAlign: TextAlign.justify,
                   'Bienvenue aux parents',
                   style: TextStyle(
+                   
                     fontWeight: FontWeight.bold,
                     color: Color.fromARGB(235, 0, 0, 0),
-                    fontSize: 26,
+                    fontSize: 30,
                   ),
                 ),
                 SizedBox(height: 20), 
@@ -46,7 +47,7 @@ class _MyWidgetState extends State<Inaitiale> {
       
                   , style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontSize: 15,
+                      fontSize: 17,
                       fontWeight: FontWeight.bold, // Texte en gras
                     ),
                 ),
@@ -54,7 +55,7 @@ class _MyWidgetState extends State<Inaitiale> {
       "informations précises et concises sur la santé de l'enfant de 0 à 5 ans."
                   , style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontSize: 15,
+                      fontSize: 17,
                       fontWeight: FontWeight.bold, // Texte en gras
                     ),
                 ),
@@ -64,7 +65,7 @@ class _MyWidgetState extends State<Inaitiale> {
                     'Atttention!',
                     style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontSize: 30,
+                      fontSize: 32,
                       fontWeight: FontWeight.bold, // Texte en gras
                     ),
                   ),
@@ -76,7 +77,7 @@ class _MyWidgetState extends State<Inaitiale> {
      " l'hôpital. Consultez le centre de santé en cas de doutes." ,
                    style: TextStyle(
                       color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontSize: 15,
+                      fontSize: 17,
                       fontWeight: FontWeight.bold, // Texte en gras
                     ),
                 ),

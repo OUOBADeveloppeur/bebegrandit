@@ -9,7 +9,7 @@ Pages page17() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        texte: 900,
+        texte: 900, taille: 0,
         position: '0',
         description: "Les mouvements et gestes",
         image: "",

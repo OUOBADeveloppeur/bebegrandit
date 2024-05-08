@@ -269,7 +269,6 @@ class HomePage extends StatefulWidget {
     this.sectionIndex = 0,
     this.pageIndex = 0,
     required this.section,
-  
   }) : super(key: key);
 
   @override
@@ -289,7 +288,6 @@ class _HomePageState extends State<HomePage>
     super.initState();
     _pageController = PageController(initialPage: widget.pageIndex);
     _pageController.addListener(_handlePageChange);
-    
   }
 
   @override
@@ -297,8 +295,6 @@ class _HomePageState extends State<HomePage>
     _pageController.dispose();
     super.dispose();
   }
-
-
 
   void _handlePageChange() {
     final newPageIndex = _pageController.page?.round() ?? 0;
@@ -353,30 +349,33 @@ class _HomePageState extends State<HomePage>
         backgroundColor:
             Color(widget.section.section[widget.sectionIndex].colors),
         title: Text(
-      
-            widget.section.section[widget.sectionIndex].page![widget.pageIndex]
-                .titre,
-            style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
-            maxLines: 2, // Définit le nombre maximum de lignes
-  overflow: TextOverflow.ellipsis,),
+          widget.section.section[widget.sectionIndex].page![widget.pageIndex]
+              .titre,
+          style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+          maxLines: 2, // Définit le nombre maximum de lignes
+          overflow: TextOverflow.ellipsis,
+        ),
 
-       foregroundColor: Colors.white,
+        foregroundColor: Colors.white,
         actions: [
-          if(widget.section.section[widget.sectionIndex].page![widget.pageIndex].icon!=null )
-
-          Image.asset(widget.section.section[widget.sectionIndex].page![widget.pageIndex].icon!)
+          if (widget.section.section[widget.sectionIndex]
+                  .page![widget.pageIndex].icon !=
+              null)
+            Image.asset(widget.section.section[widget.sectionIndex]
+                .page![widget.pageIndex].icon!)
           else
-          IconButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const HomPageWcon()),
-                );
-              },
-              icon: const Icon(
-                Icons.home,
-                color: Colors.white,
-              ))
+            IconButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const HomPageWcon()),
+                  );
+                },
+                icon: const Icon(
+                  Icons.home,
+                  color: Colors.white,
+                ))
         ],
       ),
       drawer: const NavDrawer(),
@@ -384,7 +383,7 @@ class _HomePageState extends State<HomePage>
         children: [
           Expanded(
             child: PageView.builder(
-             physics: const NeverScrollableScrollPhysics(),
+              physics: const NeverScrollableScrollPhysics(),
               key: UniqueKey(),
               controller: _pageController,
               itemCount: widget.section.section.length > widget.sectionIndex
@@ -444,6 +443,14 @@ class _HomePageState extends State<HomePage>
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+          // elevation: 0, // Rend le bouton plat (sans ombre)
+          foregroundColor: Color(getCurrentSectionColor()),
+          backgroundColor: Colors.transparent,
+          child: Text(
+              style: TextStyle(fontSize: 20),
+              "${widget.section.section[widget.sectionIndex].page![widget.pageIndex].id} /${widget.section.section[widget.sectionIndex].page!.length}"),
+          onPressed: () {}),
     );
   }
 
@@ -601,10 +608,8 @@ class _HomePageState extends State<HomePage>
   }
 
   void _goToNextSection() {
-   
     setState(() {
       _incrementSection();
     });
-  
   }
-  }
+}

@@ -9,7 +9,7 @@ Pages page14() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        position: '0',
+        
         texte: 900,
         description: "Ce que je fais",
         image: "",

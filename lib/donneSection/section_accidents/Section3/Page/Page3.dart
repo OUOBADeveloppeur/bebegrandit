@@ -31,7 +31,7 @@ texte: 900,
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,taille: 0,
         position: '3',
         description: '''A moto ou à vélo, mon enfant :
 - doit être avec une personne de plus de 14 ans,
@@ -41,7 +41,7 @@ texte: 900,
         image: "images/accidents/image13.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 5,taille: 0,
         position: '2',
         description:
             "Je  m'assure qu'il n’y a pas plus de 2 personnes sur la moto ou le vélo.",

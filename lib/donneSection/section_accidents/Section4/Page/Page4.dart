@@ -20,7 +20,7 @@ Pages page14() {
       ),
       ImageDescription(
         id: 2,
-        position: '3',
+        position: '3',taille: 0,
         description:
             '''Je range ces produits là où mon enfant ne peut pas les toucher.
 ''',

@@ -10,7 +10,7 @@ Pages page19() {
       ImageDescription(
         id: 1,
         texte: 900,
-        position: '0',
+        position: '0', taille: 0,
         description: "L’audition",
         image: "",
       ),

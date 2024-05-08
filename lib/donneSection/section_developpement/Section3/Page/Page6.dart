@@ -8,7 +8,7 @@ Pages page20() {
     icon: "images/developpement/pag22/ic-01-01.png",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '0',texte: 900,
+        id: 1, position: '0',texte: 900, taille: 0,
         description: "Le langage"
             ,
         image: "",

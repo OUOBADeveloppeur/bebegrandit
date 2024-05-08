@@ -13,7 +13,7 @@ Pages page12() {
         image: "",
       ),
       ImageDescription(
-        id: 1,
+        id: 1,taille: 0,
         position: "3",
         description:
             '''C’est une blessure causée par le contact du corps avec de la chaleur intense ou des produits chimiques.''',

@@ -19,7 +19,7 @@ et les objets chauds''',
       ),
       ImageDescription(
         id: 2,
-        position: '3',
+        position: '3',taille: 0,
         description:
             "- je vérifie avec  le dos de la main ou le coude que l'eau est tiède, avant de lui donner le bain (laver), ",
         image: "images/accidents/image18.png",
@@ -34,7 +34,7 @@ et les objets chauds''',
       ),
       ImageDescription(
         id: 4,
-        position: "3",
+        position: "3",taille: 0,
         description:
             "- je garde mon enfant loin des liquides et des objets chauds ; "
             "- Je surveille mon enfant pour qu'il ne s’amuse pas à côté du feu ;",

@@ -8,21 +8,21 @@ Pages page16() {
     icon: "images/developpement/pag18/ic-01-01.png",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1, taille: 0,
         position: '0',
         texte: 900,
         description: "Le sommeil",
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 2, taille: 0,
         description:
             "Mon enfant dort environ 12 à 15 heures par jour et peut faire deux siestes d’1 heure 30,"
             " le matin et l’après-midi.",
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, taille: 0,
         position: '3',
         description:
             "Mon enfant peut se réveiller quelques fois au cours de la nuit."
@@ -31,13 +31,13 @@ Pages page16() {
         image: "images/developpement/pag18/ic-02-01.png",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, taille: 0,
         texte: 900,
         description: "Ce que je fais",
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, taille: 0,
         position: '3',
         description:
             "Je fais un câlin ou je chante pour que mon enfant se sente en sécurité."
@@ -45,7 +45,7 @@ Pages page16() {
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 6, taille: 0,
         position: '3',
         description: "je le berce pour qu’il se rendorme."
             "Je m’assure que l’endroit est à l’abri de bruit et de moustiques.",
@@ -60,13 +60,13 @@ Pages page16() {
       ),
       ImageDescription(
         id: 8, bg: 0xFFFFE4E1,
-        position: '6',
+        position: '6', taille: 0,
         description:
             "Lorsque mon enfant ne dort pas assez et pleure sans cesse,",
         image: "",
       ),
       ImageDescription(
-        id: 9,
+        id: 9, taille: 0,
         position: '3',
         texte: 900,
         color: 0xFFFF0000, bg: 0xFFFFE4E1,

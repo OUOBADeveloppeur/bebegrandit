@@ -12,11 +12,16 @@ Pages page8() {
         image: "",
       ),
       ImageDescription(
-        id: 2,
-        position: '4',
+        id: 2,taille: 0,
         description:
             '''C’est un choc impliquant un ou plusieurs véhicules entre eux ou un véhicule et une personne sur la route. 
 En voiture, à vélo, à moto, en tricycle, en charrette ou à pied, mon enfant est exposé aux accidents.''',
+        image: "",
+      ),
+        ImageDescription(
+        id: 2,
+        position: '1',
+        description:'',
         image: "images/accidents/image12.png",
       )
     ],
