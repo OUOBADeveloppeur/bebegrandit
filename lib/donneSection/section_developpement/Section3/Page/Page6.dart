@@ -16,15 +16,15 @@ Pages page20() {
       ImageDescription(
         id: 2, position: '3',
         description: 
-           "Entre 6 et 8 mois, mon enfant communique avec des gestes."
+           "Entre 6 et 8 mois, mon enfant communique avec des gestes. "
             "Il est attentif aux différents sons et veut les imiter.",
         image: "",
       ),
       ImageDescription(
         id: 3, position: '3',
         description: 
-            "Mon enfant s’intéresse aux personnes qui lui parlent et il les regarde."
-             "Il réagit à son nom en tournant la tête."
+            "Mon enfant s’intéresse aux personnes qui lui parlent et il les regarde. "
+             "Il réagit à son nom en tournant la tête. "
            " A partir de 6 mois, mon enfant commence à dire «ba», «bo», «da», «ma».",
 
         image: "images/developpement/pag22/ic-02-01.png",
@@ -61,7 +61,7 @@ Pages page20() {
       ),
       ImageDescription(
         id: 9, position: '6', bg: 0xFFFFE4E1,
-        description: '''A 12 mois, si mon enfant n’arrive pas à émettre des sons ou  dire «ba», «pa», «ma»''',
+        description: '''A 12 mois, si mon enfant n’arrive pas à émettre des sons ou  dire «ba», «pa», «ma»,''',
 
         image: "",
       ),

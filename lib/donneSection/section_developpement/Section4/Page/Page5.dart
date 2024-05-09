@@ -20,7 +20,7 @@ Pages page27() {
       ImageDescription(
         id: 3, position: '3',
         description:
-            "Dès 2 ans, il écoute attentivement tous les mots lorsque je lui parle,"
+            "Dès 2 ans, il écoute attentivement tous les mots lorsque je lui parle, "
                 " ce qui lui permet de développer son vocabulaire.",
         image: "images/developpement/image37.png",
       ),

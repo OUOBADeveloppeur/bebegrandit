@@ -24,8 +24,8 @@ Pages page37() {
         id: 3,
         position: '3',
         description:
-            "À 4 ans, mon enfant aime les rimes (sons qui se ressemblent), les blagues, les chants. Il les répète avec plaisir."
-            "À 5 ans, mon enfant veut participer aux conversations."
+            "À 4 ans, mon enfant aime les rimes (sons qui se ressemblent), les blagues, les chants. Il les répète avec plaisir. "
+            "À 5 ans, mon enfant veut participer aux conversations. "
             " Il répond facilement à certaines questions comme son nom, sa ville, etc.",
         image: "",
       ),

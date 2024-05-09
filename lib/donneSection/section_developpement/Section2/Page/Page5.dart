@@ -42,8 +42,8 @@ Pages page8() {
       ),
       ImageDescription( taille: 0,
         id: 7,bg: 0xFFFFE4E1,
-        description: "- a une tache blanche au niveau des yeux,"
-                      "- si la vue de mon enfant semble anormale"      ,
+        description: '''- a une tache blanche au niveau des yeux,
+                      - si la vue de mon enfant semble anormale'''      ,
         image: "",
       ),
       ImageDescription( taille: 0,

@@ -25,7 +25,7 @@ Pages page40() {
       ),
       ImageDescription(
         id: 3, position: '3',
-        description: "Je fais sentir différentes odeurs à mon enfant."
+        description: "Je fais sentir différentes odeurs à mon enfant. "
             "Je fais des promenades avec mon enfant et je lui fais découvrir différentes odeurs.",
         image: "",
       ),

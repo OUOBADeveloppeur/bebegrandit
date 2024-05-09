@@ -14,8 +14,8 @@ Pages page34() {
       ),
       ImageDescription(
         id: 2, position: '3',
-        description: "Mon enfant doit dormir entre 10 et 13 heures par jour."
-            " L’heure du coucher ou de la sieste n’est pas la même pour tous les enfants."
+        description: "Mon enfant doit dormir entre 10 et 13 heures par jour. "
+            " L’heure du coucher ou de la sieste n’est pas la même pour tous les enfants. "
             "Mon enfant peut faire des cauchemars la nuit et se réveiller.",
         image: "images/developpement/image56.png",
       ),
@@ -27,8 +27,8 @@ Pages page34() {
       ImageDescription(
         id: 4, position: '3',
         description:
-            "Je rassure mon enfant lorsqu’il crie, pleure suite à des cauchemars."
-            "Je veille à ce que mon enfant se couche à des heures régulières."
+            "Je rassure mon enfant lorsqu’il crie, pleure suite à des cauchemars. "
+            "Je veille à ce que mon enfant se couche à des heures régulières. "
             "Je lui raconte une histoire ou chante pour le rassurer.",
         image: "images/developpement/image53.png",
       ),

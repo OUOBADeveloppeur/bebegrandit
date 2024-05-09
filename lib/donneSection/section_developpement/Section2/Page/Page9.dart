@@ -43,8 +43,8 @@ Pages page12() {
         id: 6, bg: 0xFFFFE4E1,
         position: '6',taille: 0,
         description: "Lorsque mon enfant: "
-            "- ne réagit ou ne se calme pas quand je le prends, "
-            "- pleure fréquemment quand je le touche",
+            '''- ne réagit ou ne se calme pas quand je le prends, 
+            - pleure fréquemment quand je le touche''',
         image: "",
       ),
       ImageDescription(

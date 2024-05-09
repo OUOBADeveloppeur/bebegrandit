@@ -8,7 +8,7 @@ Pages page26() {
     icon: "images/developpement/pag10/ic-01-01.png",
     imageDescription: [
       ImageDescription(
-        id: 1, position: '0',
+        id: 1, position: '0',texte: 900,
         description: "La vue",
         image: "",
       ),

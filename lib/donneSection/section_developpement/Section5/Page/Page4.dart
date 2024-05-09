@@ -17,8 +17,8 @@ Pages page36() {
         id: 2,
         position: '3',
         description:
-            "Dès 3 ans, mon enfant observe un objet en regardant tous les détails."
-            "Mon enfant aime qu’on lui lise ou raconte des histoires"
+            "Dès 3 ans, mon enfant observe un objet en regardant tous les détails. "
+            "Mon enfant aime qu’on lui lise ou raconte des histoires "
             " et associe des images au texte entendu ou lu.",
         image: "images/developpement/image58.png",
       ),
@@ -49,9 +49,9 @@ Pages page36() {
             - se protège souvent les yeux à l’aide de sa main pour regarder,
             - regarde de très près la télé, le livre,
             louche
-            -- a une tache blanche dans l’œil
+            - a une tache blanche dans l’œil
             - je veille à ce que mon enfant ne soit en face de l’écran, 
-,- a des maux de tête répétées  
+- a des maux de tête répétées  
 ''',
         image: "",
       ),

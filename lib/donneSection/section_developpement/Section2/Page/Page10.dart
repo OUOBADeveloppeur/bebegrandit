@@ -14,7 +14,7 @@ Pages page13() {
       ),
       ImageDescription(
         id: 2, position: '3',taille: 0,
-        description: "Mon enfant apprend à sourire déjà à 1 mois."
+        description: "Mon enfant apprend à sourire déjà à 1 mois. "
             "Il connait la différence entre joie et tristesse, en fonction de l’expression du visage de la personne qu’il a en face.",
         image: "images/developpement/pag15/ic-02-01.png",
       ),

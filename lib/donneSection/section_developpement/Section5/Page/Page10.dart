@@ -17,7 +17,7 @@ Pages page42() {
       ImageDescription(
         id: 2,
         position: '3',
-        description: "Au fur et à mesure que mon enfant grandit,"
+        description: "Au fur et à mesure que mon enfant grandit, "
             " il exprime mieux ses sentiments à travers la parole, "
             "des gestes.",
         image: "images/developpement/image62.png",
@@ -32,8 +32,8 @@ Pages page42() {
       ImageDescription(
         id: 4,
         position: '3',
-        description: "Je suis attentive aux émotions de mon enfant."
-            "J’encourage mon enfant à mieux exprimer ses sentiments."
+        description: "Je suis attentive aux émotions de mon enfant. "
+            "J’encourage mon enfant à mieux exprimer ses sentiments. "
             "Lorqu’il est est fâché, je discute avec lui pour l’aider à se sentir mieux.",
         image: "images/developpement/image63.png",
       ),

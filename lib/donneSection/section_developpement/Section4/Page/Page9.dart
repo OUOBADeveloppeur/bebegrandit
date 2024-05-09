@@ -15,14 +15,14 @@ Pages page31() {
        ImageDescription(
         id: 2, position: '3',
         description:
-            "En grandissant, mon enfant apprend à distinguer les odeurs."
+            "En grandissant, mon enfant apprend à distinguer les odeurs. "
             "Vers 3 ans, il est capable de dire son avis sur les odeurs qu’il aime ou qu’il n’aime pas.",
         image: "images/developpement/image49.png",
       ),
       ImageDescription(
         id: 3, position: '3',
         description:
-            " Il s’habitue aux odeurs autour de lui."
+            " Il s’habitue aux odeurs autour de lui. "
                 "Mon enfant peut être sensible aux fortes odeurs comme les épices ou certains produits ménagers.",
         image: "",
       ),

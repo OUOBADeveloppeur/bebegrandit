@@ -17,7 +17,7 @@ Pages page16() {
       ImageDescription(
         id: 2, taille: 0,
         description:
-            "Mon enfant dort environ 12 à 15 heures par jour et peut faire deux siestes d’1 heure 30,"
+            "Mon enfant dort environ 12 à 15 heures par jour et peut faire deux siestes de 1 heure 30 mn,"
             " le matin et l’après-midi.",
         image: "",
       ),
@@ -40,15 +40,15 @@ Pages page16() {
         id: 5, taille: 0,
         position: '3',
         description:
-            "Je fais un câlin ou je chante pour que mon enfant se sente en sécurité."
+            "Je fais un câlin ou je chante pour que mon enfant se sente en sécurité. "
             "Si mon enfant se réveille la nuit,",
         image: "",
       ),
       ImageDescription(
         id: 6, taille: 0,
         position: '3',
-        description: "je le berce pour qu’il se rendorme."
-            "Je m’assure que l’endroit est à l’abri de bruit et de moustiques.",
+        description: "je le berce pour qu’il se rendorme. "
+            "Je m’assure que l’endroit est à l’abri de bruit et de moustiques. ",
         image: "images/developpement/pag18/ic-03-01.png",
       ),
       ImageDescription(

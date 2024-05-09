@@ -23,8 +23,8 @@ Pages page25() {
       ImageDescription(
         id: 3,
         position: '3',
-        description: "à 18 mois, mon bébé marche vite et monte sur les chaises."
-            "à 21 mois, il  court sur un terrain plat, saute et tape sur un ballon.",
+        description: "à 18 mois, mon bébé marche vite et monte sur les chaises. "
+            "A 21 mois, il  court sur un terrain plat, saute et tape sur un ballon.",
         image: "images/developpement/image34.png",
       ),
       ImageDescription(
@@ -34,8 +34,8 @@ Pages page25() {
       ),
       ImageDescription(
         id: 5,
-        description: "Quand mon enfant essaie de marcher,"
-            " je garde une distance et je l’encourage à me rejoindre."
+        description: "Quand mon enfant essaie de marcher, "
+            " je garde une distance et je l’encourage à me rejoindre. "
             "J’adapte ma maison pour que mon enfant soit en sécurité.",
         image: "",
       ),

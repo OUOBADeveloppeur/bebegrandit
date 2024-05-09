@@ -53,7 +53,7 @@ Pages page21() {
         id: 7,
         position: '3',
         description: 
-            "Je joue avec mon enfant en lui donnant des objets de différentes formes et consistance (dur, mou)."
+            "Je joue avec mon enfant en lui donnant des objets de différentes formes et consistance (dur, mou). "
             "Je ne laisse des objets dangereux à côté de mon enfant: piquants, tranchants, médicaments, petits objets.",
         image: "",
       ),
@@ -67,8 +67,8 @@ Pages page21() {
         id: 9, bg: 0xFFFFE4E1,
   position: '6',
         description: "Lorsque mon enfant après 12 mois : "
-           " - ne saisit pas des objets placés à proximité, "
-            "- ne s’intéresse pas aux jouets",
+           ''' - ne saisit pas des objets placés à proximité, 
+            - ne s’intéresse pas aux jouets,''',
         image: "",
       ),
       ImageDescription(

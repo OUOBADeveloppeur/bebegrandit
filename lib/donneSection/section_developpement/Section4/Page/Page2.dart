@@ -16,7 +16,7 @@ Pages page24() {
       ),
       ImageDescription(
         id: 2, taille: 0,
-        description: "Mon enfant dort entre 12 et 13 heures par jour."
+        description: "Mon enfant dort entre 12 et 13 heures par jour. "
             "Il ne fait plus de sieste le matin mais plutôt en début d’après-midi.",
         image: "",
       ),
@@ -43,8 +43,8 @@ Pages page24() {
         id: 6, bg: 0xFFFFE4E1, taille: 0,
         position: '6',
         description: "Lorsque mon enfant : "
-            "- a des difficultés à dormir sur une longue période la nuit,"
-            " - n’est pas actif pendant la journée et est somnolent, ",
+            '''- a des difficultés à dormir sur une longue période la nuit,
+             - n’est pas actif pendant la journée et est somnolent, ''',
         image: "",
       ),
       ImageDescription(

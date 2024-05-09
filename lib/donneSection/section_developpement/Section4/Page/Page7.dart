@@ -20,7 +20,7 @@ Pages page29() {
         id: 3, 
         description:
             '''De 1 à 2 ans, je répète les mots que mon enfant tente de dire et je corrige
-             s’il les prononce mal.J’utilise les mots justes quand je lui parle.
+             s’il les prononce mal. J’utilise les mots justes quand je lui parle.
 ''',
         image: "",
       ),
@@ -28,8 +28,7 @@ Pages page29() {
         id: 4, 
         description:
             '''Je nomme tout ce que je vois autour de mon enfant et dans la maison.
-            J’écoute attentivement mon enfant lorqu’il me parle.
-''',
+            J’écoute attentivement mon enfant lorqu’il me parle.''',
         image: "",
       ),
       ImageDescription(

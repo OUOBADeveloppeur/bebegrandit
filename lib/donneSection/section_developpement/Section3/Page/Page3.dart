@@ -9,7 +9,8 @@ Pages page17() {
     imageDescription: [
       ImageDescription(
         id: 1,
-        texte: 900, taille: 0,
+        texte: 900,
+        taille: 0,
         position: '0',
         description: "Les mouvements et gestes",
         image: "",
@@ -17,14 +18,14 @@ Pages page17() {
       ImageDescription(
         id: 2,
         description:
-            "Dès 6 mois, mon enfant se retourne sur le ventre quand il est couché sur le dos."
+            "Dès 6 mois, mon enfant se retourne sur le ventre quand il est couché sur le dos. "
             "Entre 6 et 7 mois, mon enfant essaie de s’asseoir seul.",
         image: "",
       ),
       ImageDescription(
         id: 3,
         position: '3',
-        description: "Entre 8 -9 mois, mon enfant fait 4 pattes.",
+        description: "Entre 8 et 9 mois, mon enfant fait 4 pattes.",
         image: "images/developpement/pag19/ic-02-01.png",
       ),
       ImageDescription(
@@ -50,28 +51,30 @@ Pages page17() {
       ImageDescription(
         id: 7,
         position: '5',
-        texte: 900, bg: 0xFFFFE4E1,
+        texte: 900,
+        bg: 0xFFFFE4E1,
         description: "Attention",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
-        id: 8, bg: 0xFFFFE4E1,
+        id: 8,
+        bg: 0xFFFFE4E1,
         position: '6',
-        description: "Lorsque mon enfant: "
-            ,
-        image: "",
-      ),
-        ImageDescription(
-        id: 9,bg: 0xFFFFE4E1,
-        position: '3',
-        description: 
-       "- ne s’assoit pas seul entre 9 et 10 mois," 
-          " - ne peut pas se mettre debout seul à 12 mois,"
-          "- n’arrive plus à faire ce qu’il faisait, ",
+        description: "Lorsque mon enfant: ",
         image: "",
       ),
       ImageDescription(
-        id: 10,bg: 0xFFFFE4E1,
+        id: 9,
+        bg: 0xFFFFE4E1,
+        position: '3',
+        description: '''- ne s’assoit pas seul entre 9 et 10 mois;
+          - ne peut pas se mettre debout seul à 12 mois;
+          - n’arrive plus à faire ce qu’il faisait, ''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 10,
+        bg: 0xFFFFE4E1,
         position: '3',
         texte: 900,
         color: 0xFFFF0000,

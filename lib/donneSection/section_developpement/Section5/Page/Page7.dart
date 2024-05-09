@@ -16,14 +16,14 @@ Pages page39() {
       ImageDescription(
         id: 2, position: '3',
         description:
-        "Entre 3 et 4 ans, mon enfant joue à fabriquer des objets."
+        "Entre 3 et 4 ans, mon enfant joue à fabriquer des objets. "
             "Mon enfant arrive à tenir un crayon/stylo entre le pouce et l’index comme un adulte.",
         image: "",
       ),
        ImageDescription(
         id: 3, position: '3',
         description:
-            "Mon enfant arrive à tourner seul les pages d’un livre."
+            "Mon enfant arrive à tourner seul les pages d’un livre. "
                 "Mon enfant arrive à s’habiller et se déshabiller tout seul.",
         image: "images/developpement/image60.png",
       ),
@@ -36,7 +36,7 @@ Pages page39() {
       ImageDescription(
         id: 5, position: '3',
         description:
-            " J’encourage mon enfant à jouer avec des objets différents,"
+            " J’encourage mon enfant à jouer avec des objets différents, "
                 " à s’habiller et et à se déshabiller tout seul.",
         image: "images/developpement/image59.png",
       ),
@@ -49,8 +49,8 @@ Pages page39() {
       ImageDescription(
         id: 7, bg: 0xFFFFE4E1,
         description: "Lorsque mon enfant : "
-            "-  n’arrive pas à tenir un crayon pour dessiner, "
-            "- n’arrive pas à s’habiller seul,",
+            '''-  n’arrive pas à tenir un crayon pour dessiner, 
+            - n’arrive pas à s’habiller seul,''',
         image: "",
       ),
       ImageDescription(

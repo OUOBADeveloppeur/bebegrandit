@@ -29,9 +29,9 @@ Pages page30() {
       ImageDescription(
         id: 4, position: '3',
         description:
-            "Je mets des objets que mon enfant connait dans un sac."
-                "Je lui demande de mettre sa main dedans et essayer"
-                " de reconnaitre les objets qui sont dans le sac."
+            "Je mets des objets que mon enfant connait dans un sac. "
+                "Je lui demande de mettre sa main dedans et essayer "
+                " de reconnaitre les objets qui sont dans le sac. "
                 "Je lui fais toucher les différentes parties du corps et des objets chauds et froids.",
         image: "",
       ),
