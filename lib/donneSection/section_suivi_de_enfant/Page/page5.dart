@@ -13,7 +13,7 @@ Pages page5() {
         image: "",
       ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: " Déroulement de la visite de suivi 2/2 ",
         image: "",
       ),
@@ -29,15 +29,15 @@ recherche des œdèmes (gonflements) sur ses pieds ;''',
       ImageDescription(
         id: 3,
         position: '3',
-        description: "examine les différentes parties du corps ;"
-            "vérifie la respiration et les battements"
-            "du cœur de mon enfant ;vérifie si mon enfant voit et entend.",
+        description: "examine les différentes parties du corps; "
+            "vérifie la respiration et les battements "
+            "du cœur de mon enfant; vérifie si mon enfant voit et entend.",
         image: "images/suivi-croissance/image9.png",
       ),
       ImageDescription(
         id: 4,
         description:
-            "J’encourage mon enfant à suivre ce que l’agent de santé lui demande de faire :"
+            "- J’encourage mon enfant à suivre ce que l’agent de santé lui demande de faire :"
             " sauter, marcher, ou se tenir sur un pied etc.",
         image: "",
       ),
@@ -45,7 +45,7 @@ recherche des œdèmes (gonflements) sur ses pieds ;''',
         id: 5,
         position: '3',
         description:
-            "Durant la visite de suivi, je le rassure, le console et le calme avec des câlins et des paroles douces. ",
+            "- Durant la visite de suivi, je le rassure, le console et le calme avec des câlins et des paroles douces. ",
         image: "images/suivi-croissance/image10.png",
       ),
       ImageDescription(

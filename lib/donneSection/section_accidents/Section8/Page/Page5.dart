@@ -33,7 +33,7 @@ Pages page39() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4,texte: 200,
         position: '1',
         description: "L'enfant ne respire pas normalement",
         image: "images/accidents/image43.png",

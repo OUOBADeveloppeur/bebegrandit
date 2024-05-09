@@ -7,7 +7,7 @@ Pages page15() {
     titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 0,
+        id: 0,texte: 900,
         description: "Vomissement",
         image: "",
       ),
@@ -58,13 +58,13 @@ Pages page15() {
         position: '3',
         description:
             '''Je lui donne beaucoup d’eau potable et d’autres liquides à boire si mon enfant a plus de 6 mois 
-        ou si l’agent de santé me le recommande. ; ''',
+        ou si l’agent de santé me le recommande.  ''',
         image: "images/danger/image36.png",
       ),
       ImageDescription(
         id: 9,texte: 900,color: 0xFFFF0000,
         position: '3',
-        description: '''j’emmène mon enfant au centre de santé ''',
+        description: ''' j’emmène mon enfant au centre de santé ''',
         image: "images/danger/image21.png",
       ),
     ],

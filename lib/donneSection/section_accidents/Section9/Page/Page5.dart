@@ -39,8 +39,8 @@ Pages page44() {
       ),
       ImageDescription(
         id: 5,
-        description: "- je ne fais pas vomir mon enfant ;"
-            "- je ne donne pas à boire de l’eau, de l’huile, du lait ou tout autre liquide à mon enfant car cela aggrave la situation."
+        description: '''- je ne fais pas vomir mon enfant ;
+            - je ne donne pas à boire de l’eau, de l’huile, du lait ou tout autre liquide à mon enfant car cela aggrave la situation.'''
 ,
         image: "",
       ),

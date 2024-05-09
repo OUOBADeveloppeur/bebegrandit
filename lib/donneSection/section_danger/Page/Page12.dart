@@ -7,7 +7,7 @@ Pages page12() {
     titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 0,
+        id: 0,texte: 900,
         description: "Convulsions",
         image: "",
       ),
@@ -32,8 +32,7 @@ Pages page12() {
       ImageDescription(
         id: 4,
         description:
-            '''Mon enfant peut avoir des convulsions à cause de la fièvre, 
-            de l’hypoglycémie, l’épilepsie…  ''',
+            "Mon enfant peut avoir des convulsions à cause de la fièvre, de l’hypoglycémie, l’épilepsie…  ",
         image: "",
       ),
       ImageDescription(

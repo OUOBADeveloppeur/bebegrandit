@@ -13,7 +13,7 @@ Pages page4() {
         image: "",
       ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: " Déroulement de la visite de suivi  1/2 ",
         image: "",
       ),
@@ -39,8 +39,8 @@ votre enfant :
         id: 4,
         position: '3',
         description:
-            "Pendant la visite, je reste à côté de mon enfant lorsque l’agent de santé :"
-            "- prend les mesures de mon enfant : poids, taille, tour de bras, tour de la tête;",
+            '''Pendant la visite, je reste à côté de mon enfant lorsque l’agent de santé:  
+             - prend les mesures de mon enfant (poids, taille, tour de bras, tour de crâne); ''',
         image: "images/suivi-croissance/image2.png",
       ),
       ImageDescription(

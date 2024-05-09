@@ -15,7 +15,7 @@ Pages page8() {
         id: 1,
         position: '4',
         description:
-            "Pour une bonne croissance et pour réduire le risque d’être malade,"
+            "Pour une bonne croissance et pour réduire le risque d’être malade, "
             "j’associe plusieurs aliments de chaque groupe dans l’alimentation de mon enfant. "
             " J’utilise de préférence les aliments locaux.",
         image: "",

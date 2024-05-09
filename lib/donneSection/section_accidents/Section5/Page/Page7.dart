@@ -40,20 +40,31 @@ Pages page23() {
       ImageDescription(
         id: 5,position: '5',
         description:
-            "- je n’incise pas le point de la morsure ou de la piqûre, ceci peut être dangereux."
+            "- je n’incise pas le point de la morsure ou de la piqûre, ceci peut être dangereux.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 6,position: '5',
+        description:
             "- je ne dois pas sucer ou aspirer la zone mordue ou griffée ou piquée.",
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 7,
         //position: '3',
         description:
-            " - je ne donne pas de médicament avant d’aller au centre de santé. "
+            " - je ne donne pas de médicament avant d’aller au centre de santé. ",
+        image: "",
+      ),
+      ImageDescription(
+        id: 8,
+        //position: '3',
+        description:
             "- je ne pose pas de garrot car ceci peut être dangereux.",
         image: "",
       ),
       ImageDescription(
-        id: 7,
+        id: 9,
        // position: '3',
         description:
             "- je n'utilise pas la pierre noire en cas de morsure de serpent car elle est inefficace.",

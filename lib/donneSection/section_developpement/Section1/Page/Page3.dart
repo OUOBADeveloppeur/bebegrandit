@@ -10,7 +10,7 @@ Pages page3() {
        ImageDescription(
         id: 1,
         position: '1',
-        description: "Stade de deéveloppement de l'enfant de 0 à 5 ans",
+        description: "Stades de développements de l'enfant de 0 à 5 ans",
         image: "",
       ),
        ImageDescription(

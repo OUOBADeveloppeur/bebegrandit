@@ -14,20 +14,22 @@ Pages page32() {
         image: "",
       ),
       ImageDescription(
-        id: 1,
-        description: "- je surveille mon enfant quand il mange ;"
-
-"- j’écrase les graines d’arachides, de haricot, les morceaux de viandes avant de les donner à mon enfant ;"
-,
+        id: 2,
+        description: "- je surveille mon enfant quand il mange ;",
+        image: "",
+      ),
+       ImageDescription(
+        id: 3,
+        description: "- j’écrase les graines d’arachides, de haricot, les morceaux de viandes avant de les donner à mon enfant ;",
         image: "",
       ),
       ImageDescription(
-        id: 2,
+        id: 4,
         position: '3',
         description: "- je veille à ce que mon enfant :"
-"reste assis et calme pour manger ; "
-"ne parle pas avec des aliments dans la bouche ;"
-"mâche avant d’avaler.",
+'''reste assis et calme pour manger ; 
+ne parle pas avec des aliments dans la bouche; 
+mâche avant d’avaler.''',
         image: "images/accidents/image41.png",
       ),
       ImageDescription(

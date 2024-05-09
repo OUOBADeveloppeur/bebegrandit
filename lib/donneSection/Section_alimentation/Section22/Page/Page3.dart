@@ -13,37 +13,37 @@ Pages page30() {
       ),
       ImageDescription(
         id: 2,
-        description: '''- J'allaite mon enfant de moins de 2 ans plus que d'habitude et je
+        description: '''- j'allaite mon enfant de moins de 2 ans plus que d'habitude et je
          l'encourage à manger et à boire plus fréquemment et par petites quantités ;''',
         image: "",
       ),
       ImageDescription(
         id: 3,
         description:
-            "- Je lui donne plus de liquides : eau, jus de fruits, lait de coco. ",
+            "- je lui donne plus de liquides : eau, jus de fruits, lait de coco. ",
         image: "",
       ),
      
       ImageDescription(
         id: 4,position: '3',
-        description: "- En cas de diarrhée je lui donne de l’eau de riz ou le sel de réhydratation orale (SRO). ",
+        description: "- en cas de diarrhée je lui donne de l’eau de riz ou le sel de réhydratation orale (SRO). ",
         image: "images/alimentation/image26.png",
       ),
       ImageDescription(
         id: 5,
-        description: '''- Je donne à mon enfant des aliments qu’il aime plus fréquemment que d’habitude.''',
+        description: '''- je donne à mon enfant des aliments qu’il aime plus fréquemment que d’habitude.''',
         image: "",
       ),
       ImageDescription(
         id: 6,
-        description: '''Je donne des aliments enrichis (bouillies enrichies,
+        description: '''- je donne des aliments enrichis (bouillies enrichies,
          bouillies améliorées avec de la poudre de néré, du pain de singe, des fruits, … ).''',
         image: "",
       ),
       ImageDescription(
         id: 7,position: '2',
        
-        description: '''Je donne un repas supplémentaire pendant 2 semaines après la guérison
+        description: '''- je donne un repas supplémentaire pendant 2 semaines après la guérison
          pour permettre à mon enfant de récupérer plus rapidement.''',
         image: "images/alimentation/image6.png",
       ),

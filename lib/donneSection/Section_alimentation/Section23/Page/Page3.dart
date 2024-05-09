@@ -25,7 +25,7 @@ Pages page33() {
         image: "",
       ),
       ImageDescription(
-        id: 3,texte: 900,
+        id: 3,
         position: '3',
         description:
             '''Je peux me brosser les dents en même temps pour lui montrer l’exemple.''',

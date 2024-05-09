@@ -45,7 +45,7 @@ Pages page12() {
       ),   ImageDescription(
         id: 6,
         description:
-            "Le 1er jour, les agents distributeurs donnent  1 comprimé jaune et 1 comprimé blanc à mon enfant  ; ",
+            "Le 1er jour, les agents distributeurs donnent  1 comprimé jaune et 1 comprimé blanc à mon enfant. ",
         image: "",
       ),
          ImageDescription(

@@ -54,13 +54,7 @@ Les maladies évitables par la vaccination sont :
         description: "Il est important de suivre le calendrier vaccinal. ",
         image: "",
       ),
-      ImageDescription(
-        id: 6,
-        position: '1',
-        description:
-            "CLIQUER ICI POUR VOIR LES MALADIES CIBLES ET LE CALENDRIER DE VACCINATION",
-        image: "",
-      ),
+     
     ],
   );
 }

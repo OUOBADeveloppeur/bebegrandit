@@ -29,17 +29,31 @@ Pages page51() {
         id: 3,
         position: '3',
         description: "- la blessure est grandement ouverte ;"
-            "- je n'arrive pas à arrêter le saignement ;",
+            ,
         image: "images/accidents/image58.png",
       ),
       ImageDescription(
         id: 4,
+        position: '3',
+        description: 
+            "- je n'arrive pas à arrêter le saignement ;",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
         position: '4',
         description: "- la blessure gonfle et devient douloureuse ;"
+           ,
+        image: "",
+      ),ImageDescription(
+        id: 6,
+        position: '4',
+        description: 
             "- des morceaux de verres, de bois ou de fer se trouvent dans la blessure.",
         image: "",
-      ),  ImageDescription(
-        id: 5,
+      ),
+        ImageDescription(
+        id: 7,
         position: '1',
         description: "",
         image: "images/accidents/image59.png",

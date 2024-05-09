@@ -29,7 +29,7 @@ Pages page2() {
       ImageDescription(
         id: 3,
         description:
-            "Pendant la 1ère année de vie, après les visites du suivi postnatal,"
+            "Pendant la 1ère année de vie, après les visites du suivi postnatal, "
             "j’emmène mon enfant chaque mois au centre de santé à partir de son 2ème mois. ",
         image: "",
       ),

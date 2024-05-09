@@ -13,7 +13,7 @@ Pages page25() {
       ),
        ImageDescription(
         id: 2,texte: 900,
-        description:" Arrêt total de l’allaitement (ablactation)" 
+        description:" Arrêt total de l’allaitement (ablactation) " 
 ,
         image: "",
       ),

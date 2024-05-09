@@ -15,8 +15,7 @@ Pages page29() {
       ),
       ImageDescription(
         id: 2,
-        description: '''Lorsque mon enfant est malade, je dois être très 
-            patiente et je l'encourage à boire et à manger assez souvent. ''',
+        description: "Lorsque mon enfant est malade, je dois être très patiente et je l'encourage à boire et à manger assez souvent. ",
         image: "",
       ),
       ImageDescription(
@@ -28,8 +27,7 @@ Pages page29() {
         id: 4,
         position: '3',
         description:
-            '''J’augmente la fréquence de l'allaitement pour que mon bébé 
-        puisse récupérer plus vite.''',
+            "J’augmente la fréquence de l'allaitement pour que mon bébé puisse récupérer plus vite.",
         image: "images/alimentation/image3.png",
       ),
       ImageDescription(

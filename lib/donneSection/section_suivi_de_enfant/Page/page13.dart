@@ -21,20 +21,26 @@ Pages page13() {
       ImageDescription(
         id: 2,
         position: '3',
-        description: "La malnutrition est une maladie causée par : "
-            "- une consommation insuffisante de nourriture ;"
-            "- un régime non équilibré ;"
-            "- une maladie conduisant à une mauvaise absorption des aliments ou un manque d’appétit.",
+        description: "La malnutrition est une maladie causée par : ",
         image: "images/suivi-croissance/image28.png",
       ),
       ImageDescription(
         id: 3,
+        position: '3',
+        description: 
+            '''- une consommation insuffisante de nourriture ;
+            - un régime non équilibré ;
+            - une maladie conduisant à une mauvaise absorption des aliments ou un manque d’appétit.''',
+        image: "images/suivi-croissance/image28.png",
+      ),
+      ImageDescription(
+        id: 4,
         description:
             "Elle cause dans ces cas une perte rapide de poids ou l’apparition du gonflement des jambes (œdème).",
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 5,
         description:
             '''Elle est une maladie comme les autres et peut avoir des conséquences sur
          la santé de l’enfant comme : affaiblir le corps et le cerveau de l’enfant, nuire à la

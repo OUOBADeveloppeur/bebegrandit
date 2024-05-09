@@ -35,9 +35,9 @@ Pages page41() {
       ImageDescription(
         id: 4,
         description: "Mon enfant peut s’intoxiquer avec les substances suivantes :"
-        "- Aliments avariés et pourris "
-            "- Pesticides/insecticides, raticides,"
-            "- Produits pétroliers (pétrole, essence, gasoil)",
+        '''- Aliments avariés et pourris 
+          - Pesticides/insecticides, raticides,
+          - Produits pétroliers (pétrole, essence, gasoil)''',
         image: "",
       ),
       ImageDescription(
@@ -49,9 +49,9 @@ Pages page41() {
       ImageDescription(
         id: 6,
         description: 
-        "- Piles"
-        "- Médicaments"
-       "- Drogues, alcool et tabac",
+        '''- Piles
+           - Médicaments
+          - Drogues, alcool et tabac''',
         image: "",
       )
     ],

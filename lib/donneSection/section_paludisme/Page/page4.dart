@@ -7,7 +7,7 @@ Pages page4() {
     titre: "Paludisme",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Que faire face aux signes du paludisme ?",
         image: "",
       ),

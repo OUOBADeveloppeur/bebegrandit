@@ -6,8 +6,8 @@ Pages page27() {
     id: 3,
     titre: "Corps étrangers dans l’oreille",
     imageDescription: [
-       ImageDescription(
-        id: 1,texte: 900,
+      ImageDescription(
+        id: 1, texte: 900,
         //position: "3",
         description:
             '''Comment éviter des corps étrangers dans l’oreille de mon enfant ?''',
@@ -23,8 +23,9 @@ Pages page27() {
       ImageDescription(
         id: 2,
         position: '3',
-        description: "- je mets hors de portée de mon enfant les petits objets  ;"
-            "(perles, grains d’arachides, pois de terre, etc.)",
+        description:
+            "- je mets hors de portée de mon enfant les petits objets  "
+            "(perles, grains d’arachides, pois de terre, etc.);",
         image: "",
       ),
       ImageDescription(
@@ -33,7 +34,6 @@ Pages page27() {
             "- je couche mon enfant  dans un endroit sécurisé à l’abri des insectes (moustiquaire, couchettes, etc.)",
         image: "",
       ),
-    
     ],
   );
 }

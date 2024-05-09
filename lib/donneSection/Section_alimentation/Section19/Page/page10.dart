@@ -24,7 +24,7 @@ Pages page19() {
       ),
       ImageDescription(
         id: 4,
-        description: '''En cas de douleur :
+        description: '''
 - je n'arrête pas l’allaitement ; 
 - j’applique la bonne prise du sein ;
 - je commence à allaiter du coté qui fait le moins mal.''',
@@ -39,9 +39,8 @@ Pages page19() {
       ImageDescription(
         id: 6,
         description:
-            '''En cas de plaie :
-- j’applique du beurre de karité sur les plaies ; 
-- ou j'applique les gouttes de lait de fin de tétée sur les parties blessées. ''',
+            '''
+- j’applique du beurre de karité sur les plaies ou j'applique les gouttes de lait de fin de tétée sur les parties blessées. ''',
         image: "",
       ),
       ImageDescription(
@@ -63,8 +62,7 @@ Pages page19() {
       ImageDescription(
         id: 9,position: '3',
         description:
-            '''En cas de difficulté avec l’allaitement de mon enfant, 
-je me rends au centre de santé pour avoir des conseils.''',
+            '''En cas de difficulté avec l’allaitement de mon enfant,''',
         image: "",
       ),
        ImageDescription(

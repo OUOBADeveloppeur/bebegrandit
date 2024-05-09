@@ -21,13 +21,20 @@ Pages page4() {
         id: 2,
         description:
             "Lorsque mon enfant mange suffisamment en quantité et en qualité, il :"
-            "- grandit normalement ;"
-            "- apprend mieux ;"
-            "- se protège contre les maladies.",
+            ,
         image: "",
       ),
       ImageDescription(
         id: 3,
+        description:
+            
+             "grandit normalement,"
+             "apprend mieux,"
+            " se protège contre les maladies.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 4,
         position: '1',
         description: "",
         image: "images/alimentation/image9.png",

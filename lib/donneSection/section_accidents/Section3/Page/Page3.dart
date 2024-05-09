@@ -8,12 +8,11 @@ Pages page9() {
     imageDescription: [
       ImageDescription(
         id: 1,
-texte: 900,
+        texte: 900,
         description:
-        '''Comment éviter que mon enfant se blesse en cas d’accident ?''',
+            '''Comment éviter que mon enfant se blesse en cas d’accident ?''',
         image: "",
       ),
-
       ImageDescription(
         id: 2,
         position: '3',
@@ -22,7 +21,6 @@ texte: 900,
             S'il est trop petit, je le mets sur un siège adapté à l’arrière de la voiture.''',
         image: "images/accidents/image14.png",
       ),
-
       ImageDescription(
         id: 3,
         //position: '3',
@@ -31,17 +29,19 @@ texte: 900,
         image: "",
       ),
       ImageDescription(
-        id: 4,taille: 0,
+        id: 4,
+        taille: 0,
         position: '3',
         description: '''A moto ou à vélo, mon enfant :
 - doit être avec une personne de plus de 14 ans,
 - doit porter un casque,
 - doit porter des habits de couleurs vives pour être visible de loin surtout la nuit.
 ''',
-        image: "images/accidents/image13.png",
+        image: "",
       ),
       ImageDescription(
-        id: 5,taille: 0,
+        id: 5,
+        taille: 0,
         position: '2',
         description:
             "Je  m'assure qu'il n’y a pas plus de 2 personnes sur la moto ou le vélo.",

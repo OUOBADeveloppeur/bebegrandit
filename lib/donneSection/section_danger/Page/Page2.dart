@@ -7,7 +7,7 @@ Pages page2() {
     titre: "Signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: "Mon enfant peut mourir à cause des maladies. ",
         image: "",
       ),

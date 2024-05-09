@@ -7,13 +7,13 @@ Pages page1() {
     titre: "Alimentation de mon enfant",
     imageDescription: [
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         position: '1',
         description: '''Alimentation de mon enfant''',
         image: "images/alimentation/image2.jpeg",
       ),
       ImageDescription(
-        id: 2,
+        id: 2,texte: 900,
         description:
             '''Une bonne alimentation permet le bon développement physique,
              intellectuel et affectif de mon enfant et lui permet de rester en bonne santé.

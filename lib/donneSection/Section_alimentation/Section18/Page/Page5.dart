@@ -14,7 +14,7 @@ Pages page7() {
       ImageDescription(
         id: 1,
         description:
-            "- la Vitamine C : produit  l’énergie et protège contre les maladies."  
+            "- la Vitamine C : produit  l’énergie et protège contre les maladies ."  
         "On le retrouve dans les aliments comme la  poudre de néré, l’aubergine, la liane, "
         "le citron, l’orange, la mandarine, la poudre de pain de singe, le tamarin, "
         "la goyave, le détarium (Kaga en moore), les feuilles de manioc, la pomme de cajou."

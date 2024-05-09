@@ -64,8 +64,8 @@ Pages page7() {
         id: 8,
         position: '3',
         description: '''
- - j’utilise les spirales anti-moustiques à l’extérieur.
-  - j’utilise autres répulsifs (plantes, pommades…)''',
+ - j’utilise les spirales anti-moustiques à l’extérieur;
+  - j’utilise autres répulsifs (plantes, pommades…).''',
         image: "images/paludisme/image22.png",
       ),
     ],

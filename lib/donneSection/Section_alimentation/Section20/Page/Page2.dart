@@ -27,33 +27,39 @@ Pages page21() {
       ),
       ImageDescription(
         id: 4,texte: 900,
-        description: "Aliments à éviter",
+        description: "Aliments à éviter: ",
         image: "",
       ),
       ImageDescription(
         id: 5,
         description:
-            "Je ne donne pas à mon enfant des aliments trop sucrés ou trop salés ;.",
+            "- Je ne donne pas à mon enfant des aliments trop sucrés ou trop salés ;",
         image: "",
       ),
       ImageDescription(
         id: 6,
         description:
-            "Je ne donne pas du miel à mon enfant de moins d’un an parce qu’il peut tomber malade ;",
+            "- Je ne donne pas du miel à mon enfant de moins d’un an parce qu’il peut tomber malade ;",
         image: "",
       ),
       ImageDescription(
         id: 7,
         description:
-            "Je ne donne pas du lait de vache à mon enfant avant l'âge d’un an ;",
+            "- Je ne donne pas du lait de vache à mon enfant avant l'âge d’un an ;",
         image: "",
       ),
       ImageDescription(
         id: 8,position: '3',
         description:
-            '''Je ne donne pas les aliments durs non  écrasés (noix, arachides, bonbons, pop-corn, morceaux de viande, fruits à graines comme
-             le raisin, liane…) qui pourraient bloquer la respiration de mon enfant.''',
+            '''- Je ne donne pas les aliments durs non  écrasés (noix, arachides, bonbons, pop-corn, morceaux de viande,''',
         image: "images/alimentation/image23.png",
+      ),
+       ImageDescription(
+        id: 9,position: '3',
+        description:
+            ''' fruits à graines comme
+             le raisin, liane…) qui pourraient bloquer la respiration de mon enfant.''',
+        image: "",
       ),
     ],
   );

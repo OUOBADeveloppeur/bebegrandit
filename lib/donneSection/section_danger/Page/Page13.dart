@@ -8,16 +8,19 @@ Pages page13() {
     imageDescription: [
       ImageDescription(
         id: 0,
+        texte: 900,
         description: "Diarrhée 1/2",
         image: "",
       ),
       ImageDescription(
-        id: 1,texte: 900,
+        id: 1,
+        texte: 900,
         description: "C'est quoi une diarrhée ?",
         image: "",
       ),
       ImageDescription(
-        id: 2,position: '3',
+        id: 2,
+        position: '3',
         description:
             "C’est lorsque mon enfant fait plus de trois selles liquides par jour sauf chez les nouveaux nés.",
         image: "images/danger/image9.png",
@@ -29,7 +32,8 @@ Pages page13() {
         image: "",
       ),
       ImageDescription(
-        id: 4,texte: 900,
+        id: 4,
+        texte: 900,
         description: '''Pourquoi mon enfant a la diarrhée ?''',
         image: "",
       ),
@@ -41,12 +45,11 @@ Pages page13() {
       ),
       ImageDescription(
         id: 6,
-        description:
- '''- choléra
-- dysenterie
-- parasitoses
--mycoses
-- Intoxications alimentaires
+        description: '''- choléra;
+- dysenterie;
+- parasitoses;
+-mycoses;
+- Intoxications alimentaires;
 - etc.''',
         image: "",
       ),

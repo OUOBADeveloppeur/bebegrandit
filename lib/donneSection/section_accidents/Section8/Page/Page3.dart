@@ -31,11 +31,17 @@ Pages page37() {
         id: 3,
         description:
             "- j’explique à mon enfant que plonger dans l’eau peut être très dangereux. Les enfants ne doivent pas aller seuls au bord des points d’eau. "
-            " - j'apprends à mon enfant à nager le plus tôt possible. ",
+          ,
         image: "",
       ),
       ImageDescription(
         id: 4,
+        description:
+            " - j'apprends à mon enfant à nager le plus tôt possible. ",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
         // position: '3',
         description:
             " - je couvre les puits, les puisards  et les récipients contenant de l’eau (jarres, barriques ou fûts)",

@@ -8,7 +8,7 @@ Pages page3() {
     titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 0,
+        id: 0,texte: 900,
         description: "Corps chaud 1/3",
         image: "",
       ),
@@ -59,7 +59,7 @@ Pages page3() {
         id: 8,
         position: '3',
         description: '''Fatigue, pâleur et refus de jouer​''',
-        image: "images/danger/image14.png",
+        image: "images/danger/image17.png",
       ),
       ImageDescription(
         id: 9,

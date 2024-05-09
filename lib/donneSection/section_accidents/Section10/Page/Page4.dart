@@ -41,8 +41,8 @@ Pages page50() {
         id: 5,
         position: '3',
         description:
-            "- j’évite de mettre de l’alcool et d’autres produits comme le sel, la cendre, la terre, etc. sur la blessure ;"
-            "Si possible, je fais un pansement propre.",
+            "- j’évite de mettre de l’alcool et d’autres produits comme le sel, la cendre, la terre,  sur la blessure;"
+            " si possible, je fais un pansement propre.",
         image: "images/accidents/image57.png",
       )
     ],

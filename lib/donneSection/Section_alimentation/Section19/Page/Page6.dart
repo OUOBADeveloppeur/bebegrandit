@@ -38,8 +38,8 @@ Pages page15() {
       ImageDescription(
         id: 5,
         description: 
-            "- Je m’allonge sur le côté et ma tête reposant sur un coussin ;"
-            "- Je tourne mon visage  vers mon enfant qui est bien collé à moi ;",
+            '''- Je m’allonge sur le côté et ma tête reposant sur un coussin ;
+            - Je tourne mon visage  vers mon enfant qui est bien collé à moi ;''',
         image: "",
       ),
       ImageDescription(
@@ -48,6 +48,14 @@ Pages page15() {
         description:
             "- Je place sa tête face à  mon sein et sa bouche en contact avec mon mamelon (bout du sein) "
             " pour qu’il puisse bien téter ;"
+           ,
+        image: "",
+      ),
+       ImageDescription(
+        id: 7,
+        position: '4',
+        description:
+          
             "- Mon bras supérieur aide à maintenir mon enfant collé à moi.",
         image: "images/alimentation/image19.png",
       ),

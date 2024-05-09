@@ -6,11 +6,10 @@ Pages page30() {
     id: 2,
     titre: "Etouffement et suffocation",
     imageDescription: [
-        ImageDescription(
+      ImageDescription(
         id: 0,
         texte: 900,
-        description:
-            '''C’est quoi un étouffement ou une suffocation ?''',
+        description: '''C’est quoi un étouffement ou une suffocation ?''',
         image: "",
       ),
       ImageDescription(
@@ -30,8 +29,17 @@ Pages page30() {
       ImageDescription(
         id: 3,
         description:
-            "Mon enfant peut également s'étouffer s’il avale de petits objets,"
-            "s’il introduit un objet dans son nez et sa bouche."
+            "Mon enfant peut également s'étouffer s’il avale de petits objets,",
+        image: "",
+      ),
+      ImageDescription(
+        id: 4,
+        description: "s’il introduit un objet dans son nez et sa bouche.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
+        description:
             "Cela peut provoquer l’arrêt de la respiration et même la mort.",
         image: "",
       )

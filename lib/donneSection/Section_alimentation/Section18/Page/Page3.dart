@@ -7,8 +7,10 @@ Pages page5() {
     titre: "Ce que mon enfant doit manger pour être en bonne santé",
     imageDescription: [
       ImageDescription(
-        id: 0,texte: 900,
-        description: "Eléments essentiels de l’alimentation de mon enfant (1/3)",
+        id: 0,
+        texte: 900,
+        description:
+            "Eléments essentiels de l’alimentation de mon enfant (1/3)",
         image: "",
       ),
       ImageDescription(
@@ -19,31 +21,30 @@ Pages page5() {
         image: "",
       ),
       ImageDescription(
-        id: 2,texte: 900,
-        
-        description: "- des aliments énergétiques qui"
-           ,
+        id: 2,
+        texte: 900,
+        description: "- des aliments énergétiques ",
         image: "",
       ),
       ImageDescription(
         id: 3,
         position: '3',
-        description: "donnent la force : sorgho, millet, riz, maïs, igname, patate douce, taro, manioc,"
+        description:
+            "donnent la force : sorgho, millet, riz, maïs, igname, patate douce, taro, manioc, "
             "pomme de terre, sucre et huiles … ",
         image: "images/alimentation/image11.jpeg",
       ),
       ImageDescription(
         id: 4,
+        texte: 900,
         position: '3',
-        description:
-            "- des aliments constructeurs qui ",
+        description: "- des aliments constructeurs ",
         image: "",
       ),
-       ImageDescription(
+      ImageDescription(
         id: 5,
         position: '3',
-        description:
-            "- des aliments constructeurs qui apportent des matériaux de construction,"
+        description: "apportent des matériaux de construction, "
             "de réparation et d’entretien du corps. Je trouve ces éléments dans le poisson, les œufs,",
         image: "",
       ),
@@ -56,13 +57,20 @@ Pages page5() {
       ),
       ImageDescription(
         id: 7,
+        texte: 900,
         position: '3',
-        description:
-            "- des aliments protecteurs qui apportent des vitamines, des sels minéraux et des fibres.",
+        description: "- des aliments protecteurs ",
         image: "",
       ),
       ImageDescription(
         id: 8,
+        position: '3',
+        description:
+            " apportent des vitamines, des sels minéraux et des fibres.",
+        image: "",
+      ),
+      ImageDescription(
+        id: 9,
         position: '3',
         description:
             "Ils facilitent la digestion et contribuent à la prévention des maladies. "
@@ -70,13 +78,13 @@ Pages page5() {
         image: "images/alimentation/image12.jpeg",
       ),
       ImageDescription(
-        id: 9,
+        id: 10,
         description: "Voici des vitamines et minéraux qui sont essentiels pour "
             "le bon fonctionnement du corps de mon enfant :",
         image: "",
       ),
       ImageDescription(
-        id: 10,
+        id: 11,
         description: '''Vitamine A
 Calcium
 Fer Vitamine C IodeZinc''',

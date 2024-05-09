@@ -30,19 +30,24 @@ Pages page22() {
       ImageDescription(
         id: 3,
         description:
-            "- je peux poser la pierre noire sur la plaie, en cas de piqûre de scorpion sans faire une incision ;"
+            "- je peux poser la pierre noire sur la plaie, en cas de piqûre de scorpion sans faire une incision ;",
+        image: "",
+      ),
+      ImageDescription(
+        id: 4,
+        description:
             "- si le serpent a craché dans les yeux de mon enfant, je lave abondamment ses yeux avec de l’eau ;",
         image: "",
       ),
       ImageDescription(
-        id: 4,taille: 0,
+        id: 5,taille: 0,
         position: "1",
         description: "" 
 ,
         image: "images/accidents/image29.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 6,
         description:
             "- en cas de saignement, j’appuie sur la plaie à l’aide d’un linge propre et si possible je garde surélevé le membre qui saigne. ",
         image: "",

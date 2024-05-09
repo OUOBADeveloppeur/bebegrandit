@@ -7,7 +7,7 @@ Pages page5() {
     titre: "Les signes de danger",
     imageDescription: [
        ImageDescription(
-        id: 0,
+        id: 0,texte: 900,
         description: "Corps chaud 3/3",
         image: "",
       ),
