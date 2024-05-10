@@ -443,14 +443,31 @@ class _HomePageState extends State<HomePage>
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-          // elevation: 0, // Rend le bouton plat (sans ombre)
-          foregroundColor: Color(getCurrentSectionColor()),
-          backgroundColor: Colors.transparent,
+      //---------------affichage des numeros de pages---------------------
+      floatingActionButton: MaterialButton(
+        onPressed: () {},
+        elevation: 0, // Rend le bouton plat (sans ombre)
+        color: Colors.transparent,
+        child: Container(
+          decoration: BoxDecoration(
+            color: Color.fromARGB(255, 236, 176, 176)
+                .withOpacity(0.2), // Couleur de fond transparente
+            borderRadius: BorderRadius.circular(30), // Bord arrondi
+          ),
+          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           child: Text(
-              style: TextStyle(fontSize: 20),
-              "${widget.section.section[widget.sectionIndex].page![widget.pageIndex].id} /${widget.section.section[widget.sectionIndex].page!.length}"),
-          onPressed: () {}),
+            "${widget.pageIndex + 1} /${widget.section.section[widget.sectionIndex].page!.length}",
+            style: const TextStyle(
+                fontSize: 20,
+                color: 
+                //widget.section.section[widget.sectionIndex].id == 4
+                 //   ?
+                     Colors.black
+                  //  : Color(getCurrentSectionColor())
+                    ),
+          ),
+        ),
+      ),
     );
   }
 
@@ -525,7 +542,7 @@ class _HomePageState extends State<HomePage>
     );
   }
 
-  void _changeSection(Menu menu, Section section) {
+  /* void _changeSection(Menu menu, Section section) {
     setState(() {
       widget.sectionIndex = widget.section.section.indexOf(section);
       widget.pageIndex = 0; // Afficher la première page de la nouvelle section
@@ -553,7 +570,7 @@ class _HomePageState extends State<HomePage>
       }
     }
   }
-
+*/
   void _incrementPageInSection() {
     setState(() {
       if (widget.pageIndex <
@@ -566,7 +583,11 @@ class _HomePageState extends State<HomePage>
         );
       } else {
         // Incrémenter la section si on est à la dernière page
-        _goToNextSection();
+        // _goToNextSection();
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => HomPageWcon()),
+        );
       }
     });
   }
@@ -578,13 +599,36 @@ class _HomePageState extends State<HomePage>
         _pageController.jumpToPage(widget.pageIndex);
       } else if (widget.sectionIndex > 0) {
         // Si on est déjà à la première page de la section, passer à la section précédente
-        widget.sectionIndex--;
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const HomPageWcon()),
+        );
+        /*  widget.sectionIndex--;
         widget.pageIndex =
             widget.section.section[widget.sectionIndex].page!.length - 1;
-        _pageController.jumpToPage(widget.pageIndex);
+        _pageController.jumpToPage(widget.pageIndex);*/
+        // _decrementSection();
       } else {
         // Si on est à la première page de la première section, ne rien faire
         Navigator.of(context).pop();
+        // _decrementSection();
+      }
+    });
+  }
+
+  void _decrementSection() {
+    setState(() {
+      if (widget.sectionIndex > 0) {
+        widget.sectionIndex--;
+        int lastPageIndex =
+            widget.section.section![widget.sectionIndex].page!.length - 1;
+        widget.pageIndex = lastPageIndex >= 0 ? lastPageIndex : 0;
+        _pageController.jumpToPage(widget.pageIndex);
+      } else {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const HomPageWcon()),
+        );
       }
     });
   }
