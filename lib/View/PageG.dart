@@ -458,13 +458,13 @@ class _HomePageState extends State<HomePage>
           child: Text(
             "${widget.pageIndex + 1} /${widget.section.section[widget.sectionIndex].page!.length}",
             style: const TextStyle(
-                fontSize: 20,
-                color: 
-                //widget.section.section[widget.sectionIndex].id == 4
-                 //   ?
-                     Colors.black
-                  //  : Color(getCurrentSectionColor())
-                    ),
+              fontSize: 20,
+              color: 
+              //widget.section.section[widget.sectionIndex].id == 4
+                //  ?
+                   Colors.black
+                 // : Color(getCurrentSectionColor()),
+            ),
           ),
         ),
       ),
