@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bebegrandi/Model/page.dart'; // Assurez-vous que ce chemin est correct
 
-class ImageDescription1 extends  StatefulWidget {
+class ImageDescription1 extends StatefulWidget {
   final Pages page1;
 
   ImageDescription1({required this.page1});
@@ -135,7 +135,7 @@ class ImageDescription1 extends  StatefulWidget {
         children: [
           if (description != null && description.isNotEmpty)
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 10),
+              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
               child: Column(
                 children: [
                   Text(
@@ -330,7 +330,7 @@ class ImageDescription1 extends  StatefulWidget {
                 child: taille == 0
                     ? Image.asset(
                         imagePath,
-                        width:150,
+                        width: 150,
 
                         //height: 0,
                         fit: BoxFit.contain,
@@ -474,15 +474,15 @@ class _ImageDescriptionState extends State<ImageDescription1> {
           color: color ?? defaultColor,
           position: position,
           texte: texte,
-        //  imageHeight: MediaQuery.of(context).size.height * 0.07,
-        //  imageWidth: MediaQuery.of(context).size.width * 0.07,
+          //  imageHeight: MediaQuery.of(context).size.height * 0.07,
+          //  imageWidth: MediaQuery.of(context).size.width * 0.07,
         );
         print(imagePath.length);
         break;
       case '4':
         imageWidget = widget._buildTextTopImageBottom(imagePath, description,
             // imageHeight: MediaQuery.sizeOf(context).height*0.8,
-            imageWidth: MediaQuery.sizeOf(context).width * 0.8,
+            imageWidth: MediaQuery.sizeOf(context).width * 0.9,
             color: color ?? defaultColor,
             bg: bg ?? bgColor,
             taille: taille ?? 1,
@@ -549,7 +549,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             // color: Colors.blue,
             SizedBox(
               // Taille fixe pour les images
-              height: MediaQuery.sizeOf(context).height, // Hauteur fixe pour l'image
+              height: MediaQuery.sizeOf(context)
+                  .height, // Hauteur fixe pour l'image
               child: imageWidget,
             )
           //  )

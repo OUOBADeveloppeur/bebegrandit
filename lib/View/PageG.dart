@@ -449,21 +449,19 @@ class _HomePageState extends State<HomePage>
         elevation: 0, // Rend le bouton plat (sans ombre)
         color: Colors.transparent,
         child: Container(
-          decoration: BoxDecoration(
-            color: Color.fromARGB(255, 236, 176, 176)
-                .withOpacity(0.2), // Couleur de fond transparente
-            borderRadius: BorderRadius.circular(30), // Bord arrondi
-          ),
+          //decoration: BoxDecoration(
+           // color:
+              //  Colors.white, // Couleur de fond transparente
+           // borderRadius: BorderRadius.circular(30), // Bord arrondi
+         // ),
           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           child: Text(
             "${widget.pageIndex + 1} /${widget.section.section[widget.sectionIndex].page!.length}",
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 20,
-              color: 
-              //widget.section.section[widget.sectionIndex].id == 4
-                //  ?
-                   Colors.black
-                 // : Color(getCurrentSectionColor()),
+              color: widget.section.section[widget.sectionIndex].id == 5
+                  ? Colors.black
+                  : Color(getCurrentSectionColor()),
             ),
           ),
         ),

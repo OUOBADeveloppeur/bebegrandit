@@ -74,11 +74,7 @@ Pages page13() {
         description: "je me rends dans un centre de santé",
         image: "images/alimentation/image17.png",
       ),
-      ImageDescription(
-        id: 12,
-        description: "",
-        image: "",
-      ),
+      
     ],
   );
 }
