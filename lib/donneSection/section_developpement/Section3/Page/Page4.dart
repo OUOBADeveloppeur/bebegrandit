@@ -20,7 +20,7 @@ Pages page18() {
         taille: 0,
         position: '3',
         description:
-            "Dès 7-8 mois, Bébé reconnaît les personnes et les objets dans la pièce. "
+            "Dès 7-8 mois, bébé reconnaît les personnes et les objets dans la pièce. "
             "Bébé ne peut pas bien voir les objets loin de lui.",
         image: "images/developpement/pag10/ic-04-01.png",
       ),
@@ -35,7 +35,7 @@ Pages page18() {
         id: 4,
         taille: 0,
         position: '3',
-        description: "Dès 11-12 mois, Bébé voit aussi bien qu’un adulte.",
+        description: "Dès 11-12 mois, bébé voit aussi bien qu’un adulte.",
         image: "images/developpement/pag10/ic-04-01.png",
       ),
       ImageDescription(

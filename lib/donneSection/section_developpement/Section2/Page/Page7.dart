@@ -26,13 +26,13 @@ Pages page10() {
         id: 3, taille: 0,
         position: '3',
         description:
-            "Dès 2-4 mois, mon enfant commence à faire de sons (gazouillis) "
+            "Dès 2-4 mois, mon enfant commence à faire des sons (gazouillis) "
             "pour se faire plaisir et pour voir la réaction des adultes.",
         image: "images/developpement/pag13/ic-02-01.png",
       ),
       ImageDescription(
         id: 4, taille: 0,
-        description: "Dès 4- 6 mois, il sait dire “pa”,“ma”, “be”, “de”.",
+        description: "Dès 4 - 6 mois, il sait dire “pa”,“ma”, “be”, “de”.",
         image: "",
       ),
       ImageDescription(

@@ -26,8 +26,8 @@ Pages page19() {
         id: 3,
         position: '3',
         description:
-            "Dès 10 mois, mon enfant cherche à imiter les sons qu’il entend."
-            "à 12 mois, mon enfant montre ou donne un objet quand je lui demande.",
+            "Dès 10 mois, mon enfant cherche à imiter les sons qu’il entend. "
+            "À 12 mois, mon enfant montre ou donne un objet quand je lui demande.",
         image: "images/developpement/pag21/ic-02-01.png",
       ),
       ImageDescription(
