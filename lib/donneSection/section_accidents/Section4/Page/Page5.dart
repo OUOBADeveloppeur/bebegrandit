@@ -22,7 +22,8 @@ Pages page15() {
         id: 2,
         position: '3',
         description:
-            "- je  surveille mon enfant pour qu’il ne touche pas aux fils électriques, rallonges, prises électriques, poteaux électriques ;",
+            "- je  surveille mon enfant pour qu’il ne touche pas aux fils électriques, rallonges, prises électriques, poteaux électriques ;"
+            "- Je fais installer des prises couvertes dans ma maison",
         image: "images/accidents/image20.png",
       ),
       ImageDescription(

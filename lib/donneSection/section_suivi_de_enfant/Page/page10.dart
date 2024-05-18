@@ -20,8 +20,8 @@ Pages page10() {
       ),
       ImageDescription(
         id: 2,
-        description: "Un manque de vitamine A peut entraîner :"
-            ''' - une cécité nocturne (l'enfant ne voit pas la nuit); 
+        description: '''Un manque de vitamine A peut entraîner :
+           - une cécité nocturne (l'enfant ne voit pas la nuit); 
             - un retard de croissance ; 
             - la survenue fréquente de maladies chez l'enfant.''',
         image: "",

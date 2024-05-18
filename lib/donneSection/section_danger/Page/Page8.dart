@@ -32,15 +32,14 @@ Pages page8() {
         id: 4,
         position: '3',
         description:
-            '''Je lui donne des boissons tièdes comme l’eau potable, le lait, 
-si mon enfant à plus de 6 mois.''',
+            '''Je lui donne des boissons tièdes comme l’eau potable, le lait, si mon enfant a plus de 6 mois.''',
         image: "images/danger/image36.png",
       ),
       ImageDescription(
         id: 5,
         position: '3',
         description:
-            '''Je lui donne fréquemment la tété si mon enfant a moins de 6 mois. ''',
+            '''Je lui donne fréquemment à téter si mon enfant a moins de 6 mois. ''',
         image: "images/danger/image23.png",
       ),
       ImageDescription(

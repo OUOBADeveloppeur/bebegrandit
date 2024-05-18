@@ -21,8 +21,8 @@ Pages page11() {
       ImageDescription(
         id: 2,
         position: '3',
-        description: "Les vers intestinaux peuvent :"
-            '''- rendre malade mon enfant,
+        description: '''Les vers intestinaux peuvent :
+            - rendre malade mon enfant,
 - entrainer le manque de sang dans le corps de mon enfant, 
 - entrainer un retard de croissance chez mon enfant.''',
         image: "images/suivi-croissance/image25.jpeg",

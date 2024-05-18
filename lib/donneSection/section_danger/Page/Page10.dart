@@ -13,7 +13,7 @@ Pages page10() {
       ),
       ImageDescription(
         id: 1,texte: 900,
-        description: "Pourquoi mon enfant à des problèmes pour respirer ?",
+        description: "Pourquoi mon enfant a des problèmes pour respirer ?",
         image: "",
       ),
       ImageDescription(

@@ -34,7 +34,7 @@ Pages page30() {
       ),
       ImageDescription(
         id: 4,
-        description: "s’il introduit un objet dans son nez et sa bouche.",
+        description: "s’il introduit un objet dans son nez et dans sa bouche.",
         image: "",
       ),
       ImageDescription(

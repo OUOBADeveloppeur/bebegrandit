@@ -85,9 +85,12 @@ Pages page5() {
       ),
       ImageDescription(
         id: 11,
-        description: '''Vitamine A
+        description: '''
+Vitamine A
 Calcium
-Fer Vitamine C IodeZinc''',
+Fer Vitamine C 
+Iode 
+Zinc ''',
         image: "",
       ),
     ],

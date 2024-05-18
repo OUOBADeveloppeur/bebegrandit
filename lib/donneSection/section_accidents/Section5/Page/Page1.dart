@@ -9,7 +9,7 @@ Pages page17() {
       ImageDescription(
         id: 1,
         position: '1',
-        description: '''Morsures, piqûres ou griffuress''',
+        description: '''Morsures, piqûres ou griffures''',
         image: "images/accidents/image23.png",
       ),
     ],

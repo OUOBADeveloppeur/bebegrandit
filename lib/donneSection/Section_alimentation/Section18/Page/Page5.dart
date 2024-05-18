@@ -30,7 +30,7 @@ Pages page7() {
       ImageDescription(
         id: 3,
         description:
-          "- Le zinc : renforce le système de défense du corps. On le retrouve dans"
+          "- Le zinc : renforce le système de défense du corps. On le retrouve dans "
              "le poisson, la viande, les œufs, les produits laitiers, le haricot le sésame, les ognons, etc.",
         image: "",
       ),

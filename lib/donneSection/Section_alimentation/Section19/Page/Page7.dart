@@ -14,19 +14,19 @@ Pages page16() {
       ImageDescription(
         id: 2,
         description:
-            '''Lorsque je veux m’absenter (voyage, travail, etc.) j’exprime mon lait afin de poursuivre l’allaitement exclusif.
+            '''Lorsque je veux m’absenter (voyage, travail, etc.) j’exprime (tire) mon lait afin de poursuivre l’allaitement exclusif.
 ''',
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3, 
         description:
-            "Pour visionner la vidéo qui explique comment exprimer le  cliquez ici",
+            "Pour visionner la vidéo qui explique comment exprimer le lait, cliquez ici",
         image: "",
       ),
       ImageDescription(
-        id: 4,
-        description: "Conservation",
+        id: 4,texte: 900,
+        description: "Conservation du lait",
         image: "",
       ),
       ImageDescription(

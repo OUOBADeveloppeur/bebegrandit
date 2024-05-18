@@ -25,8 +25,7 @@ Pages page4() {
       ),
       ImageDescription(
         id: 3,
-        description: '''L ’agent de santé me pose des questions comme
-votre enfant :
+        description: '''L ’agent de santé me pose des questions comme votre enfant :
 - se porte bien ?
 - tète, mange bien ?
 - dort bien ?
