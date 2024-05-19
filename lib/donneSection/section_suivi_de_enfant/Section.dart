@@ -1,19 +1,19 @@
 import 'package:bebegrandi/Model/menu.dart';
 import 'package:bebegrandi/Model/section.dart';
 import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page1.dart';
-
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page14.dart';
 import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page2.dart';
 import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page3.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page4.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page5.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page6.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page7.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page8.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page9.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page10.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page11.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page12.dart';
-import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/Page13.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page10.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page11.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page12.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page13.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page4.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page5.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page6.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page7.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page8.dart';
+import 'package:bebegrandi/donneSection/section_suivi_de_enfant/Page/page9.dart';
 
 Section sectionsuivi() {
   return Section(
@@ -33,7 +33,8 @@ Section sectionsuivi() {
         page10(),
         page11(),
         page12(),
-        page13()
+        page13(),
+        page14()
       ],
       menu: null);
 }

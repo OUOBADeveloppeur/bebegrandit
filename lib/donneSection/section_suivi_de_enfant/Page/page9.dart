@@ -4,36 +4,64 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page9() {
   return Pages(
     id: 9,
-    titre: "Suivi de la santé de mon enfant",
+     titre: "Suivi de la santé de mon enfant ",
     imageDescription: [
-      ImageDescription(
+       ImageDescription(
         id: 0,
         texte: 900,
-        description: "Campagnes de masse pour la santé des enfants",
+        description: "Vaccinations de mon enfant",
         image: "",
       ),
+  
       ImageDescription(
-        id: 1,
-        description:
-            "Ce sont des activités très importantes pour améliorer l’état de"
-            " santé des enfants et les protéger contre les maladies graves et mortelles.  ",
+        id: 1,texte: 900,
+        description: "Réactions possibles après la vaccination ",
         image: "",
       ),
       ImageDescription(
         id: 2,
+        position: '2',
         description:
-            "Chaque année, des campagnes sont organisées plusieurs fois pour la santé des enfants, ce sont :",
-        image: "",
+            "Après la vaccination de mon enfant l’endroit de la piqûre peut être rouge, douloureux, chaud ou enflé. ",
+        image: "images/suivi-croissance/image13.png",
       ),
       ImageDescription(
         id: 3,
-        description: '''
-- Supplémentation en vitamine A ;
-- Déparasitage ;
-- Dépistage de la malnutrition aiguë ;
-- Rattrapage de la vaccination ;
-- Chimio-prévention saisonnière du paludisme.''',
+        position: '3',
+        description:
+            "Mon enfant peut également avoir le corps chaud, un mal de tête, une fatigue, pleurer ou se plaindre",
+        image: "images/suivi-croissance/image31.png",
+      ),
+      
+      ImageDescription(
+        id: 4,
+        description: "Mon enfant peut aussi ne pas avoir envie de manger. ",
         image: "",
+      ),
+    ImageDescription(
+        id: 5,position: '1',
+        description: "",
+        image: "images/suivi-croissance/image32.png",
+      ),
+       
+      ImageDescription(
+        id: 6,
+        
+        description:
+            '''Ces réactions ne durent pas plus de deux jours après la vaccination.''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 7,
+        description:
+            '''Si cela dure plus longtemps ou si l’enfant développe d’autres signes, comme le corps très chaud''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 8,texte: 900,color: 0xFFFF0000,
+        position: '3',
+        description: '''il faut l’emmener immédiatement au centre de santé. ''',
+        image: "images/suivi-croissance/image3.png",
       ),
     ],
   );

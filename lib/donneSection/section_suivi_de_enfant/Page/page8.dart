@@ -4,64 +4,59 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page8() {
   return Pages(
     id: 8,
-     titre: "Suivi de la santé de mon enfant ",
+    titre: "Suivi de la santé de mon enfant ",
     imageDescription: [
-       ImageDescription(
+      ImageDescription(
         id: 0,
         texte: 900,
-        description: "Vaccinations de mon enfant",
+        description: "Calendrier vaccinal pour l’enfant de 0 à 23 mois 2/2  ",
         image: "",
       ),
-  
       ImageDescription(
-        id: 1,texte: 900,
-        description: "Réactions possibles après la vaccination ",
+        id: 1,
+        texte: 900,
+        description: "A 5 mois ",
         image: "",
       ),
       ImageDescription(
         id: 2,
         position: '2',
-        description:
-            "Après la vaccination de mon enfant l’endroit de la piqûre peut être rouge, douloureux, chaud ou enflé. ",
-        image: "images/suivi-croissance/image13.png",
+        description: '''
+A 6 mois
+Paludisme 
+A 7 mois
+Paludisme 
+A 9 mois  
+Rougeole + Rubéole
+Fièvre jaune
+Infections à Pneumocoque
+Poliomyélite
+''',
+        image: "images/suivi-croissance/image37.png",
       ),
       ImageDescription(
         id: 3,
-        position: '3',
-        description:
-            "Mon enfant peut également avoir le corps chaud, un mal de tête, une fatigue, pleurer ou se plaindre",
-        image: "images/suivi-croissance/image31.png",
+        texte: 900,
+        description: " Entre 15 et 23 mois",
+        image: "",
       ),
-      
       ImageDescription(
         id: 4,
-        description: "Mon enfant peut aussi ne pas avoir envie de manger. ",
-        image: "",
-      ),
-    ImageDescription(
-        id: 5,position: '1',
-        description: "",
-        image: "images/suivi-croissance/image32.png",
-      ),
-       
-      ImageDescription(
-        id: 6,
-        
-        description:
-            '''Ces réactions ne durent pas plus de deux jours après la vaccination.''',
-        image: "",
+        position: '2',
+        description: '''
+- Rougeole + Rubéole 
+- Méningite
+- Paludisme
+''',
+        image: "images/suivi-croissance/image38.png",
       ),
       ImageDescription(
-        id: 7,
-        description:
-            '''Si cela dure plus longtemps ou si l’enfant développe d’autres signes, comme le corps très chaud''',
-        image: "",
-      ),
-      ImageDescription(
-        id: 8,texte: 900,color: 0xFFFF0000,
+        id: 5,
         position: '3',
-        description: '''il faut l’emmener immédiatement au centre de santé. ''',
-        image: "images/suivi-croissance/image3.png",
+        description: '''
+Si mon enfant a manqué une vaccination, j’en parle à l’agent de santé qui pourra faire un rattrapage.
+''',
+        image: "images/suivi-croissance/image39.png",
       ),
     ],
   );

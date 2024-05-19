@@ -251,6 +251,7 @@ import 'package:bebegrandi/Model/section.dart';
 import 'package:bebegrandi/View/HomPageWcon.dart';
 import 'package:bebegrandi/View/ImageDescription.dart';
 import 'package:bebegrandi/View/Menu.dart';
+import 'package:bebegrandi/View/finpage1.dart';
 import 'package:bebegrandi/View/navDrawer.dart';
 //import 'package:bebegrandi/donneSection/Section3/section12/Section.dart';
 import 'package:flutter/material.dart';
@@ -584,7 +585,7 @@ class _HomePageState extends State<HomePage>
         // _goToNextSection();
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => HomPageWcon()),
+          MaterialPageRoute(builder: (context) => PageFin1()),
         );
       }
     });
@@ -599,7 +600,7 @@ class _HomePageState extends State<HomePage>
         // Si on est déjà à la première page de la section, passer à la section précédente
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const HomPageWcon()),
+          MaterialPageRoute(builder: (context) => const PageFin1()),
         );
         /*  widget.sectionIndex--;
         widget.pageIndex =

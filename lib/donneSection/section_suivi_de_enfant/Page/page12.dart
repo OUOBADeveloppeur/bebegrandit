@@ -4,57 +4,46 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page12() {
   return Pages(
     id: 12,
-    titre: " Suivi de la santé de mon enfant",
+    titre: " Suivi de la santé de mon enfant",
     imageDescription: [
-        ImageDescription(
+      ImageDescription(
         id: 0,
         texte: 900,
         description: "Campagnes de masse pour la santé des enfants",
         image: "",
       ),
-        ImageDescription(
+      ImageDescription(
         id: 1,
         texte: 900,
-        description: "Chimio-prévention saisonnière du paludisme",
+        description: "Le déparasitage",
         image: "",
       ),
       ImageDescription(
         id: 2,
-        description:
-            "La campagne de prévention par les médicaments du paludisme saisonnier concerne les enfants de 3 à 59 mois. ",
-        image: "",
+        position: '3',
+        description: '''Les vers intestinaux peuvent :
+            - rendre malade mon enfant,
+- entrainer le manque de sang dans le corps de mon enfant, 
+- entrainer un retard de croissance chez mon enfant.''',
+        image: "images/suivi-croissance/image25.jpeg",
       ),
       ImageDescription(
         id: 3,
         description:
-            "Elle se fait 4 à 5 fois dans l’année en commençant dès le début de la saison des pluies.",
+            "C’est pourquoi il est important de lui donner un médicament contre les vers intestinaux",
         image: "",
       ),
       ImageDescription(
         id: 4,
-        position: '3',
-        description:
-            "Des médicaments sont donnés aux enfants de 3 à 59 mois pour prévenir le paludisme. ",
-        image: "images/suivi-croissance/image18.png",
+        description: '''Lorsque mon enfant est âgé de 12 à 59 mois,''',
+        image: "",
       ),
       ImageDescription(
         id: 5,
-        description:
-            "Je veille à ce que mon enfant reçoive les médicaments pendant la campagne. ",
-        image: "",
-      ),   ImageDescription(
-        id: 6,
-        description:
-            "Le 1er jour, les agents distributeurs donnent  1 comprimé jaune et 1 comprimé blanc à mon enfant. ",
-        image: "",
-      ),
-         ImageDescription(
-        id: 6,
-        description:
-            "Au 2ème et 3ème jour, je donne  à mon enfant 1 comprimé jaune par jour à la même heure. ",
+        position: '2',
+        description: '''je veille à ce qu’il reçoive les médicaments contre les vers intestinaux pendant les campagnes tous les 6 mois''',
         image: "images/suivi-croissance/image26.jpeg",
       ),
-      
     ],
   );
 }

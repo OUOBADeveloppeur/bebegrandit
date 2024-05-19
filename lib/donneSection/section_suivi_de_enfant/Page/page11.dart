@@ -4,46 +4,61 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page11() {
   return Pages(
     id: 11,
-    titre: " Suivi de la santé de mon enfant",
+    titre: "Suivi de la santé de mon enfant",
     imageDescription: [
-      ImageDescription(
+        ImageDescription(
         id: 0,
         texte: 900,
         description: "Campagnes de masse pour la santé des enfants",
         image: "",
       ),
-      ImageDescription(
+        ImageDescription(
         id: 1,
         texte: 900,
-        description: "Le déparasitage",
+        description: "Supplémentation en vitamine A",
         image: "",
       ),
       ImageDescription(
         id: 2,
-        position: '3',
-        description: '''Les vers intestinaux peuvent :
-            - rendre malade mon enfant,
-- entrainer le manque de sang dans le corps de mon enfant, 
-- entrainer un retard de croissance chez mon enfant.''',
-        image: "images/suivi-croissance/image25.jpeg",
+        description: '''Un manque de vitamine A peut entraîner :
+           - une cécité nocturne (l'enfant ne voit pas la nuit); 
+            - un retard de croissance ; 
+            - la survenue fréquente de maladies chez l'enfant.''',
+        image: "",
       ),
       ImageDescription(
         id: 3,
         description:
-            "C’est pourquoi il est important de lui donner un médicament contre les vers intestinaux",
+            "Pour éviter cela, mon enfant doit recevoir de la vitamine A dès l’âge de 6 mois et jusqu’à 5 ans. ",
         image: "",
       ),
       ImageDescription(
         id: 4,
-        description: '''Lorsque mon enfant est âgé de 12 à 59 mois,''',
+        description:
+            "La supplémentation en vitamine A se fait tous les 6 mois. ",
         image: "",
       ),
       ImageDescription(
         id: 5,
-        position: '2',
-        description: '''je veille à ce qu’il reçoive les médicaments contre les vers intestinaux pendant les campagnes tous les 6 mois''',
-        image: "images/suivi-croissance/image26.jpeg",
+        position: '3',
+        description:
+            "De 6 à 11 mois, mon enfant doit recevoir une capsule de couleur bleu. ",
+        image: "images/suivi-croissance/image23.jpeg",
       ),
+      ImageDescription(
+        id: 6,
+        position: '3',
+        description:
+            "De 1 à 5 ans, mon enfant doit recevoir une capsule de couleur rouge. ",
+        image: "images/suivi-croissance/image24.jpeg",
+      ),
+      ImageDescription(
+        id: 7,
+        description:
+            "Je dois veiller à ce que mon enfant reçoive la vitamine A tous les 6 mois, pour bien grandir, "
+            "bien voir et se protéger contre les maladies. ",
+        image: "",
+      )
     ],
   );
 }
