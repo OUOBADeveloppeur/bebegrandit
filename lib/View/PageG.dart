@@ -585,7 +585,7 @@ class _HomePageState extends State<HomePage>
         // _goToNextSection();
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => PageFin1()),
+          MaterialPageRoute(builder: (context) => const PageFin1()),
         );
       }
     });

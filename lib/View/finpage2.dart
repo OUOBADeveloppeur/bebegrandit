@@ -17,10 +17,11 @@ class _PageFin2State extends State<PageFin2> {
       children: [
         Image.asset(
           imagePath,
-          width: 100,
-          height: 100,
-          fit: BoxFit.cover,
+         // height: MediaQuery.of(context).size.height,
+            width: MediaQuery.of(context).size.width*0.3,
+          fit: BoxFit.contain,
         ),
+        
         SizedBox(height: 10),
         Text(
           text,
@@ -56,7 +57,7 @@ class _PageFin2State extends State<PageFin2> {
                   ),
                   SizedBox(width: 16),
                   Expanded(
-                    child: imageTextWidget('images/pagefin/image4.jpeg', ''),
+                    child: imageTextWidget('images/pagefin/image4.png', ''),
                   ),
                 ],
               ),
@@ -65,11 +66,11 @@ class _PageFin2State extends State<PageFin2> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Expanded(
-                    child: imageTextWidget('images/pagefin/image5.jpeg', ''),
+                    child: imageTextWidget('images/pagefin/image5.png', ''),
                   ),
                   SizedBox(width: 16),
                   Expanded(
-                    child: imageTextWidget('images/pagefin/image3.jpeg', ''),
+                    child: imageTextWidget('images/pagefin/image3.png', ''),
                   ),
                 ],
               ),
@@ -82,7 +83,7 @@ class _PageFin2State extends State<PageFin2> {
                   ),
                   SizedBox(width: 16),
                   Expanded(
-                    child: imageTextWidget('images/pagefin/image3.jpeg', 'Incub@UO'),
+                    child: imageTextWidget('images/pagefin/image3.png', 'Incub@UO'),
                   ),
                 ],
               ),

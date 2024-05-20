@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:bebegrandi/View/HomPageWcon.dart';
 import 'package:bebegrandi/View/finpage2.dart';
 import 'package:flutter/material.dart';
@@ -22,35 +20,37 @@ class _MyWidgetState extends State<PageFin1> {
             Container(
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
-              color: Colors.blue, // Couleur de fond bleue
+              color: Color.fromARGB(255,21, 147, 151)// Couleur de fond bleue
             ),
             // Contenu au-dessus de l'arrière-plan bleu
-            Container(
-              padding: EdgeInsets.only(left: 16, right: 16, top: 100),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
-                  Text(
-                    'Bravo aux Parents',
-                    textAlign: TextAlign.justify,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(235, 0, 0, 0),
-                      fontSize: 30,
+            Center(
+              child: Container(
+                padding: EdgeInsets.only(left: 16, right: 16, top: 100),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: const [
+                    Text(
+                      'Bravo aux Parents',
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Color.fromARGB(235, 0, 0, 0),
+                        fontSize: 30,
+                      ),
                     ),
-                  ),
-                  SizedBox(height: 20),
-                  Text(
-                    "Cette application contribue à garantir le droit d’accès à des informations de qualité sur la santé des nouveau-nés et des enfants." 
-                    "Une population bien informée adopte des comportements favorables à la santé des enfants et de toute la famille.",
-                    textAlign: TextAlign.justify,
-                    style: TextStyle(
-                      color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontSize: 17,
-                      fontWeight: FontWeight.bold, // Texte en gras
+                    SizedBox(height: 20),
+                    Text(
+                      "Cette application contribue à garantir le droit d’accès à des informations de qualité sur la santé des nouveau-nés et des enfants." 
+                      "Une population bien informée adopte des comportements favorables à la santé des enfants et de toute la famille.",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold, // Texte en gras
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ],

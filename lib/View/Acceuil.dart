@@ -2,6 +2,7 @@
 
 import 'package:bebegrandi/View/HomPageWcon.dart';
 import 'package:bebegrandi/View/InitialPage.dart';
+import 'package:bebegrandi/launch.dart';
 
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Inaitiale(),
+      home: LaunchPage(),
     );
   }
 

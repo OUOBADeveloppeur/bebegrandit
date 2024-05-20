@@ -7,7 +7,7 @@ import 'package:bebegrandi/Model/tour.dart';
 import 'package:bebegrandi/View/HomPageWcon.dart';
 
 import 'package:bebegrandi/View/ImageDescription.dart';
-import 'package:bebegrandi/View/PageG.dart';
+import 'package:bebegrandi/View/finpage1.dart';
 import 'package:bebegrandi/View/navDrawer.dart';
 import 'package:flutter/material.dart';
 
@@ -187,6 +187,29 @@ class _MenusState extends State<Menus>
           ],
         ),
       ),
+      //---------------affichage des numeros de pages---------------------
+      floatingActionButton: MaterialButton(
+        onPressed: () {},
+        elevation: 0, // Rend le bouton plat (sans ombre)
+        color: Colors.transparent,
+        child: Container(
+          //decoration: BoxDecoration(
+           // color:
+              //  Colors.white, // Couleur de fond transparente
+           // borderRadius: BorderRadius.circular(30), // Bord arrondi
+         // ),
+          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+          child: Text(
+            "${widget.pageIndex + 1} /${widget.menu.section![widget.sectionIndex].page!.length}",
+            style: TextStyle(
+              fontSize: 20,
+              color: widget.menu.section![widget.sectionIndex].id == 5
+                  ? Colors.black
+                  : Color(getCurrentSectionColor()),
+            ),
+          ),
+        ),
+      ),
     );
   }
 
@@ -250,6 +273,7 @@ class _MenusState extends State<Menus>
           ),
         );
       },
+      
     );
   }
 
@@ -314,7 +338,7 @@ class _MenusState extends State<Menus>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) =>const HomPageWcon()
+            builder: (context) =>const  PageFin1()
           ),
         );
       }
@@ -338,7 +362,7 @@ class _MenusState extends State<Menus>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => const HomPageWcon()
+            builder: (context) => const  PageFin1()
           ),
         );
       }
