@@ -585,7 +585,7 @@ class _HomePageState extends State<HomePage>
         // _goToNextSection();
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const PageFin1()),
+          MaterialPageRoute(builder: (context) =>PageFin1(page: widget.page, section: widget.section)),
         );
       }
     });
@@ -600,7 +600,7 @@ class _HomePageState extends State<HomePage>
         // Si on est déjà à la première page de la section, passer à la section précédente
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const PageFin1()),
+          MaterialPageRoute(builder: (context) => PageFin1(page: widget.page, section: widget.section)),
         );
         /*  widget.sectionIndex--;
         widget.pageIndex =

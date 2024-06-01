@@ -91,7 +91,7 @@ class _PageFin2State extends State<PageFin2> {
           ),
         ),
       ),
-      bottomSheet: Container(
+     bottomSheet: Container(
         color: Colors.white,
         width: double.infinity,
         child: Column(
@@ -104,14 +104,14 @@ class _PageFin2State extends State<PageFin2> {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 16.0), // Ajout de padding horizontal
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.end, // Alignement du bouton à droite
+                mainAxisAlignment: MainAxisAlignment.spaceBetween, // Alignement des boutons aux extrémités
                 children: [
-                  Text(
-                    '',
-                    style: TextStyle(
-                      color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontWeight: FontWeight.bold, // Texte en gras
-                    ),
+                  IconButton(
+                    onPressed: () {
+                      Navigator.pop(context); // Retour à l'écran précédent
+                    },
+                    icon: Icon(Icons.arrow_back, size: 30),
+                    color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
                   ),
                   IconButton(
                     onPressed: () {
