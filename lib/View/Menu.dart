@@ -338,7 +338,7 @@ class _MenusState extends State<Menus>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) =>PageFin1(page: widget.page, section: widget.section)
+            builder: (context) =>PageFin1()
           ),
         );
       }
@@ -362,7 +362,7 @@ class _MenusState extends State<Menus>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) =>  PageFin1(page: widget.page, section: widget.section)
+            builder: (context) =>  PageFin1()
           ),
         );
       }

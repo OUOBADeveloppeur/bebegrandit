@@ -7,12 +7,12 @@ Pages page18() {
     titre: "Les signes de danger",
     imageDescription: [
       ImageDescription(
-        id: 0,
+        id: 0,texte: 900,
         description: "Enfant très faible",
         image: "",
       ),
       ImageDescription(
-        id: 1,
+        id: 1,texte: 900,
         description: '''C'est quoi ?''',
         image: "",
       ),

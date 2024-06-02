@@ -12,7 +12,6 @@ Pages page34() {
         description: "Hygiène corporelle 3/4",
         image: "",
       ),
-      
       ImageDescription(
         id: 1,
         texte: 900,
@@ -22,8 +21,13 @@ Pages page34() {
       ),
       ImageDescription(
         id: 2,
-        position: '4',
         description: "- Après l’utilisation des latrines ; ",
+        image: "",
+      ),
+      ImageDescription(
+        id: 2,
+        position: '1',
+        description: "",
         image: "images/alimentation/image28.png",
       ),
       ImageDescription(
@@ -33,7 +37,7 @@ Pages page34() {
       ),
       ImageDescription(
         id: 4,
-        position: '4',
+        position: '1',
         description: "",
         image: "images/alimentation/image29.png",
       ),
@@ -41,6 +45,12 @@ Pages page34() {
         id: 5,
         position: '4',
         description: "- Avant de préparer le repas ;",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
+        position: '1',
+        description: "",
         image: "images/alimentation/image30.png",
       ),
     ],

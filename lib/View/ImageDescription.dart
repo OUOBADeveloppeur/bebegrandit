@@ -481,8 +481,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         break;
       case '4':
         imageWidget = widget._buildTextTopImageBottom(imagePath, description,
-            // imageHeight: MediaQuery.sizeOf(context).height*0.8,
-            imageWidth: MediaQuery.sizeOf(context).width * 0.9,
+         // imageHeight: MediaQuery.sizeOf(context).height*0.1,
+           // imageWidth: MediaQuery.sizeOf(context).width * 0.9,
             color: color ?? defaultColor,
             bg: bg ?? bgColor,
             taille: taille ?? 1,
