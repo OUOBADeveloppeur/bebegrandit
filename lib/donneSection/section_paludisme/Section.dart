@@ -8,6 +8,7 @@ import 'package:bebegrandi/donneSection/section_paludisme/Page/Page5.dart';
 import 'package:bebegrandi/donneSection/section_paludisme/Page/Page6.dart';
 import 'package:bebegrandi/donneSection/section_paludisme/Page/Page7.dart';
 import 'package:bebegrandi/donneSection/section_paludisme/Page/Page8.dart';
+import 'package:bebegrandi/donneSection/section_paludisme/Page/Page9.dart';
 
 Section sectionPa() {
   return Section(
@@ -23,7 +24,7 @@ Section sectionPa() {
       page6(),
       page7(),
       page8(),
-     // page9()
+      page9()
     ],
     menu: null,
   );

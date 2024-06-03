@@ -36,7 +36,7 @@ au moins 3 fois chez l’enfant âgé de 9 à 23 mois. ''',
         id: 5,position: '5',texte: 900, bg: 0xFFFFE4E1,
         description:
             "Attention : ",
-        image: "images/alimentation/image14.png",
+        image: "images/developpement/pag9/ic-06-01.png",
       ),
       ImageDescription(
         id: 5,position: '2',

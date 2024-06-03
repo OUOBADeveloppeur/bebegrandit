@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:bebegrandi/View/HomPageWcon.dart';
+import 'package:bebegrandi/View/finpage1.dart';
 import 'package:flutter/material.dart';
 
 class PageFin2 extends StatefulWidget {
@@ -17,11 +18,10 @@ class _PageFin2State extends State<PageFin2> {
       children: [
         Image.asset(
           imagePath,
-         // height: MediaQuery.of(context).size.height,
-            width: MediaQuery.of(context).size.width*0.3,
+          // height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width * 0.3,
           fit: BoxFit.contain,
         ),
-        
         SizedBox(height: 10),
         Text(
           text,
@@ -45,9 +45,6 @@ class _PageFin2State extends State<PageFin2> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-             
-             
-        
               // Affichage des widgets en deux colonnes
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -83,7 +80,8 @@ class _PageFin2State extends State<PageFin2> {
                   ),
                   SizedBox(width: 16),
                   Expanded(
-                    child: imageTextWidget('images/pagefin/image3.png', 'Incub@UO'),
+                    child: imageTextWidget(
+                        'images/pagefin/image3.png', 'Incub@UO'),
                   ),
                 ],
               ),
@@ -91,44 +89,53 @@ class _PageFin2State extends State<PageFin2> {
           ),
         ),
       ),
-      bottomSheet: Container(
+      bottomNavigationBar: Container(
         color: Colors.white,
         width: double.infinity,
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
+        height: 60,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Divider(
-              color: Colors.black,
-              height: 10,
-            ),
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 16.0), // Ajout de padding horizontal
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.end, // Alignement du bouton à droite
-                children: [
-                  Text(
-                    '',
-                    style: TextStyle(
-                      color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                      fontWeight: FontWeight.bold, // Texte en gras
-                    ),
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const HomPageWcon()),
-                      );
-                    },
-                    icon: Icon(Icons.arrow_forward, size: 30),
-                    color: Color.fromRGBO(60, 60, 59, 1), // Couleur R60, G60, B59
-                  ),
-                ],
+            TextButton.icon(
+              onPressed: () {
+                _decrementPageInSection();
+              },
+              icon: Icon(
+                Icons.arrow_back,
               ),
+              label: Text(''),
+            ),
+            TextButton.icon(
+              onPressed: () {
+                _incrementPageInSection();
+              },
+              icon: Icon(
+                Icons.arrow_forward,
+              ),
+              label: Text(''),
             ),
           ],
         ),
       ),
     );
+  }
+
+  void _incrementPageInSection() {
+    setState(() {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const HomPageWcon()), 
+      );
+    });
+  }
+
+  void _decrementPageInSection() {
+    setState(() {
+      // Vérifier si nous pouvons passer à la section précédente
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => PageFin1()),
+      );
+    });
   }
 }

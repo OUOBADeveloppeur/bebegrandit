@@ -47,7 +47,7 @@ Pages page24() {
 - j’allaite mon enfant et lui donne des bouillies enrichies en plus des plats familiaux peu épicés. 
 
 - J’écrase les aliments avant de les donner à mon enfant
-La bouillie de mon enfant ne doit pas être trop liquide, elle doit avoir une consistance adaptée à son âge.
+- La bouillie de mon enfant ne doit pas être trop liquide, elle doit avoir une consistance adaptée à son âge.
 ''',
         image: "",
       ),

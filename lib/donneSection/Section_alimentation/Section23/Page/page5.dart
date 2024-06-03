@@ -37,11 +37,16 @@ Pages page35() {
         id: 4,
         position: '4',
         description: "- Avant et Après le repas.",
+        image: "",
+      ),
+   ImageDescription(
+        id: 5,
+        position: '1',
+        description: "",
         image: "images/alimentation/image32.png",
       ),
-  
       ImageDescription(
-        id: 5,
+        id: 6,
         description:
             '''Lorsque je lave mes mains et celles de mon enfant, je nettoie bien les paumes,
          le dos de la main, les espaces entre les doigts, les ongles et les poignets des mains pour éliminer 
@@ -49,7 +54,7 @@ Pages page35() {
         image: "",
       ),
       ImageDescription(
-        id: 6,
+        id: 7,
         position: '2',
         description:
             '''Pour le lavage des mains, je verse l’eau sur les mains plutôt que de les plonger dans un récipient.''',

@@ -26,7 +26,7 @@ Pages page32() {
       ImageDescription(
         id: 4,
         position: '3',
-        description: "- je veille à ce que mon enfant :"
+        description: "- je veille à ce que mon enfant: "
 '''reste assis et calme pour manger ; 
 ne parle pas avec des aliments dans la bouche; 
 mâche avant d’avaler.''',

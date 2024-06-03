@@ -4,7 +4,7 @@ import '../../../../Model/page.dart';
 Pages page2() {
   return Pages(
     id: 2,
-    titre: "MENU",
+    titre: "Contenu",
     imageDescription: [
       ImageDescription(
         id: 1,position: '3',

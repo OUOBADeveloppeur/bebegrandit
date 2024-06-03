@@ -14,15 +14,21 @@ Pages page36() {
       ),
       ImageDescription(
         id: 2,
-        position: '3',
+    
         description:
             "C’est lorsqu’une personne se retrouve bloquée sous l’eau. L’eau entre par sa bouche, son nez pour remplir ses poumons. Cela l’empêche de respirer.",
-        image: "images/accidents/image45.png",
+        image: "",
       ),
       ImageDescription(
         id: 3,
         description: "Elle peut mourir par manque d’air. ",
         image: "",
+      ),
+      ImageDescription(
+        id: 4,
+        position: '1',
+        description: "",
+        image: "images/accidents/image45.png",
       )
     ],
   );
