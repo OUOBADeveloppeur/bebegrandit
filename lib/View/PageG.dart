@@ -258,6 +258,8 @@ import 'package:flutter/material.dart';
 import 'package:bebegrandi/Model/page.dart';
 import 'package:bebegrandi/Model/tour.dart';
 
+import 'lien.dart';
+
 class HomePage extends StatefulWidget {
   final Pages page;
   int sectionIndex;
@@ -403,11 +405,24 @@ class _HomePageState extends State<HomePage>
               },
             ),
           ),
+          if(widget.page.lien == null)
+              TextButton(onPressed: ()
+            {
+              // Dans votre gestionnaire de navigation ou dans un autre endroit approprié
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => VideoPlayerScreen(videoUrl: widget.page.lien ?? ''),
+                ),
+              );
+            }
+            , child: Text('clic ici')),
           Container(
             width: double.infinity,
             height: 2,
             color: Color(getCurrentSectionColor()),
           )
+        ,
         ],
       ),
       bottomNavigationBar: Container(

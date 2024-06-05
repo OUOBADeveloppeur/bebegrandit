@@ -22,7 +22,7 @@ Pages page2() {
       ImageDescription(
         id: 3,
         description:
-            "Le paludisme est une maladie causée par la piqûre d’un moustique.",
+            "Le paludisme est une maladie causée par la piqûre d’un moustique appelé anophèle femelle",
         image: "",
       ),
     ],

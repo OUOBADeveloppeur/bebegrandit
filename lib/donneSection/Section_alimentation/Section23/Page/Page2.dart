@@ -4,6 +4,7 @@ import 'package:bebegrandi/Model/imageDescription.dart';
 Pages page32() {
   return Pages(
     id: 2,
+    lien: "https://www.youtube.com/watch?v=VIDEO_ID",
     titre: "Hygiène corporelle, alimentaire et du cadre de vie ",
     imageDescription: [
        ImageDescription(
@@ -37,3 +38,4 @@ Pages page32() {
     ],
   );
 }
+

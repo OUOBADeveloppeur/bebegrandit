@@ -19,8 +19,8 @@ Pages page6() {
       ImageDescription(
         id: 2,  position: '3',
         description:
-            '''Le corps de mon enfant est froid au toucher. On parle d’hypothermie.
-             Le thermomètre au niveau des aisselles mesure moins de 35.4°C  ''',
+            '''On parle corps froid ou hypothermie lorsque le corps de mon enfant est froid au toucher.'''
+             '''Le thermomètre au niveau des aisselles mesure moins de 35.4°C  ''',
         image: "images/danger/image24.png",
       ),
       ImageDescription(

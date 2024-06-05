@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bebegrandi/Model/page.dart'; // Assurez-vous que ce chemin est correct
+import 'package:bebegrandi/Model/page.dart';
+
+import 'lien.dart'; // Assurez-vous que ce chemin est correct
 
 class ImageDescription1 extends StatefulWidget {
   final Pages page1;
@@ -116,6 +118,59 @@ class ImageDescription1 extends StatefulWidget {
       ),
     );
   }
+  //-------------------------------- bouton lien---------------------
+  Widget _buildlien(String lien, String description,
+      {int? color,
+        int? bg,
+        String? position,
+        int? taille,
+        int? texte}) {
+    return Container(
+      //
+      color: color != null ? Color(bg!) : Colors.black,
+
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          if (description != null && description.isNotEmpty)
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+              child: Column(
+                children: [
+                  Builder(
+                      builder: (context) {
+                        return TextButton(onPressed: ()
+                        {
+                          // Dans votre gestionnaire de navigation ou dans un autre endroit approprié
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => VideoPlayerScreen(videoUrl: lien ?? ''),
+                            ),
+                          );
+                        }
+                            , child: Text( textAlign: TextAlign.justify,
+                              description,
+                              style: TextStyle(
+                                // Texte gras si "texte" est défini
+                                fontSize: 18,
+                                //taille==0? 18:12,
+                                fontWeight:
+                                texte != null ? FontWeight.bold : FontWeight.normal,
+                                color: color != null ? Color(color) : Colors.black,
+                              ),));
+                      }
+                  ),
+                ],
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+
+  //---------------------------- fin lien------------------
 
 //-------------------image en bas texte en haut------------------
   Widget _buildTextTopImageBottom(String imagePath, String description,
@@ -423,7 +478,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     bool isImageOnTop = true,
   }) {
     bool shouldDisplayImage = imagePath.isNotEmpty;
-
+String ?lien;
     int defaultColor = 0xFF000000;
     int bgColor = 0xFFFFFF;
     //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
@@ -707,14 +762,15 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                   //  ),
                 ),
               ],
-            )
-          else
+            ),
+            if(lien=='')
             widget._buildTextOnly(description,
                 color: color ?? defaultColor,
                 taille: taille ?? 1,
                 position: position,
                 texte: texte,
-                bg: bg ?? bgColor),
+                bg: bg ?? bgColor)
+
 
         // SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
       ],

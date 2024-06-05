@@ -20,16 +20,16 @@ Pages page18() {
         taille: 0,
         position: '3',
         description:
-            "Dès 7-8 mois, bébé reconnaît les personnes et les objets dans la pièce. "
+            "Dès 7-8 mois, bébé reconnaît les personnes et les objets dans la pièce."
             "Bébé ne peut pas bien voir les objets loin de lui.",
-        image: "images/developpement/pag10/ic-04-01.png",
+        image: "images/developpement/pag10/ic-02-01.png",
       ),
       ImageDescription(
         id: 3,
         taille: 0,
         position: '3',
         description: "Dès 9-10 mois, mon enfant a une vision améliorée.",
-        image: "images/developpement/pag10/ic-04-01.png",
+        image: "images/developpement/pag10/ic-03-01.png",
       ),
       ImageDescription(
         id: 4,

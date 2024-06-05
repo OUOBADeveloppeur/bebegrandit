@@ -40,7 +40,8 @@ Pages page12() {
       ImageDescription(
         id: 5,
         description:
-            "Mon enfant peut avoir des convulsions à cause de la fièvre, de l’hypoglycémie, l’épilepsie…  ",
+            "Mon enfant peut avoir des convulsions à cause de la fièvre (corps chaud), "
+                "de l’hypoglycémie (sucre trop bas), l’épilepsie…  ",
         image: "",
       ),
       ImageDescription(

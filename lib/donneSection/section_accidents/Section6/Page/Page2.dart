@@ -22,7 +22,7 @@ Pages page26() {
         id: 2,
         position: '3',
         description:
-            "Cela peut provoquer une blessure, une infection au niveau de l’oreille et une perforation du tympan pouvant le rendre sourd. ",
+            '''Cela peut provoquer une blessure, une infection au niveau de l’oreille et une perforation du tympan (membrane de l'oreille) pouvant le rendre sourd.''',
         image: "images/accidents/image33.png",
       ),
         

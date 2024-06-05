@@ -36,8 +36,8 @@ Pages page8() {
         id: 5,
         position: '2',
         description:
-            "Il existe un vaccin contre le paludisme efficace pour les enfants,"
-"je me renseigne au centre de santé."
+            '''Il existe un vaccin contre le paludisme efficace pour les enfants appelé RTSS '''
+            '''je me renseigne au centre de santé.'''
 ,
         image: "images/paludisme/image24.png",
       ),
@@ -45,7 +45,7 @@ Pages page8() {
         id: 6,
         position: '4',
         description:
-            "Je continue de suivre les conseils pour éviter le paludisme même si mon enfant prend lesmédicaments."
+            "Je continue de suivre les conseils pour éviter le paludisme même si mon enfant prend les médicaments."
 ,
         image: "images/paludisme/image21.png",
       ),

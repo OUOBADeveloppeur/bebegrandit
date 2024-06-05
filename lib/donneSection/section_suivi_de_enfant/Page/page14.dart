@@ -28,9 +28,9 @@ Pages page14() {
         id: 3,
         position: '3',
         description: 
-            '''- une consommation insuffisante de nourriture ;
-            - un régime non équilibré ;
-            - une maladie conduisant à une mauvaise absorption des aliments ou un manque d’appétit.''',
+            '''- une consommation insuffisante de nourriture ;'''
+            '''- un régime non équilibré (qui ne contient pas tous les groupes d'aliment ;'''
+           ''' - une maladie conduisant à une mauvaise absorption des aliments ou un manque d’appétit.''',
         image: "images/suivi-croissance/image28.png",
       ),
       ImageDescription(

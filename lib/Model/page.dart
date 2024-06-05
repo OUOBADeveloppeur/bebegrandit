@@ -16,6 +16,7 @@ class Pages {
   String? icon;
   int? taille;
   int? texte;
+  String? lien;
   @HiveField(5)
   @JsonKey(name: "imageDescription")
   List<ImageDescription> imageDescription;
@@ -28,6 +29,7 @@ class Pages {
     this.texte,
     this.taille,
     required this.imageDescription,
+    this.lien,
   });
 
   Pages copyWith({
@@ -37,6 +39,7 @@ class Pages {
     int?taille,
     String? position,
     String? icon,
+    String? lien,
     List<ImageDescription>? imageDescription,
   }) =>
       Pages(
@@ -46,6 +49,7 @@ class Pages {
         titre: titre ?? this.titre,
         texte: texte ?? this.texte,
         taille: taille??this.taille,
+        lien : lien ?? this.lien,
         imageDescription: imageDescription ?? this.imageDescription,
       );
   factory Pages.fromJson(Map<String, dynamic> json) {
@@ -64,6 +68,7 @@ class Pages {
       icon: json['icon'],
       texte: json['texte'],
       taille: json['taille'],
+      lien: json['lien'],
       imageDescription: descriptions,
     );
   }

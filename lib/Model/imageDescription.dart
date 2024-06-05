@@ -21,6 +21,7 @@ class ImageDescription {
   int? color;
   int? bg;
   int? taille;
+  String? lien;
   ImageDescription(
       {required this.id,
       required this.description,
@@ -28,7 +29,8 @@ class ImageDescription {
       this.color,
       this.texte,
       this.bg,this.taille,
-      this.position});
+      this.position,
+        this.lien});
 
   ImageDescription copyWith(
           {int? id,
@@ -38,7 +40,8 @@ class ImageDescription {
           int? texte,
           int? color,
           int? taille,
-          int? bg}) =>
+          int? bg,
+          String? lien}) =>
       ImageDescription(
           id: id ?? this.id,
           description: description ?? this.description,
@@ -47,7 +50,9 @@ class ImageDescription {
           color: color ?? this.color,
           bg: bg ?? this.bg,
           taille: taille??this.taille,
-          texte: texte ?? this.texte);
+          texte: texte ?? this.texte,
+          lien: lien ?? this.lien
+      );
 
   factory ImageDescription.fromJson(Map<String, dynamic> json) {
     return ImageDescription(
@@ -59,7 +64,8 @@ class ImageDescription {
       color: json['color'] as int,
       bg: json['bg'] as int,
       texte: json['texte'] as int,
-      taille: json['taille']
+      taille: json['taille'],
+            lien: json['lien'] as String? ?? ''
     );
   }
 }

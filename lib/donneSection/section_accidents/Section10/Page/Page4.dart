@@ -21,14 +21,15 @@ Pages page50() {
         id: 2,
         position: '3',
         description:
-            "- je me lave les mains  et  je nettoie la plaie avec de l'eau et du savon ou un  produit antiseptique .",
+            ''''- je me lave les mains  et  je nettoie la plaie avec de l'eau et du savon ou 
+            un  produit antiseptique (médicaments pour nettoyer les plaies).''',
         image: "images/accidents/image51.png",
       ),
       ImageDescription(
         id: 3,
         position: '3',
         description:
-            "- lorsque le saignement persiste, je comprime la blessure pendant 10-15 minutes. ",
+            ''' - lorsque le saignement persiste, je comprime la blessure pendant 10-15 minutes.''',
         image: "images/accidents/image29.png",
       ),
       ImageDescription(

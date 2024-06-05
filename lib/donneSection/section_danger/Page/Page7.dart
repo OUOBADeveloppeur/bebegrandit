@@ -24,7 +24,8 @@ Pages page7() {
       ),
       ImageDescription(
         id: 3,  position: '3',
-        description: "Paludisme, Dengue ",
+        description: "Paludisme     "
+                      "Dengue",
         image: "images/danger/image19.png",
       ),
       ImageDescription(
