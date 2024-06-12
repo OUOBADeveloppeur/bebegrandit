@@ -762,8 +762,9 @@ String ?lien;
                   //  ),
                 ),
               ],
+              
             ),
-            if(lien=='')
+       
             widget._buildTextOnly(description,
                 color: color ?? defaultColor,
                 taille: taille ?? 1,
