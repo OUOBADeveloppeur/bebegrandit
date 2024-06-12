@@ -763,8 +763,8 @@ String ?lien;
                 ),
               ],
               
-            ),
-       
+            )
+       else
             widget._buildTextOnly(description,
                 color: color ?? defaultColor,
                 taille: taille ?? 1,
