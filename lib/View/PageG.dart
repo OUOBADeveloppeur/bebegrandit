@@ -405,18 +405,7 @@ class _HomePageState extends State<HomePage>
               },
             ),
           ),
-          if(widget.page.lien == null)
-              TextButton(onPressed: ()
-            {
-              // Dans votre gestionnaire de navigation ou dans un autre endroit approprié
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => VideoPlayerScreen(videoUrl: widget.page.lien ?? ''),
-                ),
-              );
-            }
-            , child: Text('clic ici')),
+         
           Container(
             width: double.infinity,
             height: 2,

@@ -13,7 +13,7 @@ class ImageDescription1 extends StatefulWidget {
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
   Widget _buildTextOnly(String text,
-      {int? color, String? position, int? taille, int? texte, int? bg}) {
+      {int? color, String? position, int? taille, int? texte, int? bg, String?lien}) {
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
       child: Padding(
@@ -22,16 +22,49 @@ class ImageDescription1 extends StatefulWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Expanded(
-              child: Text(
-                textAlign: TextAlign.justify,
-                text,
-                softWrap: true, // Permet au texte de revenir à la ligne
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight:
-                      texte != null ? FontWeight.bold : FontWeight.normal,
-                  color: color != null ? Color(color) : Colors.black,
-                ),
+              child: Column(
+                children: [
+                  Text(
+                    textAlign: TextAlign.justify,
+                    text,
+                    softWrap: true, // Permet au texte de revenir à la ligne
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight:
+                          texte != null ? FontWeight.bold : FontWeight.normal,
+                      color: color != null ? Color(color) : Colors.black,
+                    ),
+                  ),
+                  if(lien==null)
+                    Text('')
+                   else 
+                   Builder(
+                      builder: (context) {
+                        return TextButton(onPressed: ()
+                        {
+                          // Dans votre gestionnaire de navigation ou dans un autre endroit approprié
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => VideoPlayerScreen(videoUrl: lien ?? ''),
+                            ),
+                          );
+                        },
+                             child: Text( textAlign: TextAlign.justify,
+                              'cliquez ici',
+                              style: TextStyle(
+                                // Texte gras si "texte" est défini
+                                fontSize: 18,
+                                //taille==0? 18:12,
+                                fontWeight:
+                                texte != null ? FontWeight.bold : FontWeight.normal,
+                                color: Colors.blue
+                              ),),
+                              
+                              );
+                      }
+                  ),
+                ],
               ),
             ),
           ],
@@ -159,7 +192,9 @@ class ImageDescription1 extends StatefulWidget {
                                 fontWeight:
                                 texte != null ? FontWeight.bold : FontWeight.normal,
                                 color: color != null ? Color(color) : Colors.black,
-                              ),));
+                              ),),
+                              
+                              );
                       }
                   ),
                 ],
@@ -478,11 +513,12 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     int? bg,
     String? position,
     int? texte,
+    String ?lien,
     bool isImageFirst = true,
     bool isImageOnTop = true,
   }) {
     bool shouldDisplayImage = imagePath.isNotEmpty;
-String ?lien;
+
     int defaultColor = 0xFF000000;
     int bgColor = 0xFFFFFF;
     //const Color.fromARGB(0, 250, 250, 250); // Couleur par défaut
@@ -558,6 +594,7 @@ String ?lien;
             imageWidth: MediaQuery.of(context).size.width * 0.04,
             color: color ?? defaultColor,
             position: position,
+          
             texte: texte);
         print(imagePath.length);
         break;
@@ -774,6 +811,7 @@ String ?lien;
                 taille: taille ?? 1,
                 position: position,
                 texte: texte,
+                lien:lien ,
                 bg: bg ?? bgColor)
 
 
@@ -870,6 +908,7 @@ String ?lien;
                 taille: imageDescription.taille,
                 position: imageDescription.position,
                 texte: imageDescription.texte,
+                lien: imageDescription.lien,
                 isImageFirst: index % 2 == 0,
                 isImageOnTop: index % 3 == 0,
               );
