@@ -25,9 +25,9 @@ Pages page16() {
         id: 3, taille: 0,
         position: '3',
         description:
-            "Mon enfant peut se réveiller quelques fois au cours de la nuit."
+            "Mon enfant peut se réveiller quelques fois au cours de la nuit. "
             "Les signes du sommeil sont : bâiller, se frotter les yeux, "
-            "besoin d’être dans les bras, ne pas garder la tête droite, etc.",
+            "besoin d’être dans les bras, ne pas garder la tête droite, etc. ",
         image: "images/developpement/pag18/ic-02-01.png",
       ),
       ImageDescription(

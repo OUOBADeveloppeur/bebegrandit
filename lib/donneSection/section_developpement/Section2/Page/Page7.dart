@@ -10,7 +10,7 @@ Pages page10() {
       ImageDescription(
         id: 1,
         position: '0', taille: 0,
-        description: "Le langage",
+        description: "Le langage: parler",
             texte: 900,
         image: "",
       ),
@@ -26,7 +26,7 @@ Pages page10() {
         id: 3, taille: 0,
         position: '3',
         description:
-            "Dès 2-4 mois, mon enfant commence à faire des sons (gazouillis) "
+            "Dès 2-4 mois, mon enfant commence  des sons (gazouillis) "
             "pour se faire plaisir et pour voir la réaction des adultes.",
         image: "images/developpement/pag13/ic-02-01.png",
       ),

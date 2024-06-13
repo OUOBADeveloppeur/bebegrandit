@@ -90,7 +90,7 @@ Vitamine A
 Calcium
 Fer Vitamine C 
 Iode 
-Zinc ''',
+Zinc (On le retrouve dans le poisson) ''',
         image: "",
       ),
     ],

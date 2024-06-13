@@ -25,29 +25,35 @@ Pages page11() {
       ),
       ImageDescription(
         id: 3,
-        description: '''J'ouvre la fenêtre pour renouveler l’air ;''',
+        description: "- J'ouvre la fenêtre pour renouveler l’air ;",
         image: "",
       ),
       ImageDescription(
         id: 4,
-        description: '''Je débouche son nez, si mon enfant a le nez bouché ;''',
+        description: "- Je débouche son nez, si mon enfant a le nez bouché ;",
         image: "",
       ),
       ImageDescription(
         id: 5,
         description:
-            '''Je ne lui donne pas de sirops et autres médicaments sauf si c’est indiqué par l’agent de santé ; ''',
+            "- Je ne lui donne pas de sirops et autres médicaments sauf si c’est indiqué par l’agent de santé ; ",
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 6,
         position: '3',
         description:
             '''- Je donne du miel et du citron à mon enfant de plus d’un an, s’il a mal à la gorge ;''',
         image: "images/danger/image36.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 7,
+        description:
+            '''- « j’applique du beurre de karité dans les narines de mon enfant »''',
+        image: "",
+      ),
+      ImageDescription(
+        id: 8,
         position: '3',texte: 900,color: 0xFFFF0000,
         description: '''je l’emmène au centre de santé''',
         image: "images/danger/image21.png",

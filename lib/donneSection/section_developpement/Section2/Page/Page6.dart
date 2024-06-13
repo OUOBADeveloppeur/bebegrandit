@@ -11,7 +11,7 @@ Pages page9() {
         id: 0, taille: 0,
         texte: 900,
         position: '0',
-        description: "L’audition"
+        description: "L’audition: entendre"
             "",
         image: "",
       ),

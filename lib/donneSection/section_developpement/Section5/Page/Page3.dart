@@ -46,7 +46,7 @@ Pages page35() {
      
       ImageDescription(
         id: 7,  bg: 0xFFFFE4E1,
-        description:"Lorsque mon enfant n’arrive pas à : ",
+        description:"Si mon enfant n’arrive pas à faire ce qu’il faisait avant : ",
            
         image: "",
       ),ImageDescription(

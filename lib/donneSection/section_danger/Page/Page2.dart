@@ -38,7 +38,7 @@ Pages page2() {
       ImageDescription(
         id: 6,
         position: '3',
-        description: "Convulsions",
+        description: "Convulsions (perte de connaissance )",
         image: "images/danger/image7.png",
       ),
       ImageDescription(

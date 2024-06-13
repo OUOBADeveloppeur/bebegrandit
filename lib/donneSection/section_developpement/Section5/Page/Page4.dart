@@ -43,16 +43,15 @@ Pages page36() {
       ImageDescription(
         id: 6,
          bg: 0xFFFFE4E1,
-        description: '''Lorsque mon enfant : 
-            - cligne des yeux souvent,
-            - se plaint lorsqu’on lui cache un œil,
-            - se protège souvent les yeux à l’aide de sa main pour regarder,
-            - regarde de très près la télé, le livre,
-            louche
-            - a une tache blanche dans l’œil
-            - je veille à ce que mon enfant ne soit en face de l’écran, 
-- a des maux de tête répétées  
-''',
+        description: "Lorsque mon enfant : "
+           " - cligne des yeux souvent,"
+           " - se plaint lorsqu’on lui cache un œil,"
+           " - se protège souvent les yeux à l’aide de sa main pour regarder,"
+            "- regarde de très près la télé, le livre,"
+           " - louche"
+           " - a une tache blanche dans l’œil"
+           " - je veille à ce que mon enfant ne soit en face de l’écran, "
+,
         image: "",
       ),
       ImageDescription(

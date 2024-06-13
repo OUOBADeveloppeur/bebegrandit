@@ -20,8 +20,8 @@ Pages page5() {
       ),
       ImageDescription(
         id: 3,
-        description: "Le moustique en piquant une personne qui"
-         "a les parasites du paludisme aspire le sang infecté. " 
+        description: "Le moustique en piquant une personne qui "
+         "a les parasites du paludisme aspire le sang infecté (qui contient la maladie) . " 
 ,
         image: "",
       ),

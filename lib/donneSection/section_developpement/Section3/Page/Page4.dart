@@ -20,7 +20,7 @@ Pages page18() {
         taille: 0,
         position: '3',
         description:
-            "Dès 7-8 mois, bébé reconnaît les personnes et les objets dans la pièce."
+            "Dès 7-8 mois, bébé reconnaît les personnes et les objets dans la pièce. "
             "Bébé ne peut pas bien voir les objets loin de lui.",
         image: "images/developpement/pag10/ic-02-01.png",
       ),
@@ -59,7 +59,7 @@ Pages page18() {
         taille: 0,
         position: '3',
         description:
-            '''- j'evite d'exposer mon enfant à la lumière vive(écran de télévision,
+            '''- j'évite d'exposer mon enfant à la lumière vive (écran de télévision,
            téléphone, ordinateur, tablette).''',
         image: "",
       ),

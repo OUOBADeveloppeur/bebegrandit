@@ -30,7 +30,7 @@ Pages page21() {
         id: 4,
         position: '3',
         description:
-            "Mon enfant s’intéresse aux formes et à la taille des objets."
+            "Mon enfant s’intéresse aux formes et à la taille des objets. "
             "Dès 9-10 mois, mon enfant attrape des objets avec ses doigts." 
         ,
         image: "images/developpement/pag23/ic-03-01.png",

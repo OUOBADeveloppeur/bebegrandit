@@ -34,7 +34,7 @@ Pages page29() {
       ImageDescription(
         id: 5, position: '3',
         description:
-            "Si je ne comprends pas ce que mon enfant dit, je lui pose des questions simples.",
+            "Si je ne comprends pas ce que mon enfant dit, je lui pose des questions simples. ",
         image: "images/developpement/image45.png",
       ),
       ImageDescription(

@@ -41,12 +41,12 @@ Pages page41() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
-        bg: 0xFFFFE4E1,
+        id: 4, position: '5',texte: 900, bg: 0xFFFFE4E1,
         description:
             "Lorsque mon enfant ne fait pas la différence entre les goûts,",
         image: "images/developpement/pag9/ic-06-01.png",
       ),
+      
       ImageDescription(
         id: 5,texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         position: '3',

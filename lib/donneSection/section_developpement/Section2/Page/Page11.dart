@@ -34,14 +34,14 @@ Pages page14() {
         description:
             "Je peux prendre mon enfant dans mes bras, ou je lui parle doucement, "
             "j’échange un regard avec lui, je lui fais des caresses. ",
-        image: "images/developpement/pag16/ic-03-01.png",
+        image: "images/developpement/pag16/ic-04-01.png",
       ),
       ImageDescription(
         id: 5,
         position: '3',taille: 0,
         description:"Je lui donne le sein,"
             "je l’encourage en lui disant des mots comme «Bravo!», «Félicitations!».",
-        image: "images/developpement/pag16/ic-04-01.png",
+        image: "images/developpement/pag16/ic-03-01.png",
       ),
       ImageDescription(
         id: 6,

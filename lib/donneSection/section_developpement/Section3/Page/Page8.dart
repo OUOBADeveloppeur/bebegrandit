@@ -32,8 +32,8 @@ Pages page22() {
         id: 3, position: '3',
         description:
             "Mon enfant commence à faire une distinction entre les personnes qu’il "
-            "connaît et les personnes inconnues."
-            "Il réagit quand il est séparé de sa maman ou quand il la retrouve.",
+            "connaît et les personnes inconnues. "
+            "Il réagit quand il est séparé de sa maman ou quand il la retrouve. ",
         image: "images/developpement/pag24/ic-03-01.png",
       ),
       ImageDescription(
@@ -44,7 +44,7 @@ Pages page22() {
       ImageDescription(
         id: 5, position: '3',
         description: 
-            "Je manifeste les différentes émotions comme la joie,"
+            "Je manifeste les différentes émotions comme la joie, "
             " la colère ou la peur selon les situations qui se présentent.",
         image: "",
       ),
@@ -56,8 +56,8 @@ Pages page22() {
          ImageDescription(
         id: 7, position: '6', bg: 0xFFFFE4E1,
         description: " Lorsque mon enfant : "
-            '''- ne réagit pas quand il me retrouve ou qu’il est séparé de moi, 
-            - ne réagit pas à mes émotions, ''',
+          "- ne réagit pas quand il me retrouve ou qu’il est séparé de moi, "
+           " - ne réagit pas à mes émotions, ",
         image: "",
       ),
       ImageDescription(

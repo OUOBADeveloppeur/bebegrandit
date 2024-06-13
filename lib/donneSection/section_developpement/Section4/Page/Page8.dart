@@ -32,7 +32,7 @@ Pages page30() {
             "Je mets des objets que mon enfant connait dans un sac. "
                 "Je lui demande de mettre sa main dedans et essayer "
                 " de reconnaitre les objets qui sont dans le sac. "
-                "Je lui fais toucher les différentes parties du corps et des objets chauds et froids.",
+                "Je lui fais toucher les différentes parties du corps et des objets chauds et froids. ",
         image: "",
       ),
      
@@ -50,7 +50,7 @@ Pages page30() {
       ),
       ImageDescription(
         id: 7, position: '3',texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
-        description: "je l’emmène au centre de santé.",
+        description: "je l’emmène au centre de santé. ",
         image: "images/developpement/pag9/ic-05-01.png",
       ),
       

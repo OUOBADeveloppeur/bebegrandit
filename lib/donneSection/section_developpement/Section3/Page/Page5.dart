@@ -42,14 +42,14 @@ Pages page19() {
       ImageDescription(
           id: 6,
           position: '3',
-          description: "  Je montre à mon enfant des parties du corps"
+          description: "  Je montre à mon enfant des parties du corps "
               "et des objets en les nommant et en les touchant.",
           image: ""),
       ImageDescription(
         id: 7,
         position: '3',
         description:
-            "j'evite de souffler ou d'introduire des objets dans l'oreil de mon enfant",
+            "j'évite de souffler ou d'introduire des objets dans l'oreille de mon enfant",
         image: "images/developpement/pag21/ic-04-01.png",
       ),
       ImageDescription(
@@ -63,19 +63,28 @@ Pages page19() {
         position: '6',
         description: 
        " Lorsque mon enfant :"
-      '''- ne réagit pas aux bruits, 
-      ''',
+     
+      ,
         image: "",
       ),
        ImageDescription(
         id: 10, bg: 0xFFFFE4E1,
         position: '6',
         description: 
+      
+      "- ne réagit pas aux bruits, "
+      ,
+        image: "",
+      ),
+       ImageDescription(
+        id: 11, bg: 0xFFFFE4E1,
+        position: '6',
+        description: 
        " - n’imite pas les sons",
         image: "",
       ),
       ImageDescription(
-        id: 11,texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
+        id: 12,texte: 900,color: 0xFFFF0000, bg: 0xFFFFE4E1,
         position: '3',
         description: "je l’emmène au centre de santé.",
         image: "images/developpement/pag9/ic-05-01.png",
