@@ -45,9 +45,9 @@ Pages page39() {
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 5, lien: ' https://www.youtube.com/watch?v=__O6RAjyJpg',
         description:
-            "Cliquer sur le lien pour suivre la démonstration (vidéo)  ",
+            " ",
         image: "",
       )
     ],

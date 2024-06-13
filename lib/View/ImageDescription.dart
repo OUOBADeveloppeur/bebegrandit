@@ -51,7 +51,7 @@ class ImageDescription1 extends StatefulWidget {
                           );
                         },
                              child: Text( textAlign: TextAlign.justify,
-                              'cliquez ici',
+                              'Cliquer sur le lien pour suivre la démonstration (vidéo) ',
                               style: TextStyle(
                                 // Texte gras si "texte" est défini
                                 fontSize: 18,
