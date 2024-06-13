@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bebegrandi/Model/page.dart';
+import 'package:widget_zoom/widget_zoom.dart';
 
 import 'lien.dart'; // Assurez-vous que ce chemin est correct
 
@@ -382,7 +383,9 @@ class ImageDescription1 extends StatefulWidget {
               flex: 2,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
-                child: taille == 0
+                child: WidgetZoom(
+          heroAnimationTag: 'tag',
+          zoomWidget:taille == 0
                     ? Image.asset(
                         imagePath,
                         width: 150,
@@ -395,7 +398,8 @@ class ImageDescription1 extends StatefulWidget {
                         width: imageWidth,
                         height: imageHeight,
                         fit: BoxFit.contain,
-                      ),
+                      ) ,)
+               /* ,*/
               ),
             ),
         ],
