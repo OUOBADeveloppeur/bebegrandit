@@ -20,40 +20,57 @@ Pages page11() {
       ),
       ImageDescription(
         id: 2,
-        description: '''Un manque de vitamine A peut entraîner :
-           - une cécité nocturne (l'enfant ne voit pas la nuit); 
-            - un retard de croissance ; 
-            - la survenue fréquente de maladies chez l'enfant.''',
+        description: "Un manque de vitamine A peut entraîner :",
         image: "",
       ),
-      ImageDescription(
+    
+        ImageDescription(
         id: 3,
+        description: 
+          " - une cécité nocturne (l'enfant ne voit pas la nuit); ",
+           
+        image: "",
+      ),  ImageDescription(
+        id: 4,
+        description:
+            "- un retard de croissance ; "
+           ,
+        image: "",
+      ),  ImageDescription(
+        id: 5,
+        description: 
+           " - la survenue fréquente de maladies chez l'enfant.",
+        image: "",
+      ),
+    
+      ImageDescription(
+        id: 6,
         description:
             "Pour éviter cela, mon enfant doit recevoir de la vitamine A dès l’âge de 6 mois et jusqu’à 5 ans. ",
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 7,
         description:
             "La supplémentation en vitamine A se fait tous les 6 mois. ",
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 8,
         position: '3',
         description:
             "De 6 à 11 mois, mon enfant doit recevoir une capsule de couleur bleu. ",
         image: "images/suivi-croissance/image23.jpeg",
       ),
       ImageDescription(
-        id: 6,
+        id: 9,
         position: '3',
         description:
             "De 1 à 5 ans, mon enfant doit recevoir une capsule de couleur rouge. ",
         image: "images/suivi-croissance/image24.jpeg",
       ),
       ImageDescription(
-        id: 7,
+        id: 10,
         description:
             "Je dois veiller à ce que mon enfant reçoive la vitamine A tous les 6 mois, pour bien grandir, "
             "bien voir et se protéger contre les maladies. ",
