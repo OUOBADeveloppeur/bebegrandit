@@ -13,7 +13,12 @@ class ImageDescription1 extends StatefulWidget {
   State<ImageDescription1> createState() => _ImageDescriptionState();
 
   Widget _buildTextOnly(String text,
-      {int? color, String? position, int? taille, int? texte, int? bg, String?lien}) {
+      {int? color,
+      String? position,
+      int? taille,
+      int? texte,
+      int? bg,
+      String? lien}) {
     return Container(
       color: color != null ? Color(bg!) : Colors.black,
       child: Padding(
@@ -35,35 +40,35 @@ class ImageDescription1 extends StatefulWidget {
                       color: color != null ? Color(color) : Colors.black,
                     ),
                   ),
-                  if(lien==null)
+                  if (lien == null)
                     Text('')
-                   else 
-                   Builder(
-                      builder: (context) {
-                        return TextButton(onPressed: ()
-                        {
+                  else
+                    Builder(builder: (context) {
+                      return TextButton(
+                        onPressed: () {
                           // Dans votre gestionnaire de navigation ou dans un autre endroit approprié
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => VideoPlayerScreen(videoUrl: lien ?? ''),
+                              builder: (context) =>
+                                  VideoPlayerScreen(videoUrl: lien ?? ''),
                             ),
                           );
                         },
-                             child: Text( textAlign: TextAlign.justify,
-                              'Cliquer sur le lien pour suivre la démonstration (vidéo) ',
-                              style: TextStyle(
-                                // Texte gras si "texte" est défini
-                                fontSize: 18,
-                                //taille==0? 18:12,
-                                fontWeight:
-                                texte != null ? FontWeight.bold : FontWeight.normal,
-                                color: Colors.blue
-                              ),),
-                              
-                              );
-                      }
-                  ),
+                        child: Text(
+                          textAlign: TextAlign.justify,
+                          'Cliquer sur le lien pour suivre la démonstration (vidéo) ',
+                          style: TextStyle(
+                              // Texte gras si "texte" est défini
+                              fontSize: 18,
+                              //taille==0? 18:12,
+                              fontWeight: texte != null
+                                  ? FontWeight.bold
+                                  : FontWeight.normal,
+                              color: Colors.blue),
+                        ),
+                      );
+                    }),
                 ],
               ),
             ),
@@ -153,7 +158,7 @@ class ImageDescription1 extends StatefulWidget {
     );
   }
   //-------------------------------- bouton lien---------------------
-  Widget _buildlien(String lien, String description,
+  /* Widget _buildlien(String lien, String description,
       {int? color,
         int? bg,
         String? position,
@@ -204,7 +209,7 @@ class ImageDescription1 extends StatefulWidget {
       ),
     );
   }
-
+*/
 
   //---------------------------- fin lien------------------
 
@@ -219,29 +224,22 @@ class ImageDescription1 extends StatefulWidget {
       int? texte}) {
     return Container(
       //
+    
       color: color != null ? Color(bg!) : Colors.black,
 
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.,
         children: [
           if (description != null && description.isNotEmpty)
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
-              child: Column(
-                children: [
-                  Text(
-                    textAlign: TextAlign.justify,
-                    description,
-                    style: TextStyle(
-                      // Texte gras si "texte" est défini
-                      fontSize: 18,
-                      //taille==0? 18:12,
-                      fontWeight:
-                          texte != null ? FontWeight.bold : FontWeight.normal,
-                      color: color != null ? Color(color) : Colors.black,
-                    ),
-                  ),
-                ],
+            Text(
+              textAlign: TextAlign.justify,
+              description,
+              style: TextStyle(
+                // Texte gras si "texte" est défini
+                fontSize: 18,
+                //taille==0? 18:12,
+                fontWeight: texte != null ? FontWeight.bold : FontWeight.normal,
+                color: color != null ? Color(color) : Colors.black,
               ),
             ),
           if (imagePath.isNotEmpty)
@@ -256,7 +254,7 @@ class ImageDescription1 extends StatefulWidget {
                     imagePath,
                     width: imageWidth,
                     height: imageHeight,
-                    fit: BoxFit.contain,
+                    fit: BoxFit.cover,
                   ),
         ],
       ),
@@ -417,25 +415,26 @@ class ImageDescription1 extends StatefulWidget {
             Expanded(
               flex: 2,
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
-                child: WidgetZoom(
-          heroAnimationTag: 'tag',
-          zoomWidget:taille == 0
-                    ? Image.asset(
-                        imagePath,
-                        width: 150,
+                  padding: EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+                  child: WidgetZoom(
+                    heroAnimationTag: 'tag',
+                    zoomWidget: taille == 0
+                        ? Image.asset(
+                            imagePath,
+                            width: 150,
 
-                        //height: 0,
-                        fit: BoxFit.contain,
-                      )
-                    : Image.asset(
-                        imagePath,
-                        width: imageWidth,
-                        height: imageHeight,
-                        fit: BoxFit.contain,
-                      ) ,)
-               /* ,*/
-              ),
+                            //height: 0,
+                            fit: BoxFit.contain,
+                          )
+                        : Image.asset(
+                            imagePath,
+                            width: imageWidth,
+                            height: imageHeight,
+                            fit: BoxFit.contain,
+                          ),
+                  )
+                  /* ,*/
+                  ),
             ),
         ],
       ),
@@ -513,7 +512,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
     int? bg,
     String? position,
     int? texte,
-    String ?lien,
+    String? lien,
     bool isImageFirst = true,
     bool isImageOnTop = true,
   }) {
@@ -576,8 +575,8 @@ class _ImageDescriptionState extends State<ImageDescription1> {
         break;
       case '4':
         imageWidget = widget._buildTextTopImageBottom(imagePath, description,
-         // imageHeight: MediaQuery.sizeOf(context).height*0.1,
-           // imageWidth: MediaQuery.sizeOf(context).width * 0.9,
+            // imageHeight: MediaQuery.sizeOf(context).height*0.1,
+            // imageWidth: MediaQuery.sizeOf(context).width * 0.9,
             color: color ?? defaultColor,
             bg: bg ?? bgColor,
             taille: taille ?? 1,
@@ -594,7 +593,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             imageWidth: MediaQuery.of(context).size.width * 0.04,
             color: color ?? defaultColor,
             position: position,
-          
             texte: texte);
         print(imagePath.length);
         break;
@@ -803,17 +801,15 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                   //  ),
                 ),
               ],
-              
             )
-       else
+          else
             widget._buildTextOnly(description,
                 color: color ?? defaultColor,
                 taille: taille ?? 1,
                 position: position,
                 texte: texte,
-                lien:lien ,
+                lien: lien,
                 bg: bg ?? bgColor)
-
 
         // SizedBox(height: 2), // Ajout d'un SizedBox avec une hauteur nulle
       ],
