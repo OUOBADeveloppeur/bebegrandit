@@ -7,26 +7,22 @@ Pages page2() {
     titre: "Developpement normal",
     imageDescription: [
       ImageDescription(
-        id: 0,position: '0',
+        id: 0,
+        position: '0',
         texte: 900,
         description: "Introduction",
         image: "",
       ),
       ImageDescription(
         id: 1,
+        position: "1",
         description: "Après la naissance, l’enfant commence à grandir.",
-        image: "",
-      ),
-      ImageDescription(
-        id: 2,
-        position: '1',
-        description: "",
         image: "images/developpement/pag5.png",
       ),
-    ImageDescription(
+      
+      ImageDescription(
         id: 3,
-       
-        description: 
+        description:
             " Dans les premiers mois, il garde la position qu'il avait dans le ventre de sa mère. "
             "Puis au fil des mois, il commence à tenir sa tête, son tronc puis à se déplacer.",
         image: "",

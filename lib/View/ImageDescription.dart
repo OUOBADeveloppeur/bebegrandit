@@ -224,11 +224,12 @@ class ImageDescription1 extends StatefulWidget {
       int? texte}) {
     return Container(
       //
-    
+
       color: color != null ? Color(bg!) : Colors.black,
 
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.,
+        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
         children: [
           if (description != null && description.isNotEmpty)
             Text(
@@ -244,17 +245,74 @@ class ImageDescription1 extends StatefulWidget {
             ),
           if (imagePath.isNotEmpty)
             taille == 0
-                ? Image.asset(
-                    imagePath,
-                    width: 150,
-                    // height: imageHeight,
-                    fit: BoxFit.contain,
+                ? Container(
+                    child: Image.asset(
+                      imagePath,
+                      width: 150,
+                      // height: imageHeight,
+                      fit: BoxFit.contain,
+                    ),
                   )
-                : Image.asset(
-                    imagePath,
-                    width: imageWidth,
-                    height: imageHeight,
-                    fit: BoxFit.cover,
+                : Container(
+                    child: Image.asset(
+                      imagePath,
+                      width: imageWidth,
+                      height: imageHeight,
+                      fit: BoxFit.fill,
+                    ),
+                  ),
+        ],
+      ),
+    );
+  }
+
+/*    image simple  */
+  Widget _buildTextTopImageBottom1(String imagePath, String description,
+      {int? color,
+      int? bg,
+      String? position,
+      int? taille,
+      double? imageWidth,
+      double? imageHeight,
+      int? texte}) {
+    return Container(
+      //
+
+      color: color != null ? Color(bg!) : Colors.black,
+
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          /* if (description != null && description.isNotEmpty)
+            Text(
+              textAlign: TextAlign.justify,
+              description,
+              style: TextStyle(
+                // Texte gras si "texte" est défini
+                fontSize: 18,
+                //taille==0? 18:12,
+                fontWeight: texte != null ? FontWeight.bold : FontWeight.normal,
+                color: color != null ? Color(color) : Colors.black,
+              ),
+            ),*/
+          if (imagePath.isNotEmpty)
+            taille == 0
+                ? Container(
+                    child: Image.asset(
+                      imagePath,
+                      width: 150,
+                      // height: imageHeight,
+                      fit: BoxFit.contain,
+                    ),
+                  )
+                : Container(
+                    child: Image.asset(
+                      imagePath,
+                      width: imageWidth,
+                      height: imageHeight,
+                      fit: BoxFit.fill,
+                    ),
                   ),
         ],
       ),
@@ -278,19 +336,22 @@ class ImageDescription1 extends StatefulWidget {
           if (imagePath.isNotEmpty)
             Expanded(
               flex: 2,
-              child: taille == 0
-                  ? Image.asset(
-                      imagePath,
-                      width: 150,
-                      //height: 500,
-                      fit: BoxFit.contain,
-                    )
-                  : Image.asset(
-                      imagePath,
-                      width: imageWidth,
-                      height: imageHeight,
-                      fit: BoxFit.contain,
-                    ),
+              child: WidgetZoom(
+                heroAnimationTag: 'tag',
+                zoomWidget: taille == 0
+                    ? Image.asset(
+                        imagePath,
+                        width: 150,
+                        //height: 500,
+                        fit: BoxFit.contain,
+                      )
+                    : Image.asset(
+                        imagePath,
+                        width: imageWidth,
+                        height: imageHeight,
+                        fit: BoxFit.contain,
+                      ),
+              ),
             ),
           if (description != null && description.isNotEmpty)
             Expanded(
@@ -596,6 +657,17 @@ class _ImageDescriptionState extends State<ImageDescription1> {
             texte: texte);
         print(imagePath.length);
         break;
+      case '6':
+        imageWidget = widget._buildTextTopImageBottom1(imagePath, description,
+            // imageHeight: MediaQuery.sizeOf(context).height*0.1,
+            // imageWidth: MediaQuery.sizeOf(context).width * 0.9,
+            color: color ?? defaultColor,
+            bg: bg ?? bgColor,
+            taille: taille ?? 1,
+            position: position,
+            texte: texte);
+        print(imagePath.length);
+        break;
 
       default:
         // Gérer d'autres valeurs de position au besoin
@@ -609,35 +681,32 @@ class _ImageDescriptionState extends State<ImageDescription1> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         if (shouldDisplayImage && position == '1')
-          if (isImageFirst)
-            Container(
-              //  color: Colors.red,
-              //child: SizedBox(
-              // Taille fixe pour les images
-              // height: 360, // Hauteur fixe pour l'image
-              child: imageWidget,
-              // ),
-            ) /*,
-          if (position=='1')
-            SizedBox(
-              // Taille fixe pour les images
-              height: 356, // Hauteur fixe pour l'image
-              child: imageWidget,
-            )*/
-          else
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Flexible(
-                  flex: 2,
-                  //child: Container(
-                  //  alignment: Alignment.bottomCenter,
-                  child: SizedBox(height: 300, child: imageWidget),
-                  //  ),
-                ),
-              ],
-            ),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Flexible(
+                flex: 2,
+                //child: Container(
+                //  alignment: Alignment.bottomCenter,
+                child: imageWidget,
+                //  ),
+              ),
+            ],
+          ),
         if (shouldDisplayImage && position == '4')
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              Flexible(
+                flex: 2,
+
+                child: imageWidget,
+                //  ),
+              ),
+            ],
+          ),
+        /*  position*/
+        if (shouldDisplayImage && position == '6')
           if (isImageFirst)
             //  Container(
             // color: Colors.blue,
@@ -647,14 +716,6 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                   .height, // Hauteur fixe pour l'image
               child: imageWidget,
             )
-          //  )
-          /*,
-          if (position=='1')
-            SizedBox(
-              // Taille fixe pour les images
-              height: 356, // Hauteur fixe pour l'image
-              child: imageWidget,
-            )*/
           else
             Row(
               crossAxisAlignment: CrossAxisAlignment.end,

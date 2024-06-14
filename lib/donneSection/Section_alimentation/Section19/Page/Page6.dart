@@ -7,15 +7,15 @@ Pages page15() {
     titre: "Allaitement exclusif de 0 à 6 mois",
     imageDescription: [
       ImageDescription(
-        id: 1,texte: 900,
+        id: 1,
+        texte: 900,
         description: "Bonnes positions pour allaiter",
         image: "",
       ),
-       ImageDescription(
+      ImageDescription(
         id: 2,
         texte: 900,
-        description: "Position assise : "
-,
+        description: "Position assise : ",
         image: "",
       ),
       ImageDescription(
@@ -29,33 +29,30 @@ Pages page15() {
 ''',
         image: "images/alimentation/image20.png",
       ),
-       ImageDescription(
-        id: 4,texte: 900,
-        description: "Position allongée sur le côté : "
-            ,
+      ImageDescription(
+        id: 4,
+        texte: 900,
+        description: "Position allongée sur le côté : ",
         image: "",
       ),
       ImageDescription(
         id: 5,
-        description: 
+        description:
             '''- Je m’allonge sur le côté et ma tête reposant sur un coussin ;
             - Je tourne mon visage  vers mon enfant qui est bien collé à moi ;''',
         image: "",
       ),
       ImageDescription(
         id: 6,
-        position: '4',
         description:
             "- Je place sa tête face à  mon sein et sa bouche en contact avec mon mamelon (bout du sein) "
-            " pour qu’il puisse bien téter ;"
-           ,
+            " pour qu’il puisse bien téter ;",
         image: "",
       ),
-       ImageDescription(
-        id: 7,taille: 0,
+      ImageDescription(
+        id: 7,
         position: '4',
         description:
-          
             "- Mon bras supérieur aide à maintenir mon enfant collé à moi.",
         image: "images/alimentation/image19.png",
       ),

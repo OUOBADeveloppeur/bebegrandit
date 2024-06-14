@@ -21,38 +21,24 @@ Pages page34() {
       ),
       ImageDescription(
         id: 2,
+        position: '4',
         description: "- Après l’utilisation des latrines ; ",
-        image: "",
-      ),
-      ImageDescription(
-        id: 2,
-        position: '1',
-        description: "",
         image: "images/alimentation/image28.png",
       ),
+      
       ImageDescription(
         id: 3,
+        position: '4',
         description: "- Après chaque contact avec les selles de mon enfant ;",
-        image: "",
-      ),
-      ImageDescription(
-        id: 4,
-        position: '1',
-        description: "",
         image: "images/alimentation/image29.png",
       ),
       ImageDescription(
-        id: 5,
+        id: 4,
         position: '4',
         description: "- Avant de préparer le repas ;",
-        image: "",
-      ),
-      ImageDescription(
-        id: 5,
-        position: '1',
-        description: "",
         image: "images/alimentation/image30.png",
       ),
+     
     ],
   );
 }
