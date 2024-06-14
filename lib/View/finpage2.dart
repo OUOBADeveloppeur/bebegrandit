@@ -81,7 +81,7 @@ class _PageFin2State extends State<PageFin2> {
                   SizedBox(width: 16),
                   Expanded(
                     child: imageTextWidget(
-                        'images/pagefin/image3.png', 'Incub@UO'),
+                        'images/pagefin/incub.png', ''),
                   ),
                 ],
               ),

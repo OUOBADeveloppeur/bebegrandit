@@ -43,7 +43,8 @@ Pages page34() {
       ),
       ImageDescription(
         id: 6,
-        description: "Cliquer sur le lien pour suivre la démonstration (vidéo)",
+        description: "",
+        lien: "https://www.youtube.com/watch?v=__O6RAjyJpg",
         image: "",
       ),
       ImageDescription(
@@ -54,7 +55,8 @@ Pages page34() {
       ),
       ImageDescription(
         id: 8,
-        description: "Cliquer sur le lien pour suivre la démonstration (vidéo)"
+        description: "",
+        lien: "https://www.youtube.com/watch?v=EFETzsVY9iI"
 ,
         image: "",
       ),

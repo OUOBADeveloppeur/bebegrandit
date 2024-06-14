@@ -8,15 +8,15 @@ Pages page33() {
     imageDescription: [
       ImageDescription(
         id: 1,
-       texte: 900,
-        description: "Que faire pour éviter l’étouffement et la suffocation ? 1/3" 
-,
+        texte: 900,
+        description:
+            "Que faire pour éviter l’étouffement et la suffocation ? 1/3",
         image: "",
       ),
       ImageDescription(
-        id: 2,texte: 900,
-        description: "Enfant de 0-12 mois"
-,
+        id: 2,
+        texte: 900,
+        description: "Enfant de 0-12 mois",
         image: "",
       ),
       ImageDescription(
@@ -34,16 +34,18 @@ Pages page33() {
       ),
       ImageDescription(
         id: 5,
-       texte: 900,color: 0xFFFF0000,
+        texte: 900,
+        color: 0xFFFF0000,
         description:
-            "J’appelle les secours ou je me rends rapidement au centre de santé. "
-,
+            "J’appelle les secours ou je me rends rapidement au centre de santé. ",
         image: "",
       ),
-       ImageDescription(
+      ImageDescription(
         id: 6,
-        position: '1',texte: 900,color: 0xFFFF0000,
-        description:"",
+        position: '1',
+        texte: 900,
+        color: 0xFFFF0000,
+        description: "",
         image: "images/accidents/image43.png",
       ),
       ImageDescription(
@@ -51,10 +53,11 @@ Pages page33() {
         description:
             "Pour aider mon enfant à débloquer sa respiration en attendant les secours, je pose les gestes suivants :",
         image: "",
-      ), ImageDescription(
+      ),
+      ImageDescription(
         id: 8,
-        description:"Cliquer sur le lien pour suivre la démonstration (vidéo) "
-,
+        description: "",
+        lien: "https://www.youtube.com/watch?v=irVoTcK4js4",
         image: "",
       )
     ],

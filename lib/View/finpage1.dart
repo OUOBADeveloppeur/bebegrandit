@@ -33,13 +33,15 @@ with AutomaticKeepAliveClientMixin<PageFin1> {
             child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'Bravo aux Parents',
-                  textAlign: TextAlign.justify,
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(235, 0, 0, 0),
-                    fontSize: 30,
+                Center(
+                  child: Text(
+                    'Bravo aux Parents',
+                    textAlign: TextAlign.justify,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(235, 0, 0, 0),
+                      fontSize: 30,
+                    ),
                   ),
                 ),
                 SizedBox(height: 20),
