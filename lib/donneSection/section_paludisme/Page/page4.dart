@@ -13,7 +13,7 @@ Pages page4() {
       ),
       ImageDescription(
         id: 2,
-       
+      
         description:
             "Lorsque mon enfant présente un ou plusieurs signes du paludisme, je l’amène rapidement dans "
            " le centre de santé le plus proche ou chez l’agent de santé à base communautaire. ",

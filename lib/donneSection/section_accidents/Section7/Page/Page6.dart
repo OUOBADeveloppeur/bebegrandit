@@ -43,8 +43,9 @@ Pages page34() {
       ),
       ImageDescription(
         id: 6,
-        description: "",
-        lien: "https://www.youtube.com/watch?v=__O6RAjyJpg",
+      
+        lien: "https://www.youtube.com/watch?v=EFETzsVY9iI",
+          description: ".",
         image: "",
       ),
       ImageDescription(
@@ -55,9 +56,10 @@ Pages page34() {
       ),
       ImageDescription(
         id: 8,
-        description: "",
-        lien: "https://www.youtube.com/watch?v=EFETzsVY9iI"
+        lien: "https://www.youtube.com/watch?v=irVoTcK4js4"
 ,
+        description: ".",
+        
         image: "",
       ),
       ImageDescription(
