@@ -46,18 +46,13 @@ Pages page44() {
       ),
       ImageDescription(
         id: 6,texte: 900,color: 0xFFFF0000,
-       
+       position: '4',
         description:
             "Dans tous les cas, j’emmène mon enfant au centre de santé." 
 ,
-        image: "",
-      ),
-      ImageDescription(
-        id: 7,
-        position: "1",
-        description: "",
         image: "images/accidents/image43.png",
-      )
+      ),
+     
     ],
   );
 }

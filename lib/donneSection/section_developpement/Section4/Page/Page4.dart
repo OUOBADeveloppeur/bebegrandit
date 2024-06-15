@@ -47,7 +47,7 @@ Pages page26() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
      ImageDescription(
-        id: 8, position: '6', bg: 0xFFFFE4E1,
+        id: 8, bg: 0xFFFFE4E1,
         description: ''' Lorsque mon enfant :
             - se cogne partout et s’oriente mal,"
             - est sensible à la lumière,"

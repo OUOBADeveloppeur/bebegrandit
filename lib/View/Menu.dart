@@ -194,10 +194,10 @@ class _MenusState extends State<Menus>
         color: Colors.transparent,
         child: Container(
           //decoration: BoxDecoration(
-           // color:
-              //  Colors.white, // Couleur de fond transparente
-           // borderRadius: BorderRadius.circular(30), // Bord arrondi
-         // ),
+          // color:
+          //  Colors.white, // Couleur de fond transparente
+          // borderRadius: BorderRadius.circular(30), // Bord arrondi
+          // ),
           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           child: Text(
             "${widget.pageIndex + 1} /${widget.menu.section![widget.sectionIndex].page!.length}",
@@ -223,13 +223,26 @@ class _MenusState extends State<Menus>
             itemCount == 3; // Vérifiez si la taille de la liste est égale à 3
 
         return AlertDialog(
-          title: Text('Pages du chapitre'),
+         
+          backgroundColor: Colors.white,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text('Pages du chapitre'),
+               Expanded(
+                 child: IconButton(
+                  onPressed: () {
+                    return Navigator.pop(context);
+                  },
+                  icon: Icon(Icons.clear_rounded, color: Colors.red,size: 50,
+                  )),
+               )
+            ],
+          ),
           content: SizedBox(
-            width: MediaQuery.of(context).size.width * 0.6,
+            width: MediaQuery.of(context).size.width * 0.9,
             height: MediaQuery.of(context).size.height *
-                (isSmallList
-                    ? 0.2
-                    : 0.4), // Réduisez la hauteur si la liste est petite
+                0.4, // Réduisez la hauteur si la liste est petite
             child: SingleChildScrollView(
               child: Column(
                 children: [
@@ -258,7 +271,7 @@ class _MenusState extends State<Menus>
                                 },
                                 child: Text(
                                   page.titre,
-                                  style: TextStyle(fontSize: 12),
+                                  style: TextStyle(fontSize: 16),
                                 ),
                               ),
                             ),
@@ -273,7 +286,6 @@ class _MenusState extends State<Menus>
           ),
         );
       },
-      
     );
   }
 
@@ -337,9 +349,7 @@ class _MenusState extends State<Menus>
       } else {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(
-            builder: (context) =>PageFin1()
-          ),
+          MaterialPageRoute(builder: (context) => PageFin1()),
         );
       }
     });
@@ -361,9 +371,7 @@ class _MenusState extends State<Menus>
         // Remplacer la route actuelle par la nouvelle page
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(
-            builder: (context) =>  PageFin1()
-          ),
+          MaterialPageRoute(builder: (context) => PageFin1()),
         );
       }
     });

@@ -118,19 +118,23 @@ class ImageDescription1 extends StatefulWidget {
         children: [
           if (imagePath.isNotEmpty)
             Center(
-              child: taille == 0
-                  ? Image.asset(
-                      imagePath,
-                      width: 150,
-                      // height: imageHeight,
-                      fit: BoxFit.contain,
-                    )
-                  : Image.asset(
-                      imagePath,
-                      width: imageWidth,
-                      height: imageHeight,
-                      fit: BoxFit.contain,
-                    ),
+              child: WidgetZoom(
+                heroAnimationTag: 'tag',
+                    zoomWidget
+                : taille == 0
+                    ? Image.asset(
+                        imagePath,
+                        width: 150,
+                        // height: imageHeight,
+                        fit: BoxFit.contain,
+                      )
+                    : Image.asset(
+                        imagePath,
+                        width: imageWidth,
+                        height: imageHeight,
+                        fit: BoxFit.contain,
+                      ),
+              ),
             ),
           if (description != null && description.isNotEmpty)
             Padding(
@@ -244,23 +248,27 @@ class ImageDescription1 extends StatefulWidget {
               ),
             ),
           if (imagePath.isNotEmpty)
-            taille == 0
-                ? Container(
-                    child: Image.asset(
-                      imagePath,
-                      width: 150,
-                      // height: imageHeight,
-                      fit: BoxFit.contain,
+            WidgetZoom(
+              heroAnimationTag: 'tag',
+                    zoomWidget
+            : taille == 0
+                  ? Container(
+                      child: Image.asset(
+                        imagePath,
+                        width: 150,
+                        // height: imageHeight,
+                        fit: BoxFit.contain,
+                      ),
+                    )
+                  : Container(
+                      child: Image.asset(
+                        imagePath,
+                        width: imageWidth,
+                        height: imageHeight,
+                        fit: BoxFit.fill,
+                      ),
                     ),
-                  )
-                : Container(
-                    child: Image.asset(
-                      imagePath,
-                      width: imageWidth,
-                      height: imageHeight,
-                      fit: BoxFit.fill,
-                    ),
-                  ),
+            ),
         ],
       ),
     );
@@ -895,7 +903,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                 child: Center(
                   child: Column(
                     children: [
-                      if (imageDescription.position == '1')
+                     // if (imageDescription.position == '1')
                         Column(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
@@ -924,7 +932,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                           ],
                         ),
                       //---------position==2-----------------
-                      if (widget.page1.imageDescription[index].position == '2')
+                    /*  if (widget.page1.imageDescription[index].position == '2')
                         Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -951,7 +959,7 @@ class _ImageDescriptionState extends State<ImageDescription1> {
                                 fit: BoxFit.contain,
                               ),
                           ],
-                        ),
+                        ),*/
                     ],
                   ),
                 ),

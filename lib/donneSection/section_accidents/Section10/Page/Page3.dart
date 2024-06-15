@@ -26,7 +26,7 @@ Pages page49() {
       ),
       ImageDescription(
         id: 3,
-        position: '3',
+        position: '4',
         description: "- je fais porter à mon enfant des chaussures ; "
             "- j’explique à mon enfant qu’il peut se piquer ou se couper en marchant pieds nus",
         image: "images/accidents/image56.png",

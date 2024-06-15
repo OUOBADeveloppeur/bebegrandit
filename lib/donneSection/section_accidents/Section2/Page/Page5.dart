@@ -50,7 +50,7 @@ Pages page6() {
       ),
       ImageDescription(
         id: 6,
-        position: '6',
+  
         description:
             " Je ne dois pas masser les gonflements car ils  peuvent cacher une fracture.",
         image: "",

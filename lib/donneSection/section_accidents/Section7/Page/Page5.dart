@@ -34,20 +34,13 @@ Pages page33() {
       ),
       ImageDescription(
         id: 5,
-        texte: 900,
+        texte: 900,position: '4',
         color: 0xFFFF0000,
         description:
             "J’appelle les secours ou je me rends rapidement au centre de santé. ",
-        image: "",
-      ),
-      ImageDescription(
-        id: 6,
-        position: '1',
-        texte: 900,
-        color: 0xFFFF0000,
-        description: "",
         image: "images/accidents/image43.png",
       ),
+      
       ImageDescription(
         id: 7,
         description:
@@ -58,7 +51,7 @@ Pages page33() {
         id: 8,
         lien: "https://www.youtube.com/watch?v=cDmo182X-LI",
         description: ".",
-        
+
         image: "",
       )
     ],

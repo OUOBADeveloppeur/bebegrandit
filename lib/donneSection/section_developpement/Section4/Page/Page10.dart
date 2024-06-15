@@ -46,7 +46,7 @@ Pages page32() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
         ImageDescription(
-        id: 8,  position: '6', bg: 0xFFFFE4E1,
+        id: 8, bg: 0xFFFFE4E1,
         description: " Lorsque mon enfant ne montre pas "
             "des signes d’émotions comme la joie, la colère ou la tristesse,",
         image: "",

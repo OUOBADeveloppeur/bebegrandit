@@ -54,7 +54,7 @@ Pages page22() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
          ImageDescription(
-        id: 7, position: '6', bg: 0xFFFFE4E1,
+        id: 7,  bg: 0xFFFFE4E1,
         description: " Lorsque mon enfant : "
           "- ne réagit pas quand il me retrouve ou qu’il est séparé de moi, "
            " - ne réagit pas à mes émotions, ",

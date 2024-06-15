@@ -20,7 +20,7 @@ Pages page39() {
       ),
       ImageDescription(
         id: 2,
-        position: "1",
+        position: "4",
         description:
             "Je vérifie régulièrement sa respiration, je le couvre et ",
         image: "images/accidents/image49.png",
@@ -34,7 +34,7 @@ Pages page39() {
       ),
       ImageDescription(
         id: 4,texte: 200,
-        position: '1',
+        position: '4',
         description: "L'enfant ne respire pas normalement",
         image: "images/accidents/image43.png",
       ),

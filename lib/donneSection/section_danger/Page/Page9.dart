@@ -29,17 +29,12 @@ Pages page9() {
         image: "",
       ),
       ImageDescription(
-        id: 4,
+        id: 4, position: '4',
         description:
             '''Toux, mal à la gorge, nez bouché ou nez qui coule, mal à la poitrine.''',
-        image: "",
-      ),
-        ImageDescription(
-        id: 5,position: '1',
-        description:
-            '''''',
         image: "images/danger/image43.png",
-      )
+      ),
+       
       
       
     ],

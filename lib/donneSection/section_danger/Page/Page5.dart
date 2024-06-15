@@ -38,18 +38,12 @@ Pages page5() {
       ),
       ImageDescription(
         id: 5,
-
+position: '4',texte: 900,color: 0xFFFF0000,
         description:
             "Je rassure mon enfant et je l’emmène au centre de santé le plus proche. ",
-        image: "",
-      ),
-      ImageDescription(
-        id: 6,
-        position: '1',texte: 900,color: 0xFFFF0000,
-        description:
-            " ",
         image: "images/danger/image21.png",
       ),
+      
     ],
   );
 }

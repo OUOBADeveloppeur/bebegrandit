@@ -63,14 +63,12 @@ Pages page25() {
       ),
          ImageDescription(
         id: 9, bg: 0xFFFFE4E1,
-         position:'6',
         description:
             "- Si mon enfant n’arrive pas à marcher seul autour de 18 mois,",
         image: "",
       ),
         ImageDescription(
         id: 10, bg: 0xFFFFE4E1,
-         position:'6',
         description:
             "- Si mon enfant n’arrive pas à faire ce qu’il faisait avant ; ",
         image: "",

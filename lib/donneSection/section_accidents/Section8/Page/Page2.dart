@@ -20,16 +20,11 @@ Pages page36() {
         image: "",
       ),
       ImageDescription(
-        id: 3,
+        id: 3,position: '4',
         description: "Elle peut mourir par manque d’air. ",
-        image: "",
-      ),
-      ImageDescription(
-        id: 4,
-        position: '1',
-        description: "",
         image: "images/accidents/image45.png",
-      )
+      ),
+     
     ],
   );
 }

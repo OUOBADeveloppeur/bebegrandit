@@ -52,7 +52,7 @@ Pages page37() {
       ),
        ImageDescription(
         id: 7,
-        position: '6', bg: 0xFFFFE4E1,
+       bg: 0xFFFFE4E1,
         description:
             " Lorsque mon enfant entend faiblement ou n’entend pas du tout,",
         image: "",

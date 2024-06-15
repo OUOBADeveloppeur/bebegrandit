@@ -50,14 +50,9 @@ Pages page51() {
         position: '4',
         description: 
             "- des morceaux de verres, de bois ou de fer se trouvent dans la blessure.",
-        image: "",
-      ),
-        ImageDescription(
-        id: 7,
-        position: '1',
-        description: "",
         image: "images/accidents/image59.png",
-      )
+      ),
+       
     ],
   );
 }

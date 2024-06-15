@@ -27,12 +27,7 @@ Pages page31() {
         description: "",
         image: "images/accidents/image40.png",
       ),
-      /*ImageDescription(
-        id: 3,
-        position: '2',
-        description: "",
-        image: "images/accidents/image40.png",
-      ),*/
+     
     ],
   );
 }

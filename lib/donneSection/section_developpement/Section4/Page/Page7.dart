@@ -44,7 +44,7 @@ Pages page29() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
        ImageDescription(
-        id: 7, position: '6', bg: 0xFFFFE4E1,
+        id: 7, bg: 0xFFFFE4E1,
         description:
             ''' Lorsque mon enfant :
 - n’essaie pas de faire des petites phrases,

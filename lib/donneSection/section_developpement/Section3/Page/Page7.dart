@@ -65,7 +65,7 @@ Pages page21() {
       ),
        ImageDescription(
         id: 9, bg: 0xFFFFE4E1,
-  position: '6',
+
         description: "Lorsque mon enfant après 12 mois : "
            ''' - ne saisit pas des objets placés à proximité, 
             - ne s’intéresse pas aux jouets,''',

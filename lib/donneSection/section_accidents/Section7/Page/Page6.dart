@@ -64,7 +64,7 @@ Pages page34() {
       ),
       ImageDescription(
         id: 9,texte: 900,color: 0xFFFF0000,
-        position: "3",
+        position: "4",
         description:
             "J’appelle les secours ou je l’amène rapidement au centre de santé.",
         image: "images/accidents/image43.png",

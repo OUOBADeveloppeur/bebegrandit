@@ -19,21 +19,14 @@ Pages page43() {
       ),
       ImageDescription(
         id: 2,
-        
+        position: '4',
         description:
             "je donne à mon enfant de l'eau potable, de la soupe ou une solution de réhydratation orale"
 "(eau salée et sucrée), de l’eau de riz bouilli."
 ,
-        image: "",
-      ),
-      ImageDescription(
-        id: 3,
-        position: '1',
-        description:""
-            
-,
         image: "images/accidents/image52.png",
-      )
+      ),
+     
     ],
   );
 }

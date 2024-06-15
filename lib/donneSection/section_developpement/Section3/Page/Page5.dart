@@ -60,7 +60,7 @@ Pages page19() {
       ),
       ImageDescription(
         id: 9, bg: 0xFFFFE4E1,
-        position: '6',
+      
         description: 
        " Lorsque mon enfant :"
      
@@ -69,7 +69,7 @@ Pages page19() {
       ),
        ImageDescription(
         id: 10, bg: 0xFFFFE4E1,
-        position: '6',
+       
         description: 
       
       "- ne réagit pas aux bruits, "
@@ -78,7 +78,7 @@ Pages page19() {
       ),
        ImageDescription(
         id: 11, bg: 0xFFFFE4E1,
-        position: '6',
+       
         description: 
        " - n’imite pas les sons",
         image: "",

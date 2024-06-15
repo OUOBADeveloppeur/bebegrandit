@@ -34,8 +34,7 @@ Pages page10() {
       ImageDescription(
         id: 3,
         position: "4",
-        description: '''Pour plus d’informations cliquer sur le lien suivant.
-''',
+        description: '''Pour plus d’informations cliquer sur le lien suivant.''',
         image: "",
       ),
        ImageDescription(

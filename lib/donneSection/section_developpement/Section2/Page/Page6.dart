@@ -68,7 +68,7 @@ Pages page9() {
       ImageDescription(
         id: 8,
         bg: 0xFFFFE4E1,
-        position: '6',
+    
         description:
             "Si mon enfant ne se retourne pas en direction de ma voix ou du bruit,",
         image: "",

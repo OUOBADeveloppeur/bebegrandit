@@ -41,7 +41,7 @@ Pages page27() {
         image: "images/developpement/pag9/ic-06-01.png",
       ),
         ImageDescription(
-        id: 7,  position: '6', bg: 0xFFFFE4E1,
+        id: 7,   bg: 0xFFFFE4E1,
         description: '''Lorsque mon enfant : 
             - ne comprend pas ce que je lui dis, même avec des mots simples,
             - n’est pas attentif aux histoires que je lui raconte''',
