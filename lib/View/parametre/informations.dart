@@ -1,22 +1,23 @@
 import 'package:bebegrandi/View/navDrawer.dart';
+import 'package:bebegrandi/View/parametre/fonctionChamp.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/colors.dart';
 import '../../shared/custom_text.dart';
 
-class Presentation extends StatefulWidget {
-  const Presentation({super.key});
+class Informations extends StatefulWidget {
+  const Informations({super.key});
 
   @override
-  State<Presentation> createState() => _PresentationState();
+  State<Informations> createState() => _InformationsState();
 }
 
-class _PresentationState extends State<Presentation> {
+class _InformationsState extends State<Informations> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title: const Text('Présentation',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+        title: const Text('Informations',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
         centerTitle: true,
         backgroundColor: Colors.white,
         leading: Builder(
@@ -36,12 +37,17 @@ class _PresentationState extends State<Presentation> {
         ),
       ),
       drawer: const NavDrawer(),
-      body: Center(
-        child: CustomText(
-          "Présentation",
-          color: red(),
+      body:  Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            DatePickerField(labelText: 'Select Date'),
+            // Vous pouvez ajouter plus de widgets ici
+          ],
         ),
       ),
     );
   }
 }
+
+

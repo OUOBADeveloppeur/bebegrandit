@@ -102,7 +102,7 @@ class _HomPageWconState extends State<HomPageWcon> {
 
             //----------------------fin scop------------------------
             appBar: AppBar(
-              title: const Text('Menu Principal',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+              title: const Text('Menu principal',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
               centerTitle: true,
              backgroundColor: Colors.white,
               leading: Builder(

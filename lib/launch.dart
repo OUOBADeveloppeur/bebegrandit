@@ -40,6 +40,7 @@ class _LaunchPageState extends State<LaunchPage> {
             decoration: const BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('images/Mon_enfant.png'),
+                //fit: BoxFit.cover,
                 fit: BoxFit.contain, // Affiche toute l'image sans zoom
               ),
             ),
