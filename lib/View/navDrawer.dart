@@ -91,6 +91,7 @@ class _NavDrawerState extends State<NavDrawer> {
                     });
                     Timer(const Duration(microseconds: 100), () {
                       setState(() {
+
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) => const HomPageWcon()));
                       });

@@ -88,7 +88,6 @@ class _DropdownManagerState extends State<DropdownManager> {
           buttonText: 'Contributeurs',
           dropdownBuilder: () => DoubleTextDropdownWidget(
             dropdownItems: [
-              {'circleText': 'MZ', 'title': 'Mohamed ZEBA', 'subtitle': 'Developpeur'},
               {'circleText': 'AS', 'title': 'Adama SAWADOGO', 'subtitle': 'Developpeur'},
               {'circleText': 'DO', 'title': 'Dambo OUOBA', 'subtitle': 'Developpeur'},
               {'circleText': 'DLO', 'title': 'D. David Lucas 1er Jumeau OUEDRAOGO', 'subtitle': 'Developpeur'},
@@ -104,7 +103,7 @@ class _DropdownManagerState extends State<DropdownManager> {
           dropdownBuilder: () => DoubleTextDropdownWidget(
             dropdownItems: [
               {'circleText': 'AS', 'title': 'Dr. Aminata SABANE', 'subtitle': ''},
-              {'circleText': 'TFB', 'title': 'Dr. Tégawendé F. BISSYANDE', 'subtitle': ''}
+              {'circleText': 'MZ', 'title': 'Mohamed ZEBA', 'subtitle': 'Concepteur'},
             ],
           ),
           isVisible: _activeDropdownIndex == 2,
