@@ -17,9 +17,9 @@ class _InformationsState extends State<Informations> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title: const Text('Informations',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+        title: const Text('Informations',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor:  Color(0xFF169397),
         leading: Builder(
           builder: (context) {
             return IconButton(
@@ -37,13 +37,21 @@ class _InformationsState extends State<Informations> {
         ),
       ),
       drawer: const NavDrawer(),
-      body:  Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            DatePickerField(labelText: 'Select Date'),
-            // Vous pouvez ajouter plus de widgets ici
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              DatePickerField(labelText: 'Selectionnez la date',titre: 'DATE DES DERNIERES VISITES',),
+              //NotificationToggle(),
+              SizedBox(height: 20,),
+              DatePickerField(labelText: 'Selectionnez la date',titre: "DATE EXACTE D'ACCOUCHEMENT",),
+              SizedBox(height: 20,),
+              DatePickerField(labelText: 'Selectionnez la date',titre: "DATE EXACTE D'ACCOUCHEMENT",),
+             // DateViderToggle(),
+              // Vous pouvez ajouter plus de widgets ici
+            ],
+          ),
         ),
       ),
     );

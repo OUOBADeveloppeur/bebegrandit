@@ -16,9 +16,9 @@ class _PresentationState extends State<Presentation> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title: const Text('Présentation',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+        title: const Text('Présentation',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor:  Color(0xFF169397),
         leading: Builder(
           builder: (context) {
             return IconButton(

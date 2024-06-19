@@ -17,9 +17,9 @@ class _AproposState extends State<Apropos> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title: const Text('A propos',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+        title: const Text('A propos',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color:Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor:  Color(0xFF169397),
         leading: Builder(
           builder: (context) {
             return IconButton(
@@ -70,61 +70,68 @@ class _DropdownManagerState extends State<DropdownManager> {
       children: [
         DropdownButtonWidget(
           buttonText: 'Partenaire',
-          dropdownItems: [
-        //    {'type': 'text', 'content': 'Contenu textuel 1'},
-            {'type': 'image', 'content': 'images/pagefin/image3.png'},
-       //     {'type': 'text', 'content': 'Contenu textuel 2'},
-            {'type': 'image', 'content': 'images/pagefin/image4.png'},
-       //     {'type': 'text', 'content': 'Contenu textuel 3'},
-            {'type': 'image', 'content': 'images/pagefin/image5.png'},
-       ////     {'type': 'text', 'content': 'Contenu textuel 4'},
-            {'type': 'image', 'content': 'images/pagefin/incub.png'},
-          //  {'type': 'text', 'content': 'Contenu textuel 5'},
-            {'type': 'image', 'content': 'images/pagefin/image6.jpeg'},
-       //     {'type': 'text', 'content': 'Contenu textuel 6'},
-            {'type': 'image', 'content': 'images/pagefin/image7.jpeg'},
-          ],
+          dropdownBuilder: () => DoubleImageDropdownWidget(
+            dropdownItems: [
+              'images/pagefin/image6.jpeg',
+              'images/pagefin/incub.png',
+              'images/pagefin/image4.png',
+              'images/pagefin/image5.png',
+              'images/pagefin/image3.png',
+              'images/pagefin/image7.jpeg'
+            ],
+          ),
           isVisible: _activeDropdownIndex == 0,
           onToggle: () => _toggleDropdown(0),
         ),
         SizedBox(height: 20),
         DropdownButtonWidget(
           buttonText: 'Contributeurs',
-          dropdownItems: [
-            {'type': 'text', 'content': 'Adama Sawadogo'},
-            {'type': 'text', 'content': 'Developpeur'},
-            {'type': 'text', 'content': 'David Lucas OUEDRAOGO'},
-            {'type': 'text', 'content': 'Developpeur'},
-            {'type': 'text', 'content': 'Dambo OUOBA'},
-            {'type': 'text', 'content': 'Developpeur'},
-          ],
+          dropdownBuilder: () => DoubleTextDropdownWidget(
+            dropdownItems: [
+              {'circleText': 'MZ', 'title': 'Mohamed ZEBA', 'subtitle': 'Developpeur'},
+              {'circleText': 'AS', 'title': 'Adama SAWADOGO', 'subtitle': 'Developpeur'},
+              {'circleText': 'DO', 'title': 'Dambo OUOBA', 'subtitle': 'Developpeur'},
+              {'circleText': 'DLO', 'title': 'D. David Lucas 1er Jumeau OUEDRAOGO', 'subtitle': 'Developpeur'},
+              {'circleText': 'PO', 'title': 'Pascal OUEDRAOGO', 'subtitle': 'IPC'},
+            ],
+          ),
           isVisible: _activeDropdownIndex == 1,
           onToggle: () => _toggleDropdown(1),
         ),
         SizedBox(height: 20),
         DropdownButtonWidget(
           buttonText: 'Encadrants',
-          dropdownItems: [
-            {'type': 'image', 'content': 'images/logo.png'},
-            {'type': 'image', 'content': 'images/logo.png'},
-            {'type': 'text', 'content': 'Contenu textuel 2'},
-           // {'type': 'image', 'content': 'https://example.com/image2.jpg'},
-          ],
+          dropdownBuilder: () => DoubleTextDropdownWidget(
+            dropdownItems: [
+              {'circleText': 'AS', 'title': 'Dr. Aminata SABANE', 'subtitle': ''},
+              {'circleText': 'TFB', 'title': 'Dr. Tégawendé F. BISSYANDE', 'subtitle': ''}
+            ],
+          ),
           isVisible: _activeDropdownIndex == 2,
           onToggle: () => _toggleDropdown(2),
         ),
         SizedBox(height: 20),
-        DropdownButtonWidget(
+        TextDropdownWidget(
           buttonText: 'Politique de confidentialité',
           dropdownItems: [
-            {'type': 'text', 'content': 'Contenu textuel 1'},
-            //{'type': 'image', 'content': 'https://example.com/image1.jpg'},
-            {'type': 'text', 'content': 'Contenu textuel 2'},
-            //{'type': 'image', 'content': 'https://example.com/image2.jpg'},
+            'Nécessite une connexion',
+            'Version en français',
+            'Version en mooré',
           ],
           isVisible: _activeDropdownIndex == 3,
           onToggle: () => _toggleDropdown(3),
         ),
+        /*DropdownButtonWidget(
+          buttonText: 'Politique de confidentialité',
+          dropdownBuilder: () => DoubleTextDropdownWidget(
+            dropdownItems: [
+              {'circleText': '1', 'title': 'Titre 1', 'subtitle': 'Sous-titre 1'},
+              {'circleText': '2', 'title': 'Titre 2', 'subtitle': 'Sous-titre 2'},
+            ],
+          ),
+          isVisible: _activeDropdownIndex == 3,
+          onToggle: () => _toggleDropdown(3),
+        ),*/
       ],
     );
   }

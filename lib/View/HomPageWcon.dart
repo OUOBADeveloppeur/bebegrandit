@@ -102,9 +102,9 @@ class _HomPageWconState extends State<HomPageWcon> {
 
             //----------------------fin scop------------------------
             appBar: AppBar(
-              title: const Text('Menu principal',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+              title: const Text('Menu principal',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white),),
               centerTitle: true,
-             backgroundColor: Colors.white,
+             backgroundColor: Color(0xFF169397),
               leading: Builder(
                 builder: (context) {
                   return IconButton(

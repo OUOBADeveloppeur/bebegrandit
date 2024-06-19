@@ -1,4 +1,5 @@
 import 'package:bebegrandi/View/navDrawer.dart';
+import 'package:bebegrandi/View/parametre/fonctionChamp.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/colors.dart';
@@ -16,9 +17,9 @@ class _ParametresState extends State<Parametres> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title: const Text('paramètres',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,),),
+        title: const Text('Paramètres',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFF169397),
         leading: Builder(
           builder: (context) {
             return IconButton(
@@ -36,10 +37,15 @@ class _ParametresState extends State<Parametres> {
         ),
       ),
       drawer: const NavDrawer(),
-      body: Center(
-        child: CustomText(
-          "parametres",
-          color: green(),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            NotificationToggle(),
+            SizedBox(height: 10,),
+            DateViderToggle(),
+            // Vous pouvez ajouter plus de widgets ici
+          ],
         ),
       ),
     );
