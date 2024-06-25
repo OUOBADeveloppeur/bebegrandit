@@ -31,12 +31,12 @@ class _NavDrawerState extends State<NavDrawer> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: blanc(),
+      backgroundColor: Colors.white,
       elevation: 10,
       width: MediaQuery.of(context).size.width * 0.75,
       child: Container(
         decoration: BoxDecoration(
-          border: Border.all(color: Colors.black),
+          border: Border.all(color: Colors.white),
         ),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -104,7 +104,7 @@ class _NavDrawerState extends State<NavDrawer> {
 
                 ),
               ),
-              Container(
+              /*Container(
                 height: 10,
               ),
               Container(
@@ -185,7 +185,7 @@ class _NavDrawerState extends State<NavDrawer> {
                   selectedTileColor: Color(0xFF169397),
                   selectedColor: Colors.white,
                 ),
-              ),
+              ),*/
               Container(
                 height: 10,
               ),

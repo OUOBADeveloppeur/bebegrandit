@@ -41,9 +41,10 @@ class _ParametresState extends State<Parametres> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
+            SizedBox(height: 10,),
             NotificationToggle(),
             SizedBox(height: 10,),
-            DateViderToggle(),
+            //DateViderToggle(),
             // Vous pouvez ajouter plus de widgets ici
           ],
         ),

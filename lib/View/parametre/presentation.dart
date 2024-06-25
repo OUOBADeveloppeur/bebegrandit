@@ -38,7 +38,7 @@ class _PresentationState extends State<Presentation> {
       drawer: const NavDrawer(),
       body: Center(
         child: CustomText(
-          "Présentation",
+          "",
           color: red(),
         ),
       ),
