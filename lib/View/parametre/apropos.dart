@@ -37,11 +37,15 @@ class _AproposState extends State<Apropos> {
         ),
       ),
       drawer: const NavDrawer(),
-      body: SingleChildScrollView(
+      body:
+      SingleChildScrollView(
+
         child:Padding(
           padding: const EdgeInsets.all(8.0),
           child: DropdownManager(),
         ),
+
+
       ),
 
 
@@ -69,12 +73,14 @@ class _DropdownManagerState extends State<DropdownManager> {
     return Column(
       children: [
         DropdownButtonWidget(
-          buttonText: 'Partenaire',
+          buttonText: 'Partenaires',
           dropdownBuilder: () => DoubleImageDropdownWidget(
             dropdownItems: [
+              'images/pagefin/ujkz.jpg',
               'images/pagefin/image6.jpeg',
-              'images/pagefin/incub.png',
+              'images/pagefin/logo_sea.jpg',
               'images/pagefin/image4.png',
+              'images/pagefin/incub.png',
               'images/pagefin/image5.png',
               'images/pagefin/image3.png',
               'images/pagefin/image7.jpeg'
@@ -91,7 +97,6 @@ class _DropdownManagerState extends State<DropdownManager> {
               {'circleText': 'AS', 'title': 'Adama SAWADOGO', 'subtitle': 'Developpeur'},
               {'circleText': 'DO', 'title': 'Dambo OUOBA', 'subtitle': 'Developpeur'},
               {'circleText': 'DLO', 'title': 'D. David Lucas 1er Jumeau OUEDRAOGO', 'subtitle': 'Developpeur'},
-              {'circleText': 'PO', 'title': 'Pascal OUEDRAOGO', 'subtitle': 'IPC'},
             ],
           ),
           isVisible: _activeDropdownIndex == 1,
@@ -103,7 +108,8 @@ class _DropdownManagerState extends State<DropdownManager> {
           dropdownBuilder: () => DoubleTextDropdownWidget(
             dropdownItems: [
               {'circleText': 'AS', 'title': 'Dr. Aminata SABANE', 'subtitle': ''},
-              {'circleText': 'MZ', 'title': 'Mohamed ZEBA', 'subtitle': 'Concepteur'},
+              {'circleText': 'AS', 'title': 'Dr. Tégawendé F. BISSYANDÉ', 'subtitle': ''},
+              {'circleText': 'MZ', 'title': 'Mohamed ZEBA', 'subtitle': ''},
             ],
           ),
           isVisible: _activeDropdownIndex == 2,
