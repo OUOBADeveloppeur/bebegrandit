@@ -20,11 +20,10 @@ Pages page41() {
         description:
             "à 3 ans, le sens du goût de mon enfant est très développé. "
             "Il découvre d’autres goûts en grandissant.",
-        image: "",
+        image: "images/developpement/pag41.png",
       ),
       ImageDescription(
-        id: 3,
-        position: '3',
+        id: 3, texte: 900,
         description: "Ce que je fais",
         image: "",
       ),

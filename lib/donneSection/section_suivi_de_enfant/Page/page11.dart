@@ -6,13 +6,13 @@ Pages page11() {
     id: 11,
     titre: "Suivi de la santé de mon enfant",
     imageDescription: [
-        ImageDescription(
+      ImageDescription(
         id: 0,
         texte: 900,
         description: "Campagnes de masse pour la santé des enfants",
         image: "",
       ),
-        ImageDescription(
+      ImageDescription(
         id: 1,
         texte: 900,
         description: "Supplémentation en vitamine A",
@@ -23,26 +23,21 @@ Pages page11() {
         description: "Un manque de vitamine A peut entraîner :",
         image: "",
       ),
-    
-        ImageDescription(
+      ImageDescription(
         id: 3,
-        description: 
-          " - une cécité nocturne (l'enfant ne voit pas la nuit); ",
-           
-        image: "",
-      ),  ImageDescription(
-        id: 4,
-        description:
-            "- un retard de croissance ; "
-           ,
-        image: "",
-      ),  ImageDescription(
-        id: 5,
-        description: 
-           " - la survenue fréquente de maladies chez l'enfant.",
+        description: " - une cécité nocturne (l'enfant ne voit pas la nuit); ",
         image: "",
       ),
-    
+      ImageDescription(
+        id: 4,
+        description: "- un retard de croissance ; ",
+        image: "",
+      ),
+      ImageDescription(
+        id: 5,
+        description: " - la survenue fréquente de maladies chez l'enfant.",
+        image: "",
+      ),
       ImageDescription(
         id: 6,
         description:

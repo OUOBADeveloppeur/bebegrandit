@@ -32,7 +32,7 @@ Pages page27() {
       ImageDescription(
         id: 5, position: '3',
         description:  "Je dis à mon enfant les noms des objets et je lui demande de répéter.",
-        image: "images/developpement/image42.png",
+        image: "images/developpement/pag21/ic-04-01.png",
       ),
      
       ImageDescription(

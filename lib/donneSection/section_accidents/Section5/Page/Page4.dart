@@ -41,10 +41,10 @@ Pages page20() {
       ),
        ImageDescription(
         id: 5,
-        // position: '3',
+         position: '3',
         description:
             "- j’explique à mon enfant qu’il ne doit pas mettre la main dans un trou",
-        image: "",
+        image: "images/accidents/pag21-2.png",
       ),
        ImageDescription(
         id: 6,
@@ -54,10 +54,10 @@ Pages page20() {
         image: "",
       ),
       ImageDescription(
-        id: 7,position: '4',
+        id: 7,
         description:
             "- j‘explique à mon enfant de ne pas se mettre à courir et à crier lorsqu'il voit un chien qui n’est pas  notre chien. ",
-         image: "images/accidents/pag22.png",
+         image: "",
       )
     ],
   );

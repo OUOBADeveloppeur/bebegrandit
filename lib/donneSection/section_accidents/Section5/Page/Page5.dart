@@ -24,15 +24,15 @@ Pages page21() {
         image: "",
       ),
       ImageDescription(
-        id: 3, taille: 10,position: '4',
+        id: 3, taille: 10,
         description:
             "- j’explique à mon enfant  qu’il doit s’éloigner des serpents et des scorpions ;",
-        image: "images/accidents/pag21-2.png",
+        image: "",
       ),
       ImageDescription(
-        id: 4, taille: 10,
+        id: 4, position: '4',
         description: "- j‘explique à mon enfant qu’il doit éviter de provoquer les animaux.",
-        image: "",
+        image: "images/accidents/pag22.png",
       )
     ],
   );

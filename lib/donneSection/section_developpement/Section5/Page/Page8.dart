@@ -15,7 +15,7 @@ Pages page40() {
        ImageDescription(
         id: 2, position: '3',
         description: "Odorat Dès 3 ans, mon enfant sent très bien les odeurs.",
-        image: "images/developpement/image48.png",
+        image: "images/developpement/pag40.png",
       ),
       ImageDescription(
         id: 2, texte: 900,
