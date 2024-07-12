@@ -21,7 +21,7 @@ Pages page18() {
         description:
             '''Mon enfant est faible lorsqu’il bouge uniquement après stimulation ou excitation,
 ou ne bouge pas du tout. Il est très fatigué, n’a pas envie de jouer''',
-        image: "",
+         image: "images/danger/image12.png",
       ),
       ImageDescription(
         id: 3,

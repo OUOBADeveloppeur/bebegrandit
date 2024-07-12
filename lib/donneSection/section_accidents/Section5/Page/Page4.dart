@@ -13,11 +13,11 @@ Pages page20() {
         image: "",
       ),
       ImageDescription(
-        id: 1,
+        id: 1,position: '4',
         description:
             "- je couche mon enfant sur un endroit surélevé et je fixe les moustiquaires sur sa couchette ;"
 ,
-        image: "",
+        image: "images/accidents/pag21-1.png",
       ),
        ImageDescription(
         id: 2,
@@ -54,10 +54,10 @@ Pages page20() {
         image: "",
       ),
       ImageDescription(
-        id: 7,
+        id: 7,position: '4',
         description:
             "- j‘explique à mon enfant de ne pas se mettre à courir et à crier lorsqu'il voit un chien qui n’est pas  notre chien. ",
-        image: "",
+         image: "images/accidents/pag22.png",
       )
     ],
   );

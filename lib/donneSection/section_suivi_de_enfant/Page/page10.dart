@@ -33,7 +33,7 @@ Pages page10() {
 - Dépistage de la malnutrition aiguë ;
 - Rattrapage de la vaccination ;
 - Chimio-prévention saisonnière du paludisme.''',
-        image: "",
+        image: "images/suivi-croissance/image40.png",
       ),
     ],
   );

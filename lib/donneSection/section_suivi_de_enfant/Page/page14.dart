@@ -22,25 +22,37 @@ Pages page14() {
         id: 2,
         position: '3',
         description: "La malnutrition est une maladie causée par : ",
-        image: "images/suivi-croissance/image28.png",
+        image: "",
       ),
       ImageDescription(
         id: 3,
         position: '3',
         description: 
-            '''- une consommation insuffisante de nourriture ;'''
-            '''- un régime non équilibré (qui ne contient pas tous les groupes d'aliment ;'''
-           ''' - une maladie conduisant à une mauvaise absorption des aliments ou un manque d’appétit.''',
-        image: "images/suivi-croissance/image28.png",
-      ),
-      ImageDescription(
-        id: 4,
-        description:
-            "Elle cause dans ces cas une perte rapide de poids ou l’apparition du gonflement des jambes (œdème).",
+            "- une consommation insuffisante de nourriture ;",
         image: "",
       ),
-      ImageDescription(
+       ImageDescription(
+        id: 4,
+        position: '3',
+        description: 
+            "- un régime non équilibré (qui ne contient pas tous les groupes d'aliment ;",
+        image: "",
+      ),
+       ImageDescription(
         id: 5,
+        position: '3',
+        description: 
+           "- une maladie conduisant à une mauvaise absorption des aliments ou un manque d’appétit.",
+        image: "images/suivi-croissance/image28.png",
+      ), 
+      ImageDescription(
+        id: 6,  position: '3',
+        description:
+            "Elle cause dans ces cas une perte rapide de poids ou l’apparition du gonflement des jambes (œdème).",
+        image: "images/suivi-croissance/image30.png",
+      ),
+      ImageDescription(
+        id: 7,
         description:
             '''Elle est une maladie comme les autres et peut avoir des conséquences sur
          la santé de l’enfant comme : affaiblir le corps et le cerveau de l’enfant, nuire à la
@@ -48,7 +60,7 @@ Pages page14() {
         image: "",
       ),
       ImageDescription(
-        id: 5,
+        id: 8,
         position: '3',
         description:
             '''A partir de 6 mois jusqu’à 59 mois, je m’assure qu’on a mesuré le tour du bras de mon enfant
@@ -56,12 +68,12 @@ Pages page14() {
         image: "images/suivi-croissance/image29.png",
       ),
       ImageDescription(
-        id: 6,
-        position: '3',
+        id: 9,
+        position: '4',
         description:
             '''La malnutrition peut aussi être causée par une consommation en excès de nourriture
              entraînant une obésité.''',
-        image: "images/suivi-croissance/image30.png",
+        image: "images/suivi-croissance/image41.png",
       ),
     ],
   );
