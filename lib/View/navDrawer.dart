@@ -224,7 +224,7 @@ class _NavDrawerState extends State<NavDrawer> {
                 ),
               ),
 
-              Container(
+             /* Container(
                 height: 10,
               ),
               Container(
@@ -301,7 +301,7 @@ class _NavDrawerState extends State<NavDrawer> {
                   selectedColor: Colors.white,
 
                 ),
-              ),
+              ),*/
               Container(
                 height: 10,
               ),

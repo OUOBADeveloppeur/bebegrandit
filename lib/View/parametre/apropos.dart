@@ -109,7 +109,7 @@ class _DropdownManagerState extends State<DropdownManager> {
             dropdownItems: [
               {'circleText': 'AS', 'title': 'Dr. Aminata SABANE', 'subtitle': ''},
               {'circleText': 'AS', 'title': 'Dr. Tégawendé F. BISSYANDÉ', 'subtitle': ''},
-              {'circleText': 'MZ', 'title': 'Mohamed ZEBA', 'subtitle': ''},
+              {'circleText': 'MZ', 'title': 'M. Mohamed ZEBA', 'subtitle': ''},
             ],
           ),
           isVisible: _activeDropdownIndex == 2,
@@ -121,7 +121,7 @@ class _DropdownManagerState extends State<DropdownManager> {
           dropdownItems: [
             'Nécessite une connexion',
             'Version en français',
-            'Version en mooré',
+            'Version en anglais',
           ],
           isVisible: _activeDropdownIndex == 3,
           onToggle: () => _toggleDropdown(3),
